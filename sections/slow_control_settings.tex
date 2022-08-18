@@ -1,0 +1,26 @@
+\chapter{Slow Control Settings}
+\begin{table}[h]
+    \centering
+    \caption[Slow control settings]{Slow control settings used for the measurements. In the first column the slow control parameters are listed. The corresponding slow control bits are listed in the second column, and the values set for the bits are listed in the third column. In the last column are the corresponding physical values as far as they are known.}
+    \label{tab:sc_settings}
+    \begin{tabularx}{1.\textwidth}{>{\raggedright\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X}
+        parameter & slow control bit & bit value & physical value \\\hline\hline
+        preampifier ch0 &  & \multirow{8}{*}{111110 [62]} & \multirow{8}{*}{\SI[per-mode=symbol]{60}{\volt\per\volt}} \\
+        preampifier ch4 &  &  &  \\
+        preampifier ch8 &  &  &  \\
+        preampifier ch12 &  &  &  \\
+        preampifier ch16 &  &  &  \\
+        preampifier ch20 &  &  &  \\
+        preampifier ch24 &  &  &  \\
+        preampifier ch28 &  &  &  \\\hline
+        slow shaper ch0 &  & \multirow{8}{*}{6} & \multirow{8}{*}{\SI{12.5}{\nano\second}} \\
+        slow shaper ch4 &  &  &  \\
+        slow shaper ch8 &  &  &  \\
+        slow shaper ch12 &  &  &  \\
+        slow shaper ch16 &  &  &  \\
+        slow shaper ch20 &  &  &  \\
+        slow shaper ch24 &  &  &  \\
+        slow shaper ch28 &  &  &  \\\hline
+         &  &  & 
+        \end{tabularx}
+\end{table}

@@ -1,0 +1,160 @@
+\chapter{Introduction}
+
+\begin{itemize}
+    \item SM
+    \itme 
+\end{itemize}
+
+
+
+
+\chapter{Motivation}
+
+\begin{itemize}
+    \item SHiP
+    \itme 
+\end{itemize}
+
+
+
+\chapter{Calorimeter}
+
+\begin{itemize}
+    \item 
+\end{itemize}
+
+
+
+\chapter{Setup}
+
+\section{Citiroc 1A}
+
+\begin{itemize}
+    \item overview with sketch
+    \item input dac
+    \item IN\_CALIB
+    \item amplifier
+    \item trigger
+    \begin{itemize}
+        \item fast shaper
+        \item threshold dacs (10 bit and 4 bit)
+        \item discriminator 
+        \item charge trigger
+        \begin{itemize}
+            \item masking capabilities
+            \item multiplexer
+            \item OR32\_charge and OR32\_charge\_OC
+        \end{itemize}
+        \item time trigger
+        \begin{itemize}
+            \item 32 outputs
+            \item OR32\_charge\_OC
+        \end{itemize}
+    \end{itemize}
+    \item Charge measurement
+    \begin{itemize}
+        \item shaper
+        \item peak sensing
+        \begin{itemize}
+            \item SCA
+            \begin{itemize}
+                \item constant tracking of shaper output
+                \item external hold on high level
+                \item holding of shaper amplitude while hold on high
+                \item multiplexer
+                \item hold on low level: return to tracking
+            \end{itemize}
+            \item peak detector
+            \begin{itemize}
+                \item idle mode
+                \item external trigger or internal charge trigger
+                \item starts tracking the maximum of the shaper output
+                \item external hold on high level
+                \item holding maximum amplitude until
+                \item multiplexer
+                \item hold on low level: return to idle 
+            \end{itemize}
+        \end{itemize}
+        \item multiplexer
+    \end{itemize}
+    \item probing
+    \item temperature sensor
+\end{itemize}
+
+\section{Citiroc 1A Evaluation Board}
+
+\begin{itemize}
+    \item Citiroc 1A
+    \item 32 inputs
+    \item In\_calib
+    \item probe outputs
+    \item ADCs
+    \item FPGA
+    \item usb interface
+    \item power supply
+    \item HV
+    \item Software
+    \begin{itemize}
+        \item slow control
+        \item hold scan
+        \item measurement
+    \end{itemize}
+\end{itemize}
+
+
+
+\section{SiPM array}
+
+
+\section{light source}
+\begin{itemize}
+    \item LED
+    \begin{itemize}
+        \item wavelength
+        \item waveform generator settings
+    \end{itemize}
+    \item diffusor 
+\end{itemize}
+
+\section{Box}
+
+
+\chapter{Measurements}
+\begin{itemize}
+    \item first linearity test
+    \item dark count measurements
+    \begin{itemize}
+        \item dark count rate
+        \item gain
+    \end{itemize}
+    \item 
+\end{itemize}
+\subsection{Waveform generator measurement}
+\begin{itemize}
+    \item goal: linearity.
+    \item setup: wfgenerator, attenuator and voltage-to-charge
+    \item charge signal per \SI{50}{\milli\volt}
+    \item how/what measurement was performed
+    \item start with 50mV, and increase voltage
+    \item histogram
+    \item plot: mean output over input
+    \item linear to which channel
+\end{itemize}
+
+\section{Dark count measurement}
+
+\subsection{dark count rate}
+
+\subsection{dark count gain/calibration}
+
+
+\section{Measurement with light source}
+
+
+
+\chapter{Conclusion and Outlook}
+
+
+\begin{itemize}
+    \item 
+\end{itemize}

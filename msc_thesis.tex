@@ -1,0 +1,158 @@
+\documentclass[listof=totoc,bibliography=totocnumbered,a4paper,english,12pt,twoside]{report}
+
+\usepackage{graphicx,caption,subcaption,float}
+\usepackage[english, ngerman]{babel,varioref}
+\usepackage{svg}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{pslatex}
+\usepackage{layouts}
+\usepackage{tabularx}
+\usepackage[separate-uncertainty=true,per-mode=fraction]{siunitx}
+\usepackage{isotope}
+\usepackage[section]{placeins}
+\usepackage{graphicx}
+\usepackage{textgreek}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{appendix}
+\usepackage{acronym}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{hypdvips}
+\usepackage{booktabs}
+\usepackage{etoolbox}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage[acronym,automake]{glossaries}
+\usepackage[nottoc]{tocbibind}
+\usepackage{lmodern}
+\usepackage{pdfpages}
+
+\usepackage{lscape}
+\usepackage{pdflscape}
+
+
+%% The amsthm package provides extended theorem environments
+\usepackage{amsthm}
+\usepackage{amsmath}
+%% The lineno packages adds line numbers. Start line numbering with
+%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
+%% for the whole article with \linenumbers.
+%\RequirePackage{lineno}\newdimen\linenumbersep\linenumbersep=2pt\linenumbers
+%\usepackage{lineno}
+\usepackage{color}
+\usepackage{printlen}
+%\uselengthunit{in}\printlength\textwidth
+
+\usepackage{setspace}
+
+%new SI units
+\DeclareSIUnit\adcu{ADCu}
+\DeclareSIUnit\pe{p.e.}
+\DeclareSIUnit\inch{in}
+\DeclareSIUnit\sample{S}
+\sisetup{table-align-uncertainty=true,exponent-product = \cdot}
+
+%new svg path
+\svgpath{plots/}
+
+
+
+\pagestyle{headings}                 % Seitenstil
+\oddsidemargin0.8cm                  % linker Rand fuer ungerade Seiten bei \twoside
+\evensidemargin0.2cm                 % linker Rand fuer gerade Seiten (nur bei \twoside)
+\topmargin0.5cm                      % oberer Rand bis zur Oberseite Kopfzeile
+\textheight21cm                      % Texth"ohe auf einer Seite
+\textwidth15cm                       % Textbreite auf einer Seite
+\renewcommand{\topfraction}{0.75}    % Anteil der Gleitk"asten am Seitenanfang
+\renewcommand{\bottomfraction}{0.75} % Anteil der Gleitk"asten am Seitenende
+\parskip1ex  plus1ex minus0.5ex      % Abstand zwischen Abs"atzen
+\parindent0em                        % Einr"uckung der ersten Zeile eines Absatzes
+\newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+
+\begin{document}
+\onehalfspacing
+\include{sections/cover}
+
+
+
+
+\newpage
+\thispagestyle{empty}
+\mbox{}\newpage
+\selectlanguage{english}
+\include{sections/abstract}
+\thispagestyle{empty}
+\mbox{}\newpage
+\thispagestyle{empty}
+\include{sections/zusammenfassung}
+
+\thispagestyle{empty}
+\newpage
+\thispagestyle{empty}
+\mbox{}\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\tableofcontents
+
+\newpage
+\include{sections/introduction}
+\include{sections/calorimeter}
+\include{sections/setup}
+\include{sections/measurement}
+\include{sections/conclusion}
+
+
+\appendix
+
+\chapter{List of acronyms}
+\begin{acronym}[SiPM]
+    \acro{sm}[SM]{Standard Model}
+    \acro{lhc}[LHC]{Large Hadron Colider}
+    \acro{ship}[SHiP]{Search for Hidden Particle}
+    \acro{sps}[SPS]{Super Proton Synchrotron}
+    \acro{sbt}[SBT]{Surround Background Tagger}
+    \acro{sipm}[SiPM]{Silicon Photomultiplier}
+    \acro{pcb}[PCB]{Printed Circuit Board}
+    \acro{asic}[ASIC]{Application Specific Integrated Circuit}
+    \acro{dac}[DAC]{Digital to Analog Converter}
+    \acro{adc}[ADC]{Analog to Digital Converter}
+    \acro{apd}[APD]{Avalanche Photodiode}
+    \acro{daq}[DAQ]{Data Acquisition}
+    \acro{wom}[WOM]{Wavelengthshifting Optical Module}
+    \acro{spad}[SPAD]{Single Photon Avalanche Diode}
+    \acro{dc}[DC]{Dark Count}
+    \acro{dcr}[DCR]{Dark Count Rate}
+    \acro{fpga}[FPGA]{Field Programmable Gate Array}
+\end{acronym}
+
+\include{sections/slow_control_settings}
+
+\newpage
+\listoffigures
+
+\newpage
+
+\listoftables
+\newpage
+
+\begin{thebibliography}{9}
+\bibitem{ship} SHiP - Search for Hidden Particles, \url{https://ship.web.cern.ch/}, June 2022
+\bibitem{ship_facility} S. Alekhin et al ``A facility to search for hidden particles at the CERN SPS: the SHiP physics case'', Rep. Prog. Phys. 79, Oct 2016, \url{https://doi.org/10.1088/0034-4885/79/12/124201}
+\bibitem{ship_coll} SHiP Collaboration, ``SPS Beam Dump Facility - Comprehensive Design Study'', 2020, arXiv:1912.06356
+\bibitem{kemp} J. Kemp, ``Development of a silicon photomultiplier based scintillator detector for cosmic air showers'' Phd thesis, Dez 2020, RWTH Aachen
+\bibitem{nucl} F. Acerbi, S. Gundacker, ``Understanding and simulating SiPMs'', NIM-A vol. 926, p. 16-35, 2019. doi: 10.1016/j.nima.2018.11.118
+\bibitem{HAMA_mppc} Hamamatsu Photonics, MPPC, \url{https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/mppc_kapd9005e.pdf}, date: 20.06.2022
+\bibitem{HAMsipm_ds} Hamamatsu S14160-3050HS Datasheet,
+\url{https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/ssd/s14160_s14161_series_kapd1064e.pdf}, date: 05.05.2022
+
+\bibitem{citiroc} Weeroc Citiroc 1A Datasheet V2.5, \url{https://www.weeroc.com/my-weeroc/download-center/citiroc-1a/16-citiroc1a-datasheet-v2-5/file}, date: 09.05.2022 
+\bibitem{bsc_jonathan} J. Grieshaber, ``Calculation and simulation of Silicon photomultiplier signals'', B.Sc. thesis, Feb 2022, ALU Freiburg
+\end{thebibliography}
+
+
+
+
+\end{document}

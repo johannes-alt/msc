@@ -1,0 +1,56 @@
+\chapter{Measurements}
+
+Using the setup described in the previous chapter, different measurements were performed. These measurements and their results are presented in this chapter.\\
+Firstly the measurement with the \ac{sipm} supply voltage set to \SI{0}{\volt} was performed. With this measurement, the baseline of the Citiroc 1A output can be determined as well as the electronic noise from the Citiroc 1A evaluation board. The second category of measurements was dark count measurements. Therefore the high voltage supplied to the \ac{sipm}s was set to the operating voltage recommended by \textit{Hamamatsu} of \SI{40.7}{\volt}. No light source was used for these measurements and the room, where the setup was placed, was darkened so that no photons would trigger a \ac{sipm}. Thus all triggered cells can be assumed to be triggered by thermal excitation. For the final category of measurements, a light source was used. Measurements with both a LED and a Laser were performed.\\
+Both the dark count measurements and the measurements with a light source were done for one to five \ac{sipm}s in parallel. Therefore the effect of multiple \ac{sipm}s readout parallel can be seen. This is important for the decision of how many \ac{sipm}s should be combined in one output channel on future \ac{sipm} \ac{pcb}s.
+
+\section{Electronic noise from the Citiroc 1A Evaluation board}
+The first measurement conducted was without the high voltage turned on. This allows to measure the electronic noise as well as determine the baselines of the different Citiroc 1A channels. The baseline is needed to adjust for the different offsets of the different channels. \autoref{fig:el_noise_setup} shows the setup used for these measurements. The histogram of measurements with the \ac{sipm}s \numlist{36;37;38;39;40} are shown in \autoref{fig:el_noise}. For the other \ac{sipm}s the histograms are shown in the appendix in \autoref{fig:measurement_el_noise_app}.\\
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=1.\textwidth]{plots/electronic_noise.png}
+    \caption[Electronic noise measurement]{Electronic noise measured with one \ac{sipm} turned on and supplied with \SI{0}{\volt}. Both plots show the same data, once with a linear y-axis and once with a logarithmic y-axis.}
+    \label{fig:el_noise}
+\end{figure}
+
+
+\section{Dark count measurements}
+To perform the dark count measurement, the high voltage was set to the recommended operating voltage of \SI{40.7}{\volt} \cite{HAMsipm_ds}. Otherwise the setup stayed the same as in \autoref{fig:el_noise_setup} shown. The dark count measurements were performed for all eight groups of \ac{sipm}s. First with one \ac{sipm} per group, the others were disconnected via the dip switch. This was done 5 time so that the dark count measurement was done for each individual \ac{sipm}. Thus the differences in the dark count rate of the \ac{sipm}s can be seen. Than the measurement was repeated with two, three, four and five \ac{sipm}s in parallel per group. Hence the effect of multiple \ac{sipm}s read out in parallel can be observed. Which is important to know and consider for future decisions regarding which \ac{sipm}s product should be used in the \ac{sbt} and during the measurements at a test beam and how many should be read out in parallel as well as the \ac{pcb} design of the \ac{sipm}-\ac{pcb} and the breakout board.\\
+In \autoref{fig:measurement_dark_count} the measurement results for the \ac{sipm} group eight with the \ac{sipm}s \numlist{36;37;38;39;40} are presented. The remaining results are placed in the appendix.\\
+ 
+\begin{figure}
+    \centering
+    \includesvg{}
+    \caption{Caption}
+    \label{fig:measurement_dark_count}
+\end{figure}
+
+\subsection{Calibration}
+For recording and storing any analog signals with a computer, it first needs to be digitized. Hence the amplitude of the shaper signal is given in ADCu and not for example \si{\milli\volt}. But since the quantity of interest is the number of photons at each event, the correlation between ADCu and the number of photons needs to be known. Hence the setup must be calibrated. 
+In order to do this the gain, the increase of ADCu per photo electron,  of the setup needs to be known. In this chapter the gain will be determined using the dark count measurement. Later it will be determined again by using a light source during the measurements.\\
+For the determination of the gain, gaussian functions were fitted on the peaks in the dark count spectra. The gain can be obtained by calculating the mean value of the peak distances.\\
+The dark count spectra with the gaussian fits for the \ac{sipm} 36 is shown in \autoref{fig:gain_36}. 
+
+
+\subsection{Dark count rate}
+With the dark count measurements done in the previous section, the dark count rate can be determined. Therefore, besides the number of dark counts, the measurement time is needed. Since the Citiroc 1A evaluation board can measure up to around 440 events per second with each single event measures the amplitude of the shaper signal in a time window of up to \SI{255}{ns}, the Citiroc 1A evaluation board is blind for the majority of the time during the dark count measurements. Thus one cannot take the time difference between the starting time of measurement and the end time of the measurement but need to calculate the measurement time by multiplying the time window per event with the total number of events.
+\begin{align}
+    f_\text{dark count} &= \frac{n_\text{dark count}}{n_\text{total}\cdot t_\text{window}}
+\end{align}
+The number of dark counts was determined by summing up the events with an amplitude more than 0.5\,pe.\\
+In the performed measurements the time window for the peak detector was set to \SI{60}{\nano\second}. 
+
+
+
+
+\section{Measurement with a light source}
+In order to see the response of the \ac{sipm}s to more light, the LED was used to create \SI{10}{\nano\second} long light pulses.
+
+
+
+
+
+\section{Measurement using the SCA}
+The previous measurements were done by using the peak detector of the Citiroc 1A. To test the other option for determining the amplitude of the shaper signal implemented in the Citiroc 1A, the SCA, an additional dark measurement and measurement with light source was performed. Both measurements were done with one and five \ac{sipm}s read out in parallel. Then the results can be compared with the previous measurements using the peak detector.\\
