@@ -1,0 +1,23 @@
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}The SBT as 5 Dimensional Calorimeter}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Silicon Photomultiplier}{5}{section.2.1}%
+\contentsline {paragraph}{The signal shape}{7}{section*.16}%
+\contentsline {paragraph}{The gain}{8}{section*.18}%
+\contentsline {paragraph}{The noise}{8}{section*.19}%
+\contentsline {subsection}{\numberline {2.1.1}Photoelectron spectrum}{8}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {3}Setup}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Citiroc 1A}{9}{section.3.1}%
+\contentsline {paragraph}{The trigger unit}{11}{section*.25}%
+\contentsline {paragraph}{For the charge measurement}{11}{section*.27}%
+\contentsline {subsection}{\numberline {3.1.1}Citiroc 1A evaluation board}{13}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Silicon Photomultiplier Array}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Dark box}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Light sources}{19}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Conclusion and Outlook}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{23}{appendix.A}%
+\contentsline {chapter}{List of Figures}{25}{appendix*.37}%
+\contentsline {chapter}{List of Tables}{26}{appendix*.38}%
+\contentsline {chapter}{Bibliography}{27}{appendix*.39}%

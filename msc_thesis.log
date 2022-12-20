@@ -1,0 +1,2230 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  3 DEC 2022 12:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/jo/Documents/msc/msc_thesis.tex
+(/home/jo/Documents/msc/msc_thesis.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count176
+\c@continuedfloat=\count177
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count178
+\c@subtable=\count179
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count180
+\float@exts=\toks15
+\float@box=\box45
+\@float@everytoks=\toks16
+\@floatcapt=\box46
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count181
+\U@D=\dimen144
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count182
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language44) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language44) on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
+aphy)
+Package babel Info: Making " an active character on input line 121.
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2020/01/23 v1.6c package for extended references (FMi)
+\c@vrcnt=\count183
+)
+(/usr/share/texlive/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2020/01/13 v2.02e (include SVG pictures)
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2020/01/24 v3.29 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\svg@box=\box47
+\c@svg@param@lastpage=\count184
+\c@svg@param@currpage=\count185
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/transparent/transparent.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pslatex/pslatex.sty
+Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptmcm/m/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ptmcm/m/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/pzccm/m/n on input line 67.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/psycm/m/n on input line 68.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 74.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/layouts/layouts.sty
+Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
+\l@ylen=\skip49
+\layoutsbox=\box48
+\l@youtunitlength=\skip50
+\l@youtlinethick=\skip51
+\l@youtlinethickii=\skip52
+\l@ysetupparskip=\skip53
+\l@ysetupbaselineskip=\skip54
+\l@yonem=\skip55
+\l@yonex=\skip56
+\l@ylmarg=\skip57
+\l@yrmarg=\skip58
+\l@yitmindent=\skip59
+\l@ylblwidth=\skip60
+\l@ylblsep=\skip61
+\l@ylparindent=\skip62
+\l@ytsep=\skip63
+\l@ypskip=\skip64
+\l@yptsep=\skip65
+\l@ypsep=\skip66
+\l@yitmsep=\skip67
+\l@ytok=\toks19
+\l@youtpw=\count186
+\l@youtph=\count187
+\l@youthpi=\count188
+\l@youthpii=\count189
+\l@youthpiii=\count190
+\l@youthpiv=\count191
+\l@youthpv=\count192
+\l@youthpvi=\count193
+\l@youthpvii=\count194
+\l@youtparskip=\count195
+\l@youtvpi=\count196
+\l@youtvpii=\count197
+\l@youtvpiii=\count198
+\l@youtvpiv=\count199
+\l@youtvpv=\count266
+\l@youtvpvi=\count267
+\l@youtvpvii=\count268
+\l@youthdo=\count269
+\l@youthdi=\count270
+\l@youthdii=\count271
+\l@youthdiii=\count272
+\l@youthdiv=\count273
+\l@youthdv=\count274
+\l@youthdvi=\count275
+\l@youthdvii=\count276
+\l@youtvdo=\count277
+\l@youtvdi=\count278
+\l@youtvdii=\count279
+\l@youtvdiii=\count280
+\l@youtvdiv=\count281
+\l@youtvdv=\count282
+\l@youtvdvi=\count283
+\l@youtvdvii=\count284
+\l@youtvdviii=\count285
+\l@youtxci=\count286
+\l@youtxcii=\count287
+\l@youtxciii=\count288
+\l@youtxciv=\count289
+\l@youtxcv=\count290
+\l@youtxcvi=\count291
+\l@youtyci=\count292
+\l@youtycii=\count293
+\l@youtyciii=\count294
+\l@youtyciv=\count295
+\l@youtycv=\count296
+\l@youtycvi=\count297
+\l@youtycvii=\count298
+\l@youtycviii=\count299
+\l@youtxco=\count300
+\l@youtyco=\count301
+\l@ytempdima=\skip68
+\stockwidth=\skip69
+\stockheight=\skip70
+\trimedge=\skip71
+\trimtop=\skip72
+\uppermargin=\skip73
+\spinemargin=\skip74
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box49
+\extrarowheight=\dimen146
+\NC@list=\toks20
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box50
+)
+\TX@col@width=\dimen147
+\TX@old@table=\dimen148
+\TX@old@col=\dimen149
+\TX@target=\dimen150
+\TX@delta=\dimen151
+\TX@cols=\count302
+\TX@ftn=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2020-02-14 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count303
+\l__pdf_internal_box=\box51
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2020-02-14 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count304
+\g__xparse_grabber_int=\count305
+\l__xparse_m_args_int=\count306
+\l__xparse_v_nesting_int=\count307
+)
+Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks22
+\ex@=\dimen152
+))
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen153
+\l__siunitx_tmp_int=\count308
+\l__siunitx_number_mantissa_length_int=\count309
+\l__siunitx_number_uncert_length_int=\count310
+\l__siunitx_round_int=\count311
+\l__siunitx_process_decimal_int=\count312
+\l__siunitx_process_uncertainty_int=\count313
+\l__siunitx_process_fixed_int=\count314
+\l__siunitx_process_integer_min_int=\count315
+\l__siunitx_process_precision_int=\count316
+\l__siunitx_group_min_int=\count317
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen154
+\l__siunitx_angle_unit_dim=\dimen155
+\l__siunitx_unit_int=\count318
+\l__siunitx_unit_denominator_int=\count319
+\l__siunitx_unit_numerator_int=\count320
+\l__siunitx_unit_prefix_int=\count321
+\l__siunitx_unit_prefix_base_int=\count322
+\l__siunitx_unit_prefix_gram_int=\count323
+\l__siunitx_number_product_int=\count324
+\c__siunitx_one_fill_skip=\skip77
+\l__siunitx_table_unit_align_skip=\skip78
+\l__siunitx_table_exponent_dim=\dimen156
+\l__siunitx_table_integer_dim=\dimen157
+\l__siunitx_table_mantissa_dim=\dimen158
+\l__siunitx_table_marker_dim=\dimen159
+\l__siunitx_table_result_dim=\dimen160
+\l__siunitx_table_uncert_dim=\dimen161
+\l__siunitx_table_fill_pre_dim=\dimen162
+\l__siunitx_table_fill_post_dim=\dimen163
+\l__siunitx_table_fill_mid_dim=\dimen164
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
+\l__siunitx_table_number_align_skip=\skip79
+\l__siunitx_table_text_align_skip=\skip80
+
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/usr/share/texlive/texmf-dist/tex/latex/isotope/isotope.sty
+Package: isotope 2011/08/26 v0.3 for typesetting isotopes
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textgreek/textgreek.sty
+Package: textgreek 2011/10/09 v0.7 Greek symbols in text
+Package textgreek Info: Loading the definitions for the Greek fontencoding. on 
+input line 39.
+
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+File: lgrenc.def 2019/07/09 v0.13.3 LGR Greek font encoding definitions
+Now handling font encoding LGR ...
+... processing UTF-8 mapping file for font encoding LGR
+
+(/usr/share/texlive/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+File: lgrenc.dfu 2019/07/11 1.7 UTF-8 support for Greek
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+0259 (decimal 601)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+0374 (decimal 884)
+   defining Unicode char U+0375 (decimal 885)
+   defining Unicode char U+037A (decimal 890)
+   defining Unicode char U+037E (decimal 894)
+   defining Unicode char U+0384 (decimal 900)
+   defining Unicode char U+0385 (decimal 901)
+   defining Unicode char U+0386 (decimal 902)
+   defining Unicode char U+0387 (decimal 903)
+   defining Unicode char U+0388 (decimal 904)
+   defining Unicode char U+0389 (decimal 905)
+   defining Unicode char U+038A (decimal 906)
+   defining Unicode char U+038C (decimal 908)
+   defining Unicode char U+038E (decimal 910)
+   defining Unicode char U+038F (decimal 911)
+   defining Unicode char U+0390 (decimal 912)
+   defining Unicode char U+0391 (decimal 913)
+   defining Unicode char U+0392 (decimal 914)
+   defining Unicode char U+0393 (decimal 915)
+   defining Unicode char U+0394 (decimal 916)
+   defining Unicode char U+0395 (decimal 917)
+   defining Unicode char U+0396 (decimal 918)
+   defining Unicode char U+0397 (decimal 919)
+   defining Unicode char U+0398 (decimal 920)
+   defining Unicode char U+0399 (decimal 921)
+   defining Unicode char U+039A (decimal 922)
+   defining Unicode char U+039B (decimal 923)
+   defining Unicode char U+039C (decimal 924)
+   defining Unicode char U+039D (decimal 925)
+   defining Unicode char U+039E (decimal 926)
+   defining Unicode char U+039F (decimal 927)
+   defining Unicode char U+03A0 (decimal 928)
+   defining Unicode char U+03A1 (decimal 929)
+   defining Unicode char U+03A3 (decimal 931)
+   defining Unicode char U+03A4 (decimal 932)
+   defining Unicode char U+03A5 (decimal 933)
+   defining Unicode char U+03A6 (decimal 934)
+   defining Unicode char U+03A7 (decimal 935)
+   defining Unicode char U+03A8 (decimal 936)
+   defining Unicode char U+03A9 (decimal 937)
+   defining Unicode char U+03AA (decimal 938)
+   defining Unicode char U+03AB (decimal 939)
+   defining Unicode char U+03AC (decimal 940)
+   defining Unicode char U+03AD (decimal 941)
+   defining Unicode char U+03AE (decimal 942)
+   defining Unicode char U+03AF (decimal 943)
+   defining Unicode char U+03B0 (decimal 944)
+   defining Unicode char U+03B1 (decimal 945)
+   defining Unicode char U+03B2 (decimal 946)
+   defining Unicode char U+03B3 (decimal 947)
+   defining Unicode char U+03B4 (decimal 948)
+   defining Unicode char U+03B5 (decimal 949)
+   defining Unicode char U+03B6 (decimal 950)
+   defining Unicode char U+03B7 (decimal 951)
+   defining Unicode char U+03B8 (decimal 952)
+   defining Unicode char U+03B9 (decimal 953)
+   defining Unicode char U+03BA (decimal 954)
+   defining Unicode char U+03BB (decimal 955)
+   defining Unicode char U+03BC (decimal 956)
+   defining Unicode char U+03BD (decimal 957)
+   defining Unicode char U+03BE (decimal 958)
+   defining Unicode char U+03BF (decimal 959)
+   defining Unicode char U+03C0 (decimal 960)
+   defining Unicode char U+03C1 (decimal 961)
+   defining Unicode char U+03C2 (decimal 962)
+   defining Unicode char U+03C3 (decimal 963)
+   defining Unicode char U+03C4 (decimal 964)
+   defining Unicode char U+03C5 (decimal 965)
+   defining Unicode char U+03C6 (decimal 966)
+   defining Unicode char U+03C7 (decimal 967)
+   defining Unicode char U+03C8 (decimal 968)
+   defining Unicode char U+03C9 (decimal 969)
+   defining Unicode char U+03CA (decimal 970)
+   defining Unicode char U+03CB (decimal 971)
+   defining Unicode char U+03CC (decimal 972)
+   defining Unicode char U+03CD (decimal 973)
+   defining Unicode char U+03CE (decimal 974)
+   defining Unicode char U+03D0 (decimal 976)
+   defining Unicode char U+03D1 (decimal 977)
+   defining Unicode char U+03D5 (decimal 981)
+   defining Unicode char U+03D6 (decimal 982)
+   defining Unicode char U+03D8 (decimal 984)
+   defining Unicode char U+03D9 (decimal 985)
+   defining Unicode char U+03DA (decimal 986)
+   defining Unicode char U+03DB (decimal 987)
+   defining Unicode char U+03DC (decimal 988)
+   defining Unicode char U+03DD (decimal 989)
+   defining Unicode char U+03DF (decimal 991)
+   defining Unicode char U+03E0 (decimal 992)
+   defining Unicode char U+03E1 (decimal 993)
+   defining Unicode char U+03F0 (decimal 1008)
+   defining Unicode char U+03F1 (decimal 1009)
+   defining Unicode char U+03F4 (decimal 1012)
+   defining Unicode char U+03F5 (decimal 1013)
+   defining Unicode char U+1F00 (decimal 7936)
+   defining Unicode char U+1F01 (decimal 7937)
+   defining Unicode char U+1F02 (decimal 7938)
+   defining Unicode char U+1F03 (decimal 7939)
+   defining Unicode char U+1F04 (decimal 7940)
+   defining Unicode char U+1F05 (decimal 7941)
+   defining Unicode char U+1F06 (decimal 7942)
+   defining Unicode char U+1F07 (decimal 7943)
+   defining Unicode char U+1F08 (decimal 7944)
+   defining Unicode char U+1F09 (decimal 7945)
+   defining Unicode char U+1F0A (decimal 7946)
+   defining Unicode char U+1F0B (decimal 7947)
+   defining Unicode char U+1F0C (decimal 7948)
+   defining Unicode char U+1F0D (decimal 7949)
+   defining Unicode char U+1F0E (decimal 7950)
+   defining Unicode char U+1F0F (decimal 7951)
+   defining Unicode char U+1F10 (decimal 7952)
+   defining Unicode char U+1F11 (decimal 7953)
+   defining Unicode char U+1F12 (decimal 7954)
+   defining Unicode char U+1F13 (decimal 7955)
+   defining Unicode char U+1F14 (decimal 7956)
+   defining Unicode char U+1F15 (decimal 7957)
+   defining Unicode char U+1F18 (decimal 7960)
+   defining Unicode char U+1F19 (decimal 7961)
+   defining Unicode char U+1F1A (decimal 7962)
+   defining Unicode char U+1F1B (decimal 7963)
+   defining Unicode char U+1F1C (decimal 7964)
+   defining Unicode char U+1F1D (decimal 7965)
+   defining Unicode char U+1F20 (decimal 7968)
+   defining Unicode char U+1F21 (decimal 7969)
+   defining Unicode char U+1F22 (decimal 7970)
+   defining Unicode char U+1F23 (decimal 7971)
+   defining Unicode char U+1F24 (decimal 7972)
+   defining Unicode char U+1F25 (decimal 7973)
+   defining Unicode char U+1F26 (decimal 7974)
+   defining Unicode char U+1F27 (decimal 7975)
+   defining Unicode char U+1F28 (decimal 7976)
+   defining Unicode char U+1F29 (decimal 7977)
+   defining Unicode char U+1F2A (decimal 7978)
+   defining Unicode char U+1F2B (decimal 7979)
+   defining Unicode char U+1F2C (decimal 7980)
+   defining Unicode char U+1F2D (decimal 7981)
+   defining Unicode char U+1F2E (decimal 7982)
+   defining Unicode char U+1F2F (decimal 7983)
+   defining Unicode char U+1F30 (decimal 7984)
+   defining Unicode char U+1F31 (decimal 7985)
+   defining Unicode char U+1F32 (decimal 7986)
+   defining Unicode char U+1F33 (decimal 7987)
+   defining Unicode char U+1F34 (decimal 7988)
+   defining Unicode char U+1F35 (decimal 7989)
+   defining Unicode char U+1F36 (decimal 7990)
+   defining Unicode char U+1F37 (decimal 7991)
+   defining Unicode char U+1F38 (decimal 7992)
+   defining Unicode char U+1F39 (decimal 7993)
+   defining Unicode char U+1F3A (decimal 7994)
+   defining Unicode char U+1F3B (decimal 7995)
+   defining Unicode char U+1F3C (decimal 7996)
+   defining Unicode char U+1F3D (decimal 7997)
+   defining Unicode char U+1F3E (decimal 7998)
+   defining Unicode char U+1F3F (decimal 7999)
+   defining Unicode char U+1F40 (decimal 8000)
+   defining Unicode char U+1F41 (decimal 8001)
+   defining Unicode char U+1F42 (decimal 8002)
+   defining Unicode char U+1F43 (decimal 8003)
+   defining Unicode char U+1F44 (decimal 8004)
+   defining Unicode char U+1F45 (decimal 8005)
+   defining Unicode char U+1F48 (decimal 8008)
+   defining Unicode char U+1F49 (decimal 8009)
+   defining Unicode char U+1F4A (decimal 8010)
+   defining Unicode char U+1F4B (decimal 8011)
+   defining Unicode char U+1F4C (decimal 8012)
+   defining Unicode char U+1F4D (decimal 8013)
+   defining Unicode char U+1F50 (decimal 8016)
+   defining Unicode char U+1F51 (decimal 8017)
+   defining Unicode char U+1F52 (decimal 8018)
+   defining Unicode char U+1F53 (decimal 8019)
+   defining Unicode char U+1F54 (decimal 8020)
+   defining Unicode char U+1F55 (decimal 8021)
+   defining Unicode char U+1F56 (decimal 8022)
+   defining Unicode char U+1F57 (decimal 8023)
+   defining Unicode char U+1F59 (decimal 8025)
+   defining Unicode char U+1F5B (decimal 8027)
+   defining Unicode char U+1F5D (decimal 8029)
+   defining Unicode char U+1F5F (decimal 8031)
+   defining Unicode char U+1F60 (decimal 8032)
+   defining Unicode char U+1F61 (decimal 8033)
+   defining Unicode char U+1F62 (decimal 8034)
+   defining Unicode char U+1F63 (decimal 8035)
+   defining Unicode char U+1F64 (decimal 8036)
+   defining Unicode char U+1F65 (decimal 8037)
+   defining Unicode char U+1F66 (decimal 8038)
+   defining Unicode char U+1F67 (decimal 8039)
+   defining Unicode char U+1F68 (decimal 8040)
+   defining Unicode char U+1F69 (decimal 8041)
+   defining Unicode char U+1F6A (decimal 8042)
+   defining Unicode char U+1F6B (decimal 8043)
+   defining Unicode char U+1F6C (decimal 8044)
+   defining Unicode char U+1F6D (decimal 8045)
+   defining Unicode char U+1F6E (decimal 8046)
+   defining Unicode char U+1F6F (decimal 8047)
+   defining Unicode char U+1F70 (decimal 8048)
+   defining Unicode char U+1F71 (decimal 8049)
+   defining Unicode char U+1F72 (decimal 8050)
+   defining Unicode char U+1F73 (decimal 8051)
+   defining Unicode char U+1F74 (decimal 8052)
+   defining Unicode char U+1F75 (decimal 8053)
+   defining Unicode char U+1F76 (decimal 8054)
+   defining Unicode char U+1F77 (decimal 8055)
+   defining Unicode char U+1F78 (decimal 8056)
+   defining Unicode char U+1F79 (decimal 8057)
+   defining Unicode char U+1F7A (decimal 8058)
+   defining Unicode char U+1F7B (decimal 8059)
+   defining Unicode char U+1F7C (decimal 8060)
+   defining Unicode char U+1F7D (decimal 8061)
+   defining Unicode char U+1F80 (decimal 8064)
+   defining Unicode char U+1F81 (decimal 8065)
+   defining Unicode char U+1F82 (decimal 8066)
+   defining Unicode char U+1F83 (decimal 8067)
+   defining Unicode char U+1F84 (decimal 8068)
+   defining Unicode char U+1F85 (decimal 8069)
+   defining Unicode char U+1F86 (decimal 8070)
+   defining Unicode char U+1F87 (decimal 8071)
+   defining Unicode char U+1F88 (decimal 8072)
+   defining Unicode char U+1F89 (decimal 8073)
+   defining Unicode char U+1F8A (decimal 8074)
+   defining Unicode char U+1F8B (decimal 8075)
+   defining Unicode char U+1F8C (decimal 8076)
+   defining Unicode char U+1F8D (decimal 8077)
+   defining Unicode char U+1F8E (decimal 8078)
+   defining Unicode char U+1F8F (decimal 8079)
+   defining Unicode char U+1F90 (decimal 8080)
+   defining Unicode char U+1F91 (decimal 8081)
+   defining Unicode char U+1F92 (decimal 8082)
+   defining Unicode char U+1F93 (decimal 8083)
+   defining Unicode char U+1F94 (decimal 8084)
+   defining Unicode char U+1F95 (decimal 8085)
+   defining Unicode char U+1F96 (decimal 8086)
+   defining Unicode char U+1F97 (decimal 8087)
+   defining Unicode char U+1F98 (decimal 8088)
+   defining Unicode char U+1F99 (decimal 8089)
+   defining Unicode char U+1F9A (decimal 8090)
+   defining Unicode char U+1F9B (decimal 8091)
+   defining Unicode char U+1F9C (decimal 8092)
+   defining Unicode char U+1F9D (decimal 8093)
+   defining Unicode char U+1F9E (decimal 8094)
+   defining Unicode char U+1F9F (decimal 8095)
+   defining Unicode char U+1FA0 (decimal 8096)
+   defining Unicode char U+1FA1 (decimal 8097)
+   defining Unicode char U+1FA2 (decimal 8098)
+   defining Unicode char U+1FA3 (decimal 8099)
+   defining Unicode char U+1FA4 (decimal 8100)
+   defining Unicode char U+1FA5 (decimal 8101)
+   defining Unicode char U+1FA6 (decimal 8102)
+   defining Unicode char U+1FA7 (decimal 8103)
+   defining Unicode char U+1FA8 (decimal 8104)
+   defining Unicode char U+1FA9 (decimal 8105)
+   defining Unicode char U+1FAA (decimal 8106)
+   defining Unicode char U+1FAB (decimal 8107)
+   defining Unicode char U+1FAC (decimal 8108)
+   defining Unicode char U+1FAD (decimal 8109)
+   defining Unicode char U+1FAE (decimal 8110)
+   defining Unicode char U+1FAF (decimal 8111)
+   defining Unicode char U+1FB0 (decimal 8112)
+   defining Unicode char U+1FB1 (decimal 8113)
+   defining Unicode char U+1FB2 (decimal 8114)
+   defining Unicode char U+1FB3 (decimal 8115)
+   defining Unicode char U+1FB4 (decimal 8116)
+   defining Unicode char U+1FB6 (decimal 8118)
+   defining Unicode char U+1FB7 (decimal 8119)
+   defining Unicode char U+1FB8 (decimal 8120)
+   defining Unicode char U+1FB9 (decimal 8121)
+   defining Unicode char U+1FBA (decimal 8122)
+   defining Unicode char U+1FBB (decimal 8123)
+   defining Unicode char U+1FBC (decimal 8124)
+   defining Unicode char U+1FBD (decimal 8125)
+   defining Unicode char U+1FBE (decimal 8126)
+   defining Unicode char U+1FBF (decimal 8127)
+   defining Unicode char U+1FC0 (decimal 8128)
+   defining Unicode char U+1FC1 (decimal 8129)
+   defining Unicode char U+1FC2 (decimal 8130)
+   defining Unicode char U+1FC3 (decimal 8131)
+   defining Unicode char U+1FC4 (decimal 8132)
+   defining Unicode char U+1FC6 (decimal 8134)
+   defining Unicode char U+1FC7 (decimal 8135)
+   defining Unicode char U+1FC8 (decimal 8136)
+   defining Unicode char U+1FC9 (decimal 8137)
+   defining Unicode char U+1FCA (decimal 8138)
+   defining Unicode char U+1FCB (decimal 8139)
+   defining Unicode char U+1FCC (decimal 8140)
+   defining Unicode char U+1FCD (decimal 8141)
+   defining Unicode char U+1FCE (decimal 8142)
+   defining Unicode char U+1FCF (decimal 8143)
+   defining Unicode char U+1FD0 (decimal 8144)
+   defining Unicode char U+1FD1 (decimal 8145)
+   defining Unicode char U+1FD2 (decimal 8146)
+   defining Unicode char U+1FD3 (decimal 8147)
+   defining Unicode char U+1FD6 (decimal 8150)
+   defining Unicode char U+1FD7 (decimal 8151)
+   defining Unicode char U+1FD8 (decimal 8152)
+   defining Unicode char U+1FD9 (decimal 8153)
+   defining Unicode char U+1FDA (decimal 8154)
+   defining Unicode char U+1FDB (decimal 8155)
+   defining Unicode char U+1FDD (decimal 8157)
+   defining Unicode char U+1FDE (decimal 8158)
+   defining Unicode char U+1FDF (decimal 8159)
+   defining Unicode char U+1FE0 (decimal 8160)
+   defining Unicode char U+1FE1 (decimal 8161)
+   defining Unicode char U+1FE2 (decimal 8162)
+   defining Unicode char U+1FE3 (decimal 8163)
+   defining Unicode char U+1FE4 (decimal 8164)
+   defining Unicode char U+1FE5 (decimal 8165)
+   defining Unicode char U+1FE6 (decimal 8166)
+   defining Unicode char U+1FE7 (decimal 8167)
+   defining Unicode char U+1FE8 (decimal 8168)
+   defining Unicode char U+1FE9 (decimal 8169)
+   defining Unicode char U+1FEA (decimal 8170)
+   defining Unicode char U+1FEB (decimal 8171)
+   defining Unicode char U+1FEC (decimal 8172)
+   defining Unicode char U+1FED (decimal 8173)
+   defining Unicode char U+1FEE (decimal 8174)
+   defining Unicode char U+1FEF (decimal 8175)
+   defining Unicode char U+1FF2 (decimal 8178)
+   defining Unicode char U+1FF3 (decimal 8179)
+   defining Unicode char U+1FF4 (decimal 8180)
+   defining Unicode char U+1FF6 (decimal 8182)
+   defining Unicode char U+1FF7 (decimal 8183)
+   defining Unicode char U+1FF8 (decimal 8184)
+   defining Unicode char U+1FF9 (decimal 8185)
+   defining Unicode char U+1FFA (decimal 8186)
+   defining Unicode char U+1FFB (decimal 8187)
+   defining Unicode char U+1FFC (decimal 8188)
+   defining Unicode char U+1FFD (decimal 8189)
+   defining Unicode char U+1FFE (decimal 8190)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+10144 (decimal 65860)
+   defining Unicode char U+10145 (decimal 65861)
+   defining Unicode char U+10146 (decimal 65862)
+   defining Unicode char U+10147 (decimal 65863)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+File: greek-fontenc.def 2015/08/04 v0.13.4 Common Greek font encoding definitio
+ns
+))
+Package textgreek Info: Loaded fontmap: {eur/*/*}{U/eur/*/*} {phv/*/*}{U/psy/*/
+*}. on input line 69.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen165
+\Hy@linkcounter=\count325
+\Hy@pagecounter=\count326
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count327
+\pdfmajorversion=\count328
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count329
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen166
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count330
+\Field@Width=\dimen167
+\Fld@charsize=\dimen168
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count331
+\c@Item=\count332
+\c@Hfootnote=\count333
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count334
+\c@bookmark@seq@number=\count335
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip81
+)
+(/usr/share/texlive/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count336
+\c@@ppsavesec=\count337
+\c@@ppsaveapp=\count338
+)
+(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2019/11/11 v1.42 Support for acronyms (Tobias Oetiker)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count339
+\decimalpart=\count340
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+\AC@clearlist=\toks23
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip82
+\multirow@cntb=\count341
+\multirow@dima=\skip83
+\bigstrutjot=\dimen169
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hypdvips/hypdvips.sty
+Package: hypdvips 2019/07/31 v3.03 Hyperref extensions for use with dvips
+
+
+! Package hypdvips Error: Wrong hyperref driver `hpdftex.def' selected!
+(hypdvips)                Please switch to hdvips.def before loading hypdvips.
+
+See the hypdvips package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43   }
+        
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count342
+\@cmidlb=\count343
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count344
+\@lastruleclass=\count345
+\@thisrulewidth=\dimen182
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count346
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip84
+\LTright=\skip85
+\LTpre=\skip86
+\LTpost=\skip87
+\LTchunksize=\count347
+\LTcapwidth=\dimen183
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@cols=\count348
+\LT@rows=\count349
+\c@LT@tables=\count350
+\c@LT@chunks=\count351
+\LT@p@ftn=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count352
+\rotFPtop=\skip88
+\rotFPbot=\skip89
+\rot@float@box=\box63
+\rot@mess@toks=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/02/13 v4.45 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
+)
+\XKV@depth=\count353
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks28
+\@glsmrest=\toks29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip90
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count354
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count355
+\leftroot@=\count356
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count357
+\DOTSCASE@=\count358
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+\big@size=\dimen185
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count359
+\c@MaxMatrixCols=\count360
+\dotsspace@=\muskip17
+\c@parentequation=\count361
+\dspbrk@lvl=\count362
+\tag@help=\toks30
+\row@=\count363
+\column@=\count364
+\maxfields@=\count365
+\andhelp@=\toks31
+\eqnshift@=\dimen186
+\alignsep@=\dimen187
+\tagshift@=\dimen188
+\tagwidth@=\dimen189
+\totwidth@=\dimen190
+\lineht@=\dimen191
+\@envbody=\toks32
+\multlinegap=\skip91
+\multlinetaggap=\skip92
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count366
+)
+(/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count367
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count368
+\FP@xia=\count369
+\FP@xib=\count370
+\FP@xfa=\count371
+\FP@xfb=\count372
+\FP@rega=\count373
+\FP@regb=\count374
+\FP@regs=\count375
+\FP@times=\count376
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count377
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks34
+\@dtl@tmpcount=\count378
+\dtl@tmplength=\skip93
+\dtl@sortresult=\count379
+\@dtl@numgrpsepcount=\count380
+\@dtl@datatype=\count381
+\dtl@codeA=\count382
+\dtl@codeB=\count383
+\@dtl@foreach@level=\count384
+)
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
+307.sty
+Package: glossaries-compatible-307 2020/02/13 v4.45 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
+
+(/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries-english/glossaries-english.
+ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count385
+\@gls@tmpb=\toks35
+\gls@tmplen=\skip94
+\glskeylisttok=\toks36
+\glslabeltok=\toks37
+\glsshorttok=\toks38
+\glslongtok=\toks39
+
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
+y
+Package: glossary-hypernav 2020/02/13 v4.45 (NLCT)
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2020/02/13 v4.45 (NLCT)
+\glslistdottedwidth=\skip95
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2020/02/13 v4.45 (NLCT)
+\glsdescwidth=\skip96
+\glspagelistwidth=\skip97
+) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2020/02/13 v4.45 (NLCT)
+
+(/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count386
+\ST@wd=\dimen192
+\ST@rightskip=\skip98
+\ST@leftskip=\skip99
+\ST@parfillskip=\skip100
+\ST@pageleft=\dimen193
+\ST@headht=\dimen194
+\ST@tailht=\dimen195
+\ST@pagesofar=\dimen196
+\ST@pboxht=\dimen197
+\ST@lineht=\dimen198
+\ST@prevht=\dimen199
+\ST@toadd=\dimen256
+\ST@dimen=\dimen257
+\ST@pbox=\box66
+))
+(/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2020/02/13 v4.45 (NLCT)
+\glstreeindent=\skip101
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ptmcm/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/ptmcm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/pzccm/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/psycm/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ptmcm/m/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ptmcm/m/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/pzccm/m/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/psycm/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ptm/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/ptm/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count387
+\calc@Bcount=\count388
+\calc@Adimen=\dimen258
+\calc@Bdimen=\dimen259
+\calc@Askip=\skip102
+\calc@Bskip=\skip103
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count389
+\calc@Cskip=\skip104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen260
+\AM@pageheight=\dimen261
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box67
+\AM@global@opts=\toks40
+\AM@pagecnt=\count390
+\AM@toc@title=\toks41
+\c@AM@survey=\count391
+\AM@templatesizebox=\box68
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks42
+\thm@bodyfont=\toks43
+\thm@headfont=\toks44
+\thm@notefont=\toks45
+\thm@headpunct=\toks46
+\thm@preskip=\skip105
+\thm@postskip=\skip106
+\thm@headsep=\skip107
+\dth@everypar=\toks47
+)
+(/usr/share/texlive/texmf-dist/tex/latex/printlen/printlen.sty
+Package: printlen 2009/09/03 v1.1a print lengths with units
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+
+LaTeX Warning: Unused global option(s):
+    [listof=totoc,bibliography=totocnumbered].
+
+(./msc_thesis.aux (./sections/cover.aux) (./sections/abstract.aux)
+(./sections/zusammenfassung.aux) (./sections/introduction.aux)
+(./sections/calorimeter.aux) (./sections/setup.aux
+
+LaTeX Warning: Label `fig:setup_inside_box' multiply defined.
+
+) (./sections/measurement.aux) (./sections/conclusion.aux)
+(./sections/slow_control_settings.aux))
+\openout1 = `msc_thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 74.
+LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
+ 74.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
+File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
+)
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 74.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 7
+4.
+
+(/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 74.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 74
+.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count392
+\scratchdimen=\dimen262
+\scratchbox=\box69
+\nofMPsegments=\count393
+\nofMParguments=\count394
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count395
+\MPscratchDim=\dimen263
+\MPnumerator=\count396
+\makeMPintoPDFobject=\count397
+\everyMPtoPDFconversion=\toks49
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+
+Package layouts Warning: Layout scale set to 0.5 on input line 74.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+\AtBeginShipoutBox=\box70
+
+
+Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+Package hyperref Info: Link coloring OFF on input line 74.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count398
+LaTeX Info: Redefining \Ref on input line 520.
+)
+LaTeX Info: Redefining \ref on input line 74.
+LaTeX Info: Redefining \pageref on input line 74.
+LaTeX Info: Redefining \nameref on input line 74.
+
+(./msc_thesis.out) (./msc_thesis.out)
+\@outlinefile=\write3
+\openout3 = `msc_thesis.out'.
+
+LaTeX Info: Redefining \Ref on input line 74.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
+4.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
+4.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+74.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+74.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 74.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 74.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 74.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
+74.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+74.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+\openout2 = `sections/cover.aux'.
+
+ (./sections/cover.tex
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \\
+       [0.2cm]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: File `pictures/siegel.png' not found on input line 29.
+
+
+! Package pdftex.def Error: File `pictures/siegel.png' not found: using draft s
+etting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...5cm, keepaspectratio]{pictures/siegel.png}
+                                                  \\[1cm]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+9.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [0
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [1
+
+]
+\openout2 = `sections/abstract.aux'.
+
+ (./sections/abstract.texpdfTeX warning (ext4): destination with the same ident
+ifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \end{abstract}
+                   [1
+
+]) [2
+
+]
+\openout2 = `sections/zusammenfassung.aux'.
+
+ (./sections/zusammenfassung.tex [3
+
+]) [4
+\babel@aux{english}{}
+
+] (./msc_thesis.toc)
+\tf@toc=\write4
+\openout4 = `msc_thesis.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 \newpage
+               [1
+
+]
+\openout2 = `sections/introduction.aux'.
+
+ (./sections/introduction.tex
+Chapter 1.
+Package acronym Info: Label `acro:sm' newly defined as it shall be overridden
+although it is yet undefined on input line 2.
+Package acronym Info: Label `acro:ship' newly defined as it shall be overridden
+
+although it is yet undefined on input line 5.
+Package acronym Info: Label `acro:lhc' newly defined as it shall be overridden
+although it is yet undefined on input line 6.
+Package acronym Info: Label `acro:sps' newly defined as it shall be overridden
+although it is yet undefined on input line 11.
+
+! LaTeX Error: File `pictures/ship_sps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ...s[width=0.75\textwidth]{pictures/ship_sps}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 
+      [2
+
+
+]
+Package acronym Info: Label `acro:sbt' newly defined as it shall be overridden
+although it is yet undefined on input line 35.
+
+
+! LaTeX Error: File `pictures/ship_sketch' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...[width=1.\textwidth]{pictures/ship_sketch}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 \include{sections/introduction}
+                                      [3]
+\openout2 = `sections/calorimeter.aux'.
+
+ (./sections/calorimeter.tex
+Chapter 2.
+Package acronym Info: Label `acro:lab' newly defined as it shall be overridden
+although it is yet undefined on input line 4.
+
+Package acronym Warning: Acronym `lab' is not defined on input line 4.
+
+
+Package acronym Warning: Acronym `lab' is not defined on input line 4.
+
+Package acronym Info: Label `acro:wom' newly defined as it shall be overridden
+although it is yet undefined on input line 7.
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 T
+      his thesis is about the readout of these Silicon Photomultipliers and ...
+[4
+
+
+
+]
+
+! LaTeX Error: File `pictures/sbt_cell' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ...ics[width=1.\textwidth]{pictures/sbt_cell}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package acronym Info: Label `acro:sipm' newly defined as it shall be overridden
+
+although it is yet undefined on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+2.
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+! Undefined control sequence.
+<argument> \piko 
+                 \second 
+l.34 ... of the order of tens of \si{\piko\second}
+                                                   \cite{nucl}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \second 
+l.34 ... of the order of tens of \si{\piko\second}
+                                                   \cite{nucl}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Package acronym Info: Label `acro:apd' newly defined as it shall be overridden
+although it is yet undefined on input line 38.
+
+! LaTeX Error: File `pictures/pin_diode' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...cs[width=1.\textwidth]{pictures/pin_diode}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+Package acronym Info: Label `acro:spad' newly defined as it shall be overridden
+
+although it is yet undefined on input line 65.
+
+
+LaTeX Warning: Reference `fig:sipm_closeup' on page 6 undefined on input line 7
+2.
+
+[6]
+
+! LaTeX Error: File `pictures/spad_signal_shape' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ....75\textwidth]{pictures/spad_signal_shape}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7]) [8]
+\openout2 = `sections/setup.aux'.
+
+ (./sections/setup.tex
+Chapter 3.
+Package acronym Info: Label `acro:asic' newly defined as it shall be overridden
+
+although it is yet undefined on input line 3.
+Package acronym Info: Label `acro:adc' newly defined as it shall be overridden
+although it is yet undefined on input line 14.
+
+! LaTeX Error: File `citiroc/citiroc' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...phics[width=1.\textwidth]{citiroc/citiroc}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package acronym Info: Label `acro:dac' newly defined as it shall be overridden
+although it is yet undefined on input line 31.
+[9
+
+
+
+]
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.38 ...ted signal goes over a \SI{3}{\piko\farad}
+                                                   capacitor into the preamp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.38 ...ted signal goes over a \SI{3}{\piko\farad}
+                                                   capacitor into the preamp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.45 ...lifier capacitor has \SI{1.5}{\piko\farad}
+                                                   and the high gain preampl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.45 ...lifier capacitor has \SI{1.5}{\piko\farad}
+                                                   and the high gain preampl...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.45 ...in preamplifier has a \SI{15}{\piko\farad}
+                                                   capacitance.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.45 ...in preamplifier has a \SI{15}{\piko\farad}
+                                                   capacitance.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `citiroc/preamp' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...phics[width=0.5\textwidth]{citiroc/preamp}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[10]
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.64 ...ists of a $C_\text{in}=\SI{5}{\piko\farad}
+                                                  $ capacitor and a $R_\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.64 ...ists of a $C_\text{in}=\SI{5}{\piko\farad}
+                                                  $ capacitor and a $R_\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `citiroc/fast_shaper' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 ...s[width=.5\textwidth]{citiroc/fast_shaper}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...0}{\ohm }$ resistor $\text {R}_\txt 
+                                                  {in}$ functioning as high ...
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ... resulting peaking time is $t_\test 
+                                                  {peak}=\SI {15}{\nano \sec...
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \piko 
+                 \farad 
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...0}{\ohm }$ resistor $\text {R}_\txt 
+                                                  {in}$ functioning as high ...
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ... resulting peaking time is $t_\test 
+                                                  {peak}=\SI {15}{\nano \sec...
+l.81 ...k}=\SI{15}{\nano\second}$. \cite{citiroc}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `citiroc/slow_shaper' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 ...s[width=1.\textwidth]{citiroc/slow_shaper}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.98 It recuires an external \testit
+                                    {hold} signal.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[11] [12] [13]
+
+LaTeX Warning: File `citiroc/citiroc_evaluation_board.jpg' not found on input l
+ine 163.
+
+
+! Package pdftex.def Error: File `citiroc/citiroc_evaluation_board.jpg' not fou
+nd: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...th]{citiroc/citiroc_evaluation_board.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[14] [15]
+Package acronym Info: Label `acro:pcb' newly defined as it shall be overridden
+although it is yet undefined on input line 178.
+
+
+! LaTeX Error: File `pictures/sipm_pcb' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 ...s[width=0.5\textwidth]{pictures/sipm_pcb}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `pictures/hamamatsu_sipm_pcb_front.jpg' not found on input 
+line 206.
+
+
+! Package pdftex.def Error: File `pictures/hamamatsu_sipm_pcb_front.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.206 ...h]{pictures/hamamatsu_sipm_pcb_front.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `pictures/hamamatsu_sipm_pcb_back.jpg' not found on input l
+ine 212.
+
+
+! Package pdftex.def Error: File `pictures/hamamatsu_sipm_pcb_back.jpg' not fou
+nd: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 ...th]{pictures/hamamatsu_sipm_pcb_back.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `pictures/hamamatsu_breakout_on_sipm.jpg' not found on inpu
+t line 218.
+
+
+! Package pdftex.def Error: File `pictures/hamamatsu_breakout_on_sipm.jpg' not 
+found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.218 ...{pictures/hamamatsu_breakout_on_sipm.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 232.
+
+[16] [17]
+
+LaTeX Warning: Citation `thorlabs_aluminium' on page 18 undefined on input line
+ 251.
+
+
+LaTeX Warning: Citation `thorlabs_diffusor' on page 18 undefined on input line 
+260.
+
+
+! LaTeX Error: File `pictures/setup_box_pic' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.268 ...dth=1.\textwidth]{pictures/setup_box_pic}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[18]
+
+LaTeX Warning: Citation `alex_bismark' on page 19 undefined on input line 277.
+
+
+LaTeX Warning: Citation `thorlabs_diffusor' on page 19 undefined on input line 
+282.
+
+
+! LaTeX Error: File `pictures/setup_box' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 ...s[width=1.\textwidth]{pictures/setup_box}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [19] [20]
+\openout2 = `sections/measurement.aux'.
+
+
+No file sections/measurement.tex.
+\openout2 = `sections/conclusion.aux'.
+
+(./sections/conclusion.tex
+Chapter 4.
+Package acronym Info: Label `acro:dcr' newly defined as it shall be overridden
+although it is yet undefined on input line 4.
+
+LaTeX Warning: Reference `tab:disc_dcr' on page 21 undefined on input line 5.
+
+
+LaTeX Warning: Reference `tab:disc_cal' on page 21 undefined on input line 10.
+
+) [21
+
+
+
+
+
+] [22]
+Appendix A.
+[23
+
+
+] [24]
+\openout2 = `sections/slow_control_settings.aux'.
+
+
+No file sections/slow_control_settings.tex.
+(./msc_thesis.lof)
+\tf@lof=\write5
+\openout5 = `msc_thesis.lof'.
+
+ [25
+
+
+
+] (./msc_thesis.lot)
+\tf@lot=\write6
+\openout6 = `msc_thesis.lot'.
+
+ [26
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+\T1/lmtt/m/n/12 hamamatsu-[]photonics / sites / documents / 99 _ SALES _ LIBRAR
+Y / ssd / mppc _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+[]\T1/lmr/m/n/12 Hamamatsu S14160-3050HS Datasheet, []$\T1/lmtt/m/n/12 https : 
+/ / www . hamamatsu . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+\T1/lmtt/m/n/12 content / dam / hamamatsu-[]photonics / sites / documents / 99 
+_ SALES _ LIBRARY /
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 152--153
+\T1/lmtt/m/n/12 download-[]center / citiroc-[]1a / 16-[]citiroc1a-[]datasheet-[
+]v2-[]5 / file$[]\T1/lmr/m/n/12 , date:
+ []
+
+
+! Package glossaries Error: You must use \makeglossaries with automake=true.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.159 \end{document}
+                    
+Either remove the automake=true setting or add \makeglossaries to your document
+ preamble.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
+[27
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 159.
+ (./msc_thesis.aux (./sections/cover.aux) (./sections/abstract.aux)
+(./sections/zusammenfassung.aux) (./sections/introduction.aux)
+(./sections/calorimeter.aux) (./sections/setup.aux) (./sections/measurement.aux
+) (./sections/conclusion.aux) (./sections/slow_control_settings.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 159.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 159.
+Package rerunfilecheck Info: File `msc_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: C8F831BDE19B5E1DA68D02CCF53730EB;896.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
+ ) 
+Here is how much of TeX's memory you used:
+ 23074 strings out of 481239
+ 415903 string characters out of 5920378
+ 753026 words of memory out of 5000000
+ 37627 multiletter control sequences out of 15000+600000
+ 627878 words of font info for 87 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,18n,82p,1043b,1142s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmtt12.pfb>
+Output written on msc_thesis.pdf (33 pages, 284324 bytes).
+PDF statistics:
+ 647 PDF objects out of 1000 (max. 8388607)
+ 564 compressed objects within 6 object streams
+ 112 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+
