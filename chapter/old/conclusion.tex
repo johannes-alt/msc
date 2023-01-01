@@ -1,0 +1,27 @@
+\chapter{Conclusion and Outlook}
+Within the scope of this Thesis a setup for measuring \ac{sipm} output signals was assembled. 
+A readout of the \ac{sipm}s has been realized using the Citiroc 1A \ac{asic} with the corresponding evaluation board.
+The dark count rate (\ac{dcr}) of single \acp{sipm} and up to five \acp{sipm} in parallel was determined.
+The measured \acp{dcr} are listed in \autoref{tab:disc_dcr}.
+As expected increases the \ac{dcr} approximatley linear with the number of \acp{sipm} in parallel. 
+Due to the measurement methode with the peak detector the small undercount of dark counts with increasing \ac{dcr} is expected.
+
+Also a calibration of the \acp{sipm} was done by using dark counts and a LED as light source.
+The determined gains of the measurements are listed in \autoref{tab:disc_cal}.
+The gains of both the dark count measurements and the measurements with light source show the same behavior. 
+With more \acp{sipm} in parallel the gain increases. 
+This is the opposite of what was expected based on the simulations from \cite{bsc_jonathan} and should be invested further.
+
+
+
+
+
+
+
+
+
+In conclusion, the Citiroc 1A can be used to read out the \acp{sipm} and therefore is suitable for testing prototypes of the \ac{sbt} cells at a testbeam. 
+But because the readout is not continous and the Citiroc 1A is blind while the multiplexer output signals are getting digitized, it is not usable for the final \ac{sbt}. 
+Without the multiplexed output and with an channel by channel signal output this would most likely change but with the price of an increase in \acp{adc}.
+To reduce that increase in \acp{adc}, the number of \acp{sipm} read out in parallel would need to be increased.
+Therefore an investigation on how many one \acp{sipm} can be read out in parallel and still produce good results would be very interesting.
