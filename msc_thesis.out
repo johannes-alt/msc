@@ -1,5 +1,13 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 2
-\BOOKMARK [0][-]{appendix*.5}{List of Figures}{}% 3
-\BOOKMARK [0][-]{appendix*.6}{List of Tables}{}% 4
-\BOOKMARK [0][-]{appendix*.7}{Bibliography}{}% 5
+\BOOKMARK [0][-]{chapter.2}{One Cell Prototype}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Silicon Photomultiplier}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Photoelectron spectrum}{section.2.1}% 4
+\BOOKMARK [2][-]{subsection.2.1.2}{The Gandalf Framework}{section.2.1}% 5
+\BOOKMARK [0][-]{chapter.3}{Setup}{}% 6
+\BOOKMARK [0][-]{chapter.4}{Results of the daq tests}{}% 7
+\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 8
+\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 9
+\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 10
+\BOOKMARK [0][-]{appendix*.38}{List of Figures}{}% 11
+\BOOKMARK [0][-]{appendix*.39}{List of Tables}{}% 12
+\BOOKMARK [0][-]{appendix*.40}{Bibliography}{}% 13
