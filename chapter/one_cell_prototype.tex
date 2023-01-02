@@ -1,7 +1,8 @@
 \chapter{One Cell Prototype}
 
 
-%\include{chapter/sections/cell}
+
+
 %\include{chapter/sections/lab}
 %\include{chapter/sections/wom}
 
@@ -114,7 +115,40 @@ When the time between the trapping and releasing is long enough, the avalanche o
 
 After the theory and important properties of \acp{sipm} are now introduced, the next chapter will present the measurement setup and data acquisition used for this thesis.
 
-\subsection{The Gandalf Framework}
+\section{The \ac{emusic} Board}
+Since the signals of the \acp{sipm} are very small, a single photolectron signal has an amplitude of around \SI{2.5}{\milli\volt}, they need to be amplified.
+For this purpous the \ac{emusic} \ac{asic} by Scientifica was chosen and a custom \ac{pcb} housing the \ac{emusic} \ac{asic}, from here on called \ac{emusic} board, was designed by the electrical engineers of the University of Freiburg.
+In the following first the \ac{asic} itself and afterwards the \ac{emusic} board will be presented.
+
+\paragraph{The \ac{emusic} \ac{asic}} was developed by Scientifica for the readout of \acp{sipm}.
+It is mainly an amplifier and a shaper, but also offers other options like digital trigger signals if the signal crosses an adjustable threshold.
+The \ac{asic}\'s block diagram is shown in \autoref{fig:emusic_block_diagram}.
+It has eight input channels each equiped with a $\approx\SI{1}{\volt}$ anode voltage control to equalize the applied overvoltage between the different channels.
+Because the \acp{sipm} deliver a charge signal, each channel has a current mode input stage.
+The \ac{emusic} \ac{asic} was designed to have a low input transimpedance, but provides the option of a high transimpedance mode with which the gain can be increased.
+Each individual channel has bandwith of \SI{150}{\mega\hertz} and a pole-zero cancellation chaper, shown in \autoref{fig:emusic_pole_zero}, with two adjustable resistors and a adjustable capacitor.
+It can be used to decrease the time constant 
+\begin{align}
+	\tau &= \text{C}_1\cdot\text{R}_1
+\end{align}
+of the output signal to achieve a pulse width below $\SI{10}{\nano\second}$ FWHM.
+But a smaller width also attenuates the amplitude of the signal.
+Although the \ac{emusic} provides the option of a lower attenuation mode of the pole-zero cancellation, a compromis between smaller signal width and higher amplitude should be chosen depending on ones needs.
+Alteratively the pole-zero cancellation can be disabled completely, resulting in the highest signal amplitude possible with the \ac{emusic} but also in the longest signal.
+The signal after the shaper can be put out with an analoge output for each channel.
+Each channel also posseses a discriminator with an adjustable threshold to create a channel by channel trigger signal.
+These logical signals can be either put out by using the individual output of the channel for the digital signal instead for the analog waveform or by using the fast OR of all channels.
+This fast OR allows for example the external triggering of the digitzer which than digizes the analog waveforms if the waveform of one or more channels surpasses the threshold.
+The dynamic range of the output for the single edge signals is \SI{1}{\volt} if the load on the output is \SI{50}{\ohm} and \SI{2}{\volt} if a high impedance load is used on the ouput.
+Using the low transimpedance mode, the gain of the single edge output is \SI{180}{\ohm} and with the high transimpedance mode it is \SI{480}{\ohm}.
+Over the first half of the dynamic range the response of the \ac{emusic} is linear and over the second half it is non-linear.
+
+Besides the individual readout of the eight channels the \ac{emusic} can sum up the signal of an arbitrary set of channels with both high and low gain and put them out via two differential outputs.
+The bandwith of this summation output is \SI{500}{\mega\hertz} and the output range is \SI{1.25}{\volt}.
+Depending on wether the high or low transimpedance is used, the gain of the high gain summation is \SI{690}{\ohm} or \SI{90}{\ohm} and \SI{315}{\ohm} or \SI{45}{\ohm} for the low gain summation. 
+The response of the summation output is linear over the dynamic range.
+
+\section{The Gandalf Framework}
 The amplified and shaped output signal of the \ac{emusic} \ac{asic} needs to be digitized.
 This step is done by Gandalf modules.
 Originally developed at the University of Freiburg for the \ac{compass} experiment it has a modular design to fill different roles in the experiments \ac{daq}.

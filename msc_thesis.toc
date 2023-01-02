@@ -4,21 +4,23 @@
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
 \contentsline {chapter}{\numberline {2}One Cell Prototype}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Silicon Photomultiplier}{4}{section.2.1}%
-\contentsline {paragraph}{The signal shape}{6}{section*.15}%
-\contentsline {paragraph}{The gain}{7}{section*.17}%
-\contentsline {paragraph}{The noise}{7}{section*.18}%
-\contentsline {subsection}{\numberline {2.1.1}Photoelectron spectrum}{8}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}The Gandalf Framework}{8}{subsection.2.1.2}%
-\contentsline {subsubsection}{Input Mezzanin Cards}{8}{section*.23}%
-\contentsline {paragraph}{The \ac {dmc}}{8}{section*.27}%
-\contentsline {paragraph}{The \ac {omc}}{10}{section*.30}%
-\contentsline {paragraph}{The \ac {amc}}{10}{section*.31}%
-\contentsline {subsubsection}{Usage of the GANDALF with \acp {sipm}}{10}{section*.36}%
-\contentsline {chapter}{\numberline {3}Setup}{12}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Results of the \ac {daq} tests}{13}{chapter.4}%
-\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{14}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{15}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{16}{appendix.A}%
-\contentsline {chapter}{List of Figures}{18}{appendix*.38}%
-\contentsline {chapter}{List of Tables}{19}{appendix*.39}%
-\contentsline {chapter}{Bibliography}{20}{appendix*.40}%
+\contentsline {paragraph}{The signal shape}{6}{section*.13}%
+\contentsline {paragraph}{The gain}{7}{section*.15}%
+\contentsline {paragraph}{The noise}{7}{section*.16}%
+\contentsline {subsection}{\numberline {2.1.1}Photoelectron spectrum}{7}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}The \ac {emusic} Board}{8}{section.2.2}%
+\contentsline {paragraph}{The \ac {emusic} \ac {asic}}{8}{section*.20}%
+\contentsline {section}{\numberline {2.3}The Gandalf Framework}{9}{section.2.3}%
+\contentsline {subsubsection}{Input Mezzanin Cards}{9}{section*.24}%
+\contentsline {paragraph}{The \ac {dmc}}{9}{section*.28}%
+\contentsline {paragraph}{The \ac {omc}}{9}{section*.30}%
+\contentsline {paragraph}{The \ac {amc}}{11}{section*.31}%
+\contentsline {subsubsection}{Usage of the GANDALF with \acp {sipm}}{11}{section*.36}%
+\contentsline {chapter}{\numberline {3}Setup}{13}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Results of the \ac {daq} tests}{14}{chapter.4}%
+\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{16}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{17}{appendix.A}%
+\contentsline {chapter}{List of Figures}{19}{appendix*.39}%
+\contentsline {chapter}{List of Tables}{20}{appendix*.40}%
+\contentsline {chapter}{Bibliography}{21}{appendix*.41}%
