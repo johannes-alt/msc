@@ -126,16 +126,14 @@ The \ac{asic}\'s block diagram is shown in \autoref{fig:emusic_block_diagram}.
 It has eight input channels each equiped with a $\approx\SI{1}{\volt}$ anode voltage control to equalize the applied overvoltage between the different channels.
 Because the \acp{sipm} deliver a charge signal, each channel has a current mode input stage.
 The \ac{emusic} \ac{asic} was designed to have a low input transimpedance, but provides the option of a high transimpedance mode with which the gain can be increased.
-Each individual channel has bandwith of \SI{150}{\mega\hertz} and a pole-zero cancellation chaper, shown in \autoref{fig:emusic_pole_zero}, with two adjustable resistors and a adjustable capacitor.
-It can be used to decrease the time constant 
-\begin{align}
-	\tau &= \text{C}_1\cdot\text{R}_1
-\end{align}
-of the output signal to achieve a pulse width below $\SI{10}{\nano\second}$ FWHM.
+Each individual channel has bandwith of \SI{150}{\mega\hertz} and a pole-zero cancellation, schematics shown in \autoref{fig:emusic_pole_zero}, with two adjustable resistors and a adjustable capacitor.
+It can be used to decrease the \ac{fwhm} of the output signal to below $\SI{10}{\nano\second}$.
 But a smaller width also attenuates the amplitude of the signal.
+The resistor has eight possible values it can be set to and the capacitor has thirty-two different steps.
 Although the \ac{emusic} provides the option of a lower attenuation mode of the pole-zero cancellation, a compromis between smaller signal width and higher amplitude should be chosen depending on ones needs.
 Alteratively the pole-zero cancellation can be disabled completely, resulting in the highest signal amplitude possible with the \ac{emusic} but also in the longest signal.
 The signal after the shaper can be put out with an analoge output for each channel.
+
 Each channel also posseses a discriminator with an adjustable threshold to create a channel by channel trigger signal.
 These logical signals can be either put out by using the individual output of the channel for the digital signal instead for the analog waveform or by using the fast OR of all channels.
 This fast OR allows for example the external triggering of the digitzer which than digizes the analog waveforms if the waveform of one or more channels surpasses the threshold.
@@ -147,6 +145,55 @@ Besides the individual readout of the eight channels the \ac{emusic} can sum up 
 The bandwith of this summation output is \SI{500}{\mega\hertz} and the output range is \SI{1.25}{\volt}.
 Depending on wether the high or low transimpedance is used, the gain of the high gain summation is \SI{690}{\ohm} or \SI{90}{\ohm} and \SI{315}{\ohm} or \SI{45}{\ohm} for the low gain summation. 
 The response of the summation output is linear over the dynamic range.
+
+Besides choosing the channels for summation, also each of the eight single edge outputs can be individually turned on and off.
+Another important option that can be configered is the adjustment of the output DC offset to maximize the rail-to-rail voltage swing.
+
+\paragraphe{The trigger threshold} for the digital outputs can be set with two parameters.
+The bandgap voltage $V_\text{bg}$ of the comparators, which can be adjsuted in eight steps, to one of the following values:
+\begin{align}
+	V_\text{bg}&=\SIlist{487.22;730.92;974.62;1218.3;1462.0;1705.7;1949.4;2436.8}{\milli\volt}
+\end{align}
+The second parameter sets the \ac{dac} value $N_\text{DAC}$ for the comparators.
+It can be set to \ac{dac} counts from 0 to 511.
+The finer threshold steps $V_\text{fine}$ can be calculated with
+\begin{align}
+	V_\text{fine}&=\SI{1637.79}{\milli\volt} - N_\text{DAC}\cdot\SI{3.1445}{\milli\volt}.
+\end{align}
+With $V_\text{bg}$ and  of $V_\text{fine}$ or $N_\text{DAC}$ the final threshold
+\begin{align}
+	V_\text{th}&= 1.5\cdot V_\text{bg} - 0.5\cdot V_\text{fine}\\
+		   &= 1.5\cdot V_\text{bg} - 0.5\cdot (\SI{1637.79}{\milli\volt} - N_\text{DAC}\cdot\SI{3.1445}{\milli\volt})
+\end{align}
+can be calculated.
+
+\paragraph{The \ac{emusic} board} was designed at the University of Freiburg.
+A graphic of the board is shown in \autoref{fig:emusic_board}.
+It's heart is the \ac{emusic} \ac{asic} (U1).
+In order to program the \ac{asic} the ATmega328P-AU microchip (U4) is placed on the board.
+The microchip can be programed with the XXXX software by XXXXX and the XXXXX which is connected to the computer via USB and can be pluged into the J4 connector on the \ac{emusic} board.
+After programing the microchip it only has to be programed again if the reset button SW1 is pressed.
+Then the \ac{emusic} \ac{asic} can be configered by using a TTL-to-USB adapter connected to a computer and the P3 connector and the software of the minimusic board.
+The minimusic board is a comercial product using the \ac{emusic} \ac{asic}.
+Due to the \ac{emusic} board being designed to work with the minimusic software, one avoids the need to create a software and also has the security, that the used software was tested and is working properly.
+Two functions of the minimusic software are not usable on the \ac{emusic} board, the calibration of the threshold and the calibration of the DC offset on the outputs.
+Therefore theses two need to be set by the user.
+
+The high voltage for the \acp{sipm} can be supplied via the P2 SMA connector.
+On the backside of the \ac{pcb} is a LSHM-150-XX.-XXX-DV-AN-XX connector located to connect the board to the \ac{sipm} board.
+Via this connector the high voltage is brought to the \acp{sipm} and the signals are brought to the \ac{emusic} inputs.
+The eight single ended outputs can be read out by the SMA connectors K1 to K8.
+The fast OR signal can be read out via the K9 connector.
+Both the high and low gain differential summation outputs are connected to the pins of the J6 connector.
+
+The board also provides the possibility via the P1 connector to power the six LEDs soldered onto the \ac{sipm} boards.
+But the usage of this is not advised, since this will introduce interferences into the signals.
+
+
+
+
+
+
 
 \section{The Gandalf Framework}
 The amplified and shaped output signal of the \ac{emusic} \ac{asic} needs to be digitized.
@@ -163,7 +210,7 @@ A overview of a Gandalf module is shown in \autoref{fig:gandalf_overview}.
 	\caption{Overview of the Gandalf module equiped with Analog Mezzanin Cards (AMCs) and the fiber Gimli mezzanin card for clock an trigger input. The analog waveforms are digitized by the AMCs and the digitized data is processed by the DSP FPGA. The MEM FPGA handles the memory of the processed data, which can be transfered to a computer via the USB inteface on the front of the VME or S-Link interfaces on the backplane. \cite{herrmann}}
 \end{figure}
 
-\subsubsection{Input Mezzanin Cards}
+\subsection{Input Mezzanin Cards}
 The Gandalf module has two mezzanin card slots for input signals.
 For these slots three different mezzanine cards were developed, \ac{amc}, \ac{dmc} and \ac{omc}.
 First the latter two mezzanine cards are shortly presented for completeness but are not relevant for the work done in this thesis.
@@ -196,7 +243,11 @@ By changing the gain of the amplifiers one can decrease the input range and ther
 The \acp{amc} used in this thesis are \SI{12}{\bit} \acp{amc} in the \textit{interleaved mode} and a dynamic range of \SI{2.2}{\vpp}.
 
 
-\subsubsection{Usage of the GANDALF with \acp{sipm}}
+\subsection{GIMLI Mezzanine Cards}
+\paragraph{The copper GIMLI}
+
+
+\subsection{Usage of the GANDALF with \acp{sipm}}
 In this work, the GANDALF was used to digitize the ouput signal of the \ac{emusic} \ac{asci}.
 As mentioned in above in \autoref{sec:emusic} theses signals have a positive polarity.
 But because the GANDALF was designed for the digitization and processing of negative voltage pulses created by a \ac{pmt}, this caused some problems.
