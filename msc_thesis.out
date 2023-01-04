@@ -4,15 +4,18 @@
 \BOOKMARK [2][-]{subsection.2.1.1}{Photoelectron spectrum}{section.2.1}% 4
 \BOOKMARK [1][-]{section.2.2}{The emusic Board}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.3}{The Gandalf Framework}{chapter.2}% 6
-\BOOKMARK [0][-]{chapter.3}{Setup}{}% 7
-\BOOKMARK [0][-]{chapter.4}{Results of the daq tests}{}% 8
-\BOOKMARK [1][-]{section.4.1}{Input offset voltage}{chapter.4}% 9
-\BOOKMARK [1][-]{section.4.2}{Pole-zero cancellation}{chapter.4}% 10
-\BOOKMARK [1][-]{section.4.3}{High and low transimpedance and lower attenuation}{chapter.4}% 11
-\BOOKMARK [1][-]{section.4.4}{Dark count measurements}{chapter.4}% 12
-\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 13
-\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 14
-\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 15
-\BOOKMARK [0][-]{appendix*.42}{List of Figures}{}% 16
-\BOOKMARK [0][-]{appendix*.43}{List of Tables}{}% 17
-\BOOKMARK [0][-]{appendix*.44}{Bibliography}{}% 18
+\BOOKMARK [2][-]{subsection.2.3.1}{Input Mezzanin Cards}{section.2.3}% 7
+\BOOKMARK [2][-]{subsection.2.3.2}{GIMLI Mezzanine Cards}{section.2.3}% 8
+\BOOKMARK [2][-]{subsection.2.3.3}{Usage of the GANDALF with sipm}{section.2.3}% 9
+\BOOKMARK [0][-]{chapter.3}{Setup}{}% 10
+\BOOKMARK [0][-]{chapter.4}{Results of the daq tests}{}% 11
+\BOOKMARK [1][-]{section.4.1}{Input offset voltage}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.2}{Pole-zero cancellation}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.3}{High and low transimpedance and lower attenuation}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.4}{Dark count measurements}{chapter.4}% 15
+\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 16
+\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 17
+\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 18
+\BOOKMARK [0][-]{appendix*.46}{List of Figures}{}% 19
+\BOOKMARK [0][-]{appendix*.47}{List of Tables}{}% 20
+\BOOKMARK [0][-]{appendix*.48}{Bibliography}{}% 21
