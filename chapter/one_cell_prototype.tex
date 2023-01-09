@@ -29,8 +29,9 @@ In order to allow decrompession and compession by temparature change, an expansi
 To fill the cell \SI{}{\kilo\gram} \ac{lab} were used.
 This is around \SI{3}{\kilo\gram} more than the amount fitting into the cell.
 The extra \ac{lab} is in the expansion vessel, in order for the cell still being full in case of a temperatur decline and compession of the \ac{lab}.
-The scintillator which is used in the One Cell Prototype and is planed to use in the \ac{sbt} is \ac{lab}.
-Its emission spectrum is shown in \autoref{fig:lab_emission}.
+Gasouse nitrogen fills out the remaining volume of the expansion vessel to serve as a compressable volume. 
+
+\ac{lab}s emission spectrum is shown in \autoref{fig:lab_emission}.
 Most of the scintillation light has a wavelength of \SIrange{320}{360}{\nano\meter}.
 In order to capture the light and to shift the wavelength towards values for which the used \acp{sipm} have a higher detection efficiency \acp{wom} are used.
 In the next section these \acp{wom} and the optical coupling between them and the \acp{sipm} are presented.
@@ -39,7 +40,18 @@ In the next section these \acp{wom} and the optical coupling between them and th
 
 \section{Wavelengthshifting Optical Module \& Optical Coupling}
 
-emissions spektrum
+To capture the scintillation light so called \acp{wom} are used.
+They are PMMA zylinder walls with a \SI{6}{\centi\meter} outer diameter and have a \SI{3}{\milli\meter} wall thickness.
+The design and material choice both make the cost of the light collection rather cheap.
+Both the inside and outside of the PMMA zylinder are coated with a wavelength shifting coat.
+So the captured photons are shifted to higher a wavelength, for which the \ac{sipm} used for the light detection have a higher efficiency.
+In \autoref{fig:wom_emission} the wavelength spectrum of the wavelengthshifted light is shown.
+The photons which entered the \ac{wom} are traped there by total reflection on the walls.
+They can leave the \ac{wom} at its end, where an array of forty \acp{sipm} can detect them.
+For a good optical coupling between the \ac{wom} and the \acp{sipm} either optical grease or silicon pads, shown in \autoref{fig:silicon_pad}, can be used.
+\autoref{fig:wom_principle} illustrates the principle of the \ac{wom} with the wavelengthshifting and capture by total reflection.
+
+In the next part the \acp{sipm} which detect the light captured by the \acp{wom} are presented.
 
 
 \section{Silicon Photomultiplier}
