@@ -2,6 +2,20 @@
 
 
 \section{Input offset voltage}
+The first measurement is to find out the input offset voltage of the \ac{emusic} for different \ac{dac} values.
+This needs to be done to find out the exact overvoltage of the \acp{sipm}.
+In order to perform this measurement, the setup in \autoref{fig:input_offset_setup} was assembled.
+The \ac{emusic} board was powered by the \SI{8}{\volt} power supply and the XXXXXXXX power supply was used to supply the high voltage.
+It was set to \SI{16}{\volt} since it was unimportant for the high voltage to be over the breakdown voltage of the \acp{sipm}.
+It should only be over the maximum input offset the \ac{emusic} can generate for the resulting voltage to be applied in reverse direction to the \acp{sipm}.
+For this measurement the \ac{emusic}s input \ac{dac} settings, which can range from 0 to 511, were set to 0.
+Then the voltages between the negative high voltage pole and the voltage on the cathode of the \acp{sipm} were measured.
+This measurement was done for one \ac{sipm} of each \ac{sipm} group.
+The chosen \ac{sipm} were 1, 6, 11, 16, 21, 26, 31 and 36.
+After measureing the voltages, the \ac{dac} setting was increased in steps of 50 \ac{dac}u.
+For each setting the eight voltages were measured again.
+
+
 \section{Pole-zero cancellation}
 \section{High and low transimpedance and lower attenuation}
 \section{Dark count measurements}
