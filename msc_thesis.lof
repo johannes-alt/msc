@@ -2,17 +2,16 @@
 \babel@toc {english}{}
 \babel@toc {ngerman}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Plan of the SPS area in which SHiP is supposed to be build.}}{3}{figure.caption.10}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Overview of the SHiP experiment.}}{4}{figure.caption.11}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Overview of the Sourrunding Background Tagger}}{5}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Overview of the SHiP experiment.}}{4}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Overview of the Sourrunding Background Tagger}}{5}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of a APD.}}{9}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces SPAD signal shape}}{10}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces eMUSIC block diagram}}{12}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces eMUSIC pole-zero cancellation}}{13}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces eMUSIC Board}}{16}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Overview of the Gandalf module equiped with Analog Mezzanin Cards (AMCs) and the fiber Gimli mezzanin card for clock an trigger input. The analog waveforms are digitized by the AMCs and the digitized data is processed by the DSP FPGA. The MEM FPGA handles the memory of the processed data, which can be transfered to a computer via the USB inteface on the front of the VME or S-Link interfaces on the backplane. \cite {herrmann}\relax }}{17}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Copper GIMLI}}{20}{figure.caption.46}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Illustration of a APD.}}{10}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces SPAD signal shape}}{11}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces eMUSIC block diagram}}{13}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces eMUSIC pole-zero cancellation}}{14}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces eMUSIC Board}}{17}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Overview of the Gandalf module equiped with Analog Mezzanin Cards (AMCs) and the fiber Gimli mezzanin card for clock an trigger input. The analog waveforms are digitized by the AMCs and the digitized data is processed by the DSP FPGA. The MEM FPGA handles the memory of the processed data, which can be transfered to a computer via the USB inteface on the front of the VME or S-Link interfaces on the backplane. \cite {herrmann}\relax }}{18}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Copper GIMLI}}{21}{figure.caption.45}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

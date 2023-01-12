@@ -12,32 +12,46 @@
 So far the best physical description of the universe is provided be the \ac{sm}.
 But through observations of different phenomena, which the \ac{sm} can not explain, like neutrino oscillation \cite{} and the rotation velocity in galaxies \cite{}, it is known, that the \ac{sm} can not be a complete theory \cite{}.
 Therefore different experiments are in developement or are operating to search for new physics and new particles outside the \ac{sm}.
-One of these experiments is the proposed \ac{ship} experiment.
-Some experiments are at the energy frontier, using large energy scale trying to discover new particles. The experiments at the \ac{lhc} are examples for energy frontier experiments.
-Other experiments are at the cosmic frontieri, using for example cosmic background radiation.
-The third frontier is the intensity frontier.
-The zero background \ac{ship} experiment is one of the intensity frontier experiment searching for rare events.
-Observing such rare events requires a high interaction rate.
-To achieve this, \ac{ship} is planned to be a beam dump experiment at the \ac{sps} accelerator ring at CERN, as shown in \autoref{fig:sps_ship}.
-The goal is to dump the high intensity \SI{400}{\giga\electronvolt} proton beam into a fixed target and thereby creating long lived particles outisde of the \ac{sm}, e.g. heavy neutral leptons and light supersymmetric particles \cite{ship}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.75\textwidth]{pictures/ship_sps}
-	\caption[Plan of the SPS area in which SHiP is supposed to be build.]{An overview of the SPS area with the SHiP experiment planed as beam dump experiment in the north area. \cite{ship_facility}}
-	\label{fig:sps_ship}
-\end{figure}
+One possible future experiment to join the search for new physics is the proposed \ac{ship} experiment.
+It is an intensity frontier experiment using the \SI{400}{\giga\electronvolt} proton beam from CERNs \ac{sps} and dumping it into a fixed target in order to observe rare events.
+It searches for long lived heavy particles from the so called \ac{hs}, for example heavy right-handed leptons, dark photons and light dark matter \cite{}.
+In order to detect these rare events \ac{ship} is planed to be a zero background experiment.
 
-In \autoref{fig:ship_sketch} the overall struckture of \ac{ship} is shown.
-At the beginning, the \SI{400}{\giga\electronvolt} gets dumped into the fixed targed.
-Through the many interactions happening at the target, a lot of \ac{sm} particles will be created.
-In order to block the \ac{sm} particles, two shields are placed after the target.
-The first is a hadron absorber in which all \ac{sm} particles except muons and neutrinos are absorbed.
-The second is the muon shield. 
-It uses magnetic fields to deflect the muons away from the beam line.
-The neutrinos cannot be blocked or deflected, but they are likely to be detected in the scattering and neutrino detector behind the muon shield.
-After the neutrino detector a \SI{50}{\meter} long vacuum chamber is positioned.
-If a non \ac{sm} particle is created at the target, is can decay inside the vacuum decay chamber back into \ac{sm} particles.
-The decay products than get measured in the decay spectrometer behind the decay chamber.
+\autoref{fig:ship_sketch} shows the overall structure of \ac{ship}.
+The \SI{400}{\giga\electronvolt} protons get dumped into a high density target, for example a target out of tungsten.
+Through the interaction between the protons and the target \ac{sm} particles and \ac{hs} particles can be produced.
+In order to remove the \ac{sm} particles two shieldings are used.
+The first one is a hadron absorber which is placed behind the target to absorb produced hadrons and electrons.
+Afterwards the muon shield utilizing magnetic fields to deflect the produced muons out of the beam line.
+So only neutrinos and \ac{hs} particles remaine.
+After a muon shield is a neutrino and scattering detector for secondary science cases.
+The next part is the \ac{hs} decay volume.
+It is a \SI{50}{\meter} long vacuum chamber in which the \ac{hs} particles can decay into \ac{sm} particles.
+The decay products than get detected in the decay spectrometer behind the \ac{hs} decay volume.
+With the data produced by the decay spectrometer the events can get reconstructed.
+
+%One of these experiments is the proposed \ac{ship} experiment.
+%Observing such rare events requires a high interaction rate.
+%To achieve this, \ac{ship} is planned to be a beam dump experiment at the \ac{sps} accelerator ring at CERN, as shown in \autoref{fig:sps_ship}.
+%The goal is to dump the high intensity \SI{400}{\giga\electronvolt} proton beam into a fixed target and thereby creating long lived particles outisde of the \ac{sm}, e.g. heavy neutral leptons and light supersymmetric particles \cite{ship}.
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.75\textwidth]{pictures/ship_sps}
+%	\caption[Plan of the SPS area in which SHiP is supposed to be build.]{An overview of the SPS area with the SHiP experiment planed as beam dump experiment in the north area. \cite{ship_facility}}
+%	\label{fig:sps_ship}
+%\end{figure}
+
+%In \autoref{fig:ship_sketch} the overall struckture of \ac{ship} is shown.
+%At the beginning, the \SI{400}{\giga\electronvolt} gets dumped into the fixed targed.
+%Through the many interactions happening at the target, a lot of \ac{sm} particles will be created.
+%In order to block the \ac{sm} particles, two shields are placed after the target.
+%The first is a hadron absorber in which all \ac{sm} particles except muons and neutrinos are absorbed.
+%The second is the muon shield. 
+%It uses magnetic fields to deflect the muons away from the beam line.
+%The neutrinos cannot be blocked or deflected, but they are likely to be detected in the scattering and neutrino detector behind the muon shield.
+%After the neutrino detector a \SI{50}{\meter} long vacuum chamber is positioned.
+%If a non \ac{sm} particle is created at the target, is can decay inside the vacuum decay chamber back into \ac{sm} particles.
+%The decay products than get measured in the decay spectrometer behind the decay chamber.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/ship_sketch}
@@ -45,15 +59,16 @@ The decay products than get measured in the decay spectrometer behind the decay 
 	\label{fig:ship_sketch}
 \end{figure}
 
-One problem for the measurement are \ac{sm} particles entering the decay volume and causing events in the spectrometer.
-An example of such a background are muons deflected by the muon shield but afterwrads reflected by the walls of the facility into to decay volume.
+One problem for the measurement are \ac{sm} particles entering the decay volume and getting falsely reconstruced as \ac{hs} events in the spectrometer.
+An example of such a background are muons deflected by the muon shield but afterwrads reflected by the walls of the facility into to decay volume and mimicing the decay products of a \ac{hs} event in the spectrometer.
 Therefore it is crucial for the zero background requirment to detect the particles entering the decay volume and tagging every event that could be caused by the entering particle as background.
 This task is meant to be done by the \ac{sbt}.
+As the name suggestes, it sourunds the \ac{hs} decay volume, detecting particles entering it.
 It is currently in developement and this thesis is part of the R\&D effort towards it.
 In the following the \ac{sbt} and the principles of the different parts are described.
 The details of the different parts important for this thesis are presented in more detail in the next chapter.
 
-To make the tagging of background events possible and efficient different pieces of information need to be known about the paricles entering the decay volume.
+To make the tagging of background events possible and efficient and avoid the false tagging of many \ac{hs} events different pieces of information need to be known about the paricles entering the decay volume.
 These informations are the energy of the entering particles, the time at which they are entering the decay volume and the space coordinates at which they are entering.
 Therefore the \ac{sbt} is designed as a five-dimensional tagger.
 It will consist out of approximately 2000 cells that form the walls on the side as well as top and bottom of the vacuum decay chamber.
@@ -63,7 +78,7 @@ Both of the long edges are parallel, but the shorter sides are not.
 The depth of the cells is \SI{20}{\centi\meter} and the wall thickness is planed to be \SI{2}{\centi\meter} \cite{}.
 For the detection of particles a liquid scintillator will be filled into the cells.
 A particle passing through one or more cells will deposite energy in the scintillator, causing the emitance of scintillation light.
-The amount of emited light is directly corelated to the amount of energy deposited in the scintillator.
+The amount of emited light is corelated to the amount of energy deposited in the scintillator.
 Two \acp{wom}, PMMA tubes coated with wavelengthshifting pain, are placed in each cell to collect the scintillation light and guide it to an array of \acp{sipm}.
 The signals from the \acp{sipm} than can be amplified, digitized and further processed.
 Both a \acp{wom} and a \ac{sipm} array are shown in \autoref{fig:sbt}.
@@ -72,6 +87,7 @@ Both a \acp{wom} and a \ac{sipm} array are shown in \autoref{fig:sbt}.
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/sbt}
 	\caption[Overview of the Sourrunding Background Tagger]{The structure of the Sourrunding Background Tagger (SBT). Left is the SBT with its approximatly 2000 cells. Then the shape of one example cell is shown in b). The light produced by the liquid scintillator inside the cells is captured by two Wavelengthshifting Optical Modules (WOMs) per cell, example shown in c) and then guided to an array of Silicon Photomultipliern, shown in d), which will detect the light.}
+	\label{fig:sbt}
 \end{figure}
 
 This thesis is in the scope of the R\&D of the \ac{sbt}.
