@@ -23,6 +23,12 @@ They have equal distance to both side walls.
 The lower hole is \SI{30}{\centi\meter} away form the bottom of the cell and the upper hole is \SI{30}{\centi\meter} below the cells top.
 In each of these holes a PMMA vessel, shown in \autoref{fig:pmma_vessel}, is placed to house the two \acp{wom} and protect their wavelengthshifting coating from the liquid scintillator.
 A refelctive paint was applied to the inside of the box in order to increase the light yield of the scintillator and therefore increasing the efficiency of the detector.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/pmma_vessel}
+	\caption[PMMA vessel]{A PMMA vessel in which a \ac{wom} gets inserted to protect it from the liquid scintillator.}
+	\label{fig:pmma_vessel}
+\end{figure}
 
 The cell is filled with the liquid scintillator \ac{lab} which is also planed to be used in the \ac{sbt}.
 In order to allow decrompession and compession by temparature change, an expansion vessel is mounted on top of the cell.
@@ -35,6 +41,11 @@ Gasouse nitrogen fills out the remaining volume of the expansion vessel to serve
 Most of the scintillation light has a wavelength of \SIrange{320}{360}{\nano\meter}.
 In order to capture the light and to shift the wavelength towards values for which the used \acp{sipm} have a higher detection efficiency \acp{wom} are used.
 In the next section these \acp{wom} and the optical coupling between them and the \acp{sipm} are presented.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/lab_emission}
+	\caption[LAB emission spectrum]{The emission spectrum of the liquid scintillator LAB.}
+\end{figure}
 
 
 
@@ -56,89 +67,114 @@ In the next part the \acp{sipm} which detect the light captured by the \acp{wom}
 
 \section{Silicon Photomultiplier}
 In order to correctly identify and tag background events, the light detection of the \ac{sbt} has to provide accurate timing information.
-Therefore \acp{sipm} were chosen as photodetectors.
+And due to the number of cells and \acp{wom} in the \ac{sbt} it shouldn't cost a lot per \ac{wom}.
+To fullfill both requirements \acp{sipm} were chosen as photodetectors.
 These photodetectors consist of up to thousands of pixels.
 Each pixel is a photodiode with a typical edge length between \SI{10}{\micro\meter} and \SI{100}{\micro\meter} \cite{nucl}.
-If triggered by light, a \ac{sipm} sends out a charge signal proportional to the incoming light.
-This charge possesses a fast-rising edge with a rise time of the order of tens of \si{\piko\second} \cite{nucl}.
+If triggered by light, a \ac{sipm} sends out a charge signal proportional to the number of triggered pixels.
+In the case that the number of incoming photons is low compared to the number of pixels, such that two photons hitting the same pixel is unlikely, the charge signal is linear to the light intensity.
+The charge signal possesses a fast-rising edge with a rise time of the order of tens of \si{\piko\second} \cite{nucl}.
 Besides the good time resolution, \acp{sipm} also make it possible to count the arriving photos with a sensitivity down to single photons \cite{HAMA_mppc}.
 
+Each pixel in the \ac{sipm} is a \ac{spad}, which is a \ac{apd} supplied with a voltage greater than it's breakdown voltage.
+In the following the principle of such an \ac{apd} and \ac{spad} are explained.
 
-Similar to every photodiode, \acp{apd} utilize the photoelectric effect, to generate an electric charge signal in response to a light signal.
-This is made possible by using silicon as a base material and introducing impurities. 
-This process is called doping and there are two different possibilities for doping. 
-In the n-doping, the impurities are atoms with five valence electrons.
-Four of these electrons are part of boundings with silicon atoms, and the fifth electron is only weakly bound.
-When p-doping, atoms with only three valence electrons are inserted into the silicon.
-This leads to missing charges in the silicon, called holes.
-By having an n-doped and a p-doped region in the silicon, the excess electrons from the n-doped region combine with the holes from the p-doped region, resulting in a depleted region at the pn-junction.
-If a photon hits the photodiode, it can create an electron-hole pair, or $eh$-pair.
-The electron and the hole get split by the electric field and thus create a charge signal.
-In order to increase the sensitivity of the photodiode, an intrinsic layer can be added in between the two doped regions, thus increasing the depletion layer and therefore the photosensitive area.
-Such a photodiode is called a pin-diode.
-An \ac{apd} with a weakly doped $\pi$ intrinsic layer and strongly doped $p^+$ and $n^+$ layers is shown in \autoref{fig:pin_diode}.
-This intrinsic layer can either be not doped at all or weakly doped.
-In the case of \acp{apd} the intrinsic layer is weakly doped. 
-In order to amplify the signal, a strong doped region is inserted, thus creating a multiplication zone.
-\begin{figure}
-	\centering
-	\includegraphics[width=1.\textwidth]{pictures/pin_diode}
-	\caption[Illustration of a APD.]{Composition of a avalanche photo diode with the bias voltage $V_\text{B}$ applied in reverse direction. Between the contact to ground and the strongly doped $n^+$ layer is the quenching resistor $R_\text{q}$ connected in series. Next to the $n^+$ layer is a strongly doped $p^+$ layer. In the region of these two layers is the electric field, shown on the right figure, the strongest. There a electron or hole can initiate an avalanche. After the $p^+$ layer comes a intrinsic weakly doped $\pi$ layer. This layer increases the sensitive volume of the diode. If a electron-hole pair is created and seperated by the electric field. The hole drifts towards the multiplication region and can start an avalanche. The next layer is a $p^+$ layer which connects to a metal connector and high voltage. \cite{kemp}}
-	\label{fig:pin_diode}
-\end{figure}
-
-When a reverse bias voltage is applied to the \ac{apd}, the electric field between the $n^+$ and $p^+$ layers is strong enough that a created $eh$-pair creates more $eh$-pairs, resulting in an avalanche.
-For this avalanche process to be possible the reverse bias voltage must be at or above the breakdown voltage of the \ac{apd}.
-With such a bias voltage applied, the \ac{apd} operates in the Geiger mode and the avalanche is then self-sustaining.
-This results in a macroscopic signal and makes the detection of single photons possible.
-Therefore these diodes are also called \ac{spad}.
-To stop the avalanche, a quenching resistor is connected in series with the \ac{spad}.
+Similar to every photodiode, \ac{apd} utilize the photoelectric effect to generate an electric charge signal in response to a light signal.
+They consist out of doped silicon.
+An example is shown in \autoref{fig:pin_diode}.
+It has a strongly n-doped layer, followed by a strongly p-doped layer, an intrinsic, weakly p-doped, layer and another p-doped layer.
+By adding the intrinsic layer, the region in which the photons can be absorbed increases.
+If a photon gets absorbed, it generates an electron hole pair.
+When a reversed bias voltage is applied the electric field in the \ac{apd} seperates the $eh$-pair.
+In case the \ac{apd} is operated in the geiger mode, meaning the bias voltage is higher than the breakdown voltage of the \ac{apd}, the electric field at the strongly doped $p$- and $n$-layer is sufficently high, that a self-sustaining avalanch is triggered by either the electron or the hole moving through it.
+Than the \ac{apd} is called \ac{spad}.
+The macroscopic signal of a \ac{spad} makes it possible to detect single photons.
+In order to stop the avalanche, a quenching resistor is connected in series to the \ac{spad}.
 With an increasing current signal flowing through the quenching resistor, the voltage drop at this resistor increases, and thus the bias voltage at the \ac{spad} decreases.
 When the bias voltage drops under the breakdown voltage, the avalanche is no longer self-sustaining and stops.
 Thus the signal amplitude of a \ac{spad} is always similar, independent of how many photons arrive at the same moment.
+
+
+%Similar to every photodiode, \acp{apd} utilize the photoelectric effect, to generate an electric charge signal in response to a light signal.
+%This is made possible by using silicon as a base material and introducing impurities. 
+%This process is called doping and there are two different possibilities for doping. 
+%In the n-doping, the impurities are atoms with five valence electrons.
+%Four of these electrons are part of boundings with silicon atoms, and the fifth electron is only weakly bound.
+%When p-doping, atoms with only three valence electrons are inserted into the silicon.
+%This leads to missing charges in the silicon, called holes.
+%By having an n-doped and a p-doped region in the silicon, the excess electrons from the n-doped region combine with the holes from the p-doped region, resulting in a depleted region at the pn-junction.
+%If a photon hits the photodiode, it can create an electron-hole pair, or $eh$-pair.
+%The electron and the hole get split by the electric field and thus create a charge signal.
+%In order to increase the sensitivity of the photodiode, an intrinsic layer can be added in between the two doped regions, thus increasing the depletion layer and therefore the photosensitive area.
+%Such a photodiode is called a pin-diode.
+%An \ac{apd} with a weakly doped $\pi$ intrinsic layer and strongly doped $p^+$ and $n^+$ layers is shown in \autoref{fig:pin_diode}.
+%This intrinsic layer can either be not doped at all or weakly doped.
+%In the case of \acp{apd} the intrinsic layer is weakly doped. 
+%In order to amplify the signal, a strong doped region is inserted, thus creating a multiplication zone.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/pin_diode}
+	\caption[Illustration of a APD.]{Composition of a avalanche photo diode with the bias voltage $V_\text{B}$ applied in reverse direction. Between the contact to ground and the strongly doped $n^+$ layer is the quenching resistor $R_\text{q}$ connected in series. Next to the $n^+$ layer is a strongly doped $p^+$ layer. In the region of these two layers is the electric field, shown on the right figure, the strongest. There a electron or hole can initiate an avalanche. After the $p^+$ layer comes a intrinsic weakly doped $\pi$ layer. This layer increases the sensitive volume of the diode. If a electron-hole pair is created and seperated by the electric field. The hole drifts towards the multiplication region and can start an avalanche. The next layer is a $p^+$ layer which connects to a metal connector and high voltage. \cite{}}
+	\label{fig:pin_diode}
+\end{figure}
+
+%When a reverse bias voltage is applied to the \ac{apd}, the electric field between the $n^+$ and $p^+$ layers is strong enough that a created $eh$-pair creates more $eh$-pairs, resulting in an avalanche.
+%For this avalanche process to be possible the reverse bias voltage must be at or above the breakdown voltage of the \ac{apd}.
+%With such a bias voltage applied, the \ac{apd} operates in the Geiger mode and the avalanche is then self-sustaining.
+%This results in a macroscopic signal and makes the detection of single photons possible.
+%Therefore these diodes are also called \ac{spad}.
+%To stop the avalanche, a quenching resistor is connected in series with the \ac{spad}.
+%With an increasing current signal flowing through the quenching resistor, the voltage drop at this resistor increases, and thus the bias voltage at the \ac{spad} decreases.
+%When the bias voltage drops under the breakdown voltage, the avalanche is no longer self-sustaining and stops.
+%Thus the signal amplitude of a \ac{spad} is always similar, independent of how many photons arrive at the same moment.
+
 In \acp{sipm} hundreds to thousand \acp{spad} are connected in parallel, each with a high resistance quenching resistor in series. 
 Usually, the \ac{spad} pixels are placed in a rectangular form with an edge length of a few \si{\milli\meter}.
 \autoref{fig:sipm_closeup} shows a picture of a \ac{sipm} and one picture of a single pixel of a \ac{sipm}.
 Due to the property of the \acp{spad} that the output signal is always similar for each \ac{spad}, the output signal of a \ac{sipm} is the output signal of one \ac{spad} multiplicated with the number of triggered \acp{spad}.
 Therefore, if the number of photons arriving simultaneously at a \ac{sipm} is low enough, that the probability of one \ac{spad} being hit by two or more photons is low, one can count photons with a \ac{sipm}.
 This and the relatively low cost, high durability, and impassivity to magnetic fields make them a good option for photodetection for the \ac{sbt} and similar detectors.
-
-In the following different properties of \acp{sipm} are presented, beginning with the signal shape of a single \ac{spad} and of a \ac{sipm}.
-
-
-\paragraph{The signal shape} of a \acp{spad} starts with a fast exponential rise with the time constant 
-\begin{align}
-	\tau_\text{rise}&=R_\text{S}\cdot C_\text{d}
-\end{align}
-with the resistance $R_\text{rise}$ and capacitance $C_\text{d}$ of the \ac{spad} \cite{HAMA_mppc}.
-After the signal reached its maximum current at around 
-\begin{align}
-	I_\text{max}&\approx \frac{V_\text{ov}}{R_\text{q}}
-\end{align}
-the quenching and recharging of the \ac{spad} starts.
-Thus the current signal decreases again exponentially.
-The time constant for the signal decay
-\begin{align}
-	\tau_\text{decay} &= R_\text{q}\cdot C_\text{d}
-\end{align}
-depends on the capacitance $C_\text{d}$ of the \ac{spad} and the quenching resistor $R_\text{q}$ \cite{HAMA_mppc}.
-This signal develpment is shown in \autoref{fig:spad_signal_shape}.
-\begin{figure}
-	\centering
-	\includegraphics[width=0.75\textwidth]{pictures/spad_signal_shape}
-	\caption[SPAD signal shape]{Single photon avalanche diode signal shape. The exponential rise with the time constant $R_\text{S}\cdot C_\text{d}$ is followed by the exponential decay with the time constants $R_\text{q}\cdot C_\text{d}$. The maximum of the current signal is at approximately $V_\text{ov}/R_\text{q}$ \cite{HAMA_mppc}}
-	\label{fig:spad_signal_shape}
-\end{figure}
-
-When multiple \acp{spad} in a \ac{sipm} are triggered, the output signal will be the summation of the signals from all triggered \acp{spad}.
-Besides the number of triggered \acp{spad}, the time difference between the signals from the single \acp{spad} influences the signal.
-In the case, that all \acp{spad} are triggered at the same time, the \ac{sipm} signal will have the shape of a \ac{spad} signal scaled up by the factor of the number of triggered \acp{spad}.
-If the signals form the individual \acp{spad} have a small difference in time, the \ac{sipm} signal will become broader.
+But due to the sensitivity down to single photons, also $eh$-pairs created by thermal exitation will cause signals indistinguishable to signals caused by photons.
+Theses signals are called \ac{dc}.
 
 
 
+%In the following different properties of \acp{sipm} are presented, beginning with the signal shape of a single \ac{spad} and of a \ac{sipm}.
 
-\paragraph{The gain} $G$ of a \ac{sipm} describes the number of charge carriers released in each avalanche.
+
+%\paragraph{The signal shape} of a \acp{spad} starts with a fast exponential rise with the time constant 
+%\begin{align}
+%	\tau_\text{rise}&=R_\text{S}\cdot C_\text{d}
+%\end{align}
+%with the resistance $R_\text{rise}$ and capacitance $C_\text{d}$ of the \ac{spad} \cite{HAMA_mppc}.
+%After the signal reached its maximum current at around 
+%\begin{align}
+%	I_\text{max}&\approx \frac{V_\text{ov}}{R_\text{q}}
+%\end{align}
+%the quenching and recharging of the \ac{spad} starts.
+%Thus the current signal decreases again exponentially.
+%The time constant for the signal decay
+%\begin{align}
+%	\tau_\text{decay} &= R_\text{q}\cdot C_\text{d}
+%\end{align}
+%depends on the capacitance $C_\text{d}$ of the \ac{spad} and the quenching resistor $R_\text{q}$ \cite{HAMA_mppc}.
+%This signal develpment is shown in \autoref{fig:spad_signal_shape}.
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=0.75\textwidth]{pictures/spad_signal_shape}
+%	\caption[SPAD signal shape]{Single photon avalanche diode signal shape. The exponential rise with the time constant $R_\text{S}\cdot C_\text{d}$ is followed by the exponential decay with the time constants $R_\text{q}\cdot C_\text{d}$. The maximum of the current signal is at approximately $V_\text{ov}/R_\text{q}$ \cite{HAMA_mppc}}
+%	\label{fig:spad_signal_shape}
+%\end{figure}
+
+%When multiple \acp{spad} in a \ac{sipm} are triggered, the output signal will be the summation of the signals from all triggered \acp{spad}.
+%Besides the number of triggered \acp{spad}, the time difference between the signals from the single \acp{spad} influences the signal.
+%In the case, that all \acp{spad} are triggered at the same time, the \ac{sipm} signal will have the shape of a \ac{spad} signal scaled up by the factor of the number of triggered \acp{spad}.
+%If the signals form the individual \acp{spad} have a small difference in time, the \ac{sipm} signal will become broader.
+
+
+
+An important property of an \ac{sipm} is the gain $G$.
+It describes the number of charge carriers released in each avalanche.
 Due to the quenching, this parameter is well defined \cite{}.
 It can be calculated from the applied voltage $U_\text{bias}$, the breakdown voltage $U_\text{bd}$ and the capacitance $C_\text{d}$ of a \ac{spad} with
 \begin{align}
@@ -146,36 +182,32 @@ It can be calculated from the applied voltage $U_\text{bias}$, the breakdown vol
 \end{align}
 Here e represents the charge of one electron.
 Usually the gain is in the order of $10^5$ to $10^7$ \cite{nucl}.
-
-\paragraph{The noise} in \acp{sipm} can be sorted into two categories.
-The first is primary noise, it describes the triggering of avalanches by thermaly created $eh$-pairs and not by incident photons.
-Because the rate of theses thermaly caused events increases and decreases with the temperature, by controling the temperatur one can influence and decrease the rate of primary noise events.
-The second category is the correlated noise.
-It includes all events triggered by a primary event.
-This correlated noise does have two causes.
-One cause is the trapping and releasing of charge carriers from the avalanche. 
-When the time between the trapping and releasing is long enough, the avalanche of the primary event stoped and the released carrier can trigger another avalanche.
+Since the breakdown voltage of different \acp{sipm} of the same model can differ slightly, also the gain with the same bias voltage can differ.
 
 
+%\paragraph{The noise} in \acp{sipm} can be sorted into two categories.
+%The first is primary noise, it describes the triggering of avalanches by thermaly created $eh$-pairs and not by incident photons.
+%Because the rate of theses thermaly caused events increases and decreases with the temperature, by controling the temperatur one can influence and decrease the rate of primary noise events.
+%The second category is the correlated noise.
+%It includes all events triggered by a primary event.
+%This correlated noise does have two causes.
+%One cause is the trapping and releasing of charge carriers from the avalanche. 
+%When the time between the trapping and releasing is long enough, the avalanche of the primary event stoped and the released carrier can trigger another avalanche.
 
-\subsection{Photoelectron spectrum}
 
-
-After the theory and important properties of \acp{sipm} are now introduced, the next chapter will present the measurement setup and data acquisition used for this thesis.
-
-\section{The \ac{emusic} Board}
+\section{The eMUSIC board}
 Since the signals of the \acp{sipm} are very small, a single photolectron signal has an amplitude of around \SI{2.5}{\milli\volt}, they need to be amplified.
 For this purpous the \ac{emusic} \ac{asic} by Scientifica was chosen and a custom \ac{pcb} housing the \ac{emusic} \ac{asic}, from here on called \ac{emusic} board, was designed by the electrical engineers of the University of Freiburg.
 In the following first the \ac{asic} itself and afterwards the \ac{emusic} board will be presented.
 
-\paragraph{The \ac{emusic} \ac{asic}} was developed by Scientifica for the readout of \acp{sipm}.
+\paragraph{The eMUSIC ASIC} was developed by Scientifica for the readout of \acp{sipm}.
 It is mainly an amplifier and a shaper, but also offers other options like digital trigger signals if the signal crosses an adjustable threshold.
 The \ac{asic}\'s block diagram is shown in \autoref{fig:emusic_block_diagram}.
 \begin{figure}
 	\centering
-	\includegraphics[widht=0.7\textwidht]{pictures/emusic_block_diagram.png}
+	\includegraphics[width=1.\textwidth]{pictures/emusic_block_diagram.png}
+	\caption[eMUSIC block diagram]{The block diagram of the \ac{emusic} \ac{asic}. At the input is the current mode input stage, which can also set a offset voltage on the input to adjust the overvoltage channel by channel. The signal than gets shaped by the pole-zero cancellation shaper and amplified and can be read out for each cannel as single ended signal. the discriminator can set a threshold to create a digital signal which can be read out channel by channel instead of the analog output signal. A fast OR output can also be used to put out the a digitial OR of all eight discriminator outputs. With the summation outputs one can put out the sum of an arbitrary set of channels with two gains as differential signal. \cite{gomez}}
 	\label{fig:emusic_block_diagram}
-	\caption[eMUSIC block diagram]{The block diagram of the \ac{emusic} \ac{asic}. }
 \end{figure}
 It has eight input channels each equiped with a $\approx\SI{1}{\volt}$ anode voltage control to equalize the applied overvoltage between the different channels.
 Because the \acp{sipm} deliver a charge signal, each channel has a current mode input stage.
@@ -190,8 +222,8 @@ The signal after the shaper can be put out with an analoge output for each chann
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{pictures/emusic_pole_zero.png}
+	\caption[eMUSIC pole-zero cancellation]{Sketch of a pole-zero cancellation with adjustable resistors and capacitor, the input voltage $\text{V}_\text{i}$, the output voltage $\text{V}_\text{o}$ and the operation voltage $\text{V}_\text{cc}$. \cite{gomez}}
 	\label{fig:emusic_pole_zero}
-	\caption[eMUSIC pole-zero cancellation]{Sketch of a pole-zero cancellation with adjustable resistors and capacitor.}
 \end{figure}
 
 Each channel also posseses a discriminator with an adjustable threshold to create a channel by channel trigger signal.
@@ -210,10 +242,7 @@ Besides choosing the channels for summation, also each of the eight single edge 
 Another important option that can be configered is the adjustment of the output DC offset to maximize the rail-to-rail voltage swing.
 
 \paragraphe{The trigger threshold} for the digital outputs can be set with two parameters.
-The bandgap voltage $V_\text{bg}$ of the comparators, which can be adjsuted in eight steps, to one of the following values:
-\begin{align}
-	V_\text{bg}&=\SIlist{487.22;730.92;974.62;1218.3;1462.0;1705.7;1949.4;2436.8}{\milli\volt}
-\end{align}
+The bandgap voltage $V_\text{bg}$ of the comparators, which can be adjsuted in eight steps, to one of the values V_\text{bg}&=\SIlist{487.22;730.92;974.62;1218.3;1462.0;1705.7;1949.4;2436.8}{\milli\volt}.
 The second parameter sets the \ac{dac} value $N_\text{DAC}$ for the comparators.
 It can be set to \ac{dac} counts from 0 to 511.
 The finer threshold steps $V_\text{fine}$ can be calculated with
@@ -227,7 +256,7 @@ With $V_\text{bg}$ and  of $V_\text{fine}$ or $N_\text{DAC}$ the final threshold
 \end{align}
 can be calculated.
 
-\paragraph{The \ac{emusic} board} was designed at the University of Freiburg.
+\paragraph{The eMUSIC board} was designed at the University of Freiburg.
 A graphic of the board is shown in \autoref{fig:emusic_board}.
 It's heart is the \ac{emusic} \ac{asic} (U1).
 In order to program the \ac{asic} the ATmega328P-AU microchip (U4) is placed on the board.
@@ -249,6 +278,8 @@ Both the high and low gain differential summation outputs are connected to the p
 The board also provides the possibility via the P1 connector to power the six LEDs soldered onto the \ac{sipm} boards.
 But the usage of this is not advised, since this will introduce interferences into the signals.
 
+The amplified single ended output signals than can be digitized.
+For this task the GANDALF module was chosen, which is described in the next section.
 
 \begin{figure}
 	\centering
@@ -261,34 +292,34 @@ But the usage of this is not advised, since this will introduce interferences in
 
 
 
-\section{The Gandalf Framework}
+\section{The GANDALF Module}
 The amplified and shaped output signal of the \ac{emusic} \ac{asic} needs to be digitized.
-This step is done by Gandalf modules.
+This step is done by GANDALF modules.
 Originally developed at the University of Freiburg for the \ac{compass} experiment it has a modular design to fill different roles in the experiments \ac{daq}.
 Using mezzanin cards different signal, clock and trigger inputs can be chosen.
-In the following the Gandalf framework will be introduced.
+In the following the GANDALF framework will be introduced.
 The mezzanin cards not used in this work are therefore only mentioned but not presented in detail.
-A overview of a Gandalf module is shown in \autoref{fig:gandalf_overview}.
+A overview of a GANDALF module is shown in \autoref{fig:gandalf_overview}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.\linewidth]{pictures/gandalf_overview.png}
+	\caption[Overview of the GANDALF module]{Overview of the GANDALF module equiped with Analog Mezzanin Cards (AMCs) and the fiber Gimli mezzanin card for clock an trigger input. The analog waveforms are digitized by the AMCs and the digitized data is processed by the DSP FPGA. The MEM FPGA handles the memory of the processed data, which can be transfered to a computer via the USB inteface on the front of the VME or S-Link interfaces on the backplane. \cite{herrmann}}
 	\label{fig:gandalf_overview}
-	\caption{Overview of the Gandalf module equiped with Analog Mezzanin Cards (AMCs) and the fiber Gimli mezzanin card for clock an trigger input. The analog waveforms are digitized by the AMCs and the digitized data is processed by the DSP FPGA. The MEM FPGA handles the memory of the processed data, which can be transfered to a computer via the USB inteface on the front of the VME or S-Link interfaces on the backplane. \cite{herrmann}}
 \end{figure}
 
 \subsection{Input Mezzanin Cards}
-The Gandalf module has two mezzanin card slots for input signals.
+The GANDALF module has two mezzanin card slots for input signals.
 For these slots three different mezzanine cards were developed, \ac{amc}, \ac{dmc} and \ac{omc}.
 First the latter two mezzanine cards are shortly presented for completeness but are not relevant for the work done in this thesis.
 
 \paragraph{The \ac{dmc}} has 64 digital inputs. 
-A picture of it is shown in \autoref{fig:dmc}.
+%A picture of it is shown in \autoref{fig:dmc}.
 Using either the LVDS or the LVPECL signal standard, one can use the DSP-\ac{fpga} logic for tasks like trigger decisions, time-to-digital conversion or pattern generators, to name a few.
 By changing the direction of the input buffer on the \ac{dmc} \ac{pcb}, the 64 channels of the \ac{dmc} can be used as outputs intead of inputs.
 
 \paragraph{The \ac{omc}} has four \SI{3.25}{\giga\bit\per\second} transceivers to receive digital informations, which can be further processed by the DSP-\ac{fpga}.
 With this mezzanine card, the GANDALF can be used for example to merge data or as a concentrator.
-A picture of a \ac{omc} is shown in \autoref{fig:omc}.
+%A picture of a \ac{omc} is shown in \autoref{fig:omc}.
 
 \paragraph{The \ac{amc}} is designed to digitize analog input signals.
 For the digitization, eight \ac{adc} are used.
@@ -326,7 +357,7 @@ Via a second LEMO connector an external \ac{nim} trigger signal can be connected
 \begin{figure}
 	\centering
 	\includegraphics[width=.5\textwidth]{pictures/copper_gimli.png}
-	\caption[Copper GIMLI]{Picture of the copper GIMLI with an internal \SI{20}{\mega\hertz} clock generated by an on board oven controlled oscillator. With the LEMO connectors external clock and trigger \ac{nim} signals can be provided for the GANDALF.}
+	\caption[Copper GIMLI]{Picture of the copper GIMLI with an internal \SI{20}{\mega\hertz} clock generated by an on board oven controlled oscillator. With the LEMO connectors external clock and trigger \ac{nim} signals can be provided for the GANDALF. \cite{herrmann}}
 	\label{fig:copper_gimli}
 \end{figure}
 
@@ -337,12 +368,12 @@ In this work, the GANDALF was used to digitize the ouput signal of the \ac{emusi
 As mentioned in above in \autoref{sec:emusic} theses signals have a positive polarity.
 But because the GANDALF was designed for the digitization and processing of negative voltage pulses created by a \ac{pmt}, this caused some problems.
 Since after the inverting operational amplifiers in the GANDALF the \ac{sipm} signals have a negative polarity, the input voltage range needs to be chosen to be bipolar and around \SIrange{-1.1}{1.1}{\volt}.
-In order to get this input range the baseline at \SI{0}{\volt} would need to be set to \SI{2047}{\adcu}.
-For unknown reasons the programm which configeres the \acp{dac} to set the baseline to a \si{\adcu} value selectable by the user will set the baseline to a maximum of around \SI{1400}{\adcu}.
-With $\frac{2.2}{2^12}\,\si{\volt\per\adcu} = \SI{0.537}{\milli\volt\per\adcu}$ the range of the inverted signal is \SI{1400}{\adcu} which corresponds to approximately \SI{752}{\milli\volt}.
-Should this range be not enough, one needs to either try to find the source of the problem and fix it or decrease the amplification of the \ac{emusic} \ac{asic}.
-
-The next problem regards the self-trigger of the GANDALF.
+%In order to get this input range the baseline at \SI{0}{\volt} would need to be set to \SI{2047}{\adcu}.
+%For unknown reasons the programm which configeres the \acp{dac} to set the baseline to a \si{\adcu} value selectable by the user will set the baseline to a maximum of around \SI{1400}{\adcu}.
+%With $\frac{2.2}{2^12}\,\si{\volt\per\adcu} = \SI{0.537}{\milli\volt\per\adcu}$ the range of the inverted signal is \SI{1400}{\adcu} which corresponds to approximately \SI{752}{\milli\volt}.
+%Should this range be not enough, one needs to either try to find the source of the problem and fix it or decrease the amplification of the \ac{emusic} \ac{asic}.
+%The next problem regards the self-trigger of the GANDALF.
+Also the self-trigger of the GANDALF needed to be adjusted.
 It functions via samples-over-threshold, the user can set a threshold and a number of consecutive samples which need to be over the threshold for the GANDALF to trigger an event.
 Since after the inverting of the positive signals the signals have a negative polarity, the threshold needs to be set to a lower \si{\adcu} value than the baseline.
 In addition to that the sample-over-threshold condition in the GANDALF firmware needed to be inverted to trigger if a number of consecutive samples are below the threshold.

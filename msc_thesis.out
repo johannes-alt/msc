@@ -3,21 +3,12 @@
 \BOOKMARK [1][-]{section.2.1}{The Cell \046 Liquid Scintillator}{chapter.2}% 3
 \BOOKMARK [1][-]{section.2.2}{Wavelengthshifting Optical Module \046 Optical Coupling}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.3}{Silicon Photomultiplier}{chapter.2}% 5
-\BOOKMARK [2][-]{subsection.2.3.1}{Photoelectron spectrum}{section.2.3}% 6
-\BOOKMARK [1][-]{section.2.4}{The emusic Board}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.5}{The Gandalf Framework}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.5.1}{Input Mezzanin Cards}{section.2.5}% 9
-\BOOKMARK [2][-]{subsection.2.5.2}{GIMLI Mezzanine Cards}{section.2.5}% 10
-\BOOKMARK [2][-]{subsection.2.5.3}{Usage of the GANDALF with sipm}{section.2.5}% 11
-\BOOKMARK [0][-]{chapter.3}{Setup}{}% 12
-\BOOKMARK [0][-]{chapter.4}{Results of the daq tests}{}% 13
-\BOOKMARK [1][-]{section.4.1}{Input offset voltage}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.2}{Pole-zero cancellation}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.3}{High and low transimpedance and lower attenuation}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.4}{Dark count measurements}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 18
-\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 19
-\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 20
-\BOOKMARK [0][-]{appendix*.47}{List of Figures}{}% 21
-\BOOKMARK [0][-]{appendix*.48}{List of Tables}{}% 22
-\BOOKMARK [0][-]{appendix*.49}{Bibliography}{}% 23
+\BOOKMARK [1][-]{section.2.4}{The eMUSIC board}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{The GANDALF Module}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.5.1}{Input Mezzanin Cards}{section.2.5}% 8
+\BOOKMARK [2][-]{subsection.2.5.2}{GIMLI Mezzanine Cards}{section.2.5}% 9
+\BOOKMARK [2][-]{subsection.2.5.3}{Usage of the GANDALF with sipm}{section.2.5}% 10
+\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 11
+\BOOKMARK [0][-]{appendix*.43}{List of Figures}{}% 12
+\BOOKMARK [0][-]{appendix*.44}{List of Tables}{}% 13
+\BOOKMARK [0][-]{appendix*.45}{Bibliography}{}% 14
