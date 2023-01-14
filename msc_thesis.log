@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  14 JAN 2023 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  14 JAN 2023 03:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1289,37 +1289,37 @@ LaTeX Warning: Unused global option(s):
 (./chapter/one_cell_prototype.aux))
 \openout1 = `msc_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 74.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 75.
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
- 74.
+ 75.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 74.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 75.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 7
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 74
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -1360,7 +1360,7 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 74.
+Package layouts Warning: Layout scale set to 0.5 on input line 75.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -1376,7 +1376,7 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 75.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1389,69 +1389,69 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count398
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
 
 (./msc_thesis.out) (./msc_thesis.out)
 \@outlinefile=\write3
 \openout3 = `msc_thesis.out'.
 
-LaTeX Info: Redefining \Ref on input line 74.
+LaTeX Info: Redefining \Ref on input line 75.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 7
-4.
+5.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-4.
+5.
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-74.
+75.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-74.
+75.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 74.
+(Font)              <12> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 74.
+(Font)              <9> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 74.
+(Font)              <7> on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 75.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 75.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-74.
+75.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-74.
+75.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1509,7 +1509,7 @@ l.5 \end{abstract}
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 \mbox{}\newpage
+l.95 \mbox{}\newpage
                      [2
 \babel@aux{english}{}
 
@@ -1525,7 +1525,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100 \newpage
+l.101 \newpage
                [1
 
 ]
@@ -1578,9 +1578,6 @@ File: pictures/sbt_structure_wom.png Graphic file (type png)
 Package pdftex.def Info: pictures/sbt_structure_wom.png  used on input line 95.
 
 (pdftex.def)             Requested size: 179.25157pt x 84.50012pt.
-
-Underfull \vbox (badness 1142) has occurred while \output is active []
-
  [3 <./pictures/ship_sketch.png>]
 Package acronym Info: Label `acro:asic' newly defined as it shall be overridden
 
@@ -1594,15 +1591,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (./chapter/one_cell_prototype.tex
 Chapter 2.
-<pictures/one_cell.png, id=215, 499.8675pt x 696.6025pt>
+<pictures/one_cell.png, id=216, 499.8675pt x 696.6025pt>
 File: pictures/one_cell.png Graphic file (type png)
 <use pictures/one_cell.png>
-Package pdftex.def Info: pictures/one_cell.png  used on input line 30.
+Package pdftex.def Info: pictures/one_cell.png  used on input line 31.
 (pdftex.def)             Requested size: 170.71393pt x 237.90465pt.
-<pictures/pmma_vessel.jpg, id=216, 1147.8885pt x 824.8416pt>
+<pictures/pmma_vessel.jpg, id=217, 1147.8885pt x 824.8416pt>
 File: pictures/pmma_vessel.jpg Graphic file (type jpg)
 <use pictures/pmma_vessel.jpg>
-Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 36.
+Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 37.
 (pdftex.def)             Requested size: 230.46445pt x 165.5947pt.
 [6
 
@@ -1610,25 +1607,25 @@ Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 36.
 
 ]
 Package acronym Info: Label `acro:lab' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
- [7 <./pictures/one_cell.png> <./pictures/pmma_vessel.jpg>]
-<pictures/lab_emission.png, id=243, 1282.7925pt x 753.81625pt>
+although it is yet undefined on input line 45.
+<pictures/lab_emission.png, id=232, 1282.7925pt x 753.81625pt>
 File: pictures/lab_emission.png Graphic file (type png)
 <use pictures/lab_emission.png>
-Package pdftex.def Info: pictures/lab_emission.png  used on input line 57.
+Package pdftex.def Info: pictures/lab_emission.png  used on input line 59.
 (pdftex.def)             Requested size: 341.43436pt x 200.63452pt.
 Package acronym Info: Label `acro:ppo' newly defined as it shall be overridden
-although it is yet undefined on input line 58.
-<pictures/wom_principle.png, id=258, 941.5175pt x 665.48625pt>
+although it is yet undefined on input line 60.
+ [7 <./pictures/one_cell.png> <./pictures/pmma_vessel.jpg>]
+<pictures/wom_principle.png, id=257, 941.5175pt x 665.48625pt>
 File: pictures/wom_principle.png Graphic file (type png)
 <use pictures/wom_principle.png>
-Package pdftex.def Info: pictures/wom_principle.png  used on input line 78.
+Package pdftex.def Info: pictures/wom_principle.png  used on input line 80.
 (pdftex.def)             Requested size: 341.43436pt x 241.33159pt.
 
 ! Argument of \caption@ifstrut has an extra }.
 <inserted text> 
                 \par 
-l.79 ...can be detected by a photosensor. \cite[]}
+l.81 ...can be detected by a photosensor. \cite[]}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1641,7 +1638,7 @@ Runaway argument?
 ! Paragraph ended before \caption@ifstrut was complete.
 <to be read again> 
                    \par 
-l.79 ...can be detected by a photosensor. \cite[]}
+l.81 ...can be detected by a photosensor. \cite[]}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1650,19 +1647,19 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \@@par 
-l.79 ...can be detected by a photosensor. \cite[]}
+l.81 ...can be detected by a photosensor. \cite[]}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 
 LaTeX Warning: Citation `\@@par \parindent \caption@parindent \hangindent \capt
-ion@hangindent ' on page 8 undefined on input line 79.
+ion@hangindent ' on page 8 undefined on input line 81.
 
 ! Argument of \caption@ifstrut has an extra }.
 <inserted text> 
                 \par 
-l.79 ...can be detected by a photosensor. \cite[]}
+l.81 ...can be detected by a photosensor. \cite[]}
                                                   
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1675,7 +1672,7 @@ Runaway argument?
 ! Paragraph ended before \caption@ifstrut was complete.
 <to be read again> 
                    \par 
-l.79 ...can be detected by a photosensor. \cite[]}
+l.81 ...can be detected by a photosensor. \cite[]}
                                                   
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
@@ -1684,25 +1681,25 @@ My plan is to forget the whole thing and hope for the best.
 ! Missing \endcsname inserted.
 <to be read again> 
                    \@@par 
-l.79 ...can be detected by a photosensor. \cite[]}
+l.81 ...can be detected by a photosensor. \cite[]}
                                                   
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 
 LaTeX Warning: Citation `\@@par \parindent \caption@parindent \hangindent \capt
-ion@hangindent ' on page 8 undefined on input line 79.
+ion@hangindent ' on page 8 undefined on input line 81.
 
 [8 <./pictures/lab_emission.png>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
-1.
+3.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ! Undefined control sequence.
 <argument> \piko 
                  \second 
-l.94 ... of the order of tens of \si{\piko\second}
+l.96 ... of the order of tens of \si{\piko\second}
                                                    \cite{nucl}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1713,7 +1710,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \piko 
                  \second 
-l.94 ... of the order of tens of \si{\piko\second}
+l.96 ... of the order of tens of \si{\piko\second}
                                                    \cite{nucl}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1721,66 +1718,62 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./pictures/wom_principle.png>]
+[9 <./pictures/wom_principle.png>]
 Package acronym Info: Label `acro:spad' newly defined as it shall be overridden
 
-although it is yet undefined on input line 97.
+although it is yet undefined on input line 99.
 Package acronym Info: Label `acro:apd' newly defined as it shall be overridden
-although it is yet undefined on input line 97.
- [10]
-<pictures/pin_diode.png, id=315, 1510.64375pt x 708.6475pt>
+although it is yet undefined on input line 99.
+<pictures/pin_diode.png, id=301, 1510.64375pt x 708.6475pt>
 File: pictures/pin_diode.png Graphic file (type png)
 <use pictures/pin_diode.png>
-Package pdftex.def Info: pictures/pin_diode.png  used on input line 134.
+Package pdftex.def Info: pictures/pin_diode.png  used on input line 136.
 (pdftex.def)             Requested size: 426.79134pt x 200.2041pt.
 
 
-LaTeX Warning: Reference `fig:sipm_closeup' on page 11 undefined on input line 
-151.
+LaTeX Warning: Reference `fig:sipm_closeup' on page 10 undefined on input line 
+153.
 
 Package acronym Info: Label `acro:dc' newly defined as it shall be overridden
-although it is yet undefined on input line 156.
-[11 <./pictures/pin_diode.png>]
+although it is yet undefined on input line 158.
+[10] [11 <./pictures/pin_diode.png>]
 Package acronym Info: Label `acro:emusic' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 218.
+although it is yet undefined on input line 220.
 Package acronym Info: Label `acro:pcb' newly defined as it shall be overridden
-although it is yet undefined on input line 218.
+although it is yet undefined on input line 220.
 <pictures/emusic_block_diagram.png, id=356, 1199.48125pt x 780.9175pt>
 File: pictures/emusic_block_diagram.png Graphic file (type png)
 <use pictures/emusic_block_diagram.png>
 Package pdftex.def Info: pictures/emusic_block_diagram.png  used on input line 
-226.
+228.
 (pdftex.def)             Requested size: 426.79134pt x 277.85323pt.
 
 
-LaTeX Warning: Citation `gomez' on page 12 undefined on input line 227.
+LaTeX Warning: Citation `gomez' on page 12 undefined on input line 229.
 
 
-LaTeX Warning: Citation `gomez' on page 12 undefined on input line 227.
+LaTeX Warning: Citation `gomez' on page 12 undefined on input line 229.
 
 Package acronym Info: Label `acro:fwhm' newly defined as it shall be overridden
 
-although it is yet undefined on input line 234.
+although it is yet undefined on input line 236.
 <pictures/emusic_pole_zero.png, id=368, 1144.275pt x 584.1825pt>
 File: pictures/emusic_pole_zero.png Graphic file (type png)
 <use pictures/emusic_pole_zero.png>
-Package pdftex.def Info: pictures/emusic_pole_zero.png  used on input line 242.
+Package pdftex.def Info: pictures/emusic_pole_zero.png  used on input line 244.
 
 (pdftex.def)             Requested size: 213.39566pt x 108.9367pt.
 
-LaTeX Warning: Citation `gomez' on page 12 undefined on input line 243.
+LaTeX Warning: Citation `gomez' on page 12 undefined on input line 245.
 
 
-LaTeX Warning: Citation `gomez' on page 12 undefined on input line 243.
+LaTeX Warning: Citation `gomez' on page 12 undefined on input line 245.
 
 [12] [13 <./pictures/emusic_block_diagram.png>] [14 <./pictures/emusic_pole_zer
 o.png>]
 ! Undefined control sequence.
-l.262 \paragraphe
+l.264 \paragraphe
                  {The trigger threshold} for the digital outputs can be set ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1789,45 +1782,45 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package acronym Info: Label `acro:dac' newly defined as it shall be overridden
-although it is yet undefined on input line 264.
+although it is yet undefined on input line 266.
 [15]
 <pictures/emusic_board.jpg, id=430, 4047.12pt x 3035.34pt>
 File: pictures/emusic_board.jpg Graphic file (type jpg)
 <use pictures/emusic_board.jpg>
-Package pdftex.def Info: pictures/emusic_board.jpg  used on input line 304.
+Package pdftex.def Info: pictures/emusic_board.jpg  used on input line 306.
 (pdftex.def)             Requested size: 426.79134pt x 320.08641pt.
  [16] [17 <./pictures/emusic_board.JPG>]
 Package acronym Info: Label `acro:compass' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 316.
+although it is yet undefined on input line 318.
 Package acronym Info: Label `acro:daq' newly defined as it shall be overridden
-although it is yet undefined on input line 316.
+although it is yet undefined on input line 318.
 <pictures/gandalf_overview.png, id=452, 777.90625pt x 764.8575pt>
 File: pictures/gandalf_overview.png Graphic file (type png)
 <use pictures/gandalf_overview.png>
-Package pdftex.def Info: pictures/gandalf_overview.png  used on input line 323.
+Package pdftex.def Info: pictures/gandalf_overview.png  used on input line 325.
 
 (pdftex.def)             Requested size: 341.43436pt x 335.7097pt.
 
 
-LaTeX Warning: Citation `herrmann' on page 18 undefined on input line 324.
+LaTeX Warning: Citation `herrmann' on page 18 undefined on input line 326.
 
 
-LaTeX Warning: Citation `herrmann' on page 18 undefined on input line 324.
+LaTeX Warning: Citation `herrmann' on page 18 undefined on input line 326.
 
 Package acronym Info: Label `acro:amc' newly defined as it shall be overridden
-although it is yet undefined on input line 330.
+although it is yet undefined on input line 332.
 Package acronym Info: Label `acro:dmc' newly defined as it shall be overridden
-although it is yet undefined on input line 330.
+although it is yet undefined on input line 332.
 Package acronym Info: Label `acro:omc' newly defined as it shall be overridden
-although it is yet undefined on input line 330.
+although it is yet undefined on input line 332.
 Package acronym Info: Label `acro:fpga' newly defined as it shall be overridden
 
-although it is yet undefined on input line 335.
+although it is yet undefined on input line 337.
 ! Undefined control sequence.
 <argument> \giga \bit 
                       \per \second 
-l.338 ... has four \SI{3.25}{\giga\bit\per\second}
+l.340 ... has four \SI{3.25}{\giga\bit\per\second}
                                                    transceivers to receive d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1838,7 +1831,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \giga \bit 
                       \per \second 
-l.338 ... has four \SI{3.25}{\giga\bit\per\second}
+l.340 ... has four \SI{3.25}{\giga\bit\per\second}
                                                    transceivers to receive d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1847,11 +1840,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package acronym Info: Label `acro:adc' newly defined as it shall be overridden
-although it is yet undefined on input line 343.
+although it is yet undefined on input line 345.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.345 ...s the \textit{ADS5463} with \SI{12}{\bit}
+l.347 ... the \textit{ADS5463}, with \SI{12}{\bit}
                                                    and up to \SI{500}{\mega\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1862,7 +1855,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.345 ...s the \textit{ADS5463} with \SI{12}{\bit}
+l.347 ... the \textit{ADS5463}, with \SI{12}{\bit}
                                                    and up to \SI{500}{\mega\...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1873,7 +1866,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.345 ...\mega\sample\per\second} at \SI{14}{\bit}
+l.347 ...\mega\sample\per\second} at \SI{14}{\bit}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1884,7 +1877,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.345 ...\mega\sample\per\second} at \SI{14}{\bit}
+l.347 ...\mega\sample\per\second} at \SI{14}{\bit}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1894,12 +1887,12 @@ and I'll forget about whatever was undefined.
 
 Package acronym Info: Label `acro:enob' newly defined as it shall be overridden
 
-although it is yet undefined on input line 346.
+although it is yet undefined on input line 348.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.346 ...ob} of both \acp{adc} are \SI{10.4}{\bit}
-                                                   and \SI{11.2}{\bit} respe...
+l.348 ...ob} of both \acp{adc} are \SI{10.4}{\bit}
+                                                   and \SI{11.2}{\bit}, resp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1909,8 +1902,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.346 ...ob} of both \acp{adc} are \SI{10.4}{\bit}
-                                                   and \SI{11.2}{\bit} respe...
+l.348 ...ob} of both \acp{adc} are \SI{10.4}{\bit}
+                                                   and \SI{11.2}{\bit}, resp...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1920,8 +1913,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.346 ...} are \SI{10.4}{\bit} and \SI{11.2}{\bit}
-                                                   respectively.
+l.348 ...} are \SI{10.4}{\bit} and \SI{11.2}{\bit}
+                                                  , respectively.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1931,8 +1924,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.346 ...} are \SI{10.4}{\bit} and \SI{11.2}{\bit}
-                                                   respectively.
+l.348 ...} are \SI{10.4}{\bit} and \SI{11.2}{\bit}
+                                                  , respectively.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1942,7 +1935,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \vpp 
                 
-l.353 ...t range of the \ac{amc} is \SI{4.4}{\vpp}
+l.355 ...t range of the \ac{amc} is \SI{4.4}{\vpp}
                                                    and can be shifted from t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1953,7 +1946,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \vpp 
                 
-l.353 ...t range of the \ac{amc} is \SI{4.4}{\vpp}
+l.355 ...t range of the \ac{amc} is \SI{4.4}{\vpp}
                                                    and can be shifted from t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1964,7 +1957,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.354 ...ne by a \textit{AD5665R}, a \SI{16}{\bit}
+l.356 ...e by an \textit{AD5665R}, a \SI{16}{\bit}
                                                    \ac{dac}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1975,7 +1968,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.354 ...ne by a \textit{AD5665R}, a \SI{16}{\bit}
+l.356 ...e by an \textit{AD5665R}, a \SI{16}{\bit}
                                                    \ac{dac}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1984,11 +1977,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Package acronym Info: Label `acro:pmt' newly defined as it shall be overridden
-although it is yet undefined on input line 355.
+although it is yet undefined on input line 357.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.358 ...mc} used in this thesis are \SI{12}{\bit}
+l.360 ...mc} used in this thesis are \SI{12}{\bit}
                                                    \acp{amc} in the \textit{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1999,7 +1992,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \bit 
                 
-l.358 ...mc} used in this thesis are \SI{12}{\bit}
+l.360 ...mc} used in this thesis are \SI{12}{\bit}
                                                    \acp{amc} in the \textit{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2010,7 +2003,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \vpp 
                 
-l.358 ...de} and a dynamic range of \SI{2.2}{\vpp}
+l.360 ...de} and a dynamic range of \SI{2.2}{\vpp}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2021,7 +2014,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \vpp 
                 
-l.358 ...de} and a dynamic range of \SI{2.2}{\vpp}
+l.360 ...de} and a dynamic range of \SI{2.2}{\vpp}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2031,70 +2024,26 @@ and I'll forget about whatever was undefined.
 
 [18] [19 <./pictures/gandalf_overview.png>]
 Package acronym Info: Label `acro:nim' newly defined as it shall be overridden
-although it is yet undefined on input line 372.
+although it is yet undefined on input line 374.
  [20]
 <pictures/copper_gimli.png, id=524, 865.2325pt x 412.54124pt>
 File: pictures/copper_gimli.png Graphic file (type png)
 <use pictures/copper_gimli.png>
-Package pdftex.def Info: pictures/copper_gimli.png  used on input line 377.
+Package pdftex.def Info: pictures/copper_gimli.png  used on input line 379.
 (pdftex.def)             Requested size: 213.39566pt x 101.74388pt.
 
 
-LaTeX Warning: Citation `herrmann' on page 21 undefined on input line 378.
+LaTeX Warning: Citation `herrmann' on page 21 undefined on input line 380.
 
 
-LaTeX Warning: Citation `herrmann' on page 21 undefined on input line 378.
+LaTeX Warning: Citation `herrmann' on page 21 undefined on input line 380.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@acp' on input line 384.
+(hyperref)                removing `\@acp' on input line 386.
 
 
-LaTeX Warning: Reference `sec:emusic' on page 21 undefined on input line 386.
-
-! Undefined control sequence.
-<argument> \mega \byte 
-                       \per \second 
-l.399 ...data rate, \SI{20}{\mega\byte\per\second}
-                                                   in case of the USB intefa...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \mega \byte 
-                       \per \second 
-l.399 ...data rate, \SI{20}{\mega\byte\per\second}
-                                                   in case of the USB intefa...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \mega \byte 
-                       \per \second 
-l.401 ...e possible \SI{20}{\mega\byte\per\second}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \mega \byte 
-                       \per \second 
-l.401 ...e possible \SI{20}{\mega\byte\per\second}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+LaTeX Warning: Reference `sec:emusic' on page 21 undefined on input line 388.
 
 ) [21 <./pictures/copper_gimli.png>] [22]
 Appendix A.
@@ -2115,60 +2064,54 @@ Appendix A.
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-54.
+55.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 \T1/lmtt/m/n/12 hamamatsu-[]photonics / sites / documents / 99 _ SALES _ LIBRAR
 Y / ssd / mppc _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 []\T1/lmr/m/n/12 Hamamatsu S14160-3050HS Datasheet, []$\T1/lmtt/m/n/12 https : 
 / / www . hamamatsu . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--162
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 \T1/lmtt/m/n/12 content / dam / hamamatsu-[]photonics / sites / documents / 99 
 _ SALES _ LIBRARY /
  []
 
-
-Underfull \hbox (badness 4266) in paragraph at lines 163--164
-\T1/lmtt/m/n/12 download-[]center / citiroc-[]1a / 16-[]citiroc1a-[]datasheet-[
-]v2-[]5 / file$[]\T1/lmr/m/n/12 , date:
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
 [27
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
  (./msc_thesis.aux (./chapter/cover.aux) (./chapter/abstract.aux)
 (./chapter/zusammenfassung.aux) (./chapter/introduction.aux)
 (./chapter/one_cell_prototype.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `msc_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9CD55F9EB17651BF1AAFD8E89E6E20DC;917.
+(rerunfilecheck)             Checksum: 0FBB22FFD7BD54CDFA55FE0D470C386A;918.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 170.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 22933 strings out of 481239
- 411290 string characters out of 5920378
- 752156 words of memory out of 5000000
+ 22931 strings out of 481239
+ 411289 string characters out of 5920378
+ 753124 words of memory out of 5000000
  37510 multiletter control sequences out of 15000+600000
  627878 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,82p,1127b,1139s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,13n,82p,1142b,1143s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -2180,10 +2123,10 @@ sr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on msc_thesis.pdf (33 pages, 6692895 bytes).
+Output written on msc_thesis.pdf (33 pages, 6691363 bytes).
 PDF statistics:
- 674 PDF objects out of 1000 (max. 8388607)
- 580 compressed objects within 6 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 670 PDF objects out of 1000 (max. 8388607)
+ 576 compressed objects within 6 object streams
+ 128 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
