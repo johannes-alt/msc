@@ -17,7 +17,69 @@ For each setting the eight voltages were measured again.
 
 The measurement for 
 
+
+
+
 \section{Pole-zero cancellation}
+
+In this section pole-zero cancellation shaper and its effect with different settings tested.
+The tests were done using the setup described in \autoref{sec:setup}.
+For the amplification the \ac{emusic} board 2 was chosen and the digitization was done by a GANDALF module.
+The \ac{emusic} settings of one of these measurements are shown in \autoref{} in the appendix.
+For the other measurements, the only thing changing in the settings are the pole-zero settings.
+Each measurement includes XXXXX events, for which the mean value is shown in the plots below.
+The values for the amplitude and \ac{fwhm} were calculated for each individual waveform and theire mean values are presented here for the different measurements.
+
+First the pole-zero cancellation was disabled to perform measurements for a reference amplitude and \ac{fwhm}.
+In \autoref{fig:pz_no_pz} the mean of all waveforms, measured in channel 0, is shown.
+The mean amplitude is 
+\begin{align}
+    V_{amp} &= \SI{1(1)}{\milli\volt}
+\end{align}
+and the \ac{fwhm} is
+\begin{align}
+    t_\text{FWHM} &= \SI{1(1)}{\nano\second}.
+\end{align}
+
+Next the measurement with enabled pole-zero cancellation and with fixed settings for its capacitor and variing resistor values.
+The resistor settings were changed to all possible values, from 0 to 7, and the capacitor setting was kept at 31.
+\autoref{fig:pz_resistor} presents the mean waveforms for the eight measurements.
+The determined amplitudes and \ac{fwhm} and the coresponding decrease in respect to the values without pole-zero cancellation are listed in \autoref{tab:pz_resistor}.
+Of all measurements the one with the resistor setting 0 had the highest mean amplitude with 
+\begin{align}
+    V_\text{amp,R=0} &= \SI{1(1)}{\milli\volt}
+\end{align}
+which correspondes to a amplitude attenuation of \SI{1(1)}{\percent}.
+With these settings a \ac{fwhm} of
+\begin{align}
+    t_\text{FWHM,R=0} &= \SI{1(1)}{\nano\second}
+\end{align}
+was measured, which is \SI{1(1)}{\percent} of the \ac{fwhm} measured without pole-zero cancellation.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/pz_resistor.png}
+	\caption[Mean waveform for different pz-cancellation resistor values.]{Mean waveform for different pz-cancellation resistor values.}
+	\label{fig:pz_resistor}
+\end{figure}
+
+The measurements with different capacitor settings were performed with the resistor setting of 0.
+For the different measurements, the capacitor settings were changed to all 32 possible values, from 0 to 31.
+In \autoref{tab:pz_capacitor} the mean values for the maximum amplitude and the \ac{fwhm} as well as the decrease compared to the values with disabled pole-zero cancellation are listed.
+The mean waveforms for the measurements with the capacitor settings 0, 5, 10, 15, 20, 25, and 31 are shown in \autoref{fig:pz_capacitor}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/pz_capacitor.png}
+	\caption[Mean waveform for different pz-cancellation capacitor values.]{Mean waveform for different pz-cancellation capacitor values.}
+	\label{fig:pz_capacitor}
+\end{figure}
+
+
+
+
+
 \section{High and low transimpedance and lower attenuation}
+
+
+
 \section{Dark count measurements}
 
