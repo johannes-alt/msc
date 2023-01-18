@@ -9,22 +9,23 @@
 \contentsline {section}{\numberline {2.4}The eMUSIC board}{13}{section.2.4}%
 \contentsline {paragraph}{The eMUSIC ASIC}{13}{section*.25}%
 \contentsline {paragraph}{The eMUSIC board}{16}{section*.30}%
-\contentsline {section}{\numberline {2.5}The GANDALF Module}{19}{section.2.5}%
+\contentsline {section}{\numberline {2.5}The {gandalf} Module}{19}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Input Mezzanine Cards}{19}{subsection.2.5.1}%
 \contentsline {paragraph}{The \ac {dmc}}{19}{section*.37}%
 \contentsline {paragraph}{The \ac {omc}}{19}{section*.39}%
 \contentsline {paragraph}{The \ac {amc}}{19}{section*.40}%
 \contentsline {subsection}{\numberline {2.5.2}GIMLI Mezzanine Cards}{21}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Usage of the GANDALF with \acp {sipm}}{22}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.3}Usage of the {gandalf} with \acp {sipm}}{22}{subsection.2.5.3}%
 \contentsline {chapter}{\numberline {3}Setup}{24}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Results of the \ac {daq} tests}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Input offset voltage}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Pole-zero cancellation}{26}{section.4.2}%
-\contentsline {section}{\numberline {4.3}High and low transimpedance and lower attenuation}{30}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Dark count measurements}{30}{section.4.4}%
+\contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Input Offset Voltage}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{26}{section.4.3}%
+\contentsline {section}{\numberline {4.4}High and Low Transimpedance and Lower Attenuation}{30}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Dark Count Measurements}{30}{section.4.5}%
 \contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{31}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Summary and Outlook}{32}{chapter.6}%
 \contentsline {chapter}{\numberline {A}List of acronyms}{33}{appendix.A}%
-\contentsline {chapter}{List of Figures}{35}{appendix*.49}%
-\contentsline {chapter}{List of Tables}{36}{appendix*.50}%
-\contentsline {chapter}{Bibliography}{37}{appendix*.51}%
+\contentsline {chapter}{List of Figures}{35}{appendix*.50}%
+\contentsline {chapter}{List of Tables}{36}{appendix*.51}%
+\contentsline {chapter}{Bibliography}{37}{appendix*.52}%

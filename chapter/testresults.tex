@@ -1,8 +1,31 @@
 \chapter{Results of the \ac{daq} tests}
 
 
-\section{Input offset voltage}
-The first measurement is to find out the input offset voltage of the \ac{emusic} for different \ac{dac} values.
+\section{GANDALF Clock Frequency and ADC Test}
+Before using the \ac{gandalf} modules in the \ac{daq}, they need to be tested.
+For this to things are relevant.
+One of these is the sample frequency, if it correspondes to the theoretical sample frequency.
+The other is the test of the \acp{adc} to see if they have dead bits or other malfunctions.
+To perform this test a \SI{150}{\mega\hertz} sin voltage signal was generated with an AWG and a \SI{150}{\mega\hertz} filter by XXXXXXX was used.
+This filter ensures that the sin signal is clean and no unwanted frequencies are present.
+The clean sin signal was than connected to the inputs of the \acp{gandalf}, one after another.
+For each input \num{1000}1000 measurements were done each with XXXXX samples.
+For each channel a \ac{fft} was done for one waveform using the python3 functions \textit{scipy.fft.rfft} and \textit{scipy.fft.rfftfreq} to find the frequencies in the signal.
+\autoref{fig:gandalf_input_g23_ch0} shows the plot with the \ac{fft} for channel 0 of the \ac{amc} 46 used with the \ac{gandalf} 24.
+In the plot the red line marks the \SI{150}{\mega\hertz} of the sin signal and the green line marks the peak frequency of the measured signal.
+The measured values and the corresponding uncertainties are listed in \autoref{tab:gandalf_sin_150}.
+
+
+
+
+To test if the bits in the \acp{adc} are working, the amplitudes of all samples of every waveforms in a measurement were put into histogram.
+
+
+
+
+
+\section{Input Offset Voltage}
+The first measurement with the \ac{emusic} board is to find out the input offset voltage of the \ac{emusic} for different \ac{dac} values.
 This needs to be done to find out the exact overvoltage of the \acp{sipm}.
 In order to perform this measurement, the setup in \autoref{fig:input_offset_setup} was assembled.
 The \ac{emusic} board was powered by the \SI{8}{\volt} power supply and the XXXXXXXX power supply was used to supply the high voltage.
@@ -12,7 +35,7 @@ For this measurement the \ac{emusic}s input \ac{dac} settings, which can range f
 Then the voltages between the negative high voltage pole and the voltage on the cathode of the \acp{sipm} were measured.
 This measurement was done for one \ac{sipm} of each \ac{sipm} group.
 The chosen \ac{sipm} were 1, 6, 11, 16, 21, 26, 31 and 36.
-After measureing the voltages, the \ac{dac} setting was increased in steps of 50 \ac{dac}u.
+After measureing the voltages, the \ac{dac} setting was increased in steps of \SI{50}{\dacu} until \SI{500}{\dacu}.
 For each setting the eight voltages were measured again.
 
 The measurement for 
@@ -20,7 +43,7 @@ The measurement for
 
 
 
-\section{Pole-zero cancellation}
+\section{Pole-Zero Cancellation}
 
 In this section pole-zero cancellation shaper and its effect with different settings tested.
 The tests were done using the setup described in \autoref{sec:setup}.
@@ -77,9 +100,9 @@ The mean waveforms for the measurements with the capacitor settings 0, 5, 10, 15
 
 
 
-\section{High and low transimpedance and lower attenuation}
+\section{High and Low Transimpedance and Lower Attenuation}
 
 
 
-\section{Dark count measurements}
+\section{Dark Count Measurements}
 

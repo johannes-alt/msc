@@ -299,7 +299,7 @@ The board also provides the possibility via the P1 connector to power the six LE
 However, the usage of this is not advised since this will introduce interferences into the signals.
 
 The amplified single-ended output signals then can be digitized.
-For this task, the GANDALF module was chosen, which is described in the next section.
+For this task, the \acro{gandalf} module was chosen, which is described in the next section.
 
 \begin{figure}
 	\centering
@@ -312,23 +312,23 @@ For this task, the GANDALF module was chosen, which is described in the next sec
 
 
 
-\section{The GANDALF Module}
+\section{The \acro{gandalf} Module}
 The amplified and shaped output signal of the \ac{emusic} \ac{asic} needs to be digitized.
-This step is done by GANDALF modules.
+This step is done by \acro{gandalf} modules.
 Originally developed at the University of Freiburg for the \ac{compass} experiment, it has a modular design to fill different roles in the experiments \ac{daq}.
 Using mezzanine cards, different signal, clock, and trigger inputs can be chosen.
-In the following, the GANDALF module will be introduced.
+In the following, the \acro{gandalf} module will be introduced.
 The mezzanine cards not used in this work are therefore only mentioned but not presented in detail.
-An overview of a GANDALF module is shown in \autoref{fig:gandalf_overview}.
+An overview of a \acro{gandalf} module is shown in \autoref{fig:gandalf_overview}.
 \begin{figure}
 	\centering
 	\includegraphics[width=.8\textwidth]{pictures/gandalf_overview.png}
-	\caption[Overview of the GANDALF module]{Overview of the GANDALF module equipped with Analog Mezzanine Cards (AMCs) and the fiber Gimli mezzanine card for clock and trigger input. The analog waveforms are digitized by the AMCs, and the digitized data is processed by the DSP FPGA. The MEM FPGA handles the memory of the processed data, which can be transferred to a computer via the USB interface on the front of the VME or S-Link interfaces on the backplane. \cite{herrmann}}
+	\caption[Overview of the GANDALF module]{Overview of the \acro{gandalf} module equipped with Analog Mezzanine Cards (AMCs) and the fiber Gimli mezzanine card for clock and trigger input. The analog waveforms are digitized by the AMCs, and the digitized data is processed by the DSP FPGA. The MEM FPGA handles the memory of the processed data, which can be transferred to a computer via the USB interface on the front of the VME or S-Link interfaces on the backplane. \cite{herrmann}}
 	\label{fig:gandalf_overview}
 \end{figure}
 
 \subsection{Input Mezzanine Cards}
-The GANDALF module has two mezzanine card slots for input signals.
+The \acro{gandalf} module has two mezzanine card slots for input signals.
 For these slots, three different mezzanine cards were developed, \ac{amc}, \ac{dmc}, and \ac{omc}.
 First, the last two mezzanine cards are shortly presented for completeness but are not relevant to the work done in this thesis.
 
@@ -338,7 +338,7 @@ Using either the LVDS or the LVPECL signal standard, one can use the DSP-\ac{fpg
 By changing the direction of the input buffer on the \ac{dmc} \ac{pcb}, the 64 channels of the \ac{dmc} can be used as outputs instead of inputs.
 
 \paragraph{The \ac{omc}} has four \SI{3.25}{\giga\bit\per\second} transceivers to receive digital information, which can be further processed by the DSP-\ac{fpga}.
-With this mezzanine card, the GANDALF can be used, for example, to merge data or as a concentrator.
+With this mezzanine card, the \acro{gandalf} can be used, for example, to merge data or as a concentrator.
 %A picture of a \ac{omc} is shown in \autoref{fig:omc}.
 
 \paragraph{The \ac{amc}} is designed to digitize analog input signals.
@@ -354,7 +354,7 @@ The clock signals which provide the sample tact for the two \acp{adc} of one cha
 By this, the sampling frequency is doubled to up to \SI{1}{\giga\sample\per\second} or \SI{800}{\mega\sample\per\second}, but the number of channels per \ac{amc} is reduced from eight to four.
 The dynamic input range of the \ac{amc} is \SI{4.4}{\vpp} and can be shifted from the negative unipolar range \SIrange{-4.4}{0}{\volt} up to the bipolar range \SIrange{-2.2}{2.2}{\volt}.
 This shifting is done by an \textit{AD5665R}, a \SI{16}{\bit} \ac{dac}.
-The dynamic range was chosen because in the COMPASS experiment, for which the GANDALF was developed, negative voltage pulses created by \acp{pmt} needed to be digitized.
+The dynamic range was chosen because in the COMPASS experiment, for which the \acro{gandalf} was developed, negative voltage pulses created by \acp{pmt} needed to be digitized.
 However, because the used \acp{adc} expect positive differential signals, inverting operational amplifiers are used to change the polarity of the signal.
 By changing the gain of the amplifiers, one can decrease the input range and therefore increase the amplitude resolution.
 The \acp{amc} used in this thesis are \SI{12}{\bit} \acp{amc} in the \textit{interleaved mode} and a dynamic range of \SI{2.2}{\vpp}.
@@ -368,37 +368,37 @@ The fiber GIMLI has one fiber input to receive the clock and trigger via optical
 And the copper GIMLI, which was used for this work and is presented in the following.
 
 The copper GIMLI, shown in \autoref{fig:copper_gimli}, provides the option to use an external or an internal clock.
-If only one GANDALF module is used, the internal \SI{20}{\mega\hertz} clock of the copper GIMLI can be used.
+If only one \acro{gandalf} module is used, the internal \SI{20}{\mega\hertz} clock of the copper GIMLI can be used.
 It is provided by an onboard oven-controlled oscillator (OCXO) with a jitter of less than \SI{2.3}{\pico\second}.
-In case two or more GANDALFs are used, an external clock is required to ensure a synchronized clock on all GANDALF modules.
+In case two or more \acro{gandalf}s are used, an external clock is required to ensure a synchronized clock on all \acro{gandalf} modules.
 For this case, the copper GIMLI has a LEMO connector as input for an external clock with \ac{nim} signal standard.
-Via a second LEMO connector, an external \ac{nim} trigger signal can be connected to the GANDALF module.
+Via a second LEMO connector, an external \ac{nim} trigger signal can be connected to the \acro{gandalf} module.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=.5\textwidth]{pictures/copper_gimli.png}
-	\caption[Copper GIMLI]{Picture of the copper GIMLI with an internal \SI{20}{\mega\hertz} clock generated by an onboard oven-controlled oscillator. With the LEMO connectors external clock and trigger \ac{nim} signals can be provided for the GANDALF. \cite{herrmann}}
+	\caption[Copper GIMLI]{Picture of the copper GIMLI with an internal \SI{20}{\mega\hertz} clock generated by an onboard oven-controlled oscillator. With the LEMO connectors external clock and trigger \ac{nim} signals can be provided for the \acro{gandalf}. \cite{herrmann}}
 	\label{fig:copper_gimli}
 \end{figure}
 
 
 
-\subsection{Usage of the GANDALF with \acp{sipm}}
-In this work, the GANDALF was used for digitizing the output signal of the \ac{emusic} \ac{asic}.
+\subsection{Usage of the \acro{gandalf} with \acp{sipm}}
+In this work, the \acro{gandalf} was used for digitizing the output signal of the \ac{emusic} \ac{asic}.
 As mentioned above in \autoref{sec:emusic}, these signals have a positive polarity.
-But because the GANDALF was designed for the digitization and processing of negative voltage pulses created by a \ac{pmt}, this caused some problems.
-Since after the inverting operational amplifiers in the GANDALF, the \ac{sipm} signals have a negative polarity, the input voltage range needs to be chosen to be bipolar and around \SIrange{-1.1}{1.1}{\volt}.
+But because the \acro{gandalf} was designed for the digitization and processing of negative voltage pulses created by a \ac{pmt}, this caused some problems.
+Since after the inverting operational amplifiers in the \acro{gandalf}, the \ac{sipm} signals have a negative polarity, the input voltage range needs to be chosen to be bipolar and around \SIrange{-1.1}{1.1}{\volt}.
 %In order to get this input range the baseline at \SI{0}{\volt} would need to be set to \SI{2047}{\adcu}.
 %For unknown reasons the programm which configeres the \acp{dac} to set the baseline to a \si{\adcu} value selectable by the user will set the baseline to a maximum of around \SI{1400}{\adcu}.
 %With $\frac{2.2}{2^12}\,\si{\volt\per\adcu} = \SI{0.537}{\milli\volt\per\adcu}$ the range of the inverted signal is \SI{1400}{\adcu} which corresponds to approximately \SI{752}{\milli\volt}.
 %Should this range be not enough, one needs to either try to find the source of the problem and fix it or decrease the amplification of the \ac{emusic} \ac{asic}.
-%The next problem regards the self-trigger of the GANDALF.
-Also, the self-trigger of the GANDALF needed to be adjusted.
+%The next problem regards the self-trigger of the \acro{gandalf}.
+Also, the self-trigger of the \acro{gandalf} needed to be adjusted.
 It functions via samples over threshold.
-The user can set a threshold and a number of consecutive samples which need to be over the threshold for the GANDALF to trigger an event.
+The user can set a threshold and a number of consecutive samples which need to be over the threshold for the \acro{gandalf} to trigger an event.
 Since after the inverting of the positive signals, the signals have a negative polarity, and the threshold needs to be set to a lower ADC value than the baseline.
-In addition to that, the sample over threshold condition in the GANDALF firmware needed to be inverted to trigger if a number of consecutive samples were below the threshold.
+In addition to that, the sample over threshold condition in the \acro{gandalf} firmware needed to be inverted to trigger if a number of consecutive samples were below the threshold.
 The new firmware with the inverted trigger condition was tested and worked as intended, with the exception of one bug.
-If the data rate from the GANDALF to the \ac{daq} computer exceeds the maximum possible data rate, \SI{20}{\mega\byte\per\second} in the case of the USB interface, incomplete events will be written down to disk.
-This is most likely caused by a missing VHDL file that was not included in the new firmware and which would, in case the buffer of the GANDALF is completely filled, prevent the GANDALF from sending incomplete events to the computer.
+If the data rate from the \acro{gandalf} to the \ac{daq} computer exceeds the maximum possible data rate, \SI{20}{\mega\byte\per\second} in the case of the USB interface, incomplete events will be written down to disk.
+This is most likely caused by a missing VHDL file that was not included in the new firmware and which would, in case the buffer of the \acro{gandalf} is completely filled, prevent the \acro{gandalf} from sending incomplete events to the computer.
 For the intended use of this bug should not be a problem since the data rate is expected to be way below the possible \SI{20}{\mega\byte\per\second}.

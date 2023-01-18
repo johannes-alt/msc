@@ -4,19 +4,20 @@
 \BOOKMARK [1][-]{section.2.2}{Wavelengthshifting Optical Module \046 Optical Coupling}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.3}{Silicon Photomultiplier}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.4}{The eMUSIC board}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.5}{The GANDALF Module}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.5}{The gandalf Module}{chapter.2}% 7
 \BOOKMARK [2][-]{subsection.2.5.1}{Input Mezzanine Cards}{section.2.5}% 8
 \BOOKMARK [2][-]{subsection.2.5.2}{GIMLI Mezzanine Cards}{section.2.5}% 9
-\BOOKMARK [2][-]{subsection.2.5.3}{Usage of the GANDALF with sipm}{section.2.5}% 10
+\BOOKMARK [2][-]{subsection.2.5.3}{Usage of the gandalf with sipm}{section.2.5}% 10
 \BOOKMARK [0][-]{chapter.3}{Setup}{}% 11
 \BOOKMARK [0][-]{chapter.4}{Results of the daq tests}{}% 12
-\BOOKMARK [1][-]{section.4.1}{Input offset voltage}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{Pole-zero cancellation}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.3}{High and low transimpedance and lower attenuation}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.4}{Dark count measurements}{chapter.4}% 16
-\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 17
-\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 18
-\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 19
-\BOOKMARK [0][-]{appendix*.49}{List of Figures}{}% 20
-\BOOKMARK [0][-]{appendix*.50}{List of Tables}{}% 21
-\BOOKMARK [0][-]{appendix*.51}{Bibliography}{}% 22
+\BOOKMARK [1][-]{section.4.1}{GANDALF Clock Frequency and ADC Test}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Input Offset Voltage}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{Pole-Zero Cancellation}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.4}{High and Low Transimpedance and Lower Attenuation}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.5}{Dark Count Measurements}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 18
+\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 19
+\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 20
+\BOOKMARK [0][-]{appendix*.50}{List of Figures}{}% 21
+\BOOKMARK [0][-]{appendix*.51}{List of Tables}{}% 22
+\BOOKMARK [0][-]{appendix*.52}{Bibliography}{}% 23
