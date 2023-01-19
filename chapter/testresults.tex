@@ -57,6 +57,8 @@ From that one can see, that should be a precission of \SI{+-20}{\milli\volt} suf
 In case one wants a precission in the single \si{\milli\volt} range, this is not suitable anymore.
 Than the \ac{dac} needs to be adjusted while measureing the voltage on the inputs of the \ac{emusic} \ac{asic}.
 
+In \autoref{tab:input_offset_linear_fit} the fit results for the measurements with the \ac{emusic} boards 2 and 6 are listed.
+The \ac{dac} voltages of the channels differ to other channels on the same board as well as to the channels on the other board.
 
 \begin{figure}
 	\centering
@@ -64,7 +66,14 @@ Than the \ac{dac} needs to be adjusted while measureing the voltage on the input
 	\caption[Input offset measurement for eMUSIC board 2 channel 1]{Input offset measurement for the channel 0 of the \ac{emusic} board 2. The input voltage was measured for input \ac{dac} settings from \SIrange{0}{500}{\dacu} in \SI{50}{\dacu} steps. A linear fit was performed for the measurements with \ac{dac} settings between \SI{100}{\dacu} and \SI{450}{\dacu}. The other measured voltages were excluded form the fit since they do not follow the linear trend. Below is the residual plot with a fixed y-axis window from \SI{-20}{\milli\volt} to \SI{-20}{\milli\volt}.}
 	\label{fig:input_offset_b2_ch0}
 \end{figure}
+\begin{table}
+	\center
+	\caption[todo]{todo}
+	\label{tab:input_offset_linear_fit}
+	\begin{tabular}{|c||||}
 
+	\end{tabular}
+\end{table}
 
 
 \section{Pole-Zero Cancellation}
