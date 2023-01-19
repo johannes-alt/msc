@@ -26,20 +26,44 @@ To test if the bits in the \acp{adc} are working, the amplitudes of all samples 
 
 \section{Input Offset Voltage}
 The first measurement with the \ac{emusic} board is to find out the input offset voltage of the \ac{emusic} for different \ac{dac} values.
-This needs to be done to find out the exact overvoltage of the \acp{sipm}.
+This needs to be done to find out the exact overvoltage of the \acp{sipm}, which influences among other things the gain of the \acp{sipm}.
 In order to perform this measurement, the setup in \autoref{fig:input_offset_setup} was assembled.
 The \ac{emusic} board was powered by the \SI{8}{\volt} power supply and the XXXXXXXX power supply was used to supply the high voltage.
-It was set to \SI{16}{\volt} since it was unimportant for the high voltage to be over the breakdown voltage of the \acp{sipm}.
+It was set to \SI{4.7}{\volt} since it was not important for the high voltage to be over the breakdown voltage of the \acp{sipm}.
 It should only be over the maximum input offset the \ac{emusic} can generate for the resulting voltage to be applied in reverse direction to the \acp{sipm}.
 For this measurement the \ac{emusic}s input \ac{dac} settings, which can range from 0 to 511, were set to 0.
 Then the voltages between the negative high voltage pole and the voltage on the cathode of the \acp{sipm} were measured.
+As measurement point for the cathode voltage, the \SI{0}{\ohm} resistor placed on the back of the \ac{sipm} board was chosen.
+It is shown in \autoref{fig:meas_input_resistor}.
 This measurement was done for one \ac{sipm} of each \ac{sipm} group.
 The chosen \ac{sipm} were 1, 6, 11, 16, 21, 26, 31 and 36.
-After measureing the voltages, the \ac{dac} setting was increased in steps of \SI{50}{\dacu} until \SI{500}{\dacu}.
-For each setting the eight voltages were measured again.
+After measureing the voltages, the \ac{dac} setting was increased in steps of \SI{50}{\dacu} until \SI{500}{\dacu} and at each step the measurement was repeated.
+In the following first the measurement results of the individual channels over all tested \ac{dac} settings are presented.
+Afterwards, the input offset voltages of the different channels for the same setting are compared.
 
-The measurement for 
+As an example, the measurements of all eleven tested \ac{dac} settings done with the \ac{emusic} board 2 and channel 0 are shown in \autoref{fig:input_offset_b2_ch0}.
+In the upper part of the plot, the measured voltages are plotted and for the measurements with a \ac{dac} setting between \SI{100}{\dacu} and \SI{100}{\dacu} a linear fit was performed.
+The first two measured voltages were not included, since they visibly do not follow the linear trend.
+For all channels the first to measured values are at around \SI{1530}{\milli\volt} which indicates that in that \si{\dacu} range the different settings do not change the offset voltage.
+Depending on the \ac{emusic} board and the channel also the last one or two measured voltages were excluded from the fit since they also do not follow the linear trend and increase to around \SI{940}{\milli\volt} instead of decreasing further.
+The resulting slope and offset of the linear fit are
+\begin{align}
+    V_\text{offset, fit} &= \SI{-3.43(5)}{\milli\volt\per\dacu}\cdot x+\SI{1828(11)}{\milli\volt}
+\end{align}
+where x is the setting of the \ac{dac} in \si{\dacu}.
+The bottom of the plot shows the residual plot where the difference between the linear fit and the measured values is shown.
+The range on the y-axis is fixed to \SIrange{-20}{20}{\milli\volt}.
+From that one can see, that should be a precission of \SI{+-20}{\milli\volt} sufficient for ones used, one can use the results from the linear fit to adjust the overvoltage.
+In case one wants a precission in the single \si{\milli\volt} range, this is not suitable anymore.
+Than the \ac{dac} needs to be adjusted while measureing the voltage on the inputs of the \ac{emusic} \ac{asic}.
 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/input_offset_board_2_channel_0}
+	\caption[Input offset measurement for eMUSIC board 2 channel 1]{Input offset measurement for the channel 0 of the \ac{emusic} board 2. The input voltage was measured for input \ac{dac} settings from \SIrange{0}{500}{\dacu} in \SI{50}{\dacu} steps. A linear fit was performed for the measurements with \ac{dac} settings between \SI{100}{\dacu} and \SI{450}{\dacu}. The other measured voltages were excluded form the fit since they do not follow the linear trend. Below is the residual plot with a fixed y-axis window from \SI{-20}{\milli\volt} to \SI{-20}{\milli\volt}.}
+	\label{fig:input_offset_b2_ch0}
+\end{figure}
 
 
 
