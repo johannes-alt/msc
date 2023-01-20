@@ -20,12 +20,12 @@
 \contentsline {chapter}{\numberline {4}Results of the \ac {daq} tests}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{25}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Input Offset Voltage}{26}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{28}{section.4.3}%
-\contentsline {section}{\numberline {4.4}High and Low Transimpedance and Lower Attenuation}{32}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Dark Count Measurements}{32}{section.4.5}%
-\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{33}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{34}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{35}{appendix.A}%
-\contentsline {chapter}{List of Figures}{37}{appendix*.52}%
-\contentsline {chapter}{List of Tables}{38}{appendix*.53}%
-\contentsline {chapter}{Bibliography}{39}{appendix*.54}%
+\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{30}{section.4.3}%
+\contentsline {section}{\numberline {4.4}High and Low Transimpedance and Lower Attenuation}{34}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Dark Count Measurements}{34}{section.4.5}%
+\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{35}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{36}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{37}{appendix.A}%
+\contentsline {chapter}{List of Figures}{39}{appendix*.55}%
+\contentsline {chapter}{List of Tables}{40}{appendix*.56}%
+\contentsline {chapter}{Bibliography}{41}{appendix*.57}%
