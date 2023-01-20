@@ -180,9 +180,47 @@ After investigating the effects of the pole-zero shaper the influences between t
 Also the high and low transimpedance settings are investigated.
 
 First the pole-zero attenuation was looked at.
-Therefore 
+Therefore another meausrement without the lower attenuation setting was performed.
+The pole-zero cancellation resistor setting was set to 3 and the capacitor setting was set to 31. 
 
 
+After the pole-zero attenuation, the high and low transimpedance settings were investigated.
+Therefore two measurements without pole-zero cancellation were taken with and without the high transimpedance.
+Both measurements consist of around \num{30000} waveforms.
+A mean waveform was calculated for both measurements and plotted in \autoref{fig:low_imp_wf}.
+The mean amplitude of the events with high transimpedance is
+\begin{align}
+	V_\text{high imp} &= \SI{530(40)}{\milli\volt}
+\end{align}
+and of the events with low transimpedance the mean amplitude is
+\begin{align}
+	V_\text{low imp} &= \SI{175(13)}{\milli\volt}.
+\end{align}
+This results in a decrease by the factor \num{0.33(4)} if the low transimpedance is used.
+Doing the same measurements using the pole-zero cancellation with both the resistor and capacitor settings set to 0 resulted in mean amplitudes of
+\begin{align}
+	V_\text{high imp} &= \SI{200(16)}{\milli\volt}\\
+	\text{and}\quad V_\text{low imp} &= \SI{72(5)}{\milli\volt}
+\end{align}
+for high and low transimpedance respectively.
+The signal amplitude decreases by the factor \num{0.36(4)}, which is in agreement with the value determined without pole-zero cancellation.
+These measurements were repeated with the settings 3 and 31 for the pole-zero resistor and capacitor, respectively.
+The mean amplitudes for these measurements are
+\begin{align}
+	V_\text{high imp} &= \SI{260(20)}{\milli\volt}\\
+	\text{and}\quad V_\text{low imp} &= \SI{91(7)}{\milli\volt}
+\end{align}
+and the factor by which the signal amplitude decreases is \num{0.35(4)}, which is also in agreement with the results of the other two measurements.
+The plots of the mean waveforms for the measurements with pole-zero cancellation are shown in the appendix in \autoref{} and \autoref{}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/low_imp_mean_wf.png}
+	\caption[todo]{todo}
+	\label{fig:low_imp_wf}
+\end{figure}
+
+After the, for this work, most important features of the \ac{emusic} are investigated, a \ac{emusic} board and a Hamamatsu \ac{sipm} board were used to measure dark counts.
+The goal of the dark count measurement was to test if dark counts could be used for calibration.
 
 \section{Dark Count Measurements}
 
