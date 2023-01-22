@@ -121,11 +121,12 @@ Which are presented in the following sections.
 \section{Pole-Zero Cancellation}
 
 In this section pole-zero cancellation shaper and its effect with different settings tested.
+Hereby the amplitude of the peak and the \ac{fwhm} are of interest.
 The tests were done using the setup described in \autoref{sec:setup}.
 For the amplification the \ac{emusic} board 2 was chosen and the digitization was done by a GANDALF module.
 The \ac{emusic} settings of one of these measurements are shown in \autoref{} in the appendix.
 For the other measurements, the only thing changing in the settings are the pole-zero settings.
-Each measurement includes XXXXX events, for which the mean value is shown in the plots below.
+Each measurement includes approximately \num{10000} events, for which the mean value is shown in the plots below.
 The values for the amplitude and \ac{fwhm} were calculated for each individual waveform and theire mean values are presented here for the different measurements.
 
 First the pole-zero cancellation was disabled to perform measurements for a reference amplitude and \ac{fwhm}.
@@ -143,19 +144,24 @@ Next the measurement with enabled pole-zero cancellation and with fixed settings
 The resistor settings were changed to all possible values, from 0 to 7, and the capacitor setting was kept at 31.
 \autoref{fig:pz_resistor} presents the mean waveforms for the eight measurements.
 The determined amplitudes and \ac{fwhm} and the coresponding decrease in respect to the values without pole-zero cancellation are listed in \autoref{tab:pz_resistor}.
-Of all measurements the one with the resistor setting 0 had the highest mean amplitude with 
-\begin{align}
-    V_\text{amp,R=0} &= \SI{1(1)}{\milli\volt}
-\end{align}
-which correspondes to a amplitude attenuation of \SI{1(1)}{\percent}.
-With these settings a \ac{fwhm} of
-\begin{align}
-    t_\text{FWHM,R=0} &= \SI{1(1)}{\nano\second}
-\end{align}
-was measured, which is \SI{1(1)}{\percent} of the \ac{fwhm} measured without pole-zero cancellation.
+For higher resistor values, the amplitude decreases from \SI{350(0)}{\milli\volt} for the setting 0 down to \SI{140(0)}{\milli\volt} for the setting 7.
+Also the \ac{fwhm} decreases down to \SI{10.2(6)}{\nano\second} with higher resistor settings.
+
+
+
+%Of all measurements the one with the resistor setting 0 had the highest mean amplitude with 
+%\begin{align}
+%    V_\text{amp,R=0} &= \SI{1(1)}{\milli\volt}
+%\end{align}
+%which correspondes to a amplitude attenuation of \SI{1(1)}{\percent}.
+%With these settings a \ac{fwhm} of
+%\begin{align}
+%    t_\text{FWHM,R=0} &= \SI{1(1)}{\nano\second}
+%\end{align}
+%was measured, which is \SI{1(1)}{\percent} of the \ac{fwhm} measured without pole-zero cancellation.
 \begin{figure}
 	\centering
-	\includegraphics[width=1.\textwidth]{pictures/pz_resistor.png}
+	\includegraphics[width=1.\textwidth]{pictures/pz_resistor}
 	\caption[Mean waveform for different pz-cancellation resistor values.]{Mean waveform for different pz-cancellation resistor values.}
 	\label{fig:pz_resistor}
 \end{figure}
@@ -164,18 +170,51 @@ The measurements with different capacitor settings were performed with the resis
 For the different measurements, the capacitor settings were changed to all 32 possible values, from 0 to 31.
 In \autoref{tab:pz_capacitor} the mean values for the maximum amplitude and the \ac{fwhm} as well as the decrease compared to the values with disabled pole-zero cancellation are listed.
 The mean waveforms for the measurements with the capacitor settings 0, 5, 10, 15, 20, 25, and 31 are shown in \autoref{fig:pz_capacitor}.
+Similar to the effect of the resistor, with higher capacitor settings, the \ac{fwhm} decreases.
+For the setting 0 it is \SI{58(3)}{\nano\second} and with the maximal setting 31 it is decreased to \SI{10.2(6)}{\nano\second}.
+But, opposite to the resistor setting effects, the signal amplitude increases with higher settings up to \SI{}{\milli\volt}.
+The minimal amplitude value, with the capacitor setting 0, is \SI{}{\milli\volt}.
+So by adjusting the capacitor, the amplitude can be increased by a factor of \num{1.75}.
 \begin{figure}
 	\centering
-	\includegraphics[width=1.\textwidth]{pictures/pz_capacitor.png}
+	\includegraphics[width=1.\textwidth]{pictures/pz_capacitor}
 	\caption[Mean waveform for different pz-cancellation capacitor values.]{Mean waveform for different pz-cancellation capacitor values.}
 	\label{fig:pz_capacitor}
 \end{figure}
 
+\begin{table}
+	\centering
+	\caption[]{}
+	\label{tab:pz_res_cap}
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabular}{c|r|S[table-format=3.0(2)]|S[table-format=3.1(3)]}
+		\toprule
+		R & C & {amplitude / \si{\milli\volt}} & {FWHM / \si{\nano\second}} \\
+		\midrule
+		- &  - & 523(46) & 113(3) \\
+		0 & 31 & 354(30) & 36.8(11) \\
+		1 & 31 & 335(29) & 30.5(9) \\
+		2 & 31 & 308(27) & 24.4(8) \\
+		3 & 31 & 262(23) & 17.5(6) \\
+		4 & 31 & 243(21) & 15.7(6) \\
+		5 & 31 & 220(19) & 14.0(6) \\
+		6 & 31 & 188(17) & 12.1(5) \\
+		7 & 31 & 143(13) & 10.2(6) \\
+		0 &  0 & 206(17) & 58.1(27) \\
+		0 &  5 & 242(21) & 43.2(17) \\
+		0 & 10 & 271(23) & 38.7(14) \\
+		0 & 15 & 296(25) & 36.9(12) \\
+		0 & 20 & 316(27) & 36.5(12) \\
+		0 & 25 & 334(28) & 36.4(11) \\
+		0 & 31 & 354(30) & 36.8(11) \\ 
+		\bottomrule
+	\end{tabular}
+	\renewcommand{\arraystretch}{1}
+\end{table}
 
 
 
-
-\section{High and Low Transimpedance and Lower Attenuation}
+\section{Transimpedance and Pole-Zero Attenuation}
 After investigating the effects of the pole-zero shaper the influences between the normal and the low pole-zero attenuation settings are examined.
 Also the high and low transimpedance settings are investigated.
 
@@ -193,15 +232,20 @@ Here the same behavior can be observed.
 The peak amplitude is not influenced, only the amplitude of the tail is increased by the lower attenuation.
 \begin{figure}
 	\centering
-	\includegraphics[width=1.\textwidth]{pictures/att_pz331}
-	\caption[todo]{todo}
-	\label{fig:pz331_att}
-\end{figure}
-\begin{figure}
-	\centering
-	\includegraphics[width=1.\textwidth]{pictures/att_pz700}
-	\caption[todo]{todo}
-	\label{fig:pz700_att}
+	\begin{subfigure}[b]{1.\textwidth}
+		\centering
+		\includegraphics[width=1.\textwidth]{pictures/att_pz331}
+		\caption[]{}
+		\label{fig:pz331_att}
+	\end{subfigure}
+	\begin{subfigure}[b]{1.\textwidth}
+		\centering
+		\includegraphics[width=1.\textwidth]{pictures/att_pz700}
+		\caption[]{}
+		\label{fig:pz700_att}
+	\end{subfigure}
+	\caption[todo]{The mean waveforms of two measurements, each around \num{10000} waveforms, with the pole-zero settings 7, for the resistor, and 00 for the capacitor. One measurement was done with the low attenuation option of the \ac{emusic} and the other was done without that option. Mostly the tail of the peaks is affected by the low attenuation option, while the peak amplitude seems to be not changed.}
+	\label{fig:pz_att}
 \end{figure}
 
 After the pole-zero attenuation, the high and low transimpedance settings were investigated.
