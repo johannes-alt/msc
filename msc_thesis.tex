@@ -7,6 +7,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{pslatex}
 \usepackage{layouts}
+\usepackage{array}
 \usepackage{tabularx}
 \usepackage[separate-uncertainty=true,per-mode=fraction]{siunitx}
 \usepackage{isotope}
@@ -55,6 +56,19 @@
 \DeclareSIUnit\sample{S}
 \DeclareSIUnit\byte{B}
 \sisetup{table-align-uncertainty=true,exponent-product = \cdot}
+
+%\begingroup
+% Allow `_` and `:` in macro names (LaTeX3 style)
+%\catcode`\_=11
+%\catcode`\:=11
+% Internal code of `S`
+%\gdef\tabularxcolumn#1{%
+%    >{\__siunitx_table_collect_begin:Nn S{} }%
+%    p{#1}%  <- this is different (is `c` in normal `S`)
+%    <{\__siunitx_table_print:}%
+%}
+%\endgroup
+
 
 %new svg path
 \svgpath{plots/}

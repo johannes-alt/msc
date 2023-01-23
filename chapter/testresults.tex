@@ -1,4 +1,4 @@
-\chapter{Results of the \ac{daq} tests}
+\chapter{Results of the DAQ Tests}
 
 
 \section{GANDALF Clock Frequency and ADC Test}
@@ -48,7 +48,7 @@ For all channels the first to measured values are at around \SI{1530}{\milli\vol
 Depending on the \ac{emusic} board and the channel also the last one or two measured voltages were excluded from the fit since they also do not follow the linear trend and increase to around \SI{940}{\milli\volt} instead of decreasing further.
 The resulting slope and offset of the linear fit are
 \begin{align}
-    V_\text{offset, fit} &= \SI{-3.43(5)}{\milli\volt\per\dacu}\cdot x+\SI{1828(11)}{\milli\volt}
+    V_\text{offset, fit} &= \SI{-3.438(28)}{\milli\volt\per\dacu}\cdot x+\SI{1830(8)}{\milli\volt}
 \end{align}
 where x is the setting of the \ac{dac} in \si{\dacu}.
 The bottom of the plot shows the residual plot where the difference between the linear fit and the measured values is shown.
@@ -67,11 +67,38 @@ Therefore the measurement of the input voltage should be done for every \ac{emus
 \end{figure}
 \begin{table}
 	\centering
-	\caption[todo]{todo}
+	\caption[Input offset voltages fit]{The result of fitting a linear function to the input offset measurements of the \ac{emusic} boards 2 and 6.}
 	\label{tab:input_offset_linear_fit}
-	\begin{tabular}{|c|c|c|c|}
-		a & a & A & a
-	\end{tabular}
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabular*}{\textwidth}{%
+		@{\extracolsep{\fill}\hspace{\tabcolsep}}
+		c
+		c
+		S[table-format=1.3(2),table-column-width=0.20\textwidth]
+		S[table-format=4.0(3),table-column-width=0.20\textwidth]
+		}
+		\toprule
+		\ac{emusic} board & channel & {slope / \si{\milli\volt\per\dacu}} & {offset / \si{\milli\volt}} \\
+		\midrule
+		\multirow{8}{*}{2} & 0 & -3.438(28) & 1830(8)  \\
+		                   & 1 & -3.405(15) & 1818(5)  \\
+		                   & 2 & -3.377(16) & 1803(5)  \\
+		                   & 3 & -3.336(17) & 1778(5)  \\
+		                   & 4 & -3.290(18) & 1764(5)  \\
+		                   & 5 & -3.316(20) & 1758(6)  \\
+		                   & 6 & -3.211(19) & 1716(6)  \\
+		                   & 7 & -3.163(16) & 1702(5)  \\\midrule
+		\multirow{8}{*}{6} & 0 & -3.472(19) & 1843(5)  \\
+		                   & 1 & -3.353(29) & 1804(9)  \\
+		                   & 2 & -3.368(28) & 1795(8)  \\
+		                   & 3 & -3.389(30) & 1801(9)  \\
+		                   & 4 & -3.260(50) & 1747(12) \\
+		                   & 5 & -3.202(33) & 1729(10) \\
+		                   & 6 & -3.275(15) & 1756(4)  \\
+		                   & 7 & -3.263(24) & 1749(7)  \\
+		\bottomrule
+	\end{tabular*}
+	\renewcommand{\arraystretch}{1}
 \end{table}
 
 To compare the differences between channels with the same \ac{dac} settings, for three different settings the input voltage was plotted for all eight channels in \autoref{fig:input_offset_b2_dac}, \autoref{fig:input_offset_b2_dac}, and \autoref{fig:input_offset_b2_dac}.
@@ -83,21 +110,21 @@ This confirms, that the measurement of the input voltage needs to be done for al
 	\centering
 	\begin{subfigure}[b]{1.\textwidth}
 		\centering
-		\includegraphics[width=.5\textwidth]{pictures/input_offset_board_2_channel_0.png}
+		\includegraphics[width=1.\textwidth]{pictures/input_offset_board_2_channel_0.png}
 		\caption{}
 		\label{fig:input_offset_b2_dac50}
 	\end{subfigure}
 	
 	\begin{subfigure}[b]{1.\textwidth}
 		\centering
-		\includegraphics[width=.5\textwidth]{pictures/input_offset_board_2_channel_0.png}
+		\includegraphics[width=1.\textwidth]{pictures/input_offset_board_2_channel_0.png}
 		\caption{}
 		\label{fig:input_offset_b2_dac50}
 	\end{subfigure}
 
 	\begin{subfigure}[b]{1.\textwidth}
 		\centering
-		\includegraphics[width=.5\textwidth]{pictures/input_offset_board_2_channel_0.png}
+		\includegraphics[width=1.\textwidth]{pictures/input_offset_board_2_channel_0.png}
 		\caption{}
 		\label{fig:input_offset_b2_dac50}
 	\end{subfigure}
@@ -111,11 +138,38 @@ With these settings the measurement of the pole-zero cancellation and the low an
 Which are presented in the following sections.
 \begin{table}
 	\centering
-	\caption[todo]{todo}
+	\caption[\ac{emusic} \ac{dac} settings for equal overvoltage between channels.]{The \ac{dac} settings for the \ac{emusic} boards 2 and 6 with which the input offset voltage is as near to \SI{1}{\volt} as possible. The uncertainties of the measured voltages is estimated from the fluctuations during the measurement to be \SI{1}{\milli\volt}.}
 	\label{tab:input_offset_equalized}
-	\begin{tabular}{|c|c|c|c|}
-	    \ac{emusic} board & channel & \ac{dac} settings / \si{\dacu} & input offset voltage / \si{\milli\volt} \\\hline
-	\end{tabular}
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabular*}{\textwidth}{%
+		@{\extracolsep{\fill}\hspace{\tabcolsep}}
+		c
+		c
+		S[table-format=3.0,table-column-width=0.25\textwidth]
+		S[table-format=3.1(3),table-column-width=0.25\textwidth]
+		}
+		\toprule
+		\ac{emusic} board & channel & {\ac{dac} setting / \si{\dacu}} & {input offset / \si{\milli\volt}} \\
+		\midrule
+		\multirow{8}{*}{2} & 0 &   0 & 1003 \\
+		                   & 1 &  50 & 1001 \\
+		                   & 2 & 100 & 1003 \\
+		                   & 3 & 150 & 1004 \\
+		                   & 4 & 200 & 1003 \\
+		                   & 5 & 250 & 1002 \\
+		                   & 6 & 300 & 1002 \\
+		                   & 7 & 350 & 1002 \\\midrule
+		\multirow{8}{*}{6} & 0 &   0 &  999 \\
+		                   & 1 &  50 &  998 \\
+		                   & 2 & 100 &  997 \\
+		                   & 3 & 150 & 1003 \\
+		                   & 4 & 200 & 1002 \\
+		                   & 5 & 250 &  995 \\
+		                   & 6 & 300 &  996 \\
+		                   & 7 & 350 & 1001 \\
+		\bottomrule
+	\end{tabular*}
+	\renewcommand{\arraystretch}{1}
 \end{table}
 
 \section{Pole-Zero Cancellation}
@@ -162,7 +216,7 @@ Also the \ac{fwhm} decreases down to \SI{10.2(6)}{\nano\second} with higher resi
 \begin{figure}
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/pz_resistor}
-	\caption[Mean waveform for different pz-cancellation resistor values.]{Mean waveform for different pz-cancellation resistor values.}
+	\caption[Mean waveform for different pz-cancellation resistor values.]{Mean waveform for different pz-cancellation resistor values. The pole-zero cancellation capacitor setting was kept at 31. With increasing resistor settings the amplitude decreases and the width of the peak becomes smaller.}
 	\label{fig:pz_resistor}
 \end{figure}
 
@@ -178,37 +232,43 @@ So by adjusting the capacitor, the amplitude can be increased by a factor of \nu
 \begin{figure}
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/pz_capacitor}
-	\caption[Mean waveform for different pz-cancellation capacitor values.]{Mean waveform for different pz-cancellation capacitor values.}
+	\caption[Mean waveform for different pz-cancellation capacitor values.]{Mean waveform for different pz-cancellation capacitor values. The resistor settings were kept at 0 for all of the seven measurements.}
 	\label{fig:pz_capacitor}
 \end{figure}
 
 \begin{table}
 	\centering
-	\caption[]{}
+	\caption[Amplitudes and FWHMs of measured signals for different PZ settings.]{The amplitudes and \acp{fwhm} measured with different resistor and capacitor settings for the pole-zero cancellation. For each setting, around \num{80000} waveforms were recorded. The listed values are the mean amplitudes and \acp{fwhm} of all corresponding waveforms.}
 	\label{tab:pz_res_cap}
 	\renewcommand{\arraystretch}{1.3}
-	\begin{tabular}{c|r|S[table-format=3.0(2)]|S[table-format=3.1(3)]}
+	\begin{tabular*}{\textwidth}{%
+		@{\extracolsep{\fill}\hspace{\tabcolsep}}
+		S[table-format=1.0,table-column-width=0.20\textwidth]
+		S[table-format=2.0,table-column-width=0.20\textwidth]
+		S[table-format=3.0(2),table-column-width=0.20\textwidth]
+		S[table-format=3.1(3),table-column-width=0.20\textwidth]
+		}
 		\toprule
-		R & C & {amplitude / \si{\milli\volt}} & {FWHM / \si{\nano\second}} \\
+		{R} & {C} & {amplitude / \si{\milli\volt}} & {FWHM / \si{\nano\second}} \\
 		\midrule
-		- &  - & 523(46) & 113(3) \\
-		0 & 31 & 354(30) & 36.8(11) \\
-		1 & 31 & 335(29) & 30.5(9) \\
-		2 & 31 & 308(27) & 24.4(8) \\
-		3 & 31 & 262(23) & 17.5(6) \\
-		4 & 31 & 243(21) & 15.7(6) \\
-		5 & 31 & 220(19) & 14.0(6) \\
-		6 & 31 & 188(17) & 12.1(5) \\
-		7 & 31 & 143(13) & 10.2(6) \\
-		0 &  0 & 206(17) & 58.1(27) \\
-		0 &  5 & 242(21) & 43.2(17) \\
-		0 & 10 & 271(23) & 38.7(14) \\
-		0 & 15 & 296(25) & 36.9(12) \\
-		0 & 20 & 316(27) & 36.5(12) \\
-		0 & 25 & 334(28) & 36.4(11) \\
-		0 & 31 & 354(30) & 36.8(11) \\ 
+		{-} & {-}  & 523(46) & 113(3)   \\
+		0   & 31   & 354(30) & 36.8(11) \\
+		1   & 31   & 335(29) & 30.5(9)  \\
+		2   & 31   & 308(27) & 24.4(8)  \\
+		3   & 31   & 262(23) & 17.5(6)  \\
+		4   & 31   & 243(21) & 15.7(6)  \\
+		5   & 31   & 220(19) & 14.0(6)  \\
+		6   & 31   & 188(17) & 12.1(5)  \\
+		7   & 31   & 143(13) & 10.2(6)  \\
+		0   &  0   & 206(17) & 58.1(27) \\
+		0   &  5   & 242(21) & 43.2(17) \\
+		0   & 10   & 271(23) & 38.7(14) \\
+		0   & 15   & 296(25) & 36.9(12) \\
+		0   & 20   & 316(27) & 36.5(12) \\
+		0   & 25   & 334(28) & 36.4(11) \\
+		0   & 31   & 354(30) & 36.8(11) \\ 
 		\bottomrule
-	\end{tabular}
+	\end{tabular*}
 	\renewcommand{\arraystretch}{1}
 \end{table}
 
@@ -279,7 +339,7 @@ The plots of the mean waveforms for the measurements with pole-zero cancellation
 \begin{figure}
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/low_imp_mean_wf}
-	\caption[todo]{todo}
+	\caption[Waveforms measured with low and high transimpedance]{The mean waveforms of two measurements with around \num{80000} waveforms each. The black waveform correspondes to a measurement done with high transimpedance and the red waveform correspondes to a measurement with low transimpedance.}
 	\label{fig:low_imp_wf}
 \end{figure}
 
@@ -287,4 +347,34 @@ After the, for this work, most important features of the \ac{emusic} are investi
 The goal of the dark count measurement was to test if dark counts could be used for calibration.
 
 \section{Dark Count Measurements}
+Due to their indistiguishability from signals caused by photons, the measurement of dark counts can be an easy way to calibrate the readout.
+To test if this is possible with the \ac{emusic} as amplifier, two dark count measurements were performed.
+For the first measurement, to maximize the amplitude, the pole-zero calibration was disabled and the high transimpedance was used.
+The second dark count measurement was done with enabled pole-zero calibration, low attenuation and high transimpedance.
+For the resistor and capacitor of the pole-zero cancellation the settings 3 and 31 were chosen, respectively.
+Since the amplitude of dark counts is in the lower \si{\milli\volt} range and therefore not much higher than the electronic noise, a measurement of the noise with a high voltage of \SI{20}{\volt} was performed for comparison.
+To maximize the amplitude resolution, the Tektronix XXXXXX oscilloscope was used instead of a \ac{gandalf} module.
+In \autoref{fig:dc_hist} the histograms of the maximum signal amplitudes is shown. 
+The comparisson of the dark count measurements with the noise measurement shows, that dark counts were measured.
+But it no single photoelectron peaks can be distinguished with the measurement with pole-zero cancellation.
+Hence, the calibration using dark count measurements is not possible in that case.
+
+When the pole-zero callibration is not used, the single photoelectron peaks can be resolved.
+Therefore a callibration is possible if the pole-zero cancellation is not required.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/dc_hist}
+	\caption[Histogram of the dark count measurements]{The histogram of the dark count measurements, one without and one with pole-zero cancellation, and the electric noise measurement. No single photoelectron peaks can be distinguished in the dark count measurement histograms. Therefore dark count measurements cannot be used for calibration.} 
+	\label{fig:dc_hist}
+\end{figure}
+
+
+
+
+
+
+
+
+
 
