@@ -8,3 +8,23 @@
 % led + diffusor
 % emusic
 % sipm
+\section{SiPM stuff}
+
+
+\section{dark box stuff}
+
+
+\section{Gandalf Stuff}
+
+For the operation of the One Cell Prototype sixteen channels need to be digitized, eight of each of the two \acp{wom}.
+Therefore two \acp{gandalf} are required.
+In order to save place and simplify the setup, the \acp{gandalf} are not operated in a VME crate but are each in a \ac{gandalf} portable.
+It is a mobile case made exactly for such puroses where a whole crate is unconvinient.
+A picture of a \ac{gandalf} portable is shown in \autoref{fig:gandalf_portable}.
+Due to the usage of two \acp{gandalf} an external clock is required to ensure a syncronized sampling frequency and clock for time stamps.
+As an external clock a copper GIMLI was chosen and used with a GIMLI testboard, shown in \autoref{fig:gimli_testboard}.
+It has two slots for GMILIs, for each on data and one clock output and a power connector to supply it with \SI{5}{\volt}.
+For the purpose of an external clock, only one of these slots and the corresponding clock output is used.
+Via LEMO cables, the clock signal form the boards clock output pins is connected to the clock inputs of the \acp{gandalf}.
+
+

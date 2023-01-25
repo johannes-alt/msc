@@ -9,15 +9,16 @@
 \BOOKMARK [2][-]{subsection.2.5.2}{GIMLI Mezzanine Cards}{section.2.5}% 9
 \BOOKMARK [2][-]{subsection.2.5.3}{Usage of the gandalf with sipm}{section.2.5}% 10
 \BOOKMARK [0][-]{chapter.3}{Setup}{}% 11
-\BOOKMARK [0][-]{chapter.4}{Results of the DAQ Tests}{}% 12
-\BOOKMARK [1][-]{section.4.1}{GANDALF Clock Frequency and ADC Test}{chapter.4}% 13
-\BOOKMARK [1][-]{section.4.2}{Input Offset Voltage}{chapter.4}% 14
-\BOOKMARK [1][-]{section.4.3}{Pole-Zero Cancellation}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.4}{Transimpedance and Pole-Zero Attenuation}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.5}{Dark Count Measurements}{chapter.4}% 17
-\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 18
-\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 19
-\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 20
-\BOOKMARK [0][-]{appendix*.57}{List of Figures}{}% 21
-\BOOKMARK [0][-]{appendix*.58}{List of Tables}{}% 22
-\BOOKMARK [0][-]{appendix*.59}{Bibliography}{}% 23
+\BOOKMARK [1][-]{section.3.1}{Gandalf Stuff}{chapter.3}% 12
+\BOOKMARK [0][-]{chapter.4}{Results of the DAQ Tests}{}% 13
+\BOOKMARK [1][-]{section.4.1}{GANDALF Clock Frequency and ADC Test}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.2}{Input Offset Voltage}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.3}{Pole-Zero Cancellation}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.4}{Transimpedance and Pole-Zero Attenuation}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.5}{Dark Count Measurements}{chapter.4}% 18
+\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 19
+\BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 20
+\BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 21
+\BOOKMARK [0][-]{appendix*.61}{List of Figures}{}% 22
+\BOOKMARK [0][-]{appendix*.62}{List of Tables}{}% 23
+\BOOKMARK [0][-]{appendix*.63}{Bibliography}{}% 24

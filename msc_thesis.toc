@@ -17,15 +17,16 @@
 \contentsline {subsection}{\numberline {2.5.2}GIMLI Mezzanine Cards}{21}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Usage of the {gandalf} with \acp {sipm}}{22}{subsection.2.5.3}%
 \contentsline {chapter}{\numberline {3}Setup}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Gandalf Stuff}{24}{section.3.1}%
 \contentsline {chapter}{\numberline {4}Results of the DAQ Tests}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Input Offset Voltage}{26}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{32}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{36}{section.4.4}%
+\contentsline {section}{\numberline {4.2}Input Offset Voltage}{27}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{33}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{37}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Dark Count Measurements}{40}{section.4.5}%
-\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{41}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{42}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{43}{appendix.A}%
-\contentsline {chapter}{List of Figures}{45}{appendix*.57}%
-\contentsline {chapter}{List of Tables}{46}{appendix*.58}%
-\contentsline {chapter}{Bibliography}{47}{appendix*.59}%
+\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{43}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{44}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{45}{appendix.A}%
+\contentsline {chapter}{List of Figures}{47}{appendix*.61}%
+\contentsline {chapter}{List of Tables}{49}{appendix*.62}%
+\contentsline {chapter}{Bibliography}{50}{appendix*.63}%
