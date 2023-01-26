@@ -17,16 +17,16 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {pcb} with Hamamatsu \acp {sipm}}}{24}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces FFT of a \SI {150}{\mega \hertz } sin signal recorded with a GANDALF module.}}{27}{figure.caption.50}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Input offset measurement for eMUSIC board 2 channel 1}}{29}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Input offset voltage of all channels for differen \ac {dac} settings}}{32}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Mean waveform for a measurement without pole-zero cancellation.}}{35}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Mean waveform for different pz-cancellation resistor values.}}{35}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Mean waveform for different pz-cancellation capacitor values.}}{36}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Plot of the low attenuation effect with two pole-zero settings.}}{39}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Waveforms measured with low and high transimpedance}}{40}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Histogram of the dark count measurements with pole-zero cancellation.}}{42}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Histogram of the dark count measurements without pole-zero cancellation.}}{43}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces FFT of a \SI {150}{\mega \hertz } sin signal recorded with a GANDALF module.}}{28}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Input offset measurement for eMUSIC board 2 channel 1}}{30}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Input offset voltage of all channels for differen \ac {dac} settings}}{33}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Mean waveform for a measurement without pole-zero cancellation.}}{36}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mean waveform for different pz-cancellation resistor values.}}{36}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mean waveform for different pz-cancellation capacitor values.}}{37}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Plot of the low attenuation effect with two pole-zero settings.}}{40}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Waveforms measured with low and high transimpedance}}{41}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Histogram of the dark count measurements with pole-zero cancellation.}}{43}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Histogram of the dark count measurements without pole-zero cancellation.}}{44}{figure.caption.62}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

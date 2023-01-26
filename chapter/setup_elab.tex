@@ -14,7 +14,8 @@ Another \ac{sipm} model used is the SensL \textit{J-Series 30035} manufactured b
 Some important parameters of both \ac{sipm} models are listed in \autoref{tab:sipm_specs}.
 For this work, \acp{pcb} with each forty \acp{sipm} of a model soldered onto it were used.
 A picture of one of these \acp{pcb} equiped with Hamamatsu \acp{sipm} is shown in \autoref{fig:sipm_pcb}.
-
+A breakout board can be plugged in on the back of the \ac{pcb}.
+For this thesis the \ac{emusic} board was used as a breakout board, which is described in the previous chapter.
 \begin{table}
 	\centering
 	\caption[SiPM parameters]{Relevant parameters of the both used \ac{sipm} models by Hamamatsu and Onsemi. \cite{}}
@@ -45,7 +46,28 @@ A picture of one of these \acp{pcb} equiped with Hamamatsu \acp{sipm} is shown i
 \end{figure}
 
 \section{dark box stuff}
+To ensure a controlled evironment for the measurements, the \acp{sipm} were placed inside a dark box.
+The inside of the box is covered in black aluminum foil made by Thorlabs with a reflectivity in the visible wavelength spectrum below \SI{5}{\percent} \cite{}.
+An optical rail for fixing the \ac{sipm} board, a diffusor and the end of an optical fiber was placed in the box.
+Via the optical fiber the light of a \SI{460}{\nano\meter} LED can be guided into the box.
+The LED is inside of another light tight box.
+It was build as part of the bachelor thesis of Alexander Bismark and is described there in more detail \cite{}.
+Power can be supplied to the LED via a BNC connector on the light tight box.
+In this thesis the Tektronix AFG was used to create voltage pulses with a width down to \SI{4}{\nano\second}.
+To eluminate all \acp{sipm} equaly a \textit{ED1-C50-MD} diffuser by Thorlabs was used.
+For a light beam hitting the diffusor perpendicular to its surface, the light will be diffused in a circular shape with a \SI{50}{\degree} opening angle.
+The relative light intensity of the diffused light of a collimated \SI{488}{\nano\meter} laser beam measured by Thorlabs is shown in \autoref{fig:diffuser_dist} \cite{}.
 
+Multiple BNC, SMA, and SMC feedthroughs were installed in the dark box to supply the \acp{sipm} and \ac{emusic} board with power and to transfer the output signals of the \ac{emusic} out of the box to a digitizer or oscilloscope.
+Also a hole drilled to insert the optical fiber from the LED setup into the box and afterwards covered, to block light from entering through the hole.
+A power supply was used for the high voltage supply of the \acp{sipm}.
+The \ac{emusic} board was powered by a \SI{8}{\volt} power supply.
+For the digitization either a \ac{gandalf} or the Tektronix oscilloscope was used.
+
+\autoref{fig:setup_sketch} shows a schmatic sketch of the setup inside and on the outside of the box.
+A picture of the setup inside the box is shown in \autoref{fig:setup_box_pic}.
+It includes the LED fiber, the diffuser, the \ac{sipm} and \ac{emusic} board with power and signal cables attached.
+In the following the setup part with the \ac{gandalf} is described.
 
 \section{Gandalf Stuff}
 

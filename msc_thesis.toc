@@ -19,16 +19,16 @@
 \contentsline {chapter}{\numberline {3}Setup}{24}{chapter.3}%
 \contentsline {section}{\numberline {3.1}SiPM stuff}{24}{section.3.1}%
 \contentsline {section}{\numberline {3.2}dark box stuff}{25}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Gandalf Stuff}{25}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Results of the DAQ Tests}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{26}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Input Offset Voltage}{28}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{34}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{38}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Dark Count Measurements}{41}{section.4.5}%
-\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{44}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{45}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{46}{appendix.A}%
-\contentsline {chapter}{List of Figures}{48}{appendix*.63}%
-\contentsline {chapter}{List of Tables}{50}{appendix*.64}%
-\contentsline {chapter}{Bibliography}{51}{appendix*.65}%
+\contentsline {section}{\numberline {3.3}Gandalf Stuff}{26}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Results of the DAQ Tests}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{27}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Input Offset Voltage}{29}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{35}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{39}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Dark Count Measurements}{42}{section.4.5}%
+\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{45}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{46}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{47}{appendix.A}%
+\contentsline {chapter}{List of Figures}{49}{appendix*.63}%
+\contentsline {chapter}{List of Tables}{51}{appendix*.64}%
+\contentsline {chapter}{Bibliography}{52}{appendix*.65}%
