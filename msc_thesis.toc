@@ -27,8 +27,8 @@
 \contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{39}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Dark Count Measurements}{42}{section.4.5}%
 \contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{45}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{46}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{47}{appendix.A}%
-\contentsline {chapter}{List of Figures}{49}{appendix*.63}%
-\contentsline {chapter}{List of Tables}{51}{appendix*.64}%
-\contentsline {chapter}{Bibliography}{52}{appendix*.65}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{47}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{48}{appendix.A}%
+\contentsline {chapter}{List of Figures}{50}{appendix*.65}%
+\contentsline {chapter}{List of Tables}{52}{appendix*.66}%
+\contentsline {chapter}{Bibliography}{53}{appendix*.67}%
