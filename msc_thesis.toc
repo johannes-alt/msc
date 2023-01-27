@@ -29,6 +29,6 @@
 \contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{45}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Summary and Outlook}{47}{chapter.6}%
 \contentsline {chapter}{\numberline {A}List of acronyms}{48}{appendix.A}%
-\contentsline {chapter}{List of Figures}{50}{appendix*.65}%
-\contentsline {chapter}{List of Tables}{52}{appendix*.66}%
-\contentsline {chapter}{Bibliography}{53}{appendix*.67}%
+\contentsline {chapter}{List of Figures}{50}{appendix*.66}%
+\contentsline {chapter}{List of Tables}{52}{appendix*.67}%
+\contentsline {chapter}{Bibliography}{53}{appendix*.68}%
