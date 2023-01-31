@@ -1,6 +1,6 @@
 \chapter{One Cell Prototype}
 
-The work presented in this thesis is done in the framework of the One Cell Prototype.
+The work presented in this thesis is done in the framework of the so called \qq{One Cell Prototype}.
 Therefore the prototype is described in more detail in this chapter.
 Although the important parts of the One Cell Prototype are all mentioned here, the main focus lies on the amplifier and the digitizer since these are the most relevant parts of this thesis.
 Firstly the cell and the liquid scintillator are shown, followed by the \ac{wom} used to capture the scintillation light, the \acp{sipm} used for the light detection, and the optical coupling between the \ac{wom} and the and the \acp{sipm}, are presented afterward.
@@ -11,10 +11,10 @@ Subsequently, the amplifier and the digitizer are introduced.
 \section{The Cell \& Liquid Scintillator}
 
 In \autoref{fig:one_cell}, the One Cell Prototype is shown.
-It is \SI{80}{\centi\meter} wide and around \SI{120}{\centi\meter} high.
-However, the precise height depends on the position in the cell due to the asymmetric shape.
-The walls of the cell consist of \SI{1}{\centi\meter} thick corten steel.
-The steel was chosen because of the rather low price tag, which is an important aspect considering the size of the \ac{sbt}.
+It is a \SI{80}{\centi\meter} wide and around \SI{120}{\centi\meter} high container.
+The precise height depends on the position in the cell due to the asymmetric shape.
+The walls of the container consist of \SI{1}{\centi\meter} thick corten steel.
+The steel was chosen to minimize the \ac{sbt}s mass, which is an important aspect considering its size \cite{}.
 A thickness of \SI{1}{\centi\meter} is only half of the planned \SI{2}{\centi\meter} wall thickness of the \ac{sbt} design.
 The \ac{sbt} needs such thick walls in order to withstand the vacuum on the inside.
 For the R\&D with the One Cell Prototype, the thickness was reduced to be able to perform measurements with different wall thicknesses by adding steel plates to the outside.
@@ -23,7 +23,7 @@ One side of the cell has two holes with a \SI{}{\centi\meter} radius.
 They have an equal distance to both side walls.
 The lower hole is \SI{30}{\centi\meter} away from the bottom of the cell, and the upper hole is \SI{30}{\centi\meter} below the top.
 In each of these holes, a PMMA vessel, shown in \autoref{fig:pmma_vessel}, is placed to house the two \acp{wom} and protect their wavelength-shifting coating from the liquid scintillator.
-A reflective paint was applied to the inside of the cell to increase the scintillator's light yield and therefore increase the detector's efficiency.
+A UV reflective paint was applied to the inside of the container to increase the scintillator's light yield and therefore increase the detector's efficiency.
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{.40\textwidth}
@@ -42,15 +42,15 @@ A reflective paint was applied to the inside of the cell to increase the scintil
 	\label{fig:one_cell_and_pmma}
 \end{figure}
 
-The cell is filled with the liquid scintillator \ac{lab} mixed with \SI{2}{\gram\per\liter} Diphenyloxazole (PPO)%, which is also planed to be used in the \ac{sbt}.
+The container is filled with the liquid scintillator \ac{lab} mixed with \SI{2}{\gram\per\liter} Diphenyloxazole (PPO)%, which is also planed to be used in the \ac{sbt}.
 In order to allow decrompression and compression by temperature change, an expansion vessel is mounted on top of the cell.
 %To fill the cell \SI{}{\kilo\gram} \ac{lab} were used.
 %This is around \SI{3}{\kilo\gram} more than the amount fitting into the cell.
 %The extra \ac{lab} is in the expansion vessel, in order for the cell still being full in case of a temperatur decline and compession of the \ac{lab}.
 The cell was overfilled with scintillator, in order to still being full if the temperature declines and the scintillator compresses.
-Gaseous nitrogen fills out the remaining volume of the expansion vessel to serve as a compressible volume. 
+Gaseous nitrogen fills out the remaining volume of the expansion vessel to avoid contact to air and to serve as a compressible volume. 
 
-\ac{lab}s emission spectrum is shown in \autoref{fig:lab_emission}.
+The \ac{lab}s emission spectrum is shown in \autoref{fig:lab_emission}.
 Most of the scintillation light has a wavelength of \SIrange{320}{360}{\nano\meter}.
 In order to capture the light and to shift the wavelength towards values for which the used \acp{sipm} have a higher detection efficiency, \acp{wom} are used.
 In the next section, these \acp{wom} and the optical coupling between them and the \acp{sipm} are presented.
@@ -69,16 +69,16 @@ So-called \acp{wom} are used to capture the scintillation light.
 They are PMMA cylinder walls with a \SI{6}{\centi\meter} outer diameter and a \SI{3}{\milli\meter} wall thickness.
 The design and material choice both make the cost of the light collection relatively cheap.
 Both the inside and outside of the PMMA cylinder are coated with the wavelength shifter Bis-MSB \cite{}.
-So the captured photons are shifted to a higher wavelength, for which the \acp{sipm} used for the light detection have a higher efficiency.
+So the captured photons are shifted to a larger wavelength, for which the \acp{sipm} used have a higher efficiency.
 \autoref{fig:lab_emission} shows the wavelength spectrum of the wavelength-shifted light.
 The photons which enter the \ac{wom} are trapped there by total reflection on the walls.
-They can leave the \ac{wom} at its end, where an array of forty \acp{sipm} can detect them.
+They can leave the \ac{wom} at its end, where an array of \acp{sipm} can detect them.
 For a good optical coupling between the \ac{wom} and the \acp{sipm}, either optical grease or silicon pads can be used.
 \autoref{fig:wom_principle} illustrates the principle of the \ac{wom} with the wavelength shifting and capture by total reflection.
 \begin{figure}
 	\centering
 	\includegraphics[width=.8\textwidth]{pictures/wom_principle}
-	\caption[Working principle of a WOM]{A Wavelength-shifting Optical Module (WOM) is a PMMA tube coated with the wavelength shifter Bis-MSB. If a photon in the UV range hits the WOM, its wavelength gets shifted. Afterward, in the WOM, the photon is trapped by total reflection. At the end of the WOM, the photon can be detected by a photosensor. \cite[]}
+	\caption[Working principle of a WOM]{A wavelength-shifting optical module (WOM) is a PMMA tube coated with the wavelength shifter Bis-MSB. When a photon in the UV range hits the WOM, its wavelength gets shifted. Afterward, in the WOM, the photon is trapped by total reflection. At the end of the WOM, the photon can be detected by a photosensor. \cite[]}
 	\label{fig:wom_principle}
 \end{figure}
 
@@ -111,7 +111,7 @@ Then the \ac{apd} is called \ac{spad}.
 The macroscopic signal of a \ac{spad} makes it possible to detect single photons.
 In order to stop the avalanche, a quenching resistor is connected in series to the \ac{spad}.
 With an increasing current signal flowing through the quenching resistor, the voltage drop at this resistor increases, and thus the bias voltage at the \ac{spad} decreases.
-When the bias voltage drops under the breakdown voltage, the avalanche is no longer self-sustaining and stops.
+When the bias voltage drops below the breakdown voltage, the avalanche is no longer self-sustaining and stops.
 Thus the signal amplitude of a \ac{spad} is always similar, independent of how many photons arrive at the same moment.
 
 

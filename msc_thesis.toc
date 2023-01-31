@@ -4,7 +4,7 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
 \contentsline {chapter}{\numberline {2}One Cell Prototype}{7}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The Cell \& Liquid Scintillator}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Wavelengthshifting Optical Module \& Optical Coupling}{9}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Wavelength-shifting Optical Module \& Optical Coupling}{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Silicon Photomultiplier}{10}{section.2.3}%
 \contentsline {section}{\numberline {2.4}The eMUSIC board}{13}{section.2.4}%
 \contentsline {paragraph}{The eMUSIC ASIC}{13}{section*.25}%
@@ -28,7 +28,7 @@
 \contentsline {section}{\numberline {4.5}Dark Count Measurements}{42}{section.4.5}%
 \contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{45}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Summary and Outlook}{47}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{48}{appendix.A}%
-\contentsline {chapter}{List of Figures}{50}{appendix*.66}%
-\contentsline {chapter}{List of Tables}{52}{appendix*.67}%
-\contentsline {chapter}{Bibliography}{53}{appendix*.68}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{49}{appendix.A}%
+\contentsline {chapter}{List of Figures}{51}{appendix*.66}%
+\contentsline {chapter}{List of Tables}{53}{appendix*.67}%
+\contentsline {chapter}{Bibliography}{54}{appendix*.68}%
