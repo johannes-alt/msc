@@ -17,18 +17,18 @@
 \contentsline {subsection}{\numberline {2.5.2}GIMLI Mezzanine Cards}{21}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Usage of the {gandalf} with \acp {sipm}}{22}{subsection.2.5.3}%
 \contentsline {chapter}{\numberline {3}Setup}{24}{chapter.3}%
-\contentsline {section}{\numberline {3.1}SiPM stuff}{24}{section.3.1}%
-\contentsline {section}{\numberline {3.2}dark box stuff}{25}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Gandalf Stuff}{26}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Results of the DAQ Tests}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{27}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Input Offset Voltage}{29}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{35}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{39}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Dark Count Measurements}{42}{section.4.5}%
-\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{45}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{47}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{49}{appendix.A}%
-\contentsline {chapter}{List of Figures}{51}{appendix*.66}%
-\contentsline {chapter}{List of Tables}{53}{appendix*.67}%
-\contentsline {chapter}{Bibliography}{54}{appendix*.68}%
+\contentsline {section}{\numberline {3.1}SiPM}{24}{section.3.1}%
+\contentsline {section}{\numberline {3.2}dark box stuff}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Gandalf Stuff}{27}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Results of the DAQ Tests}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Input Offset Voltage}{30}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{36}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Dark Count Measurements}{43}{section.4.5}%
+\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{46}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{48}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{50}{appendix.A}%
+\contentsline {chapter}{List of Figures}{52}{appendix*.66}%
+\contentsline {chapter}{List of Tables}{54}{appendix*.67}%
+\contentsline {chapter}{Bibliography}{55}{appendix*.68}%

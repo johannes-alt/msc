@@ -8,11 +8,13 @@
 % led + diffusor
 % emusic
 % sipm
-\section{SiPM stuff}
+\section{SiPM}
+An important part of the setup are of course the \acp{sipm} which generate the charge signal which than gets amplified by the \ac{emusic} chips.
 The \acp{sipm} mainly used in this work are the \textit{S14160-3050HS} by the manufacturer Hamamatsu.
-Another \ac{sipm} model used is the SensL \textit{J-Series 30035} manufactured by Onsemi.
+Another \ac{sipm} model which was used at the \ac{desy} testbeam besides the \textit{S14160-3050HS} is the SensL \textit{J-Series 30035} manufactured by Onsemi.
 Some important parameters of both \ac{sipm} models are listed in \autoref{tab:sipm_specs}.
-For this work, \acp{pcb} with each forty \acp{sipm} of a model soldered onto it were used.
+For this work, \acp{pcb} with forty \acp{sipm} soldered onto it were used.
+These boards exist with both \ac{sipm} models.
 A picture of one of these \acp{pcb} equiped with Hamamatsu \acp{sipm} is shown in \autoref{fig:sipm_pcb}.
 A breakout board can be plugged in on the back of the \ac{pcb}.
 For this thesis the \ac{emusic} board was used as a breakout board, which is described in the previous chapter.
@@ -40,7 +42,7 @@ For this thesis the \ac{emusic} board was used as a breakout board, which is des
 \end{table} 
 \begin{figure}
 	\centering
-	\includegraphics[width=1.\textwidth]{pictures/sipm_ham_pcb}
+	\includegraphics[width=.5\textwidth]{pictures/sipm_ham_pcb}
 	\caption[\ac{pcb} with Hamamatsu \acp{sipm}]{One of the \acp{pcb} with Hamamatsu \acp{sipm} used for this work.}
 	\label{fig:sipm_pcb}
 \end{figure}
@@ -53,10 +55,10 @@ Via the optical fiber the light of a \SI{460}{\nano\meter} LED can be guided int
 The LED is inside of another light tight box.
 It was build as part of the bachelor thesis of Alexander Bismark and is described there in more detail \cite{}.
 Power can be supplied to the LED via a BNC connector on the light tight box.
-In this thesis the Tektronix AFG was used to create voltage pulses with a width down to \SI{4}{\nano\second}.
+In this thesis the Tektronix AFG was used to create voltage pulses with a width down to \SI{4}{\nano\second} with \SI{2.5}{\nano\second} rising and falling edges.
 To eluminate all \acp{sipm} equaly a \textit{ED1-C50-MD} diffuser by Thorlabs was used.
-For a light beam hitting the diffusor perpendicular to its surface, the light will be diffused in a circular shape with a \SI{50}{\degree} opening angle.
-The relative light intensity of the diffused light of a collimated \SI{488}{\nano\meter} laser beam measured by Thorlabs is shown in \autoref{fig:diffuser_dist} \cite{}.
+A light beam hitting the diffusor perpendicular to its surface gets diffused in a circular shape with a \SI{50}{\degree} opening angle.
+%The relative light intensity of the diffused light of a collimated \SI{488}{\nano\meter} laser beam measured by Thorlabs is shown in \autoref{fig:diffuser_dist} \cite{}.
 
 Multiple BNC, SMA, and SMC feedthroughs were installed in the dark box to supply the \acp{sipm} and \ac{emusic} board with power and to transfer the output signals of the \ac{emusic} out of the box to a digitizer or oscilloscope.
 Also a hole drilled to insert the optical fiber from the LED setup into the box and afterwards covered, to block light from entering through the hole.
@@ -70,6 +72,18 @@ For the digitization either a \ac{gandalf} or the Tektronix oscilloscope was use
 A picture of the setup inside the box is shown in \autoref{fig:setup_box_pic}.
 It includes the LED fiber, the diffuser, the \ac{sipm} and \ac{emusic} board with power and signal cables attached.
 In the following the setup part with the \ac{gandalf} is described.
+\begin{figure}
+	\centering
+	\includegraphics[]{}
+	\caption[]{}
+	\label{fig:setup_sketch}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{pictures/setup_box_pic}
+	\caption[Picture of the inside of the dark box.]{The inside of the dark box which was used for the test measurements. On the left is the end of the fiber from the LED setup mounted on the optical rail. Behind the fiber end is a diffuser by Thorlabs which diffuses the light in a circular distribution with an opening angle of \SI{50}{\degree}. After the diffuser is the \ac{pcb} with the \acp{sipm} placed. On its back is the \ac{emusic} board plugged in. The high voltage for the \acp{sipm} is supplied via the brownish cable, the power for the \ac{emusic} chip is supplied with the red and black cable and the signal outputs of the \ac{emusic} boards are connected with the feedthrough on the box via the black SMA cables.}
+	\label{fig:setup_box_pic}
+\end{figure}
 
 \section{Gandalf Stuff}
 
@@ -83,5 +97,20 @@ As an external clock a copper GIMLI was chosen and used with a GIMLI testboard, 
 It has two slots for GMILIs, for each on data and one clock output and a power connector to supply it with \SI{5}{\volt}.
 For the purpose of an external clock, only one of these slots and the corresponding clock output is used.
 Via LEMO cables, the clock signal form the boards clock output pins is connected to the clock inputs of the \acp{gandalf}.
-
-
+\begin{figure}
+	\centering
+	\begin{figure}
+		\centering
+		\includegraphics[]{}
+		\caption[A \ac{gandalf} portable equiped with a \ac{gandalf}.]{A \ac{gandalf} portable equiped with a \ac{gandalf}.}
+		\label{}
+	\end{figure}
+	\begin{figure}
+		\centering
+		\includegraphics[]{}
+		\caption[]{The GIMLI test board with a copper GIMLI}
+		\label{}
+	\end{figure}
+	\caption[]{}
+	\label{}
+\end{figure}
