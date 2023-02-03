@@ -14,23 +14,19 @@ This should not be a problem for the application with the One Cell Prototype sin
 The most important settings of the \ac{emusic} boards were tested.
 The first of these was the measurement of the input offset voltage used to adjust the overvoltage of the \acp{sipm} on a channel by channel level.
 It was found, that the input \ac{dac}, which sets the offset only follows a linear behavior between \SI{100}{\dacu} and \SI{450}{\dacu}.
-In this range the linear behavior measured with the \ac{emusic} board 2 is
-\begin{align}
-	V = asdlkjf
-\end{align}
-and for the \ac{emusic} board 6 it is
-\begin{align}
-	V = asdlkjf.
-\end{align}
+In this range the linear behavior measured with the \ac{emusic} board 2 is XXX and for the \ac{emusic} board 6 it is XXX.
 But the input offset differs between the different channels, therefore it is necessary to measure the input offset voltage while adjusting it.
 For both boards the input \acp{dac} were set to get approximatly \SI{1}{\volt} input offset.
+
 
 Also the pole-zero cancellation shaper was tested with different settings.
 Therefore measurements with deactivated pole-zero cancellation shaper were made as a reference.
 Also measurements with eight different settings for the shapers resistor at a constant setting for the shapers capacitor were done to see the effect of the resistor settings.
 In order to see the effect of the capacitor eight measurements with different capacitor settings but the same resistor setting were performed.
-
-
+The \ac{fwhm} of the signals could be reduced down to a minimum of \SI{}{\nano\second}, depending on the pole-zero cancellation settings.
+But while the width decreased, the pole-zero cancellation shaper attenuated the signal amplitude down to \SI{}{}.
+A \SI{}{\percent} reduction compared to the \SI{}{} amplitude without the pole-zero cancellation.
+In addition to the different pole-zero settings, also the lower attenuation option of the pole-zero cancellation shaper and the high transimpedance mode was tested.
 
 Two dark count measurements were performed, one with and one without the pole-zero cancellation shaper.
 For the measurement with the pole-zero cancellation shaper, the resistor setting 3 and the capacitor setting 31 were chosen.
@@ -38,4 +34,4 @@ The integral of the waveforms were histogramed.
 For both measurements no single photoelectron peaks could be distinguished in the histogram. 
 Hence it was not possible to use dark count measurements for calibration.
 
-
+The \ac{emusic} board was succesfully tested at the \ac{desy} testbeam and will be under a long time performens test starting in the near future.

@@ -18,17 +18,17 @@
 \contentsline {subsection}{\numberline {2.5.3}Usage of the {gandalf} with \acp {sipm}}{22}{subsection.2.5.3}%
 \contentsline {chapter}{\numberline {3}Setup}{24}{chapter.3}%
 \contentsline {section}{\numberline {3.1}SiPM}{24}{section.3.1}%
-\contentsline {section}{\numberline {3.2}dark box stuff}{26}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Gandalf Stuff}{27}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Results of the DAQ Tests}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Input Offset Voltage}{30}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{36}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{40}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Dark Count Measurements}{43}{section.4.5}%
-\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{46}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{48}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{50}{appendix.A}%
-\contentsline {chapter}{List of Figures}{52}{appendix*.66}%
-\contentsline {chapter}{List of Tables}{54}{appendix*.67}%
-\contentsline {chapter}{Bibliography}{55}{appendix*.68}%
+\contentsline {section}{\numberline {3.2}Dark Box Setup}{26}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Gandalf}{27}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Results of the DAQ Tests}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}GANDALF Clock Frequency and ADC Test}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Input Offset Voltage}{31}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Pole-Zero Cancellation}{37}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{41}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Dark Count Measurements}{44}{section.4.5}%
+\contentsline {chapter}{\numberline {5}\ac {daq} performance at the \ac {desy} testbeam}{47}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{49}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{51}{appendix.A}%
+\contentsline {chapter}{List of Figures}{53}{appendix*.69}%
+\contentsline {chapter}{List of Tables}{55}{appendix*.70}%
+\contentsline {chapter}{Bibliography}{56}{appendix*.71}%

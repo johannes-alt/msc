@@ -10,8 +10,8 @@
 \BOOKMARK [2][-]{subsection.2.5.3}{Usage of the gandalf with sipm}{section.2.5}% 10
 \BOOKMARK [0][-]{chapter.3}{Setup}{}% 11
 \BOOKMARK [1][-]{section.3.1}{SiPM}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.2}{dark box stuff}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.3}{Gandalf Stuff}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Dark Box Setup}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.3}{Gandalf}{chapter.3}% 14
 \BOOKMARK [0][-]{chapter.4}{Results of the DAQ Tests}{}% 15
 \BOOKMARK [1][-]{section.4.1}{GANDALF Clock Frequency and ADC Test}{chapter.4}% 16
 \BOOKMARK [1][-]{section.4.2}{Input Offset Voltage}{chapter.4}% 17
@@ -21,6 +21,6 @@
 \BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 21
 \BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 22
 \BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 23
-\BOOKMARK [0][-]{appendix*.66}{List of Figures}{}% 24
-\BOOKMARK [0][-]{appendix*.67}{List of Tables}{}% 25
-\BOOKMARK [0][-]{appendix*.68}{Bibliography}{}% 26
+\BOOKMARK [0][-]{appendix*.69}{List of Figures}{}% 24
+\BOOKMARK [0][-]{appendix*.70}{List of Tables}{}% 25
+\BOOKMARK [0][-]{appendix*.71}{Bibliography}{}% 26
