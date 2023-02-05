@@ -2,25 +2,24 @@
 
 
 \section{GANDALF Clock Frequency and ADC Test}
-Before using the \ac{gandalf} modules in the \ac{daq}, they need to be tested.
-For this, two things are relevant.
-One of these is the sampling frequency if it corresponds to the theoretical sample frequency.
-The other is the test of the \acp{adc} to see if they have dead bits or other malfunctions.
-To perform this test, a \SI{150}{\mega\hertz} sin voltage signal was generated with an AWG and a \SI{150}{\mega\hertz} filter was used.
-This filter ensures that the sin signal is clean and no unwanted frequencies are present.
-The clean sin signal was then connected to the inputs of the \acp{gandalf}, one after another.
+Before using the \ac{gandalf} modules in the \ac{daq}, they need to be checked for proper functioning.
+For this, two things are relevant:
+One is the quality of the sampling clock, the other the differential linearity and monotonyty of the \acp{adc}.
+To perform these tests, a \SI{150}{\mega\hertz} sine voltage signal was generated with an AWG and a narrow bandwith \SI{150}{\mega\hertz} filter with a \SI{3}{\decibel} bandwidth of \SI{+-5}{\mega\hertz} \cite{}.
+The filter ensures a pure sine wave and unwanted frequencies are suppressed.
+The clean sine signal was then connected to the inputs of the \acp{gandalf}, one after another.
 For each input \num{1000} waveforms were recorded, each with 430 samples.
-For each channel a \ac{fft} was done for one waveform using the python3 functions \textit{scipy.fft.rfft} and \textit{scipy.fft.rfftfreq} to find the frequencies in the signal.
+For each channel a \ac{fft} was done for one waveform using the python3 functions \textit{scipy.fft.rfft} and \textit{scipy.fft.rfftfreq} to find the sampled frequencies in the signal.
 \autoref{fig:gandalf_input_g23_ch0} shows the plot with the \ac{fft} for channel 0 of the \ac{amc} 46 used with the \ac{gandalf} 23.
-In the plot the red line marks the peak frequency of the measured signal.
+In the plot the red line marks the center frequency of the measured signal.
 %The measured values and the corresponding uncertainties are listed in \autoref{tab:gandalf_sin_150}.
-The peak frequency is determined by the maxima in the frequency spectrum and the uncertainty is estimated to be halfe the frequency steps of the \ac{fft}.
-The result of the \ac{fft} is a peak frequency of \SI{149.4(10)}{\mega\hertz}.
+The measured peak frequency is determined by the maxima in the frequency spectrum and the uncertainty is estimated to be halfe the frequency steps of the \ac{fft}.
+The result of the \ac{fft} is a measured center frequency of \SI{149.4(10)}{\mega\hertz}.
 Therefore the sampling frequency of the \ac{gandalf} is as intended, which means that the external clock signal is working correctly.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/gandalf_23_input_ch0}
-	\caption[FFT of a \SI{150}{\mega\hertz} sin signal recorded with a GANDALF module.]{The \ac{fft} of a \SI{150}{\mega\hertz} sin signal recorded with the \ac{gandalf} module 23. The peak frequency is masured is \SI{149.4(10)}{\mega\hertz}}
+	\caption[FFT of a \SI{150}{\mega\hertz} sin signal recorded with a GANDALF module.]{The \ac{fft} of a \SI{150}{\mega\hertz} sin signal recorded with the \ac{gandalf} module 23. The peak frequency is masured to \SI{149.4(10)}{\mega\hertz}}
 	\label{fig:input_offset_b2_ch0}
 \end{figure}
 
@@ -33,36 +32,33 @@ Therefore the sampling frequency of the \ac{gandalf} is as intended, which means
 
 \section{Input Offset Voltage}
 The first measurement with the \ac{emusic} board is to find out the input offset voltage of the \ac{emusic} for different \ac{dac} values.
-This needs to be done to find out the exact overvoltage of the \acp{sipm}, which influences among other things the gain of the \acp{sipm}.
+This needs to be done to determine the correct overvoltage of the \acp{sipm}, which influences among other things the gain of the \acp{sipm}.
 In order to perform this measurement, the setup in \autoref{fig:input_offset_setup} was assembled.
 %The \ac{emusic} board was powered by the \SI{8}{\volt} power supply and the XXXXXXXX power supply was used to supply the high voltage.
 The high voltage was set to \SI{4.7}{\volt} since it was not important for the high voltage to be over the breakdown voltage of the \acp{sipm}.
 It should only be over the maximum input offset the \ac{emusic} can generate for the resulting voltage to be applied in reverse direction to the \acp{sipm}.
-For this measurement the \ac{emusic}s input \ac{dac} settings, which can range from 0 to 511, were set to 0.
+For this measurement the \ac{emusic}s input \ac{dac} settings, which can range from 0 to \SI{511}{\dacu}, were set to \SI{0}{\dacu}.
 Then the voltages between the negative high voltage pole and the voltage on the cathode of the \acp{sipm} were measured.
 As measurement point for the cathode voltage, the \SI{0}{\ohm} resistor placed on the back of the \ac{sipm} board was chosen.
 It is shown in \autoref{fig:meas_input_resistor}.
 This measurement was done for one \ac{sipm} of each \ac{sipm} group.
 The chosen \ac{sipm} were 1, 6, 11, 16, 21, 26, 31 and 36.
-After measureing the voltages, the \ac{dac} setting was increased in steps of \SI{50}{\dacu} until \SI{500}{\dacu} and at each step the measurement was repeated.
+After measuring the different voltages, the \ac{dac} setting was increased in steps of \SI{50}{\dacu} up to \SI{500}{\dacu} and at each step the measurement was repeated.
 In the following first the measurement results of the individual channels over all tested \ac{dac} settings are presented.
 Afterwards, the input offset voltages of the different channels for the same setting are compared.
 
 As an example, the measurements of all eleven tested \ac{dac} settings done with the \ac{emusic} board 2 and channel 0 are shown in \autoref{fig:input_offset_b2_ch0}.
 In the upper part of the plot, the measured voltages are plotted and for the measurements with a \ac{dac} setting between \SI{100}{\dacu} and \SI{450}{\dacu} a linear fit was performed.
 The first two measured voltages were not included, since they visibly do not follow the linear trend.
-For all channels the first to measured values are at around \SI{1530}{\milli\volt} which indicates that in that \si{\dacu} range the different settings do not change the offset voltage.
-Depending on the \ac{emusic} board and the channel also the last one or two measured voltages were excluded from the fit since they also do not follow the linear trend and increase to around \SI{940}{\milli\volt} instead of decreasing further.
+For all channels the first two measured values are at around \SI{1530}{\milli\volt} which indicates a constant offset voltage below \SI{100}{\adcu}.
+Depending on the \ac{emusic} board and the channel also the last measured voltages were excluded from the fit since they do not follow strictly the linear trend and increase on some \ac{emusic} channels to \SI{940}{\milli\volt}.
 The resulting slope and offset of the linear fit are
 \begin{align}
     V_\text{offset, fit} &= \SI{-3.438(28)}{\milli\volt\per\dacu}\cdot x+\SI{1830(8)}{\milli\volt}
 \end{align}
 where x is the setting of the \ac{dac} in \si{\dacu}.
 The bottom of the plot shows the residual plot where the difference between the linear fit and the measured values is shown.
-The range on the y-axis is fixed to \SIrange{-20}{20}{\milli\volt}.
-From that one can see, that should be a precission of \SI{+-20}{\milli\volt} sufficient for ones used, one can use the results from the linear fit to adjust the overvoltage.
-In case one wants a precission in the single \si{\milli\volt} range, this is not suitable anymore.
-Than the \ac{dac} needs to be adjusted while measureing the voltage on the inputs of the \ac{emusic} \ac{asic}.
+The range on the input-offset-axis is fixed to \SIrange{-20}{20}{\milli\volt}.
 In \autoref{tab:input_offset_linear_fit} the fit results for the measurements with the \ac{emusic} boards 2 and 6 are listed.
 The \ac{dac} voltages of the channels differ to other channels on the same board as well as to the channels on the other board.
 Therefore the measurement of the input voltage should be done for every \ac{emusic} board.
@@ -87,22 +83,24 @@ Therefore the measurement of the input voltage should be done for every \ac{emus
 		\toprule
 		\ac{emusic} board & channel & {slope / \si{\milli\volt\per\dacu}} & {offset / \si{\milli\volt}} \\
 		\midrule
-		\multirow{8}{*}{2} & 0 & -3.438(28) & 1830(8)  \\
-		                   & 1 & -3.405(15) & 1818(5)  \\
-		                   & 2 & -3.377(16) & 1803(5)  \\
-		                   & 3 & -3.336(17) & 1778(5)  \\
-		                   & 4 & -3.290(18) & 1764(5)  \\
-		                   & 5 & -3.316(20) & 1758(6)  \\
-		                   & 6 & -3.211(19) & 1716(6)  \\
-		                   & 7 & -3.163(16) & 1702(5)  \\\midrule
-		\multirow{8}{*}{6} & 0 & -3.472(19) & 1843(5)  \\
-		                   & 1 & -3.353(29) & 1804(9)  \\
-		                   & 2 & -3.368(28) & 1795(8)  \\
-		                   & 3 & -3.389(30) & 1801(9)  \\
-		                   & 4 & -3.260(50) & 1747(12) \\
-		                   & 5 & -3.202(33) & 1729(10) \\
-		                   & 6 & -3.275(15) & 1756(4)  \\
-		                   & 7 & -3.263(24) & 1749(7)  \\
+		\multirow{8}{*}{2} & 0				& -3.438(28) & 1830(8)  \\
+		                   & 1				& -3.405(15) & 1818(5)  \\
+		                   & 2				& -3.377(16) & 1803(5)  \\
+		                   & 3				& -3.336(17) & 1778(5)  \\
+		                   & 4				& -3.290(18) & 1764(5)  \\
+		                   & 5				& -3.316(20) & 1758(6)  \\
+		                   & 6				& -3.211(19) & 1716(6)  \\
+		                   & 7				&  &   \\
+		                   & mean of all channels	& -3.163(16) & 1702(5)  \\\midrule
+		\multirow{8}{*}{6} & 0				& -3.472(19) & 1843(5)  \\
+		                   & 1				& -3.353(29) & 1804(9)  \\
+		                   & 2				& -3.368(28) & 1795(8)  \\
+		                   & 3				& -3.389(30) & 1801(9)  \\
+		                   & 4				& -3.260(50) & 1747(12) \\
+		                   & 5				& -3.202(33) & 1729(10) \\
+		                   & 6				& -3.275(15) & 1756(4)  \\
+		                   & 7				& -3.263(24) & 1749(7)  \\
+		                   & mean of all channels	&  &   \\
 		\bottomrule
 	\end{tabular*}
 	\renewcommand{\arraystretch}{1}
@@ -111,8 +109,8 @@ Therefore the measurement of the input voltage should be done for every \ac{emus
 To compare the differences between channels with the same \ac{dac} settings, for three different settings the input voltage was plotted for all eight channels in \autoref{fig:input_offset_b2_dac}, \autoref{fig:input_offset_b2_dac}, and \autoref{fig:input_offset_b2_dac}.
 For settings at \SI{50}{\dacu} and below, the input offset voltage is pretty equal between the channels and only differs in the single \si{\milli\volt} range around \SI{0}{\milli\volt}.
 A similiar behavior is seen for \ac{dac} settings at and above \SI{500}{\dacu}, for which the input voltage is around \SI{940}{\milli\volt} and the differences between the channels is also in the single \si{milli\volt} range.
-But in the \si{dacu} range where the linear progression can be seen, the variations between the channels is larged, in some cases over \SI{70}{\milli\volt}.
-This confirms, that the measurement of the input voltage needs to be done for all \ac{emusic} boards and all channels.
+But in the \si{\dacu} range where the linear progression can be seen, the variations between the channels is larged, in some cases over \SI{70}{\milli\volt}.
+This confirms, that calibration measurements of the input voltage needs to be done for all \ac{emusic} boards and all channels.
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{1.\textwidth}
@@ -135,7 +133,7 @@ This confirms, that the measurement of the input voltage needs to be done for al
 		\caption{}
 		\label{fig:input_offset_b2_dac500}
 	\end{subfigure}
-	\caption[Input offset voltage of all channels for differen \ac{dac} settings]{The input offset voltages of the different channels for the input \ac{dac} settings 50, 150, and 500. The shown meausrements were done with the \ac{emusic} board 2. While the differeneces between the channels for the setting 50 and 500 are less than \SI{10}{\milli\volt}, the maximum difference measured with the setting 150 is around \SI{100}{\milli\volt}.}
+	\caption[Input offset voltage of all channels for differen \ac{dac} settings]{The input offset voltages of the different channels for the input \ac{dac} settings 50, 150, and 500. The shown meausrements were done with the \ac{emusic} board 2. While the differences between the channels for the setting 50 and 500 are less than \SI{10}{\milli\volt}, the maximum difference measured with the setting 150 is around \SI{100}{\milli\volt}.}
 	\label{fig:input_offset_b2_dac}
 \end{figure}
 
@@ -179,20 +177,20 @@ Which are presented in the following sections.
 	\renewcommand{\arraystretch}{1}
 \end{table}
 
-\section{Pole-Zero Cancellation}
+\section{Pole-Zero Cancellation Shaper}
 
-In this section pole-zero cancellation shaper and its effect with different settings tested.
+In this section the results from the characterization of the pole-zero cancellation shaper and its effect with different settings are described.
 Hereby the amplitude of the peak and the \ac{fwhm} are of interest.
 The tests were done using the setup described in \autoref{sec:setup}.
 The high voltage for this and all following measurements, as long as not otherwise stated, was set to \SI{43}{\volt}. 
 A \ac{gandalf} module was used for the digitization.
 The \ac{emusic} settings of one of these measurements are shown in \autoref{} in the appendix.
-For the other measurements, the only thing changing in the settings are the pole-zero settings.
-Each measurement includes approximately \num{80000} events, for which the mean value is shown in the plots below.
+For the other measurements, only the pole-zero settings were changed.
+Each measurement includes approximately \num{80000} events, for which the mean waveforms are shown in the plots below.
 The values for the amplitude and \ac{fwhm} were calculated for each individual waveform and theire mean values are presented here for the different measurements.
 
 First the pole-zero cancellation was disabled to perform measurements for a reference amplitude and \ac{fwhm}.
-In \autoref{fig:pz_no_pz} the mean of all waveforms is shown.
+In \autoref{fig:pz_no_pz} the mean of all \num{80000} waveforms is shown.
 The mean amplitude is 
 \begin{align}
     V_{amp} &= \SI{523(46)}{\milli\volt}
@@ -236,7 +234,7 @@ Also the \ac{fwhm} decreases down to \SI{10.2(6)}{\nano\second} with higher resi
 
 The measurements with different capacitor settings were performed with the resistor setting of 0.
 For the different measurements, the capacitor settings were changed to all 32 possible values, from 0 to 31.
-In \autoref{tab:pz_capacitor} the mean values for the maximum amplitude and the \ac{fwhm} as well as the decrease compared to the values with disabled pole-zero cancellation are listed.
+In \autoref{tab:pz_res_cap} the mean values for the maximum amplitude and the \ac{fwhm} as well as the decrease compared to the values with disabled pole-zero cancellation are listed.
 The mean waveforms for the measurements with the capacitor settings 0, 5, 10, 15, 20, 25, and 31 are shown in \autoref{fig:pz_capacitor}.
 Similar to the effect of the resistor, with higher capacitor settings, the \ac{fwhm} decreases.
 For the setting 0 it is \SI{58.1(27))}{\nano\second} and with the maximal setting 31 it is decreased to \SI{36.8(11)}{\nano\second}.
@@ -293,8 +291,8 @@ After investigating the effects of the pole-zero shaper the influences between t
 Also the high and low transimpedance settings are investigated.
 
 First the pole-zero attenuation was looked at.
-Therefore another meausrement without the lower attenuation setting was performed.
-The pole-zero cancellation resistor setting was set to 3 and the capacitor setting was set to 31. 
+Therefore another measurement without the lower attenuation setting was performed.
+The pole-zero cancellation resistor setting was set to R=3 and the capacitor setting was set to C=31. 
 In \autoref{fig:pz331_att} the mean waveforms with and without lower attenuation are presented.
 The peak of the waveform is not affected by the lower attenuation setting.
 Mainly the tail is of the waveform is increased in amplitude by using the lower attenuation.
@@ -322,10 +320,10 @@ The peak amplitude is not influenced, only the amplitude of the tail is increase
 	\label{fig:pz_att}
 \end{figure}
 
-After the pole-zero attenuation, the high and low transimpedance settings were investigated.
-Therefore two measurements without pole-zero cancellation were taken with and without the high transimpedance.
-Both measurements consist of around \num{80000} waveforms.
-A mean waveform was calculated for both measurements and plotted in \autoref{fig:low_imp_wf}.
+Next, the high and low transimpedance settings were investigated.
+Therefore two measurements without pole-zero cancellation were taken, one with high and a second with low transimpedance.
+Again, both measurements consist of around \num{80000} waveforms.
+Mean waveforms were calculated for both measurements and plotted in \autoref{fig:low_imp_wf}.
 The mean amplitude of the events with high transimpedance is
 \begin{align}
 	V_\text{high imp} &= \SI{540(50)}{\milli\volt}
@@ -334,7 +332,7 @@ and of the events with low transimpedance the mean amplitude is
 \begin{align}
 	V_\text{low imp} &= \SI{185(14)}{\milli\volt}.
 \end{align}
-This results in a decrease by the factor \num{0.34(4)} if the low transimpedance is used.
+This results in a reduction by the factor \num{0.34(4)} if the low transimpedance is used.
 The measurements were repeated with the settings 3 and 31 for the pole-zero resistor and capacitor, respectively.
 The mean amplitudes for these measurements are
 \begin{align}
@@ -349,9 +347,6 @@ The plots of the mean waveforms for the measurements with pole-zero cancellation
 	\caption[Waveforms measured with low and high transimpedance]{The mean waveforms of two measurements with around \num{80000} waveforms each. The black waveform correspondes to a measurement done with high transimpedance and the red waveform correspondes to a measurement with low transimpedance.}
 	\label{fig:low_imp_wf}
 \end{figure}
-
-After the, for this work, most important features of the \ac{emusic} are investigated, a \ac{emusic} board and a Hamamatsu \ac{sipm} board were used to measure dark counts.
-The goal of the dark count measurement was to test if dark counts could be used for calibration.
 
 \section{Dark Count Measurements}
 Due to their indistiguishability from signals caused by photons, the measurement of dark counts can be an easy way to calibrate the readout.

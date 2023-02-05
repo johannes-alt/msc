@@ -15,12 +15,12 @@
 \BOOKMARK [0][-]{chapter.4}{Results of the DAQ Tests}{}% 15
 \BOOKMARK [1][-]{section.4.1}{GANDALF Clock Frequency and ADC Test}{chapter.4}% 16
 \BOOKMARK [1][-]{section.4.2}{Input Offset Voltage}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{Pole-Zero Cancellation}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.3}{Pole-Zero Cancellation Shaper}{chapter.4}% 18
 \BOOKMARK [1][-]{section.4.4}{Transimpedance and Pole-Zero Attenuation}{chapter.4}% 19
 \BOOKMARK [1][-]{section.4.5}{Dark Count Measurements}{chapter.4}% 20
-\BOOKMARK [0][-]{chapter.5}{daq performance at the desy testbeam}{}% 21
+\BOOKMARK [0][-]{chapter.5}{DAQ Performance at the DESY Testbeam}{}% 21
 \BOOKMARK [0][-]{chapter.6}{Summary and Outlook}{}% 22
 \BOOKMARK [0][-]{appendix.A}{List of acronyms}{}% 23
-\BOOKMARK [0][-]{appendix*.69}{List of Figures}{}% 24
-\BOOKMARK [0][-]{appendix*.70}{List of Tables}{}% 25
-\BOOKMARK [0][-]{appendix*.71}{Bibliography}{}% 26
+\BOOKMARK [0][-]{appendix*.68}{List of Figures}{}% 24
+\BOOKMARK [0][-]{appendix*.69}{List of Tables}{}% 25
+\BOOKMARK [0][-]{appendix*.70}{Bibliography}{}% 26
