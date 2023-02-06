@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  6 FEB 2023 14:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  6 FEB 2023 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1858,7 +1858,7 @@ Package pdftex.def Info: pictures/siegel.png  used on input line 29.
 fier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.15 \end{abstract}
+l.12 \end{abstract}
                     [1
 
 ]) [2
@@ -2377,30 +2377,20 @@ LaTeX Warning: Reference `fig:input_offset_setup' on page 32 undefined on input
 
 
 LaTeX Warning: Reference `fig:meas_input_resistor' on page 32 undefined on inpu
-t line 43.
+t line 46.
+
+
+Overfull \hbox (7.65202pt too wide) detected at line 61
+[]
+ []
 
 <pictures/input_offset_board_2_channel_0.png, id=824, 426.75435pt x 263.7855pt>
 
 File: pictures/input_offset_board_2_channel_0.png Graphic file (type png)
 <use pictures/input_offset_board_2_channel_0.png>
 Package pdftex.def Info: pictures/input_offset_board_2_channel_0.png  used on i
-nput line 67.
+nput line 70.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-
-Overfull \hbox (9.33336pt too wide) detected at line 86
- 
- []
-
-
-Overfull \hbox (9.33336pt too wide) detected at line 87
- 
- []
-
-
-Overfull \hbox (9.33336pt too wide) detected at line 88
- 
- []
-
 
 Overfull \hbox (9.33336pt too wide) detected at line 89
  
@@ -2418,6 +2408,11 @@ Overfull \hbox (9.33336pt too wide) detected at line 91
 
 
 Overfull \hbox (9.33336pt too wide) detected at line 92
+ 
+ []
+
+
+Overfull \hbox (9.33336pt too wide) detected at line 93
  
  []
 
@@ -2466,45 +2461,50 @@ Overfull \hbox (9.33336pt too wide) detected at line 102
  
  []
 
+
+Overfull \hbox (9.33336pt too wide) detected at line 103
+ 
+ []
+
+
+Overfull \hbox (9.33336pt too wide) detected at line 104
+ 
+ []
+
+
+Overfull \hbox (9.33336pt too wide) detected at line 105
+ 
+ []
+
+
+Overfull \hbox (9.33336pt too wide) detected at line 106
+ 
+ []
+
 [32]
-<pictures/input_offset_b2_dac50.png, id=847, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac50.png, id=845, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac50.png Graphic file (type png)
 <use pictures/input_offset_b2_dac50.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac50.png  used on input line
- 118.
+ 121.
 (pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac150.png, id=848, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac150.png, id=846, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac150.png Graphic file (type png)
 <use pictures/input_offset_b2_dac150.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac150.png  used on input lin
-e 125.
+e 128.
 (pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac500.png, id=849, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac500.png, id=847, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac500.png Graphic file (type png)
 <use pictures/input_offset_b2_dac500.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac500.png  used on input lin
-e 132.
+e 135.
 (pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
 
 
-LaTeX Warning: Float too large for page by 73.8689pt on input line 138.
+LaTeX Warning: Float too large for page by 73.8689pt on input line 141.
 
 [33 <./pictures/input_offset_board_2_channel_0.png>] [34]
-Overfull \hbox (5.87498pt too wide) detected at line 159
- 
- []
-
-
-Overfull \hbox (5.87498pt too wide) detected at line 160
- 
- []
-
-
-Overfull \hbox (5.87498pt too wide) detected at line 161
- 
- []
-
-
 Overfull \hbox (5.87498pt too wide) detected at line 162
  
  []
@@ -2530,12 +2530,22 @@ Overfull \hbox (5.87498pt too wide) detected at line 166
  []
 
 
-Overfull \hbox (5.87498pt too wide) detected at line 170
+Overfull \hbox (5.87498pt too wide) detected at line 167
  
  []
 
 
-Overfull \hbox (5.87498pt too wide) detected at line 171
+Overfull \hbox (5.87498pt too wide) detected at line 168
+ 
+ []
+
+
+Overfull \hbox (5.87498pt too wide) detected at line 169
+ 
+ []
+
+
+Overfull \hbox (5.87498pt too wide) detected at line 173
  
  []
 
@@ -2544,20 +2554,25 @@ Overfull \hbox (5.87498pt too wide) detected at line 174
  
  []
 
+
+Overfull \hbox (5.87498pt too wide) detected at line 177
+ 
+ []
+
 [35] [36 <./pictures/input_offset_b2_dac50.png> <./pictures/input_offset_b2_dac
 150.png> <./pictures/input_offset_b2_dac500.png>] [37]
 
-LaTeX Warning: Reference `sec:setup' on page 38 undefined on input line 184.
+LaTeX Warning: Reference `sec:setup' on page 38 undefined on input line 187.
 
-<pictures/pz_no_pz.png, id=899, 426.75435pt x 263.7855pt>
+<pictures/pz_no_pz.png, id=897, 426.75435pt x 263.7855pt>
 File: pictures/pz_no_pz.png Graphic file (type png)
 <use pictures/pz_no_pz.png>
-Package pdftex.def Info: pictures/pz_no_pz.png  used on input line 204.
+Package pdftex.def Info: pictures/pz_no_pz.png  used on input line 207.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/pz_resistor.png, id=904, 426.75435pt x 197.7789pt>
+<pictures/pz_resistor.png, id=902, 426.75435pt x 197.7789pt>
 File: pictures/pz_resistor.png Graphic file (type png)
 <use pictures/pz_resistor.png>
-Package pdftex.def Info: pictures/pz_resistor.png  used on input line 230.
+Package pdftex.def Info: pictures/pz_resistor.png  used on input line 233.
 (pdftex.def)             Requested size: 426.79134pt x 197.79651pt.
 
 ! Package siunitx Error: Invalid numerical input '58.1(27))'.
@@ -2565,7 +2580,7 @@ Package pdftex.def Info: pictures/pz_resistor.png  used on input line 230.
 For immediate help type H <return>.
  ...                                              
                                                   
-l.240 ...ting 0 it is \SI{58.1(27))}{\nano\second}
+l.243 ...ting 0 it is \SI{58.1(27))}{\nano\second}
                                                    and with the maximal sett...
 
 
@@ -2573,42 +2588,42 @@ The input given as a number does not make logical sense. This happens, for
 example, if a number only contains a sign.
 
 
-<pictures/pz_capacitor.png, id=909, 426.75435pt x 197.7789pt>
+<pictures/pz_capacitor.png, id=907, 426.75435pt x 197.7789pt>
 File: pictures/pz_capacitor.png Graphic file (type png)
 <use pictures/pz_capacitor.png>
-Package pdftex.def Info: pictures/pz_capacitor.png  used on input line 246.
+Package pdftex.def Info: pictures/pz_capacitor.png  used on input line 249.
 (pdftex.def)             Requested size: 426.79134pt x 197.79651pt.
 [38] [39 <./pictures/pz_no_pz.png> <./pictures/pz_resistor.png>] [40 <./picture
 s/pz_capacitor.png>] [41]
-<pictures/att_pz331.png, id=942, 426.75435pt x 263.7855pt>
+<pictures/att_pz331.png, id=940, 426.75435pt x 263.7855pt>
 File: pictures/att_pz331.png Graphic file (type png)
 <use pictures/att_pz331.png>
-Package pdftex.def Info: pictures/att_pz331.png  used on input line 309.
+Package pdftex.def Info: pictures/att_pz331.png  used on input line 312.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/att_pz700.png, id=943, 426.75435pt x 263.7855pt>
+<pictures/att_pz700.png, id=941, 426.75435pt x 263.7855pt>
 File: pictures/att_pz700.png Graphic file (type png)
 <use pictures/att_pz700.png>
-Package pdftex.def Info: pictures/att_pz700.png  used on input line 315.
+Package pdftex.def Info: pictures/att_pz700.png  used on input line 318.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
 
 
-LaTeX Warning: Float too large for page by 52.81007pt on input line 321.
+LaTeX Warning: Float too large for page by 52.81007pt on input line 324.
 
 [42] [43 <./pictures/att_pz331.png> <./pictures/att_pz700.png>]
-<pictures/low_imp_mean_wf.png, id=964, 426.75435pt x 263.7855pt>
+<pictures/low_imp_mean_wf.png, id=962, 426.75435pt x 263.7855pt>
 File: pictures/low_imp_mean_wf.png Graphic file (type png)
 <use pictures/low_imp_mean_wf.png>
-Package pdftex.def Info: pictures/low_imp_mean_wf.png  used on input line 346.
+Package pdftex.def Info: pictures/low_imp_mean_wf.png  used on input line 349.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/dc_hist_pz.png, id=968, 426.393pt x 263.7855pt>
+<pictures/dc_hist_pz.png, id=966, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_pz.png Graphic file (type png)
 <use pictures/dc_hist_pz.png>
-Package pdftex.def Info: pictures/dc_hist_pz.png  used on input line 365.
+Package pdftex.def Info: pictures/dc_hist_pz.png  used on input line 368.
 (pdftex.def)             Requested size: 426.79134pt x 264.03842pt.
-<pictures/dc_hist_no_pz.png, id=970, 426.393pt x 263.7855pt>
+<pictures/dc_hist_no_pz.png, id=968, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_no_pz.png Graphic file (type png)
 <use pictures/dc_hist_no_pz.png>
-Package pdftex.def Info: pictures/dc_hist_no_pz.png  used on input line 374.
+Package pdftex.def Info: pictures/dc_hist_no_pz.png  used on input line 377.
 (pdftex.def)             Requested size: 426.79134pt x 264.03842pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2728,7 +2743,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
 Here is how much of TeX's memory you used:
  44208 strings out of 481239
  971250 string characters out of 5920378
- 1423426 words of memory out of 5000000
+ 1424426 words of memory out of 5000000
  58366 multiletter control sequences out of 15000+600000
  631274 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2745,10 +2760,10 @@ public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on msc_thesis.pdf (64 pages, 29850969 bytes).
+Output written on msc_thesis.pdf (64 pages, 29880831 bytes).
 PDF statistics:
- 1241 PDF objects out of 1440 (max. 8388607)
- 1041 compressed objects within 11 object streams
+ 1240 PDF objects out of 1440 (max. 8388607)
+ 1040 compressed objects within 11 object streams
  204 named destinations out of 1000 (max. 500000)
  387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
