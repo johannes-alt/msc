@@ -26,8 +26,8 @@
 %After the neutrino detector a \SI{50}{\meter} long vacuum chamber is positioned.
 %If a non \ac{sm} particle is created at the target, is can decay inside the vacuum decay chamber back into \ac{sm} particles.
 %The decay products than get measured in the decay spectrometer behind the decay chamber.
-So far, the best physical description of the universe is provided by the Standard Model of cosmology and the \ac{sm}.
-However, through observations of different phenomena, which the \ac{sm} can not explain, like neutrino oscillation \cite{} and the rotation velocity in galaxies \cite{}, it is known that the \ac{sm} can not be a complete theory \cite{}.
+So far, the best physical description of particle physics is provided by the \ac{sm}.
+However, through observations of different phenomena, which the \ac{sm} can not explain, like neutrino oscillation \cite{} and observations related to so called Dark Matter or Dark Energy \cite{}, it is known that the \ac{sm} can not be a complete theory \cite{}.
 Therefore different experiments are in development or are operating to search for new physics and particles outside the \ac{sm}.
 One possible future experiment to join the search for new physics is the proposed \ac{ship} experiment.
 It is an intensity frontier experiment using the \SI{400}{\giga\electronvolt} proton beam from CERN's \ac{sps} and dumping it into a fixed target in order to observe rare events.
@@ -54,7 +54,7 @@ From the measurements taken by the \ac{hs} decay spectrometer, the long lived ne
 	\label{fig:ship_sketch}
 \end{figure}
 
-One problem for the measurement can be caused by \ac{sm} particles entering the decay volume falsely reconstructed as \ac{hs} events in the spectrometer.
+One problem for the measurement can be caused by \ac{sm} particles entering the decay volume, falsely reconstructed as \ac{hs} events in the spectrometer.
 Such a background can be muons deflected by the muon shield, reflected at the walls of the facility back into the decay volume, mimicking the decay products of an \ac{hs} event in the spectrometer.
 It is crucial for background suppression to detect charged particles entering the decay volume and to tag them as background.
 This task is meant to be done by the \ac{sbt}.
@@ -66,13 +66,14 @@ The details of the different parts important for this thesis are presented in mo
 To make the tagging of background events as efficient and pure as possible and to avoid the false tagging different pieces of information need to be known about the particles entering the decay volume.
 These pieces of information are the energy loss, the time and the space coordinates at which the particles enter the \ac{hs} decay volume.
 Therefore the \ac{sbt} is designed as a five-dimensional tagger.
-It will consist of approximately 2000 cells that form the walls on the side as well as the top and bottom of the vacuum decay chamber.
+The five dimensions are the time when which the particle moves through the \ac{sbt}, the three space coordinates where the particle enters the decay volume and the energy loss of the particle in the \ac{sbt}.
+The \ac{sbt} will consist of approximately 2000 cells that form the walls on the side as well as the top and bottom of the vacuum decay chamber.
 The structure is shown in \autoref{fig:sbt_structure_sceleton}.
 In order to fit the overall truncated pyramidal shape of the decay volume, the cells have an unsymmetric shape, an example is shown in \autoref{fig:sbt_structure_cell}.
 Both of the long edges are parallel, but the shorter sides are not.
 The depth of the cells is \SI{25}{\centi\meter} and the wall thickness is planned to be \SI{2}{\centi\meter} \cite{}.
 For the detection of particles, a liquid scintillator will be filled into the cells.
-A particle passing through one or more cells will deposit energy in the scintillator, causing the emittance of scintillation light.
+A particle passing through one or more cells will deposit energy in the scintillator, causing scintillation light.
 The amount of emitted light is correlated to the amount of energy deposited in the scintillator.
 Two \acp{wom}, PMMA tubes coated with wavelength-shifting paint, are placed in each cell to collect the scintillation light and guide it to an array of \acp{sipm}.
 The signals from the \acp{sipm} can be amplified, digitized, and further processed.
@@ -103,7 +104,7 @@ Both a \ac{wom} and a \ac{sipm} array are shown in \autoref{fig:sbt_structure}.
 
 This thesis is in the scope of the R\&D of the \ac{sbt}.
 For the R\&D of the \ac{sbt}, a prototype of one of the cells was built, with which important parts can be tested.
-Starting from the cell's material itself, a reflecting coating on the inside of the cell, the \ac{wom} vessel, the coated \acp{wom}, the \acp{sipm} and the optical coupling and the readout electronics.
+Starting from the cell's material itself, a reflecting coating on the inside of the cell, the \ac{wom} vessel, the coated \acp{wom}, the \acp{sipm} and the optical coupling and the readout electronics, to name only a few.
 This thesis is about the readout of the \acp{wom} of this prototype.
 In the long run a dedicated \ac{asic} will be used for the readout of the \ac{sbt}.
 However, since this chip is still in a very early stage of development by the Forschungszentrum Jülich a readout of the shelf is used for the One Cell Prototype in order to test it.

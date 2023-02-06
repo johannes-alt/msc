@@ -8,8 +8,8 @@ This test was done by generating a pure \SI{150}{\mega\hertz} sine waveform with
 The peak frequency of the digitized frequency was determined with a \ac{fft} is \SI{149.4(10)}{\mega\hertz} which is in agreement with the theoretical frequency of the sine waveform.
 Therefore it can be concluded that the \acp{gandalf} sampling with the correct frequency of \SI{880}{\mega\sample\per\second} and the external clock is working as intended.
 Also the \ac{gandalf} firmware was adjusted to trigger on positive input signals instead of negative pulses.
-Through a bug in the new firmware a surpassing of the maximum datarate of \SI{20}{\mega\byte\per\second} leads to incomplete events which cannot be decoded with the software of the \ac{gandalf}.
-This should not be a problem for the application with the One Cell Prototype since the datarate from firt tests is much lower than the limit.
+%Through a bug in the new firmware a surpassing of the maximum datarate of \SI{20}{\mega\byte\per\second} leads to incomplete events which cannot be decoded with the software of the \ac{gandalf}.
+%This should not be a problem for the application with the One Cell Prototype since the datarate from firt tests is much lower than the limit.
 
 The most important settings of the \ac{emusic} boards were tested.
 The first of these was the measurement of the input offset voltage used to adjust the overvoltage of the \acp{sipm} on a channel by channel level.
@@ -29,9 +29,8 @@ A \SI{}{\percent} reduction compared to the \SI{}{} amplitude without the pole-z
 In addition to the different pole-zero settings, also the lower attenuation option of the pole-zero cancellation shaper and the high transimpedance mode was tested.
 
 Two dark count measurements were performed, one with and one without the pole-zero cancellation shaper.
-For the measurement with the pole-zero cancellation shaper, the resistor setting 3 and the capacitor setting 31 were chosen.
-The integral of the waveforms were histogramed.
-For both measurements no single photoelectron peaks could be distinguished in the histogram. 
+For the measurement with the pole-zero cancellation shaper, the resistor setting R=3 and the capacitor setting C=31 were chosen.
+In the histogram of the waveform integrals of both measurements no single photoelectron peaks could be distinguished.
 Hence it was not possible to use dark count measurements for calibration.
 
 The \ac{emusic} board was succesfully tested at the \ac{desy} testbeam and will be under a long time performens test starting in the near future.

@@ -19,11 +19,10 @@ A thickness of \SI{1}{\centi\meter} is only half of the planned \SI{2}{\centi\me
 The \ac{sbt} needs such thick walls in order to withstand the vacuum on the inside.
 For the R\&D with the One Cell Prototype, the thickness was reduced to be able to perform measurements with different wall thicknesses by adding steel plates to the outside.
 This is important in case the \ac{sbt} design changes, for example by replacing the vacuum with helium.
-One side of the cell has two holes with a \SI{}{\centi\meter} radius.
-They have an equal distance to both side walls.
+One side of the cell has two holes with equal distance to both side walls.
 The lower hole is \SI{30}{\centi\meter} away from the bottom of the cell, and the upper hole is \SI{30}{\centi\meter} below the top.
-In each of these holes, a PMMA vessel, shown in \autoref{fig:pmma_vessel}, is placed to house the two \acp{wom} and protect their wavelength-shifting coating from the liquid scintillator.
-A UV reflective paint was applied to the inside of the container to increase the scintillator's light yield and therefore increase the detector's efficiency.
+In each of these holes, a PMMA vessel, shown in \autoref{fig:pmma_vessel}, is placed to house the two \acp{wom}.
+Through an air gap between the \acp{wom} and the PMMA vessel walls the photons in the \acp{wom} are captured there by total reflection at the \ac{wom} air interface.
 \begin{figure}
 	\centering
 	\begin{subfigure}[b]{.40\textwidth}
@@ -42,7 +41,8 @@ A UV reflective paint was applied to the inside of the container to increase the
 	\label{fig:one_cell_and_pmma}
 \end{figure}
 
-The container is filled with the liquid scintillator \ac{lab} mixed with \SI{2}{\gram\per\liter} Diphenyloxazole (PPO)%, which is also planed to be used in the \ac{sbt}.
+The container is filled with \ac{lab} mixed with \SI{2}{\gram\per\liter} Diphenyloxazole (PPO)%, which is also planed to be used in the \ac{sbt}.
+A UV reflective paint was applied to the inside of the container to increase the scintillator's light yield and therefore increase the detector's efficiency.
 In order to allow decrompression and compression by temperature change, an expansion vessel is mounted on top of the cell.
 %To fill the cell \SI{}{\kilo\gram} \ac{lab} were used.
 %This is around \SI{3}{\kilo\gram} more than the amount fitting into the cell.
@@ -87,14 +87,9 @@ In the next part, the \acp{sipm}, which detect the light captured by the \acp{wo
 
 \section{Silicon Photomultiplier}
 In order to correctly identify and tag background events, the light detection of the \ac{sbt} has to provide accurate timing information.
-Furthermore, due to the number of cells and \acp{wom} in the \ac{sbt}, it should not cost a lot per \ac{wom}.
+Furthermore, due to the large number of cells and \acp{wom} in the \ac{sbt}, cost optimization is essential.
 To fulfill both requirements, \acp{sipm} were chosen as photodetectors.
 These photodetectors consist of up to thousands of pixels.
-Each pixel is a photodiode with a typical edge length between \SI{10}{\micro\meter} and \SI{100}{\micro\meter} \cite{nucl}.
-If triggered by light, a \ac{sipm} sends out a charge signal proportional to the number of triggered pixels.
-In the case that the number of incoming photons is low compared to the number of pixels, such that two photons hitting the same pixel is unlikely, the charge signal is linear to the light intensity.
-The charge signal possesses a fast-rising edge with a rise time of the order of tens of \si{\piko\second} \cite{nucl}.
-Besides the excellent time resolution, \acp{sipm} also make it possible to count the arriving photos with a sensitivity down to single photons \cite{HAMA_mppc}.
 
 Each pixel in the \ac{sipm} is an \ac{spad}, which is a \ac{apd} supplied with a voltage greater than its breakdown voltage.
 In the following, the principle of such an \ac{apd} and \ac{spad} are explained.
@@ -104,7 +99,7 @@ They consist of doped silicon.
 An example is shown in \autoref{fig:pin_diode}.
 It has a strongly n-doped layer, followed by a strongly p-doped layer, an intrinsic, weakly p-doped layer, and another p-doped layer.
 By adding the intrinsic layer, the region in which the photons can be absorbed increases.
-If a photon gets absorbed, it generates an electron-hole pair.
+It generates an electron-hole pair, when a photon gets absorbed.
 When a reversed bias voltage is applied, the electric field in the \ac{apd} separates the $eh$-pair.
 In case the \ac{apd} is operated in the Geiger mode, meaning the bias voltage is higher than the breakdown voltage of the \ac{apd}, the electric field at the strongly doped $p$- and $n$-layer is sufficiently high, that a self-sustaining avalanche is triggered by either the electron or the hole moving through it.
 Then the \ac{apd} is called \ac{spad}.
@@ -150,10 +145,10 @@ Thus the signal amplitude of a \ac{spad} is always similar, independent of how m
 
 In \acp{sipm}, hundreds to thousands of \acp{spad} are connected in parallel, each with a high-resistance quenching resistor in series. 
 Usually, the \ac{spad} pixels are placed in a rectangular form with an edge length of a few \si{\milli\meter}.
-\autoref{fig:sipm_closeup} shows a picture of a \ac{sipm} and one picture of a single pixel of a \ac{sipm}.
-Due to the property of the \acp{spad} that the output signal is always similar for each \ac{spad}, the output signal of a \ac{sipm} is the output signal of one \ac{spad} multiplicated by the number of triggered \acp{spad}.
+%\autoref{fig:sipm_closeup} shows a picture of a \ac{sipm} and one picture of a single pixel of a \ac{sipm}.
+Due to the property of the \acp{spad} that the output signal is always similar for each \ac{spad}, the output signal of a \ac{sipm} is the output signal of one \ac{spad} multiplied by the number of triggered \acp{spad}.
 Therefore, if the number of photons arriving simultaneously at a \ac{sipm} is low enough that the probability of one \ac{spad} being hit by two or more photons is low, one can count photons with a \ac{sipm}.
-This and the relatively low cost, high durability, and impassivity to magnetic fields make them a good option for photodetection for the \ac{sbt} and similar detectors.
+This and the relatively low cost of around \SI{450000}{\euro} for \num{100000} \acp{sipm} , high durability, and imunity to magnetic fields makes \ac{sipm} a good choice for photodetection for the \ac{sbt} and similar detectors.
 However, due to the sensitivity down to single photons, also $eh$-pairs created by thermal excitation will cause signals indistinguishable from signals caused by photons.
 These signals are called \ac{dc}.
 
@@ -203,8 +198,9 @@ It can be calculated from the applied voltage $U_\text{bias}$, the breakdown vol
 Here, e represents the charge of one electron.
 Usually, the gain is in the order of $10^5$ to $10^7$ \cite{nucl}.
 Since the breakdown voltage of different \acp{sipm} of the same model can differ slightly, also the gain with the same bias voltage can differ.
+The temperature also influences the breakdown voltage and therefore the gain for a given bias voltage.
 
-The next section presents the \ac{asic} used to amplify the \ac{sipm} signals.
+The next section presents an \ac{asic} used to further amplify the \ac{sipm} signals before they can be digitized for electronic storage.
 %\paragraph{The noise} in \acp{sipm} can be sorted into two categories.
 %The first is primary noise, it describes the triggering of avalanches by thermaly created $eh$-pairs and not by incident photons.
 %Because the rate of theses thermaly caused events increases and decreases with the temperature, by controling the temperatur one can influence and decrease the rate of primary noise events.
