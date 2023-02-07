@@ -89,9 +89,9 @@ In the next part, the \acp{sipm}, which detect the light captured by the \acp{wo
 In order to correctly identify and tag background events, the light detection of the \ac{sbt} has to provide accurate timing information.
 Furthermore, due to the large number of cells and \acp{wom} in the \ac{sbt}, cost optimization is essential.
 To fulfill both requirements, \acp{sipm} were chosen as photodetectors.
-These photodetectors consist of up to thousands of pixels.
+These photodetectors consist of up to thousands of pixels \cite{ACERBI201916}.
 
-Each pixel in the \ac{sipm} is an \ac{spad}, which is a \ac{apd} supplied with a voltage greater than its breakdown voltage.
+Each pixel in the \ac{sipm} is an \ac{spad}, which is a \ac{apd} supplied with a voltage greater than its breakdown voltage \cite{HamamatsuMPPCLit}.
 In the following, the principle of such an \ac{apd} and \ac{spad} are explained.
 
 Similar to every photodiode, \ac{apd} utilize, the photoelectric effect to generate an electric charge signal in response to a light signal.
@@ -103,8 +103,8 @@ It generates an electron-hole pair, when a photon gets absorbed.
 When a reversed bias voltage is applied, the electric field in the \ac{apd} separates the $eh$-pair.
 In case the \ac{apd} is operated in the Geiger mode, meaning the bias voltage is higher than the breakdown voltage of the \ac{apd}, the electric field at the strongly doped $p$- and $n$-layer is sufficiently high, that a self-sustaining avalanche is triggered by either the electron or the hole moving through it.
 Then the \ac{apd} is called \ac{spad}.
-The macroscopic signal of a \ac{spad} makes it possible to detect single photons.
-In order to stop the avalanche, a quenching resistor is connected in series to the \ac{spad}.
+The macroscopic signal of a \ac{spad} makes it possible to detect single photons \cite{Kolanoski}.
+In order to stop the avalanche, a quenching resistor is connected in series to the \ac{spad} \cite{ACERBI201916}.
 With an increasing current signal flowing through the quenching resistor, the voltage drop at this resistor increases, and thus the bias voltage at the \ac{spad} decreases.
 When the bias voltage drops below the breakdown voltage, the avalanche is no longer self-sustaining and stops.
 Thus the signal amplitude of a \ac{spad} is always similar, independent of how many photons arrive at the same moment.
@@ -147,8 +147,8 @@ In \acp{sipm}, hundreds to thousands of \acp{spad} are connected in parallel, ea
 Usually, the \ac{spad} pixels are placed in a rectangular form with an edge length of a few \si{\milli\meter}.
 %\autoref{fig:sipm_closeup} shows a picture of a \ac{sipm} and one picture of a single pixel of a \ac{sipm}.
 Due to the property of the \acp{spad} that the output signal is always similar for each \ac{spad}, the output signal of a \ac{sipm} is the output signal of one \ac{spad} multiplied by the number of triggered \acp{spad}.
-Therefore, if the number of photons arriving simultaneously at a \ac{sipm} is low enough that the probability of one \ac{spad} being hit by two or more photons is low, one can count photons with a \ac{sipm}.
-This and the relatively low cost of around \SI{450000}{\euro} for \num{100000} \acp{sipm} , high durability, and imunity to magnetic fields makes \ac{sipm} a good choice for photodetection for the \ac{sbt} and similar detectors.
+Therefore, if the number of photons arriving simultaneously at a \ac{sipm} is low enough that the probability of one \ac{spad} being hit by two or more photons is low, one can count photons with a \ac{sipm} \cite{ACERBI201916}.
+This and the relatively low cost of around \SI{450000}{\euro} for \num{100000} \acp{sipm} , high durability, and imunity to magnetic fields \cite{ACERBI201916,HamamatsuMPPCTech} makes \ac{sipm} a good choice for photodetection for the \ac{sbt} and similar detectors.
 However, due to the sensitivity down to single photons, also $eh$-pairs created by thermal excitation will cause signals indistinguishable from signals caused by photons.
 These signals are called \ac{dc}.
 
@@ -190,15 +190,15 @@ These signals are called \ac{dc}.
 
 An essential property of a \ac{sipm} is the gain $G$.
 It describes the number of charge carriers released in each avalanche.
-Due to the quenching, this parameter is well-defined \cite{}.
+Due to the quenching, this parameter is well-defined \cite{HamamatsuMPPCLit}.
 It can be calculated from the applied voltage $U_\text{bias}$, the breakdown voltage $U_\text{bd}$ and the capacitance $C_\text{d}$ of a \ac{spad} with
 \begin{align}
-	G &= \frac{(V_\text{bias}- V_\text{bd})\cdot C_\text{d}}{\text{e}}.
+	G &= \frac{(V_\text{bias}- V_\text{bd})\cdot C_\text{d}}{\text{e}}\cite{Kolanoski}.
 \end{align}
 Here, e represents the charge of one electron.
-Usually, the gain is in the order of $10^5$ to $10^7$ \cite{nucl}.
+Usually, the gain is in the order of $10^5$ to $10^7$ \cite{ACERBI201916}.
 Since the breakdown voltage of different \acp{sipm} of the same model can differ slightly, also the gain with the same bias voltage can differ.
-The temperature also influences the breakdown voltage and therefore the gain for a given bias voltage.
+The temperature also influences the breakdown voltage and the gain \cite{HamamatsuMPPCTech}.
 
 The next section presents an \ac{asic} used to further amplify the \ac{sipm} signals before they can be digitized for electronic storage.
 %\paragraph{The noise} in \acp{sipm} can be sorted into two categories.
