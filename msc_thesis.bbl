@@ -1,0 +1,63 @@
+\begin{thebibliography}{10}
+
+\bibitem{Fukuda_1998}
+Y.~F. et~al., ``Evidence for oscillation of atmospheric neutrinos,'' {\em
+  Physical Review Letters}, vol.~81, pp.~1562--1567, aug 1998.
+
+\bibitem{Troitsky_2012}
+S.~V. Troitsky, ``Unsolved problems in particle physics,'' {\em
+  Physics-Uspekhi}, vol.~55, pp.~72--95, jan 2012.
+
+\bibitem{instrumentation}
+S.~Collaboration, ``A facility to search for hidden particles (ship) at the
+  cern sps,'' 2015.
+
+\bibitem{strucural_design}
+A.~Miano, A.~Fiorillo, A.~Salzano, A.~Prota, and R.~Jacobsson, ``The structural
+  design of the decay volume for the search for hidden particles (ship)
+  project,'' {\em Archives of Civil and Mechanical Engineering}, vol.~21, 03
+  2021.
+
+\bibitem{Ahdida:2704147}
+S.~Collaboration, ``Ship experiment - comprehensive design study report,''
+  tech. rep., CERN, Geneva, 2019.
+
+\bibitem{fairhurst}
+F.~Lyons, ``Prototype wom-based liquid scintillator detector.''
+
+\bibitem{wspaint}
+{SHIP Collaboration}, ``The ship experiment at the proposed cern sps beam dump
+  facility,'' 2021.
+
+\bibitem{Zimmermann}
+J.~Zimmermann, ``Efficiency studies of a liquid-scintillator detector based on
+  wavelength-shifting optical modules,'' Master's thesis, 2020.
+
+\bibitem{emusic}
+Scientifica, {\em eMUSIC Datasheet}.
+
+\bibitem{electronics10080961}
+S.~Gómez, D.~Sánchez, J.~Mauricio, E.~Picatoste, A.~Sanuy, A.~Sanmukh,
+  M.~Ribó, and D.~Gascón, ``Multiple use sipm integrated circuit (music) for
+  large area and high performance sensors,'' {\em Electronics}, vol.~10, no.~8,
+  2021.
+
+\bibitem{Herrmann}
+F.~Herrmann, {\em Development and verification of a high performance electronic
+  readout framework for high energy physics}.
+\newblock PhD thesis, 2011.
+
+\bibitem{HamamatsuSiPM}
+Hamamatsu, ``Hamamatsu mppc s14160/s14161 series datasheet.''
+
+\bibitem{SensLSiPM}
+Onsemi, ``Silicon photomultipliers (sipm), high pde and timing resolution
+  sensors in a tsv package, j-series sipm sensors datasheet,'' 08 2021.
+
+\bibitem{BKF12}
+Thorlabs, ``Thorlabs bkf12, black aluminum foil.''
+
+\bibitem{Bismark}
+A.~Bismark, ``Led calibration system with optical fibers for a lxe tpc,'' 2017.
+
+\end{thebibliography}

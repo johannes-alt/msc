@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: msc_thesis.aux
+A level-1 auxiliary file: chapter/cover.aux
+A level-1 auxiliary file: chapter/abstract.aux
+A level-1 auxiliary file: chapter/zusammenfassung.aux
+A level-1 auxiliary file: chapter/introduction.aux
+A level-1 auxiliary file: chapter/one_cell_prototype.aux
+A level-1 auxiliary file: chapter/setup_elab.aux
+A level-1 auxiliary file: chapter/testresults.aux
+A level-1 auxiliary file: chapter/testbeam.aux
+A level-1 auxiliary file: chapter/conclusion.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: chapter/erklaerung.aux
+Database file #1: chapter/refs.bib
+I was expecting a `,' or a `}'---line 85 of file chapter/refs.bib
+ :  
+ :  year = {2022},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "HamamatsuSiPM" isn't style-file defined
+--line 143 of file chapter/refs.bib
+Warning--entry type for "SensLSiPM" isn't style-file defined
+--line 149 of file chapter/refs.bib
+Warning--entry type for "Bismark" isn't style-file defined
+--line 162 of file chapter/refs.bib
+Warning--I didn't find a database entry for "nucl"
+Warning--empty school in Zimmermann
+Warning--empty school in Herrmann
+You've used 15 entries,
+            1876 wiz_defined-function locations,
+            569 strings with 5614 characters,
+and the built_in function-call counts, 2360 in all, are:
+= -- 209
+> -- 95
+< -- 0
++ -- 41
+- -- 26
+* -- 142
+:= -- 367
+add.period$ -- 13
+call.type$ -- 15
+change.case$ -- 14
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 103
+empty$ -- 264
+format.name$ -- 26
+if$ -- 556
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 4
+newline$ -- 49
+num.names$ -- 15
+pop$ -- 61
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 80
+stack$ -- 0
+substring$ -- 64
+swap$ -- 23
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 21
+width$ -- 17
+write$ -- 120
+(There was 1 error message)

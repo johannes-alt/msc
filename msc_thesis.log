@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  6 FEB 2023 19:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  7 FEB 2023 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1884,21 +1884,21 @@ l.115 \mbox{}\newpage
 ] (./msc_thesis.toc
 Package acronym Info: Label `acro:gandalf' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 12.
+although it is yet undefined on input line 10.
 
-Overfull \hbox (0.5431pt too wide) in paragraph at lines 12--12
+Overfull \hbox (0.5431pt too wide) in paragraph at lines 10--10
  [][] [][]\T1/lmr/m/n/12 The [][][]Generic Ad-van-ced Nu-me-ri-cal De-vi-ce for
  Ana-ly-tic and Lo-gic Func- 
  []
 
 Package acronym Info: Label `acro:sipm' newly defined as it shall be overridden
 
-although it is yet undefined on input line 18.
+although it is yet undefined on input line 13.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...}Dark Count Measurements}{45}{section.4.5}
+l.23 ...}Dark Count Measurements}{44}{section.4.5}
                                                   % [1
 
 ])
@@ -1924,7 +1924,7 @@ Package acronym Info: Label `acro:sps' newly defined as it shall be overridden
 although it is yet undefined on input line 33.
 Package acronym Info: Label `acro:hs' newly defined as it shall be overridden
 although it is yet undefined on input line 35.
-<pictures/ship_sketch.png, id=205, 1795.70876pt x 635.37375pt>
+<pictures/ship_sketch.png, id=209, 1795.70876pt x 635.37375pt>
 File: pictures/ship_sketch.png Graphic file (type png)
 <use pictures/ship_sketch.png>
 Package pdftex.def Info: pictures/ship_sketch.png  used on input line 52.
@@ -1937,28 +1937,28 @@ Package acronym Info: Label `acro:sbt' newly defined as it shall be overridden
 although it is yet undefined on input line 60.
  [4 <./pictures/ship_sketch.png>]
 Package acronym Info: Label `acro:wom' newly defined as it shall be overridden
-although it is yet undefined on input line 77.
-<pictures/sbt_structure_sceleton.png, id=252, 929.4725pt x 717.68124pt>
+although it is yet undefined on input line 78.
+<pictures/sbt_structure_sceleton.png, id=263, 929.4725pt x 717.68124pt>
 File: pictures/sbt_structure_sceleton.png Graphic file (type png)
 <use pictures/sbt_structure_sceleton.png>
 Package pdftex.def Info: pictures/sbt_structure_sceleton.png  used on input lin
-e 84.
+e 85.
 (pdftex.def)             Requested size: 136.57634pt x 105.4464pt.
-<pictures/sbt_structure_cell.png, id=253, 726.715pt x 797.98125pt>
+<pictures/sbt_structure_cell.png, id=264, 726.715pt x 797.98125pt>
 File: pictures/sbt_structure_cell.png Graphic file (type png)
 <use pictures/sbt_structure_cell.png>
-Package pdftex.def Info: pictures/sbt_structure_cell.png  used on input line 90
+Package pdftex.def Info: pictures/sbt_structure_cell.png  used on input line 91
 .
 (pdftex.def)             Requested size: 102.43225pt x 112.47153pt.
-<pictures/sbt_structure_wom.png, id=254, 930.47626pt x 438.63875pt>
+<pictures/sbt_structure_wom.png, id=265, 930.47626pt x 438.63875pt>
 File: pictures/sbt_structure_wom.png Graphic file (type png)
 <use pictures/sbt_structure_wom.png>
-Package pdftex.def Info: pictures/sbt_structure_wom.png  used on input line 96.
+Package pdftex.def Info: pictures/sbt_structure_wom.png  used on input line 97.
 
 (pdftex.def)             Requested size: 179.25157pt x 84.50012pt.
 Package acronym Info: Label `acro:asic' newly defined as it shall be overridden
 
-although it is yet undefined on input line 108.
+although it is yet undefined on input line 109.
 ) [5] [6 <./pictures/sbt_structure_sceleton.png> <./pictures/sbt_structure_cell
 .png> <./pictures/sbt_structure_wom.png>]
 \openout2 = `chapter/one_cell_prototype.aux'.
@@ -1966,15 +1966,15 @@ although it is yet undefined on input line 108.
 
 (./chapter/one_cell_prototype.tex
 Chapter 2.
-<pictures/one_cell.png, id=292, 499.8675pt x 696.6025pt>
+<pictures/one_cell.png, id=313, 499.8675pt x 696.6025pt>
 File: pictures/one_cell.png Graphic file (type png)
 <use pictures/one_cell.png>
-Package pdftex.def Info: pictures/one_cell.png  used on input line 31.
+Package pdftex.def Info: pictures/one_cell.png  used on input line 30.
 (pdftex.def)             Requested size: 170.71393pt x 237.90465pt.
-<pictures/pmma_vessel.jpg, id=293, 1147.8885pt x 824.8416pt>
+<pictures/pmma_vessel.jpg, id=314, 1147.8885pt x 824.8416pt>
 File: pictures/pmma_vessel.jpg Graphic file (type jpg)
 <use pictures/pmma_vessel.jpg>
-Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 37.
+Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 36.
 (pdftex.def)             Requested size: 230.46445pt x 165.5947pt.
 [7
 
@@ -1982,8 +1982,8 @@ Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 37.
 
 ]
 Package acronym Info: Label `acro:lab' newly defined as it shall be overridden
-although it is yet undefined on input line 45.
-<pictures/lab_emission.png, id=309, 1282.7925pt x 753.81625pt>
+although it is yet undefined on input line 44.
+<pictures/lab_emission.png, id=331, 1282.7925pt x 753.81625pt>
 File: pictures/lab_emission.png Graphic file (type png)
 <use pictures/lab_emission.png>
 Package pdftex.def Info: pictures/lab_emission.png  used on input line 59.
@@ -1991,80 +1991,11 @@ Package pdftex.def Info: pictures/lab_emission.png  used on input line 59.
 Package acronym Info: Label `acro:ppo' newly defined as it shall be overridden
 although it is yet undefined on input line 60.
  [8 <./pictures/one_cell.png> <./pictures/pmma_vessel.jpg>]
-<pictures/wom_principle.png, id=334, 941.5175pt x 665.48625pt>
+<pictures/wom_principle.png, id=355, 941.5175pt x 665.48625pt>
 File: pictures/wom_principle.png Graphic file (type png)
 <use pictures/wom_principle.png>
 Package pdftex.def Info: pictures/wom_principle.png  used on input line 80.
 (pdftex.def)             Requested size: 341.43436pt x 241.33159pt.
-
-! Argument of \caption@ifstrut has an extra }.
-<inserted text> 
-                \par 
-l.81 ...can be detected by a photosensor. \cite[]}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \caption@ifstrut was complete.
-<to be read again> 
-                   \par 
-l.81 ...can be detected by a photosensor. \cite[]}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \@@par 
-l.81 ...can be detected by a photosensor. \cite[]}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Citation `\@@par \parindent \caption@parindent \hangindent \capt
-ion@hangindent ' on page 9 undefined on input line 81.
-
-! Argument of \caption@ifstrut has an extra }.
-<inserted text> 
-                \par 
-l.81 ...can be detected by a photosensor. \cite[]}
-                                                  
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \caption@ifstrut was complete.
-<to be read again> 
-                   \par 
-l.81 ...can be detected by a photosensor. \cite[]}
-                                                  
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \@@par 
-l.81 ...can be detected by a photosensor. \cite[]}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-LaTeX Warning: Citation `\@@par \parindent \caption@parindent \hangindent \capt
-ion@hangindent ' on page 9 undefined on input line 81.
-
 
 Overfull \hbox (0.63559pt too wide) has occurred while \output is active
 \T1/lmr/m/sl/12 2.2.  WAVELENGTH-SHIFTING OPTICAL MODULE & OPTICAL COUPLING \T1
@@ -2072,223 +2003,118 @@ Overfull \hbox (0.63559pt too wide) has occurred while \output is active
  []
 
 [9 <./pictures/lab_emission.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
-3.
- (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-! Undefined control sequence.
-<argument> \piko 
-                 \second 
-l.96 ... of the order of tens of \si{\piko\second}
-                                                   \cite{nucl}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \piko 
-                 \second 
-l.96 ... of the order of tens of \si{\piko\second}
-                                                   \cite{nucl}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[10 <./pictures/wom_principle.png>]
 Package acronym Info: Label `acro:spad' newly defined as it shall be overridden
 
-although it is yet undefined on input line 99.
+although it is yet undefined on input line 94.
 Package acronym Info: Label `acro:apd' newly defined as it shall be overridden
-although it is yet undefined on input line 99.
-<pictures/pin_diode.png, id=376, 1510.64375pt x 708.6475pt>
+although it is yet undefined on input line 94.
+ [10 <./pictures/wom_principle.png>]
+<pictures/pin_diode.png, id=396, 1510.64375pt x 708.6475pt>
 File: pictures/pin_diode.png Graphic file (type png)
 <use pictures/pin_diode.png>
-Package pdftex.def Info: pictures/pin_diode.png  used on input line 136.
+Package pdftex.def Info: pictures/pin_diode.png  used on input line 131.
 (pdftex.def)             Requested size: 426.79134pt x 200.2041pt.
 
+! Undefined control sequence.
+<argument> \euro 
+                 
+l.151 ...ely low cost of around \SI{450000}{\euro}
+                                                   for \num{100000} \acp{sip...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: Reference `fig:sipm_closeup' on page 11 undefined on input line 
-153.
+! Undefined control sequence.
+<argument> \euro 
+                 
+l.151 ...ely low cost of around \SI{450000}{\euro}
+                                                   for \num{100000} \acp{sip...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 Package acronym Info: Label `acro:dc' newly defined as it shall be overridden
-although it is yet undefined on input line 158.
+although it is yet undefined on input line 153.
 [11] [12 <./pictures/pin_diode.png>]
+
+LaTeX Warning: Citation `nucl' on page 13 undefined on input line 199.
+
 Package acronym Info: Label `acro:emusic' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 220.
+although it is yet undefined on input line 216.
 Package acronym Info: Label `acro:pcb' newly defined as it shall be overridden
-although it is yet undefined on input line 220.
-<pictures/emusic_block_diagram.png, id=432, 1199.48125pt x 780.9175pt>
+although it is yet undefined on input line 216.
+<pictures/emusic_block_diagram.png, id=449, 1199.48125pt x 780.9175pt>
 File: pictures/emusic_block_diagram.png Graphic file (type png)
 <use pictures/emusic_block_diagram.png>
 Package pdftex.def Info: pictures/emusic_block_diagram.png  used on input line 
-228.
+224.
 (pdftex.def)             Requested size: 426.79134pt x 277.85323pt.
-
-
-LaTeX Warning: Citation `gomez' on page 13 undefined on input line 229.
-
-
-LaTeX Warning: Citation `gomez' on page 13 undefined on input line 229.
-
 Package acronym Info: Label `acro:fwhm' newly defined as it shall be overridden
 
-although it is yet undefined on input line 236.
-<pictures/emusic_pole_zero.png, id=444, 1144.275pt x 584.1825pt>
+although it is yet undefined on input line 233.
+<pictures/emusic_pole_zero.png, id=461, 1144.275pt x 584.1825pt>
 File: pictures/emusic_pole_zero.png Graphic file (type png)
 <use pictures/emusic_pole_zero.png>
-Package pdftex.def Info: pictures/emusic_pole_zero.png  used on input line 244.
+Package pdftex.def Info: pictures/emusic_pole_zero.png  used on input line 241.
 
 (pdftex.def)             Requested size: 213.39566pt x 108.9367pt.
-
-LaTeX Warning: Citation `gomez' on page 13 undefined on input line 245.
-
-
-LaTeX Warning: Citation `gomez' on page 13 undefined on input line 245.
-
 [13] [14 <./pictures/emusic_block_diagram.png>] [15 <./pictures/emusic_pole_zer
 o.png>]
-! Undefined control sequence.
-l.264 \paragraphe
-                 {The trigger threshold} for the digital outputs can be set ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 Package acronym Info: Label `acro:dac' newly defined as it shall be overridden
-although it is yet undefined on input line 266.
-[16]
-! Undefined control sequence.
-l.302 For this task, the \acro
-                              {gandalf} module was chosen, which is describe...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<pictures/emusic_board.jpg, id=506, 4047.12pt x 3035.34pt>
+although it is yet undefined on input line 263.
+ [16]
+<pictures/emusic_board.jpg, id=525, 4047.12pt x 3035.34pt>
 File: pictures/emusic_board.jpg Graphic file (type jpg)
 <use pictures/emusic_board.jpg>
-Package pdftex.def Info: pictures/emusic_board.jpg  used on input line 306.
+Package pdftex.def Info: pictures/emusic_board.jpg  used on input line 304.
 (pdftex.def)             Requested size: 426.79134pt x 320.08641pt.
-[17] [18 <./pictures/emusic_board.JPG>]
+ [17] [18 <./pictures/emusic_board.JPG>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ac' on input line 315.
+(hyperref)                removing `\@ac' on input line 313.
 
 Package acronym Info: Label `acro:compass' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 318.
+although it is yet undefined on input line 316.
 Package acronym Info: Label `acro:daq' newly defined as it shall be overridden
-although it is yet undefined on input line 318.
-<pictures/gandalf_overview.png, id=532, 777.90625pt x 764.8575pt>
+although it is yet undefined on input line 316.
+<pictures/gandalf_overview.png, id=551, 777.90625pt x 764.8575pt>
 File: pictures/gandalf_overview.png Graphic file (type png)
 <use pictures/gandalf_overview.png>
-Package pdftex.def Info: pictures/gandalf_overview.png  used on input line 325.
+Package pdftex.def Info: pictures/gandalf_overview.png  used on input line 323.
 
 (pdftex.def)             Requested size: 341.43436pt x 335.7097pt.
-
-LaTeX Warning: Citation `herrmann' on page 19 undefined on input line 326.
-
-
-LaTeX Warning: Citation `herrmann' on page 19 undefined on input line 326.
-
 Package acronym Info: Label `acro:amc' newly defined as it shall be overridden
-although it is yet undefined on input line 332.
-Package acronym Info: Label `acro:dmc' newly defined as it shall be overridden
-although it is yet undefined on input line 332.
-Package acronym Info: Label `acro:omc' newly defined as it shall be overridden
-although it is yet undefined on input line 332.
-Package acronym Info: Label `acro:fpga' newly defined as it shall be overridden
-
-although it is yet undefined on input line 337.
+although it is yet undefined on input line 330.
 Package acronym Info: Label `acro:adc' newly defined as it shall be overridden
-although it is yet undefined on input line 345.
+although it is yet undefined on input line 330.
 Package acronym Info: Label `acro:enob' newly defined as it shall be overridden
 
-although it is yet undefined on input line 348.
-! Undefined control sequence.
-<argument> \vpp 
-                
-l.355 ...t range of the \ac{amc} is \SI{4.4}{\vpp}
-                                                   and can be shifted from t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \vpp 
-                
-l.355 ...t range of the \ac{amc} is \SI{4.4}{\vpp}
-                                                   and can be shifted from t...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+although it is yet undefined on input line 347.
 Package acronym Info: Label `acro:pmt' newly defined as it shall be overridden
-although it is yet undefined on input line 357.
-! Undefined control sequence.
-<argument> \vpp 
-                
-l.360 ...de} and a dynamic range of \SI{2.2}{\vpp}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \vpp 
-                
-l.360 ...de} and a dynamic range of \SI{2.2}{\vpp}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+although it is yet undefined on input line 356.
 Package acronym Info: Label `acro:GANDALF' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 361.
+although it is yet undefined on input line 360.
 
-Package acronym Warning: Acronym `GANDALF' is not defined on input line 361.
+Package acronym Warning: Acronym `GANDALF' is not defined on input line 360.
 
 
-Package acronym Warning: Acronym `GANDALF' is not defined on input line 361.
+Package acronym Warning: Acronym `GANDALF' is not defined on input line 360.
 
 [19] [20 <./pictures/gandalf_overview.png>]
 Package acronym Info: Label `acro:nim' newly defined as it shall be overridden
 although it is yet undefined on input line 374.
-
-
-Package acronym Warning: Acronym `GANDALF' is not defined on input line 376.
-
-[21]
-<pictures/copper_gimli.png, id=616, 865.2325pt x 412.54124pt>
+<pictures/copper_gimli.png, id=611, 865.2325pt x 412.54124pt>
 File: pictures/copper_gimli.png Graphic file (type png)
 <use pictures/copper_gimli.png>
 Package pdftex.def Info: pictures/copper_gimli.png  used on input line 379.
 (pdftex.def)             Requested size: 213.39566pt x 101.74388pt.
-
-
-LaTeX Warning: Citation `herrmann' on page 22 undefined on input line 380.
-
-
-LaTeX Warning: Citation `herrmann' on page 22 undefined on input line 380.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2299,13 +2125,13 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@acp' on input line 386.
 
 
-LaTeX Warning: Reference `sec:emusic' on page 22 undefined on input line 388.
+LaTeX Warning: Reference `sec:emusic' on page 21 undefined on input line 388.
 
-) [22 <./pictures/copper_gimli.png>]
+)
 
 Package acronym Warning: Acronym `GANDALF' is not defined on input line 123.
 
-[23]
+[21] [22 <./pictures/copper_gimli.png>]
 \openout2 = `chapter/setup_elab.aux'.
 
  (./chapter/setup_elab.tex
@@ -2313,42 +2139,43 @@ Chapter 3.
 Package acronym Info: Label `acro:desy' newly defined as it shall be overridden
 
 although it is yet undefined on input line 18.
-<pictures/sipm_ham_pcb.jpg, id=668, 1843.688pt x 1384.372pt>
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd)
+<pictures/sipm_ham_pcb.jpg, id=672, 1843.688pt x 1384.372pt>
 File: pictures/sipm_ham_pcb.jpg Graphic file (type jpg)
 <use pictures/sipm_ham_pcb.jpg>
 Package pdftex.def Info: pictures/sipm_ham_pcb.jpg  used on input line 48.
 (pdftex.def)             Requested size: 213.39566pt x 160.22392pt.
-[24
+ [23
 
 
 
-] [25 <./pictures/sipm_ham_pcb.JPG>]
-<pictures/setup_box_pic.jpg, id=722, 1843.688pt x 1384.372pt>
+] [24 <./pictures/sipm_ham_pcb.JPG>]
+<pictures/setup_box_pic.jpg, id=729, 1843.688pt x 1384.372pt>
 File: pictures/setup_box_pic.jpg Graphic file (type jpg)
 <use pictures/setup_box_pic.jpg>
 Package pdftex.def Info: pictures/setup_box_pic.jpg  used on input line 108.
 (pdftex.def)             Requested size: 213.39566pt x 160.22392pt.
- [26] [27]
+ [25] [26]
 
-LaTeX Warning: Reference `fig:gandalf_portable' on page 28 undefined on input l
+LaTeX Warning: Reference `fig:gandalf_portable' on page 27 undefined on input l
 ine 119.
 
 
-LaTeX Warning: Reference `fig:gimli_testboard' on page 28 undefined on input li
+LaTeX Warning: Reference `fig:gimli_testboard' on page 27 undefined on input li
 ne 121.
 
-<pictures/gandalf_portable.jpg, id=752, 1843.688pt x 1384.372pt>
+<pictures/gandalf_portable.jpg, id=763, 1843.688pt x 1384.372pt>
 File: pictures/gandalf_portable.jpg Graphic file (type jpg)
 <use pictures/gandalf_portable.jpg>
 Package pdftex.def Info: pictures/gandalf_portable.jpg  used on input line 129.
 
 (pdftex.def)             Requested size: 170.71393pt x 128.17914pt.
-<pictures/gimli_testboard.jpg, id=753, 1843.688pt x 1384.372pt>
+<pictures/gimli_testboard.jpg, id=764, 1843.688pt x 1384.372pt>
 File: pictures/gimli_testboard.jpg Graphic file (type jpg)
 <use pictures/gimli_testboard.jpg>
 Package pdftex.def Info: pictures/gimli_testboard.jpg  used on input line 135.
 (pdftex.def)             Requested size: 234.73653pt x 176.25688pt.
-) [28 <./pictures/setup_box_pic.JPG>] [29 <./pictures/gandalf_portable.JPG> <./
+) [27 <./pictures/setup_box_pic.JPG>] [28 <./pictures/gandalf_portable.JPG> <./
 pictures/gimli_testboard.JPG>]
 \openout2 = `chapter/testresults.aux'.
 
@@ -2357,26 +2184,26 @@ Chapter 4.
 Package acronym Info: Label `acro:fft' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
 
-LaTeX Warning: Reference `fig:gandalf_input_g23_ch0' on page 30 undefined on in
+LaTeX Warning: Reference `fig:gandalf_input_g23_ch0' on page 29 undefined on in
 put line 13.
 
-<pictures/gandalf_23_input_ch0.png, id=778, 426.393pt x 263.7855pt>
+<pictures/gandalf_23_input_ch0.png, id=790, 426.393pt x 263.7855pt>
 File: pictures/gandalf_23_input_ch0.png Graphic file (type png)
 <use pictures/gandalf_23_input_ch0.png>
 Package pdftex.def Info: pictures/gandalf_23_input_ch0.png  used on input line 
 21.
 (pdftex.def)             Requested size: 426.79134pt x 264.03842pt.
-[30
+[29
 
 
 
-] [31 <./pictures/gandalf_23_input_ch0.png>]
+] [30 <./pictures/gandalf_23_input_ch0.png>]
 
-LaTeX Warning: Reference `fig:input_offset_setup' on page 32 undefined on input
+LaTeX Warning: Reference `fig:input_offset_setup' on page 31 undefined on input
  line 36.
 
 
-LaTeX Warning: Reference `fig:meas_input_resistor' on page 32 undefined on inpu
+LaTeX Warning: Reference `fig:meas_input_resistor' on page 31 undefined on inpu
 t line 46.
 
 
@@ -2384,7 +2211,7 @@ Overfull \hbox (7.65202pt too wide) detected at line 61
 []
  []
 
-<pictures/input_offset_board_2_channel_0.png, id=824, 426.75435pt x 263.7855pt>
+<pictures/input_offset_board_2_channel_0.png, id=835, 426.75435pt x 263.7855pt>
 
 File: pictures/input_offset_board_2_channel_0.png Graphic file (type png)
 <use pictures/input_offset_board_2_channel_0.png>
@@ -2481,20 +2308,20 @@ Overfull \hbox (9.33336pt too wide) detected at line 106
  
  []
 
-[32]
-<pictures/input_offset_b2_dac50.png, id=845, 426.393pt x 175.857pt>
+[31]
+<pictures/input_offset_b2_dac50.png, id=857, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac50.png Graphic file (type png)
 <use pictures/input_offset_b2_dac50.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac50.png  used on input line
  121.
 (pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac150.png, id=846, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac150.png, id=858, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac150.png Graphic file (type png)
 <use pictures/input_offset_b2_dac150.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac150.png  used on input lin
 e 128.
 (pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac500.png, id=847, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac500.png, id=859, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac500.png Graphic file (type png)
 <use pictures/input_offset_b2_dac500.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac500.png  used on input lin
@@ -2504,7 +2331,7 @@ e 135.
 
 LaTeX Warning: Float too large for page by 73.8689pt on input line 141.
 
-[33 <./pictures/input_offset_board_2_channel_0.png>] [34]
+[32 <./pictures/input_offset_board_2_channel_0.png>] [33]
 Overfull \hbox (5.87498pt too wide) detected at line 162
  
  []
@@ -2559,17 +2386,17 @@ Overfull \hbox (5.87498pt too wide) detected at line 177
  
  []
 
-[35] [36 <./pictures/input_offset_b2_dac50.png> <./pictures/input_offset_b2_dac
-150.png> <./pictures/input_offset_b2_dac500.png>] [37]
+[34] [35 <./pictures/input_offset_b2_dac50.png> <./pictures/input_offset_b2_dac
+150.png> <./pictures/input_offset_b2_dac500.png>] [36]
 
-LaTeX Warning: Reference `sec:setup' on page 38 undefined on input line 187.
+LaTeX Warning: Reference `sec:setup' on page 37 undefined on input line 187.
 
-<pictures/pz_no_pz.png, id=897, 426.75435pt x 263.7855pt>
+<pictures/pz_no_pz.png, id=908, 426.75435pt x 263.7855pt>
 File: pictures/pz_no_pz.png Graphic file (type png)
 <use pictures/pz_no_pz.png>
 Package pdftex.def Info: pictures/pz_no_pz.png  used on input line 207.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/pz_resistor.png, id=902, 426.75435pt x 197.7789pt>
+<pictures/pz_resistor.png, id=913, 426.75435pt x 197.7789pt>
 File: pictures/pz_resistor.png Graphic file (type png)
 <use pictures/pz_resistor.png>
 Package pdftex.def Info: pictures/pz_resistor.png  used on input line 233.
@@ -2588,19 +2415,19 @@ The input given as a number does not make logical sense. This happens, for
 example, if a number only contains a sign.
 
 
-<pictures/pz_capacitor.png, id=907, 426.75435pt x 197.7789pt>
+<pictures/pz_capacitor.png, id=918, 426.75435pt x 197.7789pt>
 File: pictures/pz_capacitor.png Graphic file (type png)
 <use pictures/pz_capacitor.png>
 Package pdftex.def Info: pictures/pz_capacitor.png  used on input line 249.
 (pdftex.def)             Requested size: 426.79134pt x 197.79651pt.
-[38] [39 <./pictures/pz_no_pz.png> <./pictures/pz_resistor.png>] [40 <./picture
-s/pz_capacitor.png>] [41]
-<pictures/att_pz331.png, id=940, 426.75435pt x 263.7855pt>
+[37] [38 <./pictures/pz_no_pz.png> <./pictures/pz_resistor.png>] [39 <./picture
+s/pz_capacitor.png>] [40]
+<pictures/att_pz331.png, id=952, 426.75435pt x 263.7855pt>
 File: pictures/att_pz331.png Graphic file (type png)
 <use pictures/att_pz331.png>
 Package pdftex.def Info: pictures/att_pz331.png  used on input line 312.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/att_pz700.png, id=941, 426.75435pt x 263.7855pt>
+<pictures/att_pz700.png, id=953, 426.75435pt x 263.7855pt>
 File: pictures/att_pz700.png Graphic file (type png)
 <use pictures/att_pz700.png>
 Package pdftex.def Info: pictures/att_pz700.png  used on input line 318.
@@ -2609,18 +2436,18 @@ Package pdftex.def Info: pictures/att_pz700.png  used on input line 318.
 
 LaTeX Warning: Float too large for page by 52.81007pt on input line 324.
 
-[42] [43 <./pictures/att_pz331.png> <./pictures/att_pz700.png>]
-<pictures/low_imp_mean_wf.png, id=962, 426.75435pt x 263.7855pt>
+[41] [42 <./pictures/att_pz331.png> <./pictures/att_pz700.png>]
+<pictures/low_imp_mean_wf.png, id=973, 426.75435pt x 263.7855pt>
 File: pictures/low_imp_mean_wf.png Graphic file (type png)
 <use pictures/low_imp_mean_wf.png>
 Package pdftex.def Info: pictures/low_imp_mean_wf.png  used on input line 349.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/dc_hist_pz.png, id=966, 426.393pt x 263.7855pt>
+<pictures/dc_hist_pz.png, id=977, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_pz.png Graphic file (type png)
 <use pictures/dc_hist_pz.png>
 Package pdftex.def Info: pictures/dc_hist_pz.png  used on input line 368.
 (pdftex.def)             Requested size: 426.79134pt x 264.03842pt.
-<pictures/dc_hist_no_pz.png, id=968, 426.393pt x 263.7855pt>
+<pictures/dc_hist_no_pz.png, id=979, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_no_pz.png Graphic file (type png)
 <use pictures/dc_hist_no_pz.png>
 Package pdftex.def Info: pictures/dc_hist_no_pz.png  used on input line 377.
@@ -2628,8 +2455,8 @@ Package pdftex.def Info: pictures/dc_hist_no_pz.png  used on input line 377.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./pictures/low_imp_mean_wf.png>]) [45] [46 <./pictures/dc_hist_pz.png>] [
-47 <./pictures/dc_hist_no_pz.png>]
+ [43 <./pictures/low_imp_mean_wf.png>]) [44] [45 <./pictures/dc_hist_pz.png>] [
+46 <./pictures/dc_hist_no_pz.png>]
 \openout2 = `chapter/testbeam.aux'.
 
  (./chapter/testbeam.tex
@@ -2648,63 +2475,40 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[48
+[47
 
 
 
-]) [49]
+]) [48]
 \openout2 = `chapter/conclusion.aux'.
 
  (./chapter/conclusion.tex
 Chapter 6.
-[50
+[49
 
 
 
-]) [51]
+]) [50]
 Appendix A.
-[52
+[51
 
 
-] [53] (./msc_thesis.lof [54
+] [52] (./msc_thesis.lof [53
 
 ])
 \tf@lof=\write6
 \openout6 = `msc_thesis.lof'.
 
- [55] (./msc_thesis.lot)
+ [54] (./msc_thesis.lot)
 \tf@lot=\write7
 \openout7 = `msc_thesis.lot'.
 
- [56
+ [55
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-77.
+(./msc_thesis.bbl [56
 
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-\T1/lmtt/m/n/12 hamamatsu-[]photonics / sites / documents / 99 _ SALES _ LIBRAR
-Y / ssd / mppc _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--185
-[]\T1/lmr/m/n/12 Hamamatsu S14160-3050HS Datasheet, []$\T1/lmtt/m/n/12 https : 
-/ / www . hamamatsu . com /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--185
-\T1/lmtt/m/n/12 content / dam / hamamatsu-[]photonics / sites / documents / 99 
-_ SALES _ LIBRARY /
- []
-
-[57
-
-]
+]) [57]
 \openout2 = `chapter/erklaerung.aux'.
 
  (./chapter/erklaerung.tex
@@ -2720,17 +2524,17 @@ an alignment. Proceed, and I'll ignore this case.
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
  (./msc_thesis.aux (./chapter/cover.aux) (./chapter/abstract.aux)
 (./chapter/zusammenfassung.aux) (./chapter/introduction.aux)
 (./chapter/one_cell_prototype.aux) (./chapter/setup_elab.aux)
 (./chapter/testresults.aux) (./chapter/testbeam.aux) (./chapter/conclusion.aux)
 (./chapter/erklaerung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
 Package rerunfilecheck Info: File `msc_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 749843FB2BAD172D7AF44044EA19FB79;1696.
+(rerunfilecheck)             Checksum: D296C2A3EA2BF8BB8A9EA6F6123F5F9E;1696.
 
 
 LaTeX Warning: There were undefined references.
@@ -2738,19 +2542,19 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 190.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
  ) 
 Here is how much of TeX's memory you used:
- 44208 strings out of 481239
- 971250 string characters out of 5920378
- 1424426 words of memory out of 5000000
- 58366 multiletter control sequences out of 15000+600000
- 631274 words of font info for 89 fonts, out of 8000000 for 9000
+ 44169 strings out of 481239
+ 970816 string characters out of 5920378
+ 1424611 words of memory out of 5000000
+ 58328 multiletter control sequences out of 15000+600000
+ 630956 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,24n,82p,1586b,1175s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
 m-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
@@ -2758,12 +2562,11 @@ s/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on msc_thesis.pdf (64 pages, 29881633 bytes).
+lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
+Output written on msc_thesis.pdf (64 pages, 29858195 bytes).
 PDF statistics:
- 1239 PDF objects out of 1440 (max. 8388607)
- 1039 compressed objects within 11 object streams
+ 1241 PDF objects out of 1440 (max. 8388607)
+ 1033 compressed objects within 11 object streams
  204 named destinations out of 1000 (max. 500000)
  387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
