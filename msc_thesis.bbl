@@ -1,63 +1,89 @@
 \begin{thebibliography}{10}
 
 \bibitem{Fukuda_1998}
-Y.~F. et~al., ``Evidence for oscillation of atmospheric neutrinos,'' {\em
+Y.~F. et~al., ``Evidence for {O}scillation of {A}tmospheric {N}eutrinos,'' {\em
   Physical Review Letters}, vol.~81, pp.~1562--1567, aug 1998.
 
 \bibitem{Troitsky_2012}
-S.~V. Troitsky, ``Unsolved problems in particle physics,'' {\em
+S.~V. Troitsky, ``{Unsolved problems in particle physics},'' {\em
   Physics-Uspekhi}, vol.~55, pp.~72--95, jan 2012.
 
 \bibitem{instrumentation}
-S.~Collaboration, ``A facility to search for hidden particles (ship) at the
-  cern sps,'' 2015.
+{SHiP Collaboration}, ``{A facility to Search for Hidden Particles ({SHiP}) at
+  the CERN SPS},'' 2015.
 
 \bibitem{strucural_design}
-A.~Miano, A.~Fiorillo, A.~Salzano, A.~Prota, and R.~Jacobsson, ``The structural
-  design of the decay volume for the search for hidden particles (ship)
-  project,'' {\em Archives of Civil and Mechanical Engineering}, vol.~21, 03
-  2021.
+A.~Miano, A.~Fiorillo, A.~Salzano, A.~Prota, and R.~Jacobsson, ``{The
+  structural design of the decay volume for the Search for Hidden Particles
+  (SHIP) project},'' {\em Archives of Civil and Mechanical Engineering},
+  vol.~21, 03 2021.
 
 \bibitem{Ahdida:2704147}
-S.~Collaboration, ``Ship experiment - comprehensive design study report,''
-  tech. rep., CERN, Geneva, 2019.
+{SHiP Collaboration}, ``{SHiP Experiment - Comprehensive Design Study
+  report},'' tech. rep., CERN, Geneva, 2019.
 
 \bibitem{fairhurst}
-F.~Lyons, ``Prototype wom-based liquid scintillator detector.''
+F.~Lyons, ``{Prototype WOM-based Liquid Scintillator Detector},'' 09 2022.
 
 \bibitem{wspaint}
-{SHIP Collaboration}, ``The ship experiment at the proposed cern sps beam dump
-  facility,'' 2021.
+{SHIP Collaboration}, ``{The SHiP experiment at the proposed CERN SPS Beam Dump
+  Facility},'' 2021.
 
 \bibitem{Zimmermann}
-J.~Zimmermann, ``Efficiency studies of a liquid-scintillator detector based on
-  wavelength-shifting optical modules,'' Master's thesis, 2020.
+J.~Zimmermann, ``{Efficiency studies of a liquid-scintillator detector based on
+  Wavelength-shifting Optical Modules},'' Master's thesis, 2020.
+
+\bibitem{ACERBI201916}
+F.~Acerbi and S.~Gundacker, ``{Understanding and simulating SiPMs},'' {\em
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol.~926, pp.~16--35,
+  2019.
+\newblock Silicon Photomultipliers: Technology, Characterisation and
+  Applications.
+
+\bibitem{HamamatsuMPPCLit}
+K.~K. A.~Ghassemi, K.~Sato, ``{MPPC Literature},'' 11 2022.
+
+\bibitem{Kolanoski}
+N.~W. Hermann~Kolanoski, {\em {Teilchendetektoren Grundlagen und Anwendungen}}.
+\newblock 2016.
+
+\bibitem{Kemp:808708}
+J.~Kemp, {\em {D}evelopment of a silicon photomultiplier based scintillator
+  detector for cosmic air showers}.
+\newblock Dissertation, RWTH Aachen University, Aachen, 2020.
+\newblock Veröffentlicht auf dem Publikationsserver der RWTH Aachen University
+  2021; Dissertation, RWTH Aachen University, 2020.
+
+\bibitem{HamamatsuMPPCTech}
+Hamamatsu, ``{MPPC Technical note}.''
 
 \bibitem{emusic}
-Scientifica, {\em eMUSIC Datasheet}.
+Scientifica, {\em {eMUSIC Datasheet}}.
 
 \bibitem{electronics10080961}
 S.~Gómez, D.~Sánchez, J.~Mauricio, E.~Picatoste, A.~Sanuy, A.~Sanmukh,
-  M.~Ribó, and D.~Gascón, ``Multiple use sipm integrated circuit (music) for
-  large area and high performance sensors,'' {\em Electronics}, vol.~10, no.~8,
-  2021.
+  M.~Ribó, and D.~Gascón, ``{Multiple Use SiPM Integrated Circuit (MUSIC) for
+  Large Area and High Performance Sensors},'' {\em Electronics}, vol.~10,
+  no.~8, 2021.
 
 \bibitem{Herrmann}
-F.~Herrmann, {\em Development and verification of a high performance electronic
-  readout framework for high energy physics}.
+F.~Herrmann, {\em {Development and verification of a high performance
+  electronic readout framework for high energy physics}}.
 \newblock PhD thesis, 2011.
 
 \bibitem{HamamatsuSiPM}
-Hamamatsu, ``Hamamatsu mppc s14160/s14161 series datasheet.''
+Hamamatsu, ``{Hamamatsu MPPC S14160/S14161 series Datasheet}.''
 
 \bibitem{SensLSiPM}
-Onsemi, ``Silicon photomultipliers (sipm), high pde and timing resolution
-  sensors in a tsv package, j-series sipm sensors datasheet,'' 08 2021.
+Onsemi, ``{Silicon Photomultipliers (SiPM), High PDE and Timing Resolution
+  Sensors in a TSV Package, J-Series SiPM sensors Datasheet},'' 08 2021.
 
 \bibitem{BKF12}
-Thorlabs, ``Thorlabs bkf12, black aluminum foil.''
+Thorlabs, ``{Thorlabs BKF12, Black Aluminum Foil}.''
 
 \bibitem{Bismark}
-A.~Bismark, ``Led calibration system with optical fibers for a lxe tpc,'' 2017.
+A.~Bismark, ``{LED Calibration System with Optical Fibers for a LXe TPC},''
+  2017.
 
 \end{thebibliography}

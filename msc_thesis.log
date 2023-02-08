@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  7 FEB 2023 22:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  8 FEB 2023 00:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1257,6 +1257,10 @@ File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count391
 \AM@templatesizebox=\box68
 )
+(/usr/share/texlive/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box69
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
@@ -1274,7 +1278,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box69
+\pgfutil@abb=\box70
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -1348,7 +1352,7 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen274
 \pgfmath@count=\count399
-\pgfmath@box=\box70
+\pgfmath@box=\box71
 \pgfmath@toks=\toks49
 \pgfmath@stack@operand=\toks50
 \pgfmath@stack@operation=\toks51
@@ -1407,9 +1411,9 @@ File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfpic=\box71
-\pgf@hbox=\box72
-\pgf@layerbox@main=\box73
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
 \pgf@picture@serial@count=\count401
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
@@ -1452,7 +1456,7 @@ File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
 tex
 File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfexternal@startupbox=\box74
+\pgfexternal@startupbox=\box75
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
 x
@@ -1471,7 +1475,7 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box76
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -1515,10 +1519,10 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikz@lastmovetoy=\dimen309
 \tikzleveldistance=\dimen310
 \tikzsiblingdistance=\dimen311
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
 \tikztreelevel=\count405
 \tikznumberofchildren=\count406
 \tikznumberofcurrentchild=\count407
@@ -1655,36 +1659,36 @@ LaTeX Warning: Label `fig:input_offset_b2_ch0' multiply defined.
 ))
 \openout1 = `msc_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for OMS+pzccm on input line
- 95.
+ 98.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 98.
 LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 9
-5.
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 95
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 98
 .
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
@@ -1694,7 +1698,7 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count417
 \scratchdimen=\dimen334
-\scratchbox=\box80
+\scratchbox=\box81
 \nofMPsegments=\count418
 \nofMParguments=\count419
 \everyMPshowfont=\toks60
@@ -1725,7 +1729,7 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 
-Package layouts Warning: Layout scale set to 0.5 on input line 95.
+Package layouts Warning: Layout scale set to 0.5 on input line 98.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -1735,13 +1739,13 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-\AtBeginShipoutBox=\box81
+\AtBeginShipoutBox=\box82
 
 
 Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 95.
+Package hyperref Info: Link coloring OFF on input line 98.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1754,72 +1758,72 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count423
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 95.
-LaTeX Info: Redefining \pageref on input line 95.
-LaTeX Info: Redefining \nameref on input line 95.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
 
 (./msc_thesis.out) (./msc_thesis.out)
 \@outlinefile=\write4
 \openout4 = `msc_thesis.out'.
 
-LaTeX Info: Redefining \Ref on input line 95.
+LaTeX Info: Redefining \Ref on input line 98.
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-5.
+8.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-5.
+8.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-95.
+98.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-95.
+98.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 95.
+(Font)              <12> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 95.
+(Font)              <9> on input line 98.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 95.
+(Font)              <7> on input line 98.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-95.
+98.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-95.
+98.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1877,7 +1881,7 @@ l.13 \end{abstract}
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \mbox{}\newpage
+l.118 \mbox{}\newpage
                       [2
 \babel@aux{english}{}
 
@@ -1909,7 +1913,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 \newpage
+l.124 \newpage
                [2]
 \openout2 = `chapter/introduction.aux'.
 
@@ -2009,46 +2013,26 @@ although it is yet undefined on input line 94.
 Package acronym Info: Label `acro:apd' newly defined as it shall be overridden
 although it is yet undefined on input line 94.
  [10 <./pictures/wom_principle.png>]
-<pictures/pin_diode.png, id=396, 1510.64375pt x 708.6475pt>
+<pictures/pin_diode.png, id=401, 1510.64375pt x 708.6475pt>
 File: pictures/pin_diode.png Graphic file (type png)
 <use pictures/pin_diode.png>
 Package pdftex.def Info: pictures/pin_diode.png  used on input line 131.
 (pdftex.def)             Requested size: 426.79134pt x 200.2041pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+51.
 
-! Undefined control sequence.
-<argument> \euro 
-                 
-l.151 ...ely low cost of around \SI{450000}{\euro}
-                                                   for \num{100000} \acp{sip...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \euro 
-                 
-l.151 ...ely low cost of around \SI{450000}{\euro}
-                                                   for \num{100000} \acp{sip...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 Package acronym Info: Label `acro:dc' newly defined as it shall be overridden
 although it is yet undefined on input line 153.
-[11] [12 <./pictures/pin_diode.png>]
-
-LaTeX Warning: Citation `nucl' on page 13 undefined on input line 199.
-
+ [11] [12 <./pictures/pin_diode.png>]
 Package acronym Info: Label `acro:emusic' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 216.
 Package acronym Info: Label `acro:pcb' newly defined as it shall be overridden
 although it is yet undefined on input line 216.
-<pictures/emusic_block_diagram.png, id=449, 1199.48125pt x 780.9175pt>
+<pictures/emusic_block_diagram.png, id=470, 1199.48125pt x 780.9175pt>
 File: pictures/emusic_block_diagram.png Graphic file (type png)
 <use pictures/emusic_block_diagram.png>
 Package pdftex.def Info: pictures/emusic_block_diagram.png  used on input line 
@@ -2057,18 +2041,19 @@ Package pdftex.def Info: pictures/emusic_block_diagram.png  used on input line
 Package acronym Info: Label `acro:fwhm' newly defined as it shall be overridden
 
 although it is yet undefined on input line 233.
-<pictures/emusic_pole_zero.png, id=461, 1144.275pt x 584.1825pt>
+<pictures/emusic_pole_zero.png, id=482, 1144.275pt x 584.1825pt>
 File: pictures/emusic_pole_zero.png Graphic file (type png)
 <use pictures/emusic_pole_zero.png>
 Package pdftex.def Info: pictures/emusic_pole_zero.png  used on input line 241.
 
 (pdftex.def)             Requested size: 213.39566pt x 108.9367pt.
+
 [13] [14 <./pictures/emusic_block_diagram.png>] [15 <./pictures/emusic_pole_zer
 o.png>]
 Package acronym Info: Label `acro:dac' newly defined as it shall be overridden
 although it is yet undefined on input line 263.
  [16]
-<pictures/emusic_board.jpg, id=525, 4047.12pt x 3035.34pt>
+<pictures/emusic_board.jpg, id=545, 4047.12pt x 3035.34pt>
 File: pictures/emusic_board.jpg Graphic file (type jpg)
 <use pictures/emusic_board.jpg>
 Package pdftex.def Info: pictures/emusic_board.jpg  used on input line 304.
@@ -2083,7 +2068,7 @@ den
 although it is yet undefined on input line 316.
 Package acronym Info: Label `acro:daq' newly defined as it shall be overridden
 although it is yet undefined on input line 316.
-<pictures/gandalf_overview.png, id=551, 777.90625pt x 764.8575pt>
+<pictures/gandalf_overview.png, id=571, 777.90625pt x 764.8575pt>
 File: pictures/gandalf_overview.png Graphic file (type png)
 <use pictures/gandalf_overview.png>
 Package pdftex.def Info: pictures/gandalf_overview.png  used on input line 323.
@@ -2110,7 +2095,7 @@ Package acronym Warning: Acronym `GANDALF' is not defined on input line 360.
 [19] [20 <./pictures/gandalf_overview.png>]
 Package acronym Info: Label `acro:nim' newly defined as it shall be overridden
 although it is yet undefined on input line 374.
-<pictures/copper_gimli.png, id=611, 865.2325pt x 412.54124pt>
+<pictures/copper_gimli.png, id=631, 865.2325pt x 412.54124pt>
 File: pictures/copper_gimli.png Graphic file (type png)
 <use pictures/copper_gimli.png>
 Package pdftex.def Info: pictures/copper_gimli.png  used on input line 379.
@@ -2129,7 +2114,7 @@ LaTeX Warning: Reference `sec:emusic' on page 21 undefined on input line 388.
 
 )
 
-Package acronym Warning: Acronym `GANDALF' is not defined on input line 123.
+Package acronym Warning: Acronym `GANDALF' is not defined on input line 126.
 
 [21] [22 <./pictures/copper_gimli.png>]
 \openout2 = `chapter/setup_elab.aux'.
@@ -2139,18 +2124,17 @@ Chapter 3.
 Package acronym Info: Label `acro:desy' newly defined as it shall be overridden
 
 although it is yet undefined on input line 18.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd)
-<pictures/sipm_ham_pcb.jpg, id=672, 1843.688pt x 1384.372pt>
+<pictures/sipm_ham_pcb.jpg, id=692, 1843.688pt x 1384.372pt>
 File: pictures/sipm_ham_pcb.jpg Graphic file (type jpg)
 <use pictures/sipm_ham_pcb.jpg>
 Package pdftex.def Info: pictures/sipm_ham_pcb.jpg  used on input line 48.
 (pdftex.def)             Requested size: 213.39566pt x 160.22392pt.
- [23
+[23
 
 
 
 ] [24 <./pictures/sipm_ham_pcb.JPG>]
-<pictures/setup_box_pic.jpg, id=729, 1843.688pt x 1384.372pt>
+<pictures/setup_box_pic.jpg, id=749, 1843.688pt x 1384.372pt>
 File: pictures/setup_box_pic.jpg Graphic file (type jpg)
 <use pictures/setup_box_pic.jpg>
 Package pdftex.def Info: pictures/setup_box_pic.jpg  used on input line 108.
@@ -2164,13 +2148,13 @@ ine 119.
 LaTeX Warning: Reference `fig:gimli_testboard' on page 27 undefined on input li
 ne 121.
 
-<pictures/gandalf_portable.jpg, id=763, 1843.688pt x 1384.372pt>
+<pictures/gandalf_portable.jpg, id=782, 1843.688pt x 1384.372pt>
 File: pictures/gandalf_portable.jpg Graphic file (type jpg)
 <use pictures/gandalf_portable.jpg>
 Package pdftex.def Info: pictures/gandalf_portable.jpg  used on input line 129.
 
 (pdftex.def)             Requested size: 170.71393pt x 128.17914pt.
-<pictures/gimli_testboard.jpg, id=764, 1843.688pt x 1384.372pt>
+<pictures/gimli_testboard.jpg, id=783, 1843.688pt x 1384.372pt>
 File: pictures/gimli_testboard.jpg Graphic file (type jpg)
 <use pictures/gimli_testboard.jpg>
 Package pdftex.def Info: pictures/gimli_testboard.jpg  used on input line 135.
@@ -2187,7 +2171,7 @@ although it is yet undefined on input line 12.
 LaTeX Warning: Reference `fig:gandalf_input_g23_ch0' on page 29 undefined on in
 put line 13.
 
-<pictures/gandalf_23_input_ch0.png, id=790, 426.393pt x 263.7855pt>
+<pictures/gandalf_23_input_ch0.png, id=809, 426.393pt x 263.7855pt>
 File: pictures/gandalf_23_input_ch0.png Graphic file (type png)
 <use pictures/gandalf_23_input_ch0.png>
 Package pdftex.def Info: pictures/gandalf_23_input_ch0.png  used on input line 
@@ -2211,7 +2195,7 @@ Overfull \hbox (7.65202pt too wide) detected at line 61
 []
  []
 
-<pictures/input_offset_board_2_channel_0.png, id=835, 426.75435pt x 263.7855pt>
+<pictures/input_offset_board_2_channel_0.png, id=854, 426.75435pt x 263.7855pt>
 
 File: pictures/input_offset_board_2_channel_0.png Graphic file (type png)
 <use pictures/input_offset_board_2_channel_0.png>
@@ -2309,19 +2293,19 @@ Overfull \hbox (9.33336pt too wide) detected at line 106
  []
 
 [31]
-<pictures/input_offset_b2_dac50.png, id=857, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac50.png, id=876, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac50.png Graphic file (type png)
 <use pictures/input_offset_b2_dac50.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac50.png  used on input line
  121.
 (pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac150.png, id=858, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac150.png, id=877, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac150.png Graphic file (type png)
 <use pictures/input_offset_b2_dac150.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac150.png  used on input lin
 e 128.
 (pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac500.png, id=859, 426.393pt x 175.857pt>
+<pictures/input_offset_b2_dac500.png, id=878, 426.393pt x 175.857pt>
 File: pictures/input_offset_b2_dac500.png Graphic file (type png)
 <use pictures/input_offset_b2_dac500.png>
 Package pdftex.def Info: pictures/input_offset_b2_dac500.png  used on input lin
@@ -2391,12 +2375,12 @@ Overfull \hbox (5.87498pt too wide) detected at line 177
 
 LaTeX Warning: Reference `sec:setup' on page 37 undefined on input line 187.
 
-<pictures/pz_no_pz.png, id=908, 426.75435pt x 263.7855pt>
+<pictures/pz_no_pz.png, id=927, 426.75435pt x 263.7855pt>
 File: pictures/pz_no_pz.png Graphic file (type png)
 <use pictures/pz_no_pz.png>
 Package pdftex.def Info: pictures/pz_no_pz.png  used on input line 207.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/pz_resistor.png, id=913, 426.75435pt x 197.7789pt>
+<pictures/pz_resistor.png, id=932, 426.75435pt x 197.7789pt>
 File: pictures/pz_resistor.png Graphic file (type png)
 <use pictures/pz_resistor.png>
 Package pdftex.def Info: pictures/pz_resistor.png  used on input line 233.
@@ -2415,19 +2399,19 @@ The input given as a number does not make logical sense. This happens, for
 example, if a number only contains a sign.
 
 
-<pictures/pz_capacitor.png, id=918, 426.75435pt x 197.7789pt>
+<pictures/pz_capacitor.png, id=937, 426.75435pt x 197.7789pt>
 File: pictures/pz_capacitor.png Graphic file (type png)
 <use pictures/pz_capacitor.png>
 Package pdftex.def Info: pictures/pz_capacitor.png  used on input line 249.
 (pdftex.def)             Requested size: 426.79134pt x 197.79651pt.
 [37] [38 <./pictures/pz_no_pz.png> <./pictures/pz_resistor.png>] [39 <./picture
 s/pz_capacitor.png>] [40]
-<pictures/att_pz331.png, id=952, 426.75435pt x 263.7855pt>
+<pictures/att_pz331.png, id=971, 426.75435pt x 263.7855pt>
 File: pictures/att_pz331.png Graphic file (type png)
 <use pictures/att_pz331.png>
 Package pdftex.def Info: pictures/att_pz331.png  used on input line 312.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/att_pz700.png, id=953, 426.75435pt x 263.7855pt>
+<pictures/att_pz700.png, id=972, 426.75435pt x 263.7855pt>
 File: pictures/att_pz700.png Graphic file (type png)
 <use pictures/att_pz700.png>
 Package pdftex.def Info: pictures/att_pz700.png  used on input line 318.
@@ -2437,17 +2421,17 @@ Package pdftex.def Info: pictures/att_pz700.png  used on input line 318.
 LaTeX Warning: Float too large for page by 52.81007pt on input line 324.
 
 [41] [42 <./pictures/att_pz331.png> <./pictures/att_pz700.png>]
-<pictures/low_imp_mean_wf.png, id=973, 426.75435pt x 263.7855pt>
+<pictures/low_imp_mean_wf.png, id=992, 426.75435pt x 263.7855pt>
 File: pictures/low_imp_mean_wf.png Graphic file (type png)
 <use pictures/low_imp_mean_wf.png>
 Package pdftex.def Info: pictures/low_imp_mean_wf.png  used on input line 349.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/dc_hist_pz.png, id=977, 426.393pt x 263.7855pt>
+<pictures/dc_hist_pz.png, id=996, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_pz.png Graphic file (type png)
 <use pictures/dc_hist_pz.png>
 Package pdftex.def Info: pictures/dc_hist_pz.png  used on input line 368.
 (pdftex.def)             Requested size: 426.79134pt x 264.03842pt.
-<pictures/dc_hist_no_pz.png, id=979, 426.393pt x 263.7855pt>
+<pictures/dc_hist_no_pz.png, id=998, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_no_pz.png Graphic file (type png)
 <use pictures/dc_hist_no_pz.png>
 Package pdftex.def Info: pictures/dc_hist_no_pz.png  used on input line 377.
@@ -2524,15 +2508,15 @@ an alignment. Proceed, and I'll ignore this case.
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (./msc_thesis.aux (./chapter/cover.aux) (./chapter/abstract.aux)
 (./chapter/zusammenfassung.aux) (./chapter/introduction.aux)
 (./chapter/one_cell_prototype.aux) (./chapter/setup_elab.aux)
 (./chapter/testresults.aux) (./chapter/testbeam.aux) (./chapter/conclusion.aux)
 (./chapter/erklaerung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `msc_thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D296C2A3EA2BF8BB8A9EA6F6123F5F9E;1696.
 
@@ -2542,19 +2526,19 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
- 44169 strings out of 481239
- 970816 string characters out of 5920378
- 1424611 words of memory out of 5000000
- 58328 multiletter control sequences out of 15000+600000
+ 44243 strings out of 481239
+ 971924 string characters out of 5920378
+ 1425153 words of memory out of 5000000
+ 58393 multiletter control sequences out of 15000+600000
  630956 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,24n,82p,1586b,1175s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/shar
-e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
 m-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
@@ -2563,10 +2547,10 @@ s/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb><
 public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sha
 re/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on msc_thesis.pdf (64 pages, 29858195 bytes).
+Output written on msc_thesis.pdf (64 pages, 29861241 bytes).
 PDF statistics:
- 1241 PDF objects out of 1440 (max. 8388607)
- 1033 compressed objects within 11 object streams
- 204 named destinations out of 1000 (max. 500000)
+ 1261 PDF objects out of 1440 (max. 8388607)
+ 1051 compressed objects within 11 object streams
+ 209 named destinations out of 1000 (max. 500000)
  387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
