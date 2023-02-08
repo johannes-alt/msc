@@ -45,8 +45,19 @@ For this thesis the \ac{emusic} board, which is described in the previous chapte
 \end{table} 
 \begin{figure}
 	\centering
-	\includegraphics[width=.5\textwidth]{pictures/sipm_ham_pcb}
-	\caption[\ac{pcb} with Hamamatsu \acp{sipm}]{One of the \acp{pcb} with Hamamatsu \acp{sipm} used for this work.}
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=1.\textwidth]{pictures/sipm_ham_pcb_front}
+		\caption{}
+		\label{}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=1.\textwidth]{pictures/sipm_ham_pcb_back}
+		\caption{}
+		\label{}
+	\end{subfigure}
+	\caption[\ac{pcb} with Hamamatsu \acp{sipm}]{One of the \acp{pcb} with Hamamatsu \acp{sipm} used for this work. a) shows the front side with the \acp{sipm} and six LEDs in the middle. b) shows the back side with a \SI{0}{\ohm} resistor for every \ac{sipm}, connected in series and a capacitor for every \ac{sipm} connected between its anode side and ground.}
 	\label{fig:sipm_pcb}
 \end{figure}
 
@@ -87,26 +98,39 @@ In the following the setup part with the \ac{gandalf} is described.
 		\shade[bottom color = blue, top color = blue!40!white] (2.55,3.2) -- (3.4,5) -- (1.6,5) -- (2.45,3.2) -- cycle ;
 		\fill[fill=blue] (2.45,2.9) rectangle (2.55,3.1);
 		\draw (2.4,2.4) rectangle (2.6,2.9) node[minimum width=.8cm, pos=.5,label={east:fiber end}] {};
-		\draw (-6.,5.5) rectangle (-4.5,8) node[pos=.5, rotate=90] {GANDALF};
-		\draw (-8.5,5.5) rectangle (-6.5,8) node[pos=.5, rotate=90] {computer};
-		\draw[-latex] (2.5,6.2) -- (2.5,10.5) -- node[above] {signal x8} (-5.,10.5) -- (-5.,8);
-		\draw[latex-] (3.,6.2) -- (3.,11.5) -- node[above] {eMUSIC configuration} (-5.3,11.5) -- (-8,11.5) -- (-8,8);
-		\draw[-latex] (-5.5,8) -- (-5.5,10.5) -- node[above] {digitized} node[below] {data} (-7,10.5) -- (-7,8);
-		\draw (-4,5.5) rectangle (-2.5,8) node[pos=.5, rotate=90] {HV supply};
-		\draw (2,6.2) -- (2,9.5) -- (-3.25,9.5) -- (-3.25,8);
-		\draw (-2,5.5) rectangle (-1,8) node[pos=.5, rotate=90] {LED box};
+		\draw (-7.,4.5) rectangle (-5.5,8) node[pos=.5, rotate=90] {GANDALF};
+		\draw (-9.5,4.5) rectangle (-7.5,8) node[pos=.5, rotate=90] {computer};
+		\draw[-latex] (2.7,6.2) -- (2.7,11.5) -- node[above] {signal x8} (-6.,11.5) -- (-6.,8);
+		\draw[latex-] (3.1,6.2) -- (3.1,12.5) -- node[above] {eMUSIC configuration} (-6.3,12.5) -- (-9,12.5) -- (-9,8);
+		\draw[-latex] (-6.5,8) -- (-6.5,11.5) -- node[above] {digitized} node[below] {data} (-8,11.5) -- (-8,8);
+		\draw (-5,4.5) rectangle (-4.,8) node[pos=.5, rotate=90] {HV supply};
+		\draw (2.3,6.2) -- (2.3,10.5) -- (-4.5,10.5) -- (-4.5,8);
+		\draw (-2.5,4.5) rectangle (-3.5,8) node[pos=.5, rotate=90] {8V power supply};
+		\draw (1.9,6.2) -- (1.9,9.5) -- (-3.,9.5) -- (-3.,8);
+		\draw (-2,4.5) rectangle (-1,8) node[pos=.5, rotate=90] {LED box};
 		\draw (2.5,2.4) -- (2.5,1.7) -- (.8,1.7) -- (.8,8.5) -- node[above] {optical fiber} (-1.5,8.5) -- (-1.5,8);
-		\draw (-8.5,3) rectangle (-4.5,4.5) node[pos=.5, text width=3.5cm, align=center] {Tektronix AFG 3252};
-		\draw (-1.5,5.5) -- (-1.5,3.75) -- (-4.5,3.75);
-		\draw (-4.3,3.9) -- (-4.1,3.9) -- (-4.1,4.3) -- (-3.9,4.3) -- (-3.9,3.9) -- (-3.5,3.9);
+		\draw (-8.5,2) rectangle (-4.5,3.5) node[pos=.5, text width=3.5cm, align=center] {Tektronix AFG 3252};
+		\draw (-1.5,4.5) -- (-1.5,2.75) -- (-4.5,2.75);
+		\draw (-4.3,2.9) -- (-4.1,2.9) -- (-4.1,3.3) -- (-3.9,3.3) -- (-3.9,2.9) -- (-3.5,2.9);
 	\end{circuitikz}
 	\caption[Schematic view of the measurement setup.]{Schematic view of the measurement setup. The \ac{emusic} board and \ac{sipm} board are in a dark box to prevent unwanted light exposure. The high voltage for the \acp{sipm} is supplied by a power supply outide the box. An \SI{8}{\volt} power supply provides the power for the \ac{emusic} board. A computer is used to configer the \ac{emusic} chip. The output signals of the \ac{emusic} board are digitized by a\ac{gandalf} and then send to the computer, where they are written to disk. With voltage pulses from an arbitrary function generator a LED is powered. The emitted light is guided into the dark box through an optical fiber. In the box the fiber is mounted in front of the \acp{sipm} with a diffuser between the fiber end and the \acp{sipm}.}
 	\label{fig:setup_sketch}
 \end{figure}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.5\textwidth]{pictures/setup_box_pic}
-	\caption[Picture of the inside of the dark box.]{The inside of the dark box which was used for the test measurements. On the left is the end of the fiber from the LED setup mounted on the optical rail. Behind the fiber end is a diffuser by Thorlabs which diffuses the light in a circular distribution with an opening angle of \SI{50}{\degree}. After the diffuser is the \ac{pcb} with the \acp{sipm} placed. On its back is the \ac{emusic} board plugged in. The high voltage for the \acp{sipm} is supplied via the brownish cable, the power for the \ac{emusic} chip is supplied with the red and black cable and the signal outputs of the \ac{emusic} boards are connected with the feedthrough on the box via the black SMA cables.}
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=1.\textwidth]{pictures/setup_box_pic}
+		\caption{}
+		\label{}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.48\textwidth}
+		\centering
+		\includegraphics[width=1.\textwidth]{pictures/setup_box_pic_close}
+		\caption{}
+		\label{}
+	\end{subfigure}
+	\caption[Picture of the inside of the dark box.]{The inside of the dark box which was used for the test measurements. On the left is the end of the fiber from the LED setup mounted on the optical rail. Behind the fiber end is a diffuser by Thorlabs which diffuses the light in a circular distribution with an opening angle of \SI{50}{\degree}. After the diffuser is the \ac{pcb} with the \acp{sipm} placed. On its back is the \ac{emusic} board plugged in. The high voltage for the \acp{sipm} is supplied via the brownish cable, the power for the \ac{emusic} chip is supplied with the red and black cable and the signal outputs of the \ac{emusic} boards are connected with the feedthrough on the box via the black SMA cables. The right picture shows a close-up of the \ac{sipm} board with the \ac{emusic} board plugged in the back and the diffuser and the end of the optical fiber in front of it.}
 	\label{fig:setup_box_pic}
 \end{figure}
 
@@ -126,16 +150,16 @@ Via LEMO cables, the clock signal form the boards clock output pins is connected
 	\centering
 	\begin{subfigure}[b]{.4\textwidth}
 		\centering
-		\includegraphics[width=1.\textwidth, angle=-90]{pictures/gandalf_portable} 
+		\includegraphics[width=1.\textwidth]{pictures/gandalf_portable} 
 		\caption[A \ac{gandalf} portable equiped with a \ac{gandalf}.]{}
-		\label{}
+		\label{fig:gandalf_portable}
 	\end{subfigure}
 	\begin{subfigure}[b]{.55\textwidth}
 		\centering
-		\includegraphics[width=1.\textwidth]{pictures/gimli_testboard}
+		\includegraphics[width=1.\textwidth, angle=-90]{pictures/gimli_testboard}
 		\caption[]{}
-		\label{}
+		\label{fig:gimli_testboard}
 	\end{subfigure}
-	\caption[]{A \ac{gandalf} portable equiped with a \ac{gandalf}. The GIMLI test board with a copper GIMLI}
+	\caption[GANDALF portable and GIMLI testboard]{A \ac{gandalf} portable equiped with a \ac{gandalf} a). The GIMLI test board with a copper GIMLI b). The clock signal is connected to a LEMO connector.}
 	\label{}
 \end{figure}

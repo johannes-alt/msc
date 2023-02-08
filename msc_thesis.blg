@@ -16,36 +16,36 @@ Database file #1: chapter/refs.bib
 Warning--empty school in Zimmermann
 Warning--empty publisher in Kolanoski
 Warning--empty school in Herrmann
-You've used 20 entries,
+You've used 21 entries,
             1876 wiz_defined-function locations,
-            600 strings with 6543 characters,
-and the built_in function-call counts, 3182 in all, are:
-= -- 294
-> -- 119
+            604 strings with 6622 characters,
+and the built_in function-call counts, 3305 in all, are:
+= -- 304
+> -- 123
 < -- 0
-+ -- 52
-- -- 32
-* -- 184
-:= -- 487
-add.period$ -- 22
-call.type$ -- 20
-change.case$ -- 18
++ -- 54
+- -- 33
+* -- 190
+:= -- 504
+add.period$ -- 23
+call.type$ -- 21
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 142
-empty$ -- 357
-format.name$ -- 32
-if$ -- 762
+cite$ -- 24
+duplicate$ -- 146
+empty$ -- 375
+format.name$ -- 33
+if$ -- 793
 int.to.chr$ -- 0
-int.to.str$ -- 20
+int.to.str$ -- 21
 missing$ -- 7
-newline$ -- 68
-num.names$ -- 20
-pop$ -- 84
+newline$ -- 71
+num.names$ -- 21
+pop$ -- 91
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 102
+skip$ -- 106
 stack$ -- 0
 substring$ -- 84
 swap$ -- 32
@@ -54,7 +54,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 28
-width$ -- 22
-write$ -- 167
+while$ -- 29
+width$ -- 23
+write$ -- 174
 (There were 3 warnings)

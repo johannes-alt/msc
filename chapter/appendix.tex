@@ -1,0 +1,19 @@
+\begin{table}
+	\centering
+	\caption[eMUSCI configuration parameter]{The most important configuration parameter of the \ac{emusic} chip configuration software and the corresponding functions. The square brackets indicate arguments that can be used with the parameters.}
+	\label{tab:emusic_config}
+	\begin{tabularx}{\textwidth}{X|X}\toprule
+		eMUSIC setting & function \\\midrule
+		-e [0,...,7] & enables set channels \\ 
+		-p [R C] & enable pole-zero cancellation and set the resistor and capacitor settings \\ 
+		-t & enable high transimpedance mode \\ 
+		-a & lower pole-zero cancellation shaper attenuation \\ 
+		-d & configure single-ended outputs as discriminated binary outputs \\ 
+		-f [.vdc file] & use .vdc file for the single-ended VDC calibration \\ 
+		-g [0-7] & set the bandgab voltage \\ 
+		-v [0-511] & set the discriminator threshold \\ 
+		-o [0-511] & set the input offset voltage \\
+		-u [0,...,7] & select channel for summation \\ 
+		\bottomrule
+	\end{tabularx}
+\end{table}

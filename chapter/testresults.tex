@@ -20,7 +20,7 @@ Therefore the sampling frequency of the \ac{gandalf} is as intended, which means
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/gandalf_23_input_ch0}
 	\caption[FFT of a \SI{150}{\mega\hertz} sin signal recorded with a GANDALF module.]{The \ac{fft} of a \SI{150}{\mega\hertz} sin signal recorded with the \ac{gandalf} module 23 with a \SI{880}{\mega\hertz} sampleing rate. The peak frequency is masured to \SI{149.4(10)}{\mega\hertz}}
-	\label{fig:input_offset_b2_ch0}
+	\label{fig:gandalf_input_g23_ch0}
 \end{figure}
 
 
@@ -358,7 +358,7 @@ For the first measurement, to maximize the amplitude, the pole-zero calibration 
 The second dark count measurement was done with enabled pole-zero calibration, low attenuation and high transimpedance.
 For the resistor and capacitor of the pole-zero cancellation the settings 3 and 31 were chosen, respectively.
 Since the amplitude of dark counts is in the lower \si{\milli\volt} range and therefore not much higher than the electronic noise, a measurement of the noise with a high voltage of \SI{20}{\volt} was performed for comparison.
-To maximize the amplitude resolution, the oscilloscope was used instead of a \ac{gandalf} module.
+Because the signal amplitude of the dark counts is very small, $\leq\SI{2.5}{\milli\volt}$, the Tektronix TDS5054B Digital Phosphor Oscilloscope was used instead of the \ac{gandalf}.
 In \autoref{fig:dc_hist} the histograms with the integrals of a \SI{136}{\nano\second} time window around the trigger point is shown. 
 The comparisson of the dark count measurements with the noise measurement shows, that dark counts were measured.
 But it no single photoelectron peaks can be distinguished with the measurement with pole-zero cancellation.

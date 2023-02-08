@@ -12,24 +12,25 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces eMUSIC block diagram}}{14}{figure.caption.24}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces eMUSIC pole-zero cancellation}}{15}{figure.caption.26}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces eMUSIC Board}}{18}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Overview of the GANDALF module}}{20}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Copper GIMLI}}{22}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Overview of the GANDALF module}}{20}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Copper GIMLI}}{22}{figure.caption.39}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {pcb} with Hamamatsu \acp {sipm}}}{24}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic view of the measurement setup.}}{26}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Picture of the inside of the dark box.}}{27}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {pcb} with Hamamatsu \acp {sipm}}}{24}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schematic view of the measurement setup.}}{26}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Picture of the inside of the dark box.}}{27}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces GANDALF portable and GIMLI testboard}}{29}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces FFT of a \SI {150}{\mega \hertz } sin signal recorded with a GANDALF module.}}{30}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Input offset measurement for eMUSIC board 2 channel 1}}{32}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Input offset voltage of all channels for differen \ac {dac} settings}}{35}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Mean waveform for a measurement without pole-zero cancellation.}}{38}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Mean waveform for different pz-cancellation resistor values.}}{38}{figure.caption.52}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Mean waveform for different pz-cancellation capacitor values.}}{39}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Plot of the low attenuation effect with two pole-zero settings.}}{42}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Waveforms measured with low and high transimpedance}}{43}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Histogram of the dark count measurements with pole-zero cancellation.}}{45}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Histogram of the dark count measurements without pole-zero cancellation.}}{46}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces FFT of a \SI {150}{\mega \hertz } sin signal recorded with a GANDALF module.}}{31}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Input offset measurement for eMUSIC board 2 channel 1}}{33}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Input offset voltage of all channels for differen \ac {dac} settings}}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Mean waveform for a measurement without pole-zero cancellation.}}{39}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Mean waveform for different pz-cancellation resistor values.}}{39}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mean waveform for different pz-cancellation capacitor values.}}{40}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Plot of the low attenuation effect with two pole-zero settings.}}{43}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Waveforms measured with low and high transimpedance}}{44}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Histogram of the dark count measurements with pole-zero cancellation.}}{46}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Histogram of the dark count measurements without pole-zero cancellation.}}{47}{figure.caption.59}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces One Cell Prototype at the \ac {desy} testbeam}}{48}{figure.caption.59}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces One Cell Prototype at the \ac {desy} testbeam}}{49}{figure.caption.60}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

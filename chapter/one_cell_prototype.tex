@@ -51,13 +51,13 @@ The cell was overfilled with scintillator, in order to still being full if the t
 Gaseous nitrogen fills out the remaining volume of the expansion vessel to avoid contact to air and to serve as a compressible volume. 
 
 The \ac{lab}s emission spectrum is shown in \autoref{fig:lab_emission}.
-Most of the scintillation light has a wavelength of \SIrange{320}{360}{\nano\meter}.
+Most of the scintillation light has a wavelength of \SIrange{340}{420}{\nano\meter}.
 In order to capture the light and to shift the wavelength towards values for which the used \acp{sipm} have a higher detection efficiency, \acp{wom} are used.
 In the next section, these \acp{wom} and the optical coupling between them and the \acp{sipm} are presented.
 \begin{figure}
 	\centering
-	\includegraphics[width=.8\textwidth]{pictures/lab_emission}
-	\caption[LAB emission spectrum]{The emission spectrum of the liquid scintillator components \ac{lab} and \ac{ppo} and the wavelength shifter Bis-MSB. \cite{}}
+	\includegraphics[width=1.\textwidth]{pictures/lab_emission}
+	\caption[LAB emission spectrum]{The emission spectrum of the liquid scintillator \ac{lab} with \ac{ppo} and the wavelength shifter Bis-MSB. \cite{Schmidt}}
 	\label{fig:lab_emission}
 \end{figure}
 
@@ -147,7 +147,8 @@ In \acp{sipm}, hundreds to thousands of \acp{spad} are connected in parallel, ea
 Usually, the \ac{spad} pixels are placed in a rectangular form with an edge length of a few \si{\milli\meter}.
 %\autoref{fig:sipm_closeup} shows a picture of a \ac{sipm} and one picture of a single pixel of a \ac{sipm}.
 Due to the property of the \acp{spad} that the output signal is always similar for each \ac{spad}, the output signal of a \ac{sipm} is the output signal of one \ac{spad} multiplied by the number of triggered \acp{spad}.
-Therefore, if the number of photons arriving simultaneously at a \ac{sipm} is low enough that the probability of one \ac{spad} being hit by two or more photons is low, one can count photons with a \ac{sipm} \cite{ACERBI201916}.
+For a small number of photons hitting the \ac{sipm} simultaneously, the probability of multiple photons hitting the same pixel is low.
+Therefore, then one can count photons \cite{ACERBI201916}.
 This and the relatively low cost of around \num{450000}\,\texteuro{} for \num{100000} \acp{sipm} , high durability, and imunity to magnetic fields \cite{ACERBI201916,HamamatsuMPPCTech} makes \ac{sipm} a good choice for photodetection for the \ac{sbt} and similar detectors.
 However, due to the sensitivity down to single photons, also $eh$-pairs created by thermal excitation will cause signals indistinguishable from signals caused by photons.
 These signals are called \ac{dc}.
@@ -232,6 +233,7 @@ Each channel has an analog bandwidth of \SI{150}{\mega\hertz} and is equipped wi
 The schematics of the later is shown in \autoref{fig:emusic_pole_zero}.
 The pole-zero cancellation is comprised of two adjustable resistors and an adjustable capacitor and can be used to decrease the \ac{fwhm} of the output signal to below $\SI{10}{\nano\second}$.
 However, a smaller width also decreases the amplitude of the signal.
+The \ac{emusic} has a low attenuation setting, with which the signal attenuation through the pole-zero shaper can be reduced.
 The resistor has eight possible values it can be set to, and the capacitor has thirty-two different steps.
 A compromise between shorter signals and higher amplitude should be chosen depending on one's needs.
 Alternatively, the pole-zero cancellation can be disabled completely, resulting in the highest signal amplitude possible but also in the longest signal.
@@ -239,7 +241,7 @@ The shaper outputs are connected to an analoge output for each channel.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\textwidth]{pictures/emusic_pole_zero.png}
-	\caption[eMUSIC pole-zero cancellation]{Sketch of a pole-zero cancellation with adjustable resistors and capacitor, the input voltage $\text{V}_\text{i}$, the output voltage $\text{V}_\text{o}$, and the operation voltage $\text{V}_\text{cc}$. \cite{electronics10080961}}
+	\caption[eMUSIC pole-zero cancellation]{Sketch of a pole-zero cancellation with resistors adjustable in 8 steps and capacitor adjustable in 32 steps, the input voltage $\text{V}_\text{i}$, the output voltage $\text{V}_\text{o}$, and the operation voltage $\text{V}_\text{cc}=\SI{3.3}{\volt}$. \cite{electronics10080961}}
 	\label{fig:emusic_pole_zero}
 \end{figure}
 
@@ -248,7 +250,8 @@ These logical signals can be either put out by using the individual output of th
 This fast OR allows, for example, the external triggering of the digitizer, which then digitizes the analog waveforms.
 The dynamic range of the output for the single-ended signals is \SI{1}{\volt} if the load on the output is \SI{50}{\ohm} and \SI{2}{\volt} if a high impedance load is used on the output.
 Using the low transimpedance mode, the gain of the single-ended output is \SI{180}{\ohm}, and with the high transimpedance mode, it is \SI{480}{\ohm}.
-The response of teh \ac{emusic} is linear only in its first half of the dynamic range.
+The unit \si{\ohm} of the gain is due to the \ac{emusic} being a transimpedance amplifier with a current input and voltage output.
+The response of the \ac{emusic} is linear only in its first half of the dynamic range.
 
 Besides the individual readout of the eight channels, the \ac{emusic} can sum up the signal of an arbitrary set of channels with both high and low gain and put them out via two differential outputs.
 The bandwidth of this summation output is \SI{500}{\mega\hertz}, and the output range is \SI{1.25}{\volt}.
@@ -296,6 +299,7 @@ Both the high and low gain differential summation outputs are connected to the p
 The board also provides the possibility to power upto six LEDs soldered onto the \ac{sipm} boards via the P1 connector.
 However, the usage of this is not advised since this will introduce interferences into the signals.
 
+The connectors on the \ac{emusic} board and the corresponding function are listed in \autoref{tab:emusic_board_connectors}
 %The amplified single-ended output signals then can be digitized.
 %For this task, the \acro{gandalf} module was chosen, which is described in the next section.
 
@@ -306,7 +310,25 @@ However, the usage of this is not advised since this will introduce interference
 	\label{fig:emusic_board}
 \end{figure}
 
-
+\begin{table}
+	\centering
+	\caption[]{}
+	\label{tab:emusic_board_connectors}
+	\begin{tabularx}{\textwidth}{X|X}\toprule
+		connector & function \\\midrule
+		P1 & supplying power to the six LEDs \\
+		P2 & HV supply for the \acp{sipm} \\
+		P3 & configuring the \ac{emusic} \\
+		K1 - K8 & signal output for channel 0 to 7 \\
+		K9 & Fast OR output \\ 
+		J1 & connector for the \ac{sipm} board \\ 
+		J3 & supplying power to the \ac{emusic} board \\ 
+		J4 & programming the ATmega328P-AU \\
+		J6 & differential summation signal output \\
+		\bottomrule
+		\\
+	\end{tabularx}
+\end{table}
 
 
 
