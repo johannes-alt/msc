@@ -7,7 +7,7 @@
 \contentsline {section}{\numberline {2.2}Wavelength-shifting Optical Module \& Optical Coupling}{9}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Silicon Photomultiplier}{10}{section.2.3}%
 \contentsline {section}{\numberline {2.4}The eMUSIC board}{13}{section.2.4}%
-\contentsline {section}{\numberline {2.5}The \ac {gandalf} Module}{19}{section.2.5}%
+\contentsline {section}{\numberline {2.5}The GANDALF Module}{19}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Input Mezzanine Cards}{19}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}GIMLI Mezzanine Cards}{21}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {2.5.3}Usage of the \ac {gandalf} with \acp {sipm}}{21}{subsection.2.5.3}%
@@ -20,10 +20,10 @@
 \contentsline {section}{\numberline {4.2}Input Offset Voltage}{32}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Pole-Zero Cancellation Shaper}{38}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Transimpedance and Pole-Zero Attenuation}{42}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Dark Count Measurements}{45}{section.4.5}%
-\contentsline {chapter}{\numberline {5}DAQ Performance at the DESY Testbeam}{48}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summary and Outlook}{51}{chapter.6}%
-\contentsline {chapter}{\numberline {A}List of acronyms}{53}{appendix.A}%
-\contentsline {chapter}{List of Figures}{55}{appendix*.61}%
-\contentsline {chapter}{List of Tables}{57}{appendix*.62}%
-\contentsline {chapter}{Bibliography}{58}{appendix*.63}%
+\contentsline {section}{\numberline {4.5}Dark Count Measurements}{46}{section.4.5}%
+\contentsline {chapter}{\numberline {5}DAQ Performance at the DESY Testbeam}{49}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summary and Outlook}{52}{chapter.6}%
+\contentsline {chapter}{\numberline {A}List of acronyms}{60}{appendix.A}%
+\contentsline {chapter}{List of Figures}{62}{appendix*.64}%
+\contentsline {chapter}{List of Tables}{64}{appendix*.65}%
+\contentsline {chapter}{Bibliography}{65}{appendix*.66}%

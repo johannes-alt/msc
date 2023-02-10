@@ -21,24 +21,13 @@ For the R\&D with the One Cell Prototype, the thickness was reduced to be able t
 This is important in case the \ac{sbt} design changes, for example by replacing the vacuum with helium.
 One side of the cell has two holes with equal distance to both side walls.
 The lower hole is \SI{30}{\centi\meter} away from the bottom of the cell, and the upper hole is \SI{30}{\centi\meter} below the top.
-In each of these holes, a PMMA vessel, shown in \autoref{fig:pmma_vessel}, is placed to house the two \acp{wom}.
+In each of these holes, a PMMA vessel is placed to house the two \acp{wom}.
 Through an air gap between the \acp{wom} and the PMMA vessel walls the photons in the \acp{wom} are captured there by total reflection at the \ac{wom} air interface.
 \begin{figure}
 	\centering
-	\begin{subfigure}[b]{.40\textwidth}
-		\centering
-		\includegraphics[width=1.\textwidth]{pictures/one_cell}
-		\caption[One Cell Prototype]{}
-		\label{fig:one_cell}
-	\end{subfigure}
-	\begin{subfigure}[b]{.54\textwidth}
-		\centering
-		\includegraphics[width=1.\textwidth]{pictures/pmma_vessel}
-		\caption[PMMA vessel]{}
-		\label{fig:pmma_vessel}
-	\end{subfigure}
-	\caption[One Cell Prototype and PMMA vessel]{The One Cell Prototype at the DESY testbeam area a) and a PMMA vessel with a Wavelenth-shifting Optical Module inserted and a \ac{sipm} board attached b). \cite{}}
-	\label{fig:one_cell_and_pmma}
+	\includegraphics[width=.5\textwidth]{pictures/one_cell}
+	\caption[One Cell Prototype]{The One Cell Prototype at the DESY testbeam area.}% a) and a PMMA vessel with a Wavelenth-shifting Optical Module inserted and a \ac{sipm} board attached b). \cite{}}
+	\label{fig:one_cell}
 \end{figure}
 
 The container is filled with \ac{lab} mixed with \SI{2}{\gram\per\liter} Diphenyloxazole (PPO)%, which is also planed to be used in the \ac{sbt}.
@@ -277,7 +266,7 @@ With $V_\text{bg}$ and  of $V_\text{fine}$ or $N_\text{DAC}$, the final threshol
 can be calculated.
 
 \textbf{The eMUSIC board} was designed at the University of Freiburg.
-A graphic of the board is shown in \autoref{fig:emusic_board}.
+A fotograph of the board is shown in \autoref{fig:emusic_board}.
 Its heart is the \ac{emusic} \ac{asic} (U1).
 In order to program the \ac{asic}, the ATmega328P-AU microchip (U4) is placed on the board.
 The microchip can be programmed with the Atmel Studio software by Atmel and the AVRSPI mkII porgrammer, which is connected to the computer via USB and can be plugged into the J4 connector on the \ac{emusic} board.
@@ -312,7 +301,7 @@ The connectors on the \ac{emusic} board and the corresponding function are liste
 
 \begin{table}
 	\centering
-	\caption[]{}
+	\caption[eMUSIC board connectors]{The connectors on the \ac{emusic} board with their corresponding function.}
 	\label{tab:emusic_board_connectors}
 	\begin{tabularx}{\textwidth}{X|X}\toprule
 		connector & function \\\midrule
@@ -326,13 +315,12 @@ The connectors on the \ac{emusic} board and the corresponding function are liste
 		J4 & programming the ATmega328P-AU \\
 		J6 & differential summation signal output \\
 		\bottomrule
-		\\
 	\end{tabularx}
 \end{table}
 
 
 
-\section{The \ac{gandalf} Module}
+\section{The GANDALF Module}
 The amplified and shaped output signal of the \ac{emusic} \ac{asic} needs to be digitized for further analysis.
 For this step the \ac{gandalf} module could be employed.
 Originally developed at the University of Freiburg for the \ac{compass} experiment, it has a modular design to fill different roles in the experiments \ac{daq}.
@@ -407,7 +395,7 @@ Via a second LEMO connector, an external \ac{nim} trigger signal can be connecte
 
 \subsection{Usage of the \ac{gandalf} with \acp{sipm}}
 In this work, the \ac{gandalf} was used for digitizing the output signal of the \ac{emusic} \ac{asic}.
-As mentioned above in \autoref{sec:emusic}, these signals have a positive polarity.
+The output signals of the \ac{emusic} have a positive signal polarity.
 But because the \ac{gandalf} was designed for the digitization and processing of negative voltage pulses created by a \ac{pmt}, this caused some problems.
 Since after the inverting operational amplifiers in the \ac{gandalf}, the \ac{sipm} signals have a negative polarity, the input voltage range needs to be chosen to be bipolar and around \SIrange{-1.1}{1.1}{\volt}.
 %In order to get this input range the baseline at \SI{0}{\volt} would need to be set to \SI{2047}{\adcu}.

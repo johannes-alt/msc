@@ -10,7 +10,9 @@ A level-1 auxiliary file: chapter/setup_elab.aux
 A level-1 auxiliary file: chapter/testresults.aux
 A level-1 auxiliary file: chapter/testbeam.aux
 A level-1 auxiliary file: chapter/conclusion.aux
+A level-1 auxiliary file: chapter/appendix.aux
 The style file: ieeetr.bst
+A level-1 auxiliary file: chapter/acknowledgements.aux
 A level-1 auxiliary file: chapter/erklaerung.aux
 Database file #1: chapter/refs.bib
 Warning--empty school in Zimmermann
@@ -18,7 +20,7 @@ Warning--empty publisher in Kolanoski
 Warning--empty school in Herrmann
 You've used 21 entries,
             1876 wiz_defined-function locations,
-            604 strings with 6622 characters,
+            606 strings with 6670 characters,
 and the built_in function-call counts, 3305 in all, are:
 = -- 304
 > -- 123

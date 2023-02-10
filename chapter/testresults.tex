@@ -33,7 +33,7 @@ Therefore the sampling frequency of the \ac{gandalf} is as intended, which means
 \section{Input Offset Voltage}
 The first measurement with the \ac{emusic} board is to find out the input offset voltage of the \ac{emusic} for different \ac{dac} values.
 This needs to be done to determine the correct overvoltage of the \acp{sipm}, which influences among other things the gain of the \acp{sipm}.
-In order to perform this measurement, the setup in \autoref{fig:input_offset_setup} was assembled.
+In order to perform this measurement, the setup in \autoref{fig:setup_sketch} was assembled.
 The measurements were done for both the \ac{emusic} boards 2 and 6.
 %The \ac{emusic} board was powered by the \SI{8}{\volt} power supply and the XXXXXXXX power supply was used to supply the high voltage.
 The \acp{sipm} were supplied with a high voltage of \SI{4.7}{\volt} for a reverese bias voltage, as in normal operation.
@@ -43,7 +43,6 @@ To prevent damages to the \acp{sipm}, the high voltage was not increased over th
 For this measurement the \ac{emusic}s input \ac{dac} settings, which can range from 0 to \SI{511}{\dacu}, were set to \SI{0}{\dacu}.
 Then the voltages between the negative high voltage pole and the voltage on the cathode of the \acp{sipm} were measured.
 As measurement point for the cathode voltage, the \SI{0}{\ohm} resistor placed on the back of the \ac{sipm} board was chosen.
-It is shown in \autoref{fig:meas_input_resistor}.
 This measurement was done for one \ac{sipm} of each \ac{sipm} group.
 The chosen \ac{sipm} were 1, 6, 11, 16, 21, 26, 31 and 36.
 After measuring the different voltages, the \ac{dac} setting was increased in steps of \SI{50}{\dacu} up to \SI{500}{\dacu} and at each step the measurement was repeated.
@@ -63,6 +62,8 @@ where x is the setting of the \ac{dac} in \si{\dacu}.
 The bottom of the plot shows the residual plot where the difference between the linear fit and the measured values is shown.
 The range on the input-offset-axis is fixed to \SIrange{-20}{20}{\milli\volt}.
 In \autoref{tab:input_offset_linear_fit} the fit results for the measurements with the \ac{emusic} boards 2 and 6 are listed.
+In addition to the channel by channel fits, the mean of the offset voltages of all eight channels for each setting was calculated and a linear function was fitted to the resulting mean values.
+These fit results of both boards are also shown in \autoref{tab:input_offset_linear_fit}.
 The \ac{dac} voltages of the channels differ to other channels on the same board as well as to the channels on the other board.
 Therefore the measurement of the input voltage should be done for every \ac{emusic} board.
 \begin{figure}
@@ -184,10 +185,10 @@ Which are presented in the following sections.
 
 In this section the results from the characterization of the pole-zero cancellation shaper and its effect with different settings are described.
 Hereby the amplitude of the peak and the \ac{fwhm} are of interest.
-The tests were done using the setup described in \autoref{sec:setup}.
+The tests were done using the setup described in \autoref{fig:setup_sketch}.
 The high voltage for this and all following measurements, as long as not otherwise stated, was set to \SI{43}{\volt}. 
 A \ac{gandalf} module was used for the digitization.
-The \ac{emusic} settings of one of these measurements are shown in \autoref{} in the appendix.
+The \ac{emusic} settings of one of these measurements are shown in \autoref{sec:settings} in the appendix, with the only difference, that the input offset settings were changed form \SI{255}{\dacu} to the equalized values in \autoref{tab:input_offset_equalized}.
 For the other measurements, only the pole-zero settings were changed.
 Each measurement includes approximately \num{80000} events, for which the mean waveforms are shown in the plots below.
 The values for the amplitude and \ac{fwhm} were calculated for each individual waveform and theire mean values are presented here for the different measurements.
@@ -343,12 +344,18 @@ The mean amplitudes for these measurements are
 	\text{and}\quad V_\text{low imp} &= \SI{94(7)}{\milli\volt}
 \end{align}
 and the factor by which the signal amplitude decreases is \num{0.35(4)}, which is also in agreement with the results of the other measurement.
-The plots of the mean waveforms for the measurements with pole-zero cancellation are shown in the appendix in \autoref{}.
+The plots of the mean waveforms for the measurements with pole-zero cancellation are shown in \autoref{fig:low_imp_wf_pz}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.\textwidth]{pictures/low_imp_mean_wf}
 	\caption[Waveforms measured with low and high transimpedance]{The mean waveforms of two measurements with around \num{80000} waveforms each. The black waveform correspondes to a measurement done with high transimpedance and the red waveform correspondes to a measurement with low transimpedance.}
 	\label{fig:low_imp_wf}
+\end{figure}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.\textwidth]{pictures/low_imp_mean_wf_pz}
+	\caption[Waveforms measured with low and high transimpedance]{The mean waveforms of two measurements using the pole-zero cancellation shaper with the settings R=3 and C=31. Both mean waveforms consist of around \num{80000} waveforms each. The black waveform correspondes to a measurement done with high transimpedance and the red waveform correspondes to a measurement with low transimpedance.}
+	\label{fig:low_imp_wf_pz}
 \end{figure}
 
 \section{Dark Count Measurements}

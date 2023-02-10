@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  8 FEB 2023 08:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.5)  8 FEB 2023 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1664,8 +1664,24 @@ LaTeX Warning: Label `sub@' multiply defined.
 LaTeX Warning: Label `' multiply defined.
 
 ) (./chapter/testresults.aux) (./chapter/testbeam.aux)
-(./chapter/conclusion.aux) (./chapter/acknowledgements.aux)
-(./chapter/erklaerung.aux))
+(./chapter/conclusion.aux) (./chapter/appendix.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.6 ...nfiguration parameter}{table.caption.62}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.6 ...nfiguration parameter}{table.caption.62}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+) (./chapter/acknowledgements.aux) (./chapter/erklaerung.aux))
 \openout1 = `msc_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
@@ -1898,13 +1914,7 @@ l.118 \mbox{}\newpage
 ] (./msc_thesis.toc
 Package acronym Info: Label `acro:gandalf' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 10.
-
-Overfull \hbox (0.5431pt too wide) in paragraph at lines 10--10
- [][] [][]\T1/lmr/m/n/12 The [][][]Generic Ad-van-ced Nu-me-ri-cal De-vi-ce for
- Ana-ly-tic and Lo-gic Func- 
- []
-
+although it is yet undefined on input line 13.
 Package acronym Info: Label `acro:sipm' newly defined as it shall be overridden
 
 although it is yet undefined on input line 13.
@@ -1912,7 +1922,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.23 ...}Dark Count Measurements}{45}{section.4.5}
+l.23 ...}Dark Count Measurements}{46}{section.4.5}
                                                   % [1
 
 ])
@@ -1952,69 +1962,68 @@ although it is yet undefined on input line 60.
  [4 <./pictures/ship_sketch.png>]
 Package acronym Info: Label `acro:wom' newly defined as it shall be overridden
 although it is yet undefined on input line 78.
-<pictures/sbt_structure_sceleton.png, id=263, 929.4725pt x 717.68124pt>
+<pictures/sbt_structure_sceleton.png, id=264, 929.4725pt x 717.68124pt>
 File: pictures/sbt_structure_sceleton.png Graphic file (type png)
 <use pictures/sbt_structure_sceleton.png>
 Package pdftex.def Info: pictures/sbt_structure_sceleton.png  used on input lin
 e 85.
 (pdftex.def)             Requested size: 136.57634pt x 105.4464pt.
-<pictures/sbt_structure_cell.png, id=264, 726.715pt x 797.98125pt>
+<pictures/sbt_structure_cell.png, id=265, 726.715pt x 797.98125pt>
 File: pictures/sbt_structure_cell.png Graphic file (type png)
 <use pictures/sbt_structure_cell.png>
 Package pdftex.def Info: pictures/sbt_structure_cell.png  used on input line 91
 .
 (pdftex.def)             Requested size: 102.43225pt x 112.47153pt.
-<pictures/sbt_structure_wom.png, id=265, 930.47626pt x 438.63875pt>
-File: pictures/sbt_structure_wom.png Graphic file (type png)
-<use pictures/sbt_structure_wom.png>
-Package pdftex.def Info: pictures/sbt_structure_wom.png  used on input line 97.
-
-(pdftex.def)             Requested size: 179.25157pt x 84.50012pt.
+<pictures/pmma_vessel.jpg, id=266, 1147.8885pt x 824.8416pt>
+File: pictures/pmma_vessel.jpg Graphic file (type jpg)
+<use pictures/pmma_vessel.jpg>
+Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 97.
+(pdftex.def)             Requested size: 89.62904pt x 64.40283pt.
+<pictures/sipm_ham_pcb_front.jpg, id=267, 2576.62625pt x 2536.47626pt>
+File: pictures/sipm_ham_pcb_front.jpg Graphic file (type jpg)
+<use pictures/sipm_ham_pcb_front.jpg>
+Package pdftex.def Info: pictures/sipm_ham_pcb_front.jpg  used on input line 10
+3.
+(pdftex.def)             Requested size: 85.35696pt x 84.0252pt.
 Package acronym Info: Label `acro:asic' newly defined as it shall be overridden
 
-although it is yet undefined on input line 109.
+although it is yet undefined on input line 115.
 ) [5] [6 <./pictures/sbt_structure_sceleton.png> <./pictures/sbt_structure_cell
-.png> <./pictures/sbt_structure_wom.png>]
+.png> <./pictures/pmma_vessel.jpg> <./pictures/sipm_ham_pcb_front.JPG>]
 \openout2 = `chapter/one_cell_prototype.aux'.
 
-
-(./chapter/one_cell_prototype.tex
+ (./chapter/one_cell_prototype.tex
 Chapter 2.
 <pictures/one_cell.png, id=313, 499.8675pt x 696.6025pt>
 File: pictures/one_cell.png Graphic file (type png)
 <use pictures/one_cell.png>
-Package pdftex.def Info: pictures/one_cell.png  used on input line 30.
-(pdftex.def)             Requested size: 170.71393pt x 237.90465pt.
-<pictures/pmma_vessel.jpg, id=314, 1147.8885pt x 824.8416pt>
-File: pictures/pmma_vessel.jpg Graphic file (type jpg)
-<use pictures/pmma_vessel.jpg>
-Package pdftex.def Info: pictures/pmma_vessel.jpg  used on input line 36.
-(pdftex.def)             Requested size: 230.46445pt x 165.5947pt.
+Package pdftex.def Info: pictures/one_cell.png  used on input line 28.
+(pdftex.def)             Requested size: 213.39566pt x 297.38612pt.
 [7
 
 
 
 ]
 Package acronym Info: Label `acro:lab' newly defined as it shall be overridden
-although it is yet undefined on input line 44.
-<pictures/lab_emission.png, id=331, 1429.34pt x 599.23875pt>
+although it is yet undefined on input line 33.
+<pictures/lab_emission.png, id=328, 1429.34pt x 599.23875pt>
 File: pictures/lab_emission.png Graphic file (type png)
 <use pictures/lab_emission.png>
-Package pdftex.def Info: pictures/lab_emission.png  used on input line 59.
+Package pdftex.def Info: pictures/lab_emission.png  used on input line 48.
 (pdftex.def)             Requested size: 426.79134pt x 178.92265pt.
 Package acronym Info: Label `acro:ppo' newly defined as it shall be overridden
-although it is yet undefined on input line 60.
+although it is yet undefined on input line 49.
 
-Underfull \hbox (badness 3049) in paragraph at lines 60--60
+Underfull \hbox (badness 3049) in paragraph at lines 49--49
 []\T1/lmr/m/n/12 Figure 2.2: |The emis-sion spec-trum of the liq-uid scin-til-l
 a-tor [][] with
  []
 
-[8 <./pictures/one_cell.png> <./pictures/pmma_vessel.jpg>]
-<pictures/wom_principle.png, id=357, 941.5175pt x 665.48625pt>
+[8 <./pictures/one_cell.png>]
+<pictures/wom_principle.png, id=354, 941.5175pt x 665.48625pt>
 File: pictures/wom_principle.png Graphic file (type png)
 <use pictures/wom_principle.png>
-Package pdftex.def Info: pictures/wom_principle.png  used on input line 80.
+Package pdftex.def Info: pictures/wom_principle.png  used on input line 69.
 (pdftex.def)             Requested size: 341.43436pt x 241.33159pt.
 
 Overfull \hbox (0.63559pt too wide) has occurred while \output is active
@@ -2025,114 +2034,94 @@ Overfull \hbox (0.63559pt too wide) has occurred while \output is active
 [9 <./pictures/lab_emission.png>]
 Package acronym Info: Label `acro:spad' newly defined as it shall be overridden
 
-although it is yet undefined on input line 94.
+although it is yet undefined on input line 83.
 Package acronym Info: Label `acro:apd' newly defined as it shall be overridden
-although it is yet undefined on input line 94.
+although it is yet undefined on input line 83.
  [10 <./pictures/wom_principle.png>]
-<pictures/pin_diode.png, id=404, 1510.64375pt x 708.6475pt>
+<pictures/pin_diode.png, id=401, 1510.64375pt x 708.6475pt>
 File: pictures/pin_diode.png Graphic file (type png)
 <use pictures/pin_diode.png>
-Package pdftex.def Info: pictures/pin_diode.png  used on input line 131.
+Package pdftex.def Info: pictures/pin_diode.png  used on input line 120.
 (pdftex.def)             Requested size: 426.79134pt x 200.2041pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-52.
+41.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package acronym Info: Label `acro:dc' newly defined as it shall be overridden
-although it is yet undefined on input line 154.
+although it is yet undefined on input line 143.
  [11] [12 <./pictures/pin_diode.png>]
 Package acronym Info: Label `acro:emusic' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 217.
+although it is yet undefined on input line 206.
 Package acronym Info: Label `acro:pcb' newly defined as it shall be overridden
-although it is yet undefined on input line 217.
-<pictures/emusic_block_diagram.png, id=470, 1199.48125pt x 780.9175pt>
+although it is yet undefined on input line 206.
+<pictures/emusic_block_diagram.png, id=467, 1199.48125pt x 780.9175pt>
 File: pictures/emusic_block_diagram.png Graphic file (type png)
 <use pictures/emusic_block_diagram.png>
 Package pdftex.def Info: pictures/emusic_block_diagram.png  used on input line 
-225.
+214.
 (pdftex.def)             Requested size: 426.79134pt x 277.85323pt.
 Package acronym Info: Label `acro:fwhm' newly defined as it shall be overridden
 
-although it is yet undefined on input line 234.
-<pictures/emusic_pole_zero.png, id=483, 1144.275pt x 584.1825pt>
+although it is yet undefined on input line 223.
+<pictures/emusic_pole_zero.png, id=480, 1144.275pt x 584.1825pt>
 File: pictures/emusic_pole_zero.png Graphic file (type png)
 <use pictures/emusic_pole_zero.png>
-Package pdftex.def Info: pictures/emusic_pole_zero.png  used on input line 243.
+Package pdftex.def Info: pictures/emusic_pole_zero.png  used on input line 232.
 
 (pdftex.def)             Requested size: 213.39566pt x 108.9367pt.
 
 [13] [14 <./pictures/emusic_block_diagram.png>] [15 <./pictures/emusic_pole_zer
 o.png>]
 Package acronym Info: Label `acro:dac' newly defined as it shall be overridden
-although it is yet undefined on input line 266.
+although it is yet undefined on input line 255.
  [16]
-<pictures/emusic_board.jpg, id=550, 4047.12pt x 3035.34pt>
+<pictures/emusic_board.jpg, id=547, 4047.12pt x 3035.34pt>
 File: pictures/emusic_board.jpg Graphic file (type jpg)
 <use pictures/emusic_board.jpg>
-Package pdftex.def Info: pictures/emusic_board.jpg  used on input line 308.
+Package pdftex.def Info: pictures/emusic_board.jpg  used on input line 297.
 (pdftex.def)             Requested size: 426.79134pt x 320.08641pt.
  [17] [18 <./pictures/emusic_board.JPG>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ac' on input line 335.
-
 Package acronym Info: Label `acro:compass' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 338.
+although it is yet undefined on input line 326.
 Package acronym Info: Label `acro:daq' newly defined as it shall be overridden
-although it is yet undefined on input line 338.
-<pictures/gandalf_overview.png, id=589, 777.90625pt x 764.8575pt>
+although it is yet undefined on input line 326.
+<pictures/gandalf_overview.png, id=587, 777.90625pt x 764.8575pt>
 File: pictures/gandalf_overview.png Graphic file (type png)
 <use pictures/gandalf_overview.png>
-Package pdftex.def Info: pictures/gandalf_overview.png  used on input line 345.
+Package pdftex.def Info: pictures/gandalf_overview.png  used on input line 333.
 
 (pdftex.def)             Requested size: 341.43436pt x 335.7097pt.
 Package acronym Info: Label `acro:amc' newly defined as it shall be overridden
-although it is yet undefined on input line 352.
+although it is yet undefined on input line 340.
 Package acronym Info: Label `acro:adc' newly defined as it shall be overridden
-although it is yet undefined on input line 352.
+although it is yet undefined on input line 340.
 Package acronym Info: Label `acro:enob' newly defined as it shall be overridden
 
-although it is yet undefined on input line 369.
+although it is yet undefined on input line 357.
 Package acronym Info: Label `acro:pmt' newly defined as it shall be overridden
-although it is yet undefined on input line 378.
-Package acronym Info: Label `acro:GANDALF' newly defined as it shall be overrid
-den
-although it is yet undefined on input line 382.
-
-Package acronym Warning: Acronym `GANDALF' is not defined on input line 382.
-
-
-Package acronym Warning: Acronym `GANDALF' is not defined on input line 382.
-
-[19] [20 <./pictures/gandalf_overview.png>]
+although it is yet undefined on input line 366.
+ [19] [20 <./pictures/gandalf_overview.png>]
 Package acronym Info: Label `acro:nim' newly defined as it shall be overridden
-although it is yet undefined on input line 396.
-<pictures/copper_gimli.png, id=649, 865.2325pt x 412.54124pt>
+although it is yet undefined on input line 384.
+<pictures/copper_gimli.png, id=645, 865.2325pt x 412.54124pt>
 File: pictures/copper_gimli.png Graphic file (type png)
 <use pictures/copper_gimli.png>
-Package pdftex.def Info: pictures/copper_gimli.png  used on input line 401.
+Package pdftex.def Info: pictures/copper_gimli.png  used on input line 389.
 (pdftex.def)             Requested size: 213.39566pt x 101.74388pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ac' on input line 408.
+(hyperref)                removing `\@ac' on input line 396.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@acp' on input line 408.
+(hyperref)                removing `\@acp' on input line 396.
 
-
-LaTeX Warning: Reference `sec:emusic' on page 21 undefined on input line 410.
-
-)
-
-Package acronym Warning: Acronym `GANDALF' is not defined on input line 126.
-
-[21] [22 <./pictures/copper_gimli.png>]
+) [21] [22 <./pictures/copper_gimli.png>]
 \openout2 = `chapter/setup_elab.aux'.
 
  (./chapter/setup_elab.tex
@@ -2140,13 +2129,12 @@ Chapter 3.
 Package acronym Info: Label `acro:desy' newly defined as it shall be overridden
 
 although it is yet undefined on input line 18.
-<pictures/sipm_ham_pcb_front.jpg, id=710, 2576.62625pt x 2536.47626pt>
 File: pictures/sipm_ham_pcb_front.jpg Graphic file (type jpg)
 <use pictures/sipm_ham_pcb_front.jpg>
 Package pdftex.def Info: pictures/sipm_ham_pcb_front.jpg  used on input line 50
 .
 (pdftex.def)             Requested size: 204.85802pt x 201.64503pt.
-<pictures/sipm_ham_pcb_back.jpg, id=711, 2402.9775pt x 2348.775pt>
+<pictures/sipm_ham_pcb_back.jpg, id=707, 2402.9775pt x 2348.775pt>
 File: pictures/sipm_ham_pcb_back.jpg Graphic file (type jpg)
 <use pictures/sipm_ham_pcb_back.jpg>
 Package pdftex.def Info: pictures/sipm_ham_pcb_back.jpg  used on input line 56.
@@ -2156,13 +2144,13 @@ Package pdftex.def Info: pictures/sipm_ham_pcb_back.jpg  used on input line 56.
 
 
 
-] [24 <./pictures/sipm_ham_pcb_front.JPG> <./pictures/sipm_ham_pcb_back.JPG>]
-<pictures/setup_box_pic.jpg, id=774, 4047.12pt x 3035.34pt>
+] [24 <./pictures/sipm_ham_pcb_back.JPG>]
+<pictures/setup_box_pic.jpg, id=770, 4047.12pt x 3035.34pt>
 File: pictures/setup_box_pic.jpg Graphic file (type jpg)
 <use pictures/setup_box_pic.jpg>
 Package pdftex.def Info: pictures/setup_box_pic.jpg  used on input line 123.
 (pdftex.def)             Requested size: 204.85802pt x 153.62851pt.
-<pictures/setup_box_pic_close.jpg, id=775, 4047.12pt x 3035.34pt>
+<pictures/setup_box_pic_close.jpg, id=771, 4047.12pt x 3035.34pt>
 File: pictures/setup_box_pic_close.jpg Graphic file (type jpg)
 <use pictures/setup_box_pic_close.jpg>
 Package pdftex.def Info: pictures/setup_box_pic_close.jpg  used on input line 1
@@ -2170,13 +2158,13 @@ Package pdftex.def Info: pictures/setup_box_pic_close.jpg  used on input line 1
 (pdftex.def)             Requested size: 204.85802pt x 153.62851pt.
  [25] [26] [27 <./pictures/setup_box_pic.JPG> <./pictures/setup_box_pic_close.J
 PG>]
-<pictures/gandalf_portable.jpg, id=818, 1653.17625pt x 3194.93625pt>
+<pictures/gandalf_portable.jpg, id=814, 1653.17625pt x 3194.93625pt>
 File: pictures/gandalf_portable.jpg Graphic file (type jpg)
 <use pictures/gandalf_portable.jpg>
 Package pdftex.def Info: pictures/gandalf_portable.jpg  used on input line 153.
 
 (pdftex.def)             Requested size: 170.71393pt x 329.89626pt.
-<pictures/gimli_testboard.jpg, id=819, 3642.60875pt x 2471.2325pt>
+<pictures/gimli_testboard.jpg, id=815, 3642.60875pt x 2471.2325pt>
 File: pictures/gimli_testboard.jpg Graphic file (type jpg)
 <use pictures/gimli_testboard.jpg>
 Package pdftex.def Info: pictures/gimli_testboard.jpg  used on input line 159.
@@ -2188,7 +2176,7 @@ Package pdftex.def Info: pictures/gimli_testboard.jpg  used on input line 159.
 Chapter 4.
 Package acronym Info: Label `acro:fft' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
-<pictures/gandalf_23_input_ch0.png, id=846, 426.393pt x 263.7855pt>
+<pictures/gandalf_23_input_ch0.png, id=842, 426.393pt x 263.7855pt>
 File: pictures/gandalf_23_input_ch0.png Graphic file (type png)
 <use pictures/gandalf_23_input_ch0.png>
 Package pdftex.def Info: pictures/gandalf_23_input_ch0.png  used on input line 
@@ -2199,31 +2187,17 @@ Package pdftex.def Info: pictures/gandalf_23_input_ch0.png  used on input line
 
 
 ] [31 <./pictures/gandalf_23_input_ch0.png>]
-
-LaTeX Warning: Reference `fig:input_offset_setup' on page 32 undefined on input
- line 36.
-
-
-LaTeX Warning: Reference `fig:meas_input_resistor' on page 32 undefined on inpu
-t line 46.
-
-
-Overfull \hbox (7.65202pt too wide) detected at line 61
+Overfull \hbox (7.65202pt too wide) detected at line 60
 []
  []
 
-<pictures/input_offset_board_2_channel_0.png, id=893, 426.75435pt x 263.7855pt>
+<pictures/input_offset_board_2_channel_0.png, id=891, 426.75435pt x 263.7855pt>
 
 File: pictures/input_offset_board_2_channel_0.png Graphic file (type png)
 <use pictures/input_offset_board_2_channel_0.png>
 Package pdftex.def Info: pictures/input_offset_board_2_channel_0.png  used on i
-nput line 70.
+nput line 71.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-
-Overfull \hbox (9.33336pt too wide) detected at line 89
- 
- []
-
 
 Overfull \hbox (9.33336pt too wide) detected at line 90
  
@@ -2309,35 +2283,35 @@ Overfull \hbox (9.33336pt too wide) detected at line 106
  
  []
 
-[32]
-<pictures/input_offset_b2_dac50.png, id=913, 426.393pt x 175.857pt>
-File: pictures/input_offset_b2_dac50.png Graphic file (type png)
-<use pictures/input_offset_b2_dac50.png>
-Package pdftex.def Info: pictures/input_offset_b2_dac50.png  used on input line
- 121.
-(pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac150.png, id=914, 426.393pt x 175.857pt>
-File: pictures/input_offset_b2_dac150.png Graphic file (type png)
-<use pictures/input_offset_b2_dac150.png>
-Package pdftex.def Info: pictures/input_offset_b2_dac150.png  used on input lin
-e 128.
-(pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
-<pictures/input_offset_b2_dac500.png, id=915, 426.393pt x 175.857pt>
-File: pictures/input_offset_b2_dac500.png Graphic file (type png)
-<use pictures/input_offset_b2_dac500.png>
-Package pdftex.def Info: pictures/input_offset_b2_dac500.png  used on input lin
-e 135.
-(pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
 
-
-LaTeX Warning: Float too large for page by 73.8689pt on input line 141.
-
-[33 <./pictures/input_offset_board_2_channel_0.png>] [34]
-Overfull \hbox (5.87498pt too wide) detected at line 162
+Overfull \hbox (9.33336pt too wide) detected at line 107
  
  []
 
+[32]
+<pictures/input_offset_b2_dac50.png, id=911, 426.393pt x 175.857pt>
+File: pictures/input_offset_b2_dac50.png Graphic file (type png)
+<use pictures/input_offset_b2_dac50.png>
+Package pdftex.def Info: pictures/input_offset_b2_dac50.png  used on input line
+ 122.
+(pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
+<pictures/input_offset_b2_dac150.png, id=912, 426.393pt x 175.857pt>
+File: pictures/input_offset_b2_dac150.png Graphic file (type png)
+<use pictures/input_offset_b2_dac150.png>
+Package pdftex.def Info: pictures/input_offset_b2_dac150.png  used on input lin
+e 129.
+(pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
+<pictures/input_offset_b2_dac500.png, id=913, 426.393pt x 175.857pt>
+File: pictures/input_offset_b2_dac500.png Graphic file (type png)
+<use pictures/input_offset_b2_dac500.png>
+Package pdftex.def Info: pictures/input_offset_b2_dac500.png  used on input lin
+e 136.
+(pdftex.def)             Requested size: 426.79134pt x 176.0256pt.
 
+
+LaTeX Warning: Float too large for page by 73.8689pt on input line 142.
+
+[33 <./pictures/input_offset_board_2_channel_0.png>] [34]
 Overfull \hbox (5.87498pt too wide) detected at line 163
  
  []
@@ -2373,7 +2347,7 @@ Overfull \hbox (5.87498pt too wide) detected at line 169
  []
 
 
-Overfull \hbox (5.87498pt too wide) detected at line 173
+Overfull \hbox (5.87498pt too wide) detected at line 170
  
  []
 
@@ -2383,32 +2357,35 @@ Overfull \hbox (5.87498pt too wide) detected at line 174
  []
 
 
-Overfull \hbox (5.87498pt too wide) detected at line 177
+Overfull \hbox (5.87498pt too wide) detected at line 175
+ 
+ []
+
+
+Overfull \hbox (5.87498pt too wide) detected at line 178
  
  []
 
 [35] [36 <./pictures/input_offset_b2_dac50.png> <./pictures/input_offset_b2_dac
 150.png> <./pictures/input_offset_b2_dac500.png>] [37]
-
-LaTeX Warning: Reference `sec:setup' on page 38 undefined on input line 187.
-
 <pictures/pz_no_pz.png, id=965, 426.75435pt x 263.7855pt>
 File: pictures/pz_no_pz.png Graphic file (type png)
 <use pictures/pz_no_pz.png>
-Package pdftex.def Info: pictures/pz_no_pz.png  used on input line 207.
+Package pdftex.def Info: pictures/pz_no_pz.png  used on input line 208.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
 <pictures/pz_resistor.png, id=970, 426.75435pt x 197.7789pt>
 File: pictures/pz_resistor.png Graphic file (type png)
 <use pictures/pz_resistor.png>
-Package pdftex.def Info: pictures/pz_resistor.png  used on input line 233.
+Package pdftex.def Info: pictures/pz_resistor.png  used on input line 234.
 (pdftex.def)             Requested size: 426.79134pt x 197.79651pt.
+
 
 ! Package siunitx Error: Invalid numerical input '58.1(27))'.
 
 For immediate help type H <return>.
  ...                                              
                                                   
-l.243 ...ting 0 it is \SI{58.1(27))}{\nano\second}
+l.244 ...ting 0 it is \SI{58.1(27))}{\nano\second}
                                                    and with the maximal sett...
 
 
@@ -2419,92 +2396,346 @@ example, if a number only contains a sign.
 <pictures/pz_capacitor.png, id=975, 426.75435pt x 197.7789pt>
 File: pictures/pz_capacitor.png Graphic file (type png)
 <use pictures/pz_capacitor.png>
-Package pdftex.def Info: pictures/pz_capacitor.png  used on input line 249.
+Package pdftex.def Info: pictures/pz_capacitor.png  used on input line 250.
 (pdftex.def)             Requested size: 426.79134pt x 197.79651pt.
 [38] [39 <./pictures/pz_no_pz.png> <./pictures/pz_resistor.png>] [40 <./picture
 s/pz_capacitor.png>] [41]
-<pictures/att_pz331.png, id=1009, 426.75435pt x 263.7855pt>
+<pictures/att_pz331.png, id=1010, 426.75435pt x 263.7855pt>
 File: pictures/att_pz331.png Graphic file (type png)
 <use pictures/att_pz331.png>
-Package pdftex.def Info: pictures/att_pz331.png  used on input line 312.
+Package pdftex.def Info: pictures/att_pz331.png  used on input line 313.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/att_pz700.png, id=1010, 426.75435pt x 263.7855pt>
+<pictures/att_pz700.png, id=1011, 426.75435pt x 263.7855pt>
 File: pictures/att_pz700.png Graphic file (type png)
 <use pictures/att_pz700.png>
-Package pdftex.def Info: pictures/att_pz700.png  used on input line 318.
+Package pdftex.def Info: pictures/att_pz700.png  used on input line 319.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
 
 
-LaTeX Warning: Float too large for page by 52.81007pt on input line 324.
+LaTeX Warning: Float too large for page by 52.81007pt on input line 325.
 
 [42] [43 <./pictures/att_pz331.png> <./pictures/att_pz700.png>]
-<pictures/low_imp_mean_wf.png, id=1030, 426.75435pt x 263.7855pt>
+<pictures/low_imp_mean_wf.png, id=1031, 426.75435pt x 263.7855pt>
 File: pictures/low_imp_mean_wf.png Graphic file (type png)
 <use pictures/low_imp_mean_wf.png>
-Package pdftex.def Info: pictures/low_imp_mean_wf.png  used on input line 349.
+Package pdftex.def Info: pictures/low_imp_mean_wf.png  used on input line 350.
 (pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
-<pictures/dc_hist_pz.png, id=1034, 426.393pt x 263.7855pt>
+<pictures/low_imp_mean_wf_pz.png, id=1032, 426.75435pt x 263.7855pt>
+File: pictures/low_imp_mean_wf_pz.png Graphic file (type png)
+<use pictures/low_imp_mean_wf_pz.png>
+Package pdftex.def Info: pictures/low_imp_mean_wf_pz.png  used on input line 35
+6.
+(pdftex.def)             Requested size: 426.79134pt x 263.80899pt.
+ [44 <./pictures/low_imp_mean_wf.png>] [45 <./pictures/low_imp_mean_wf_pz.png>]
+<pictures/dc_hist_pz.png, id=1049, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_pz.png Graphic file (type png)
 <use pictures/dc_hist_pz.png>
-Package pdftex.def Info: pictures/dc_hist_pz.png  used on input line 368.
+Package pdftex.def Info: pictures/dc_hist_pz.png  used on input line 375.
 (pdftex.def)             Requested size: 426.79134pt x 264.03842pt.
-<pictures/dc_hist_no_pz.png, id=1036, 426.393pt x 263.7855pt>
+<pictures/dc_hist_no_pz.png, id=1051, 426.393pt x 263.7855pt>
 File: pictures/dc_hist_no_pz.png Graphic file (type png)
 <use pictures/dc_hist_no_pz.png>
-Package pdftex.def Info: pictures/dc_hist_no_pz.png  used on input line 377.
+Package pdftex.def Info: pictures/dc_hist_no_pz.png  used on input line 384.
 (pdftex.def)             Requested size: 426.79134pt x 264.03842pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44 <./pictures/low_imp_mean_wf.png>]) [45] [46 <./pictures/dc_hist_pz.png>] [
-47 <./pictures/dc_hist_no_pz.png>]
+) [46] [47 <./pictures/dc_hist_pz.png>] [48 <./pictures/dc_hist_no_pz.png>]
 \openout2 = `chapter/testbeam.aux'.
 
- (./chapter/testbeam.tex
+
+(./chapter/testbeam.tex
 Chapter 5.
-<pictures/one_cell_testbeam.jpg, id=1066, 4625.28pt x 2601.72pt>
+<pictures/one_cell_testbeam.jpg, id=1074, 4625.28pt x 2601.72pt>
 File: pictures/one_cell_testbeam.jpg Graphic file (type jpg)
 <use pictures/one_cell_testbeam.jpg>
 Package pdftex.def Info: pictures/one_cell_testbeam.jpg  used on input line 14.
 
 (pdftex.def)             Requested size: 426.79134pt x 240.05984pt.
-[48
+[49
 
 
 
-] [49 <./pictures/one_cell_testbeam.jpg>]) [50]
+] [50 <./pictures/one_cell_testbeam.jpg>]) [51]
 \openout2 = `chapter/conclusion.aux'.
 
  (./chapter/conclusion.tex
 Chapter 6.
-[51
+[52
 
 
 
-]) [52]
+]) [53]
+\openout2 = `chapter/appendix.aux'.
+
+ (./chapter/appendix.tex [54
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 LOW\_AT_
+             LAD     = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.55 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--55
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.62 EN\_CH_
+            SW[0]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.76 EN\_CH_
+            SW[1]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.90 EN\_CH_
+            SW[2]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.97 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--97
+
+ []
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.104 EN\_CH_
+             SW[3]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.111 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.118 EN\_CH_
+             SW[4]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.125 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--125
+
+ []
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 EN\_CH_
+             SW[5]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.139 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.146 EN\_CH_
+             SW[6]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.153 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--153
+
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 EN\_CH_
+             SW[7]   = 1\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.167 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--167
+
+ []
+
+) [59]
 Appendix A.
-[53
+[60
 
 
-] [54] (./msc_thesis.lof [55
+] [61] (./msc_thesis.lof [62
 
 ])
 \tf@lof=\write6
 \openout6 = `msc_thesis.lof'.
 
- [56] (./msc_thesis.lot)
+ [63] (./msc_thesis.lot)
 \tf@lot=\write7
 \openout7 = `msc_thesis.lot'.
 
- [57
+ [64
 
 ]
-(./msc_thesis.bbl [58
+(./msc_thesis.bbl [65
 
-]) [59]
+]) [66]
 \openout2 = `chapter/acknowledgements.aux'.
 
- (./chapter/acknowledgements.tex) [60
+ (./chapter/acknowledgements.tex) [67
 
 ]
 \openout2 = `chapter/erklaerung.aux'.
@@ -2519,54 +2750,75 @@ l.7 \hline
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-) [61
+) [68
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
  (./msc_thesis.aux (./chapter/cover.aux) (./chapter/abstract.aux)
 (./chapter/zusammenfassung.aux) (./chapter/introduction.aux)
 (./chapter/one_cell_prototype.aux) (./chapter/setup_elab.aux)
 (./chapter/testresults.aux) (./chapter/testbeam.aux) (./chapter/conclusion.aux)
-(./chapter/acknowledgements.aux) (./chapter/erklaerung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+(./chapter/appendix.aux
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.6 ...nfiguration parameter}{table.caption.62}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.6 ...nfiguration parameter}{table.caption.62}{}}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\@testdef ...r \bbl@tempa \csname #1@#2\endcsname 
+                                                  \def \bbl@tempb {#3}\@safe...
+l.6 ...nfiguration parameter}{table.caption.62}{}}
+                                                  
+I'm ignoring this, since I wasn't doing a \csname.
+
+) (./chapter/acknowledgements.aux) (./chapter/erklaerung.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
 Package rerunfilecheck Info: File `msc_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: BD965F5D7BBDF8A2953765FFD36FBD3E;1696.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 5C42B6847C82891A088B7E7A271CB312;1696.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
  ) 
 Here is how much of TeX's memory you used:
- 44267 strings out of 481239
- 972824 string characters out of 5920378
- 1426198 words of memory out of 5000000
- 58414 multiletter control sequences out of 15000+600000
- 630956 words of font info for 88 fonts, out of 8000000 for 9000
+ 44271 strings out of 481239
+ 973001 string characters out of 5920378
+ 1426759 words of memory out of 5000000
+ 58407 multiletter control sequences out of 15000+600000
+ 627926 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,24n,82p,1586b,1175s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
 m-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmbxo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmro12.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy9.pfb>
-Output written on msc_thesis.pdf (67 pages, 23362756 bytes).
+onts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmro12.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmsy9.pfb>
+Output written on msc_thesis.pdf (74 pages, 23082510 bytes).
 PDF statistics:
- 1309 PDF objects out of 1440 (max. 8388607)
- 1079 compressed objects within 11 object streams
- 214 named destinations out of 1000 (max. 500000)
+ 1350 PDF objects out of 1440 (max. 8388607)
+ 1112 compressed objects within 12 object streams
+ 220 named destinations out of 1000 (max. 500000)
  402 words of extra memory for PDF output out of 10000 (max. 10000000)
 
